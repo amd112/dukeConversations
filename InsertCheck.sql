@@ -2,39 +2,33 @@
 --Insert statemtns to check restrictions on the tables 
 
 --Ensuring the student ID giving a review applied to that dinner and attended
---CHANGE TO DINNER ID THAT EXISTS
 INSERT INTO Reviews VALUES 
-  (15, 0101010, 'Great Dinner', 4, 2); 
+  (5, 11, 'Great Dinner', 4, 9); 
 
 --updating a key in applications 
-UPDATE Applications SET Student_id = 01010101 WHERE Student_id = 0645278;
+UPDATE Applications SET Student_id = 1 WHERE Student_id = 11;
 
---make prof_id in Professors reference a professor that doesn't exist 
---CHANGE TO VALID UNIQUE ID
---ONLY VALID IF WE HAVE A LIST OF PROFESSORS
-INSERT INTO Professors VALUES 
-  (0101010, 'Astrachan', 'peanut allergy', 'ola', 5, 4, 3);
+--make a dinner for a professor that doesn't exist 
+INSERT INTO Dinners VALUES 
+  (6, '2015-10-12 6:00:00', 106);
 
 --cerate a review for a dinner that does not exist 
 INSERT INTO Reviews VALUES 
-  (15, 'laj24', 'fun time', 5, 3);
+  (15, 3, 'fun time', 7, 8);
 
 --create a review by a student who does not exist in the database
---CHANGE TO DINNER ID THAT EXISTS
 INSERT INTO Reviews VALUES
-  (15, 'sas118', 'awesome', 5, 7);
+  (5, 11, 'awesome', 5, 7);
 
 --assign a student a major that does not exist
---CHANGE TO VALID UNIQUE ID
 INSERT INTO Students VALUES 
-  (0101010, 'Alan Khaykin', 'none', 'ak374', 1, 1, 2019, 'HarryPotter', 'male');
+  (11, 'Alan Khaykin', NULL, 'ak374', 1487283948, 1, 1, 2019, 'HarryPotter', 'Male');
 
 --create a student with an invalid netID 
---CHANGE TO VALID UNIQUE ID
 INSERT INTO Students VALUES 
-  (0101010, 'Alan Khaykin', 'none', 'abcdef', 1, 1, 2019);
+  (12, 'Alan Khaykin', NULL, NULL, 1487283948, 1, 1, 2019, 'HarryPotter', 'Male');
+  (12, 'Alan Khaykin', NULL, 'sasas1118', 1487283948, 1, 1, 2019, 'HarryPotter', 'Male');
 
---create a student with a phone number that is not valid 
---phone number is not currently in the students table 
---INSERT INTO Students VALUES
---(0101010, 'Alan Khaykin', 'none', 'abcdef', 1, 1, 2019, 12345678999);
+--create a student with a phone number that is not valid  
+INSERT INTO Students VALUES
+  (0101010, 'Alan Khaykin', 'none', 'abcdef', NULL, 1, 1, 2019);
