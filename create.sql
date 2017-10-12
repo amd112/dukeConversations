@@ -4,8 +4,6 @@ CREATE TABLE Students
  food_restrictions VARCHAR(30),
  netid VARCHAR(8) NOT NULL,
  phone_number BIGINT NOT NULL,
- applied INTEGER NOT NULL,
- accepted INTEGER NOT NULL,
  year INTEGER NOT NULL,
  major VARCHAR(50),
  gender VARCHAR(10)
@@ -44,16 +42,16 @@ CREATE TABLE Reviews
 
 --Sample Data
 INSERT INTO Students VALUES
-	(1, 'Aashna Aggarwal', 'Vegetarian', 'aa373', 9174974486, 1, 1, 2019, NULL, 'Female'),
-	(2, 'Adaiya Granberry', NULL, 'ag370', 2539056580, 1, 1, 2019, 'Public Policy', NULL),
-	(3, 'Anne Driscoll', 'Vegetarian', 'amd112', 9176553632, 1, 1, 2018, 'Statistics', 'Female'),
-	(4, 'Arthur Wu', NULL, 'aw258', 9848887018, 1, 0, 2019, 'Statistics', 'Male'),
-	(5, 'Candice Dunn', 'No Cheese', 'cld36', 8569041855, 1, 1, 2017, NULL, NULL),
-	(6, 'Lauren Hagedorn', 'Gluten Intolerant', 'lph10', 3106477767, 1, 1, 2017, 'Psychology, Environmental Science', 'Female'),
-	(7, 'Mitchell Abrams', 'Kosher', 'mza2', 8455966009, 2, 0, 2019, NULL, 'Male'),
-	(8, 'Misty Sha', NULL, 'ys114', 9198088119, 3, 1, 2017, NULL, NULL),
-	(9, 'Nikolaus Mayr', NULL, 'nm183', 9843779630, 1, 0, 2017, NULL, 'Male'),
-	(10, 'Sean Gilbert', 'Vegetarian', 'smg41', 2402718022, 1, 1, 2018, 'Political Science', 'Male');
+	(1, 'Aashna Aggarwal', 'Vegetarian', 'aa373', 9174974486, 2019, NULL, 'Female'),
+	(2, 'Adaiya Granberry', NULL, 'ag370', 2539056580, 2019, 'Public Policy', NULL),
+	(3, 'Anne Driscoll', 'Vegetarian', 'amd112', 9176553632, 2018, 'Statistics', 'Female'),
+	(4, 'Arthur Wu', NULL, 'aw258', 9848887018, 2019, 'Statistics', 'Male'),
+	(5, 'Candice Dunn', 'No Cheese', 'cld36', 8569041855, 2017, NULL, NULL),
+	(6, 'Lauren Hagedorn', 'Gluten Intolerant', 'lph10', 3106477767, 2017, 'Psychology, Environmental Science', 'Female'),
+	(7, 'Mitchell Abrams', 'Kosher', 'mza2', 8455966009, 2019, NULL, 'Male'),
+	(8, 'Misty Sha', NULL, 'ys114', 9198088119, 2017, NULL, NULL),
+	(9, 'Nikolaus Mayr', NULL, 'nm183', 9843779630, 2017, NULL, 'Male'),
+	(10, 'Sean Gilbert', 'Vegetarian', 'smg41', 2402718022, 2018, 'Political Science', 'Male');
 
 INSERT INTO Professors VALUES
 	(101, 'Steve Nowicki', NULL, 'sn123'),
