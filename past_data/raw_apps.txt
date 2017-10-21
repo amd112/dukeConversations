@@ -3,17 +3,17 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 8/31/2016 22:12	Jack Carey	Jtc35@duke.edu	8457097432	2017			No	1	1	0													
 8/31/2016 22:15	Sierra Smith	sms95@duke.edu	(408)497-4041	2017			no	1	1	0													
 9/1/2016 0:27	Shaq Junaid	sj150@duke.edu	5615379806	2017			No	1	0	0													
-9/2/2016 17:30	Allison Kam	allison.kam@duke.edu	334-740-9114	2017			no	1	0	0													
-8/31/2016 21:59	Suzanne Ou	Ou.suzanne@gmail.com	3476978976	2017			No	1	1	0													
+9/2/2016 17:30	Allison Kam	ajk50@duke.edu	334-740-9114	2017			no	1	0	0													
+8/31/2016 21:59	Suzanne Ou	so86@gmail.com	3476978976	2017			No	1	1	0													
 8/31/2016 22:00	Rachael Nedrow	rin@Duke.edu	9712856911	2017			No	1	1	0													
 8/31/2016 22:00	Chi Trinh	Kt142@duke.edu	9196418483	2017			No	1	1	0													
-8/31/2016 22:10	Anne Lott	anne.lott@duke.edu	352-262-8215	2017			No	1	1	0													
+8/31/2016 22:10	Anne Lott	al83@duke.edu	352-262-8215	2017			No	1	1	0													
 8/31/2016 22:22	McCall Wells	mbw26@duke.edu	8583868674	2017			No	1	0	0													
 8/31/2016 22:26	Lauren Shum	ls240@duke.edu	9177168956	2017			Vegetarian	1	0	0													
-9/1/2016 12:27	Ashwanth A R	ashwanth.a.r@duke.edu	9194506763	2017			No	1	0	0													
+9/1/2016 12:27	Ashwanth A R	aa83@duke.edu	9194506763	2017			No	1	0	0													
 9/1/2016 20:54	Jacob Gardner	grdnr13@gmail.com	216-283-2323	2017			no	1	0	0													
 9/1/2016 21:05	Elaine M'Nkubitu	emm57@duke.edu	9194914744	2017			Vegeterian	1	0	0													
-9/3/2016 13:03	Lauren Hagedorn	l@golauren.com	310-647-7767	2017			gluten intolerant	1	0	0													
+9/3/2016 13:03	Lauren Hagedorn	lph10@golauren.com	310-647-7767	2017			gluten intolerant	1	0	0													
 8/31/2016 21:58	Trevor Brownlow	ttb10@duke.edu	2527237984	2018			No	1	1	0													
 8/31/2016 22:01	Shivani Shah	sas107@duke.eu	3366133826	2018			Vegetarian	1	0	0													
 8/31/2016 22:07	Brooke Levin	Brooke.levin@duke.edu	9548164852	2018			No	1	1	0													
@@ -84,51 +84,51 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 8/31/2016 21:59	Sai Aditya Kolluru	sk471@duke.edu	9199374998	2017			Vegetarian	2	0	0													
 8/31/2016 21:59	Chi Trinh	Kt142@duke.edu	9196418483	2017			No	2	0	0													
 8/31/2016 21:59	Kara McGaughey	kdm34@duke.edu	8048377444	2017			Vegetarian	2	0	0													
-8/31/2016 22:01	Suzanne Ou	Ou.suzanne@gmail.com	3476978976	2017			No	2	1	0													
-8/31/2016 22:01	Trisharti	trisharti.ghosh@duke.edu	9195999647	2017			No	2	0	0													
+8/31/2016 22:01	Suzanne Ou	so86@gmail.com	3476978976	2017			No	2	1	0													
+8/31/2016 22:01	Trisharti	tg83@duke.edu	9195999647	2017			No	2	0	0													
 8/31/2016 22:02	Harrison Ferlauto	hrf6@duke.edu	631-704-9675	2017			No	2	0	0													
-8/31/2016 22:03	Jonathan Stern	jonathan.stern@duke.edu	214-909-8386	2017			No	2	0	0													
-8/31/2016 22:03	Dorotheos Papavasilis	dorotheos.papavasilis@duke.edu	9196415903	2017			No	2	0	0													
-8/31/2016 22:04	Carter Duncan	dallas.duncan@duke.edu	704-221-7308	2017			No	2	0	0													
+8/31/2016 22:03	Jonathan Stern	js83@duke.edu	214-909-8386	2017			No	2	0	0													
+8/31/2016 22:03	Dorotheos Papavasilis	dp83@duke.edu	9196415903	2017			No	2	0	0													
+8/31/2016 22:04	Carter Duncan	cd83@duke.edu	704-221-7308	2017			No	2	0	0													
 8/31/2016 22:04	Alejandro de la torre	Ad239@duke.edu	9563719523	2017			No	2	0	0													
 8/31/2016 22:05	Sydney Speizman	sas104@duke.edu	4437458613	2017			No	2	1	0													
 8/31/2016 22:05	Elizabeth Davies	Esd10@duke.edu	224-234-2065	2017			No	2	0	0													
 8/31/2016 22:05	Joey Levy	JHL39@duke.edu	6786401224	2017			No	2	0	0													
-8/31/2016 22:08	Anne Lott	anne.lott@duke.edu	352-262-8215	2017			No	2	0	0													
+8/31/2016 22:08	Anne Lott	al83@duke.edu	352-262-8215	2017			No	2	0	0													
 8/31/2016 22:08	Vivienne Lim	vjl3@duke.edu	9252627335	2017			NA	2	0	0													
-8/31/2016 22:10	Nikolaus Mayr	nikolaus.f.mayr@gmail.com	9843779630	2017			no	2	0	0													
+8/31/2016 22:10	Nikolaus Mayr	nm183@gmail.com	9843779630	2017			no	2	0	0													
 8/31/2016 22:11	Austin Peer	Adp27@duke.edu	3138060028	2017			No	2	0	0													
 8/31/2016 22:17	Gautam Hathi	gkh8@duke.edu	4254204904	2017			Nut allergy	2	0	0													
 8/31/2016 22:18	Tai-Lin Wu	tw185@duke.edu	919-358-9422	2017			No	2	0	0													
 8/31/2016 22:21	Tierney Marey	tkm18@duke.edu	919 908 4856	2017			No	2	0	0													
-8/31/2016 22:22	Tanner Lockhead	tanner.lockhead@gmail.com	9192196581	2017			no	2	0	0													
+8/31/2016 22:22	Tanner Lockhead	tl83@gmail.com	9192196581	2017			no	2	0	0													
 8/31/2016 22:23	Lauren Shum	ls240@duke.edu	9177168956	2017			Pescetarian	2	0	0													
 8/31/2016 22:35	Ning Zhao	nz16@duke.edu	2105899885	2017			no	2	0	0													
-8/31/2016 22:39	Henning	henning.tovar@duke.edu	919 564 8144	2017			vegan	2	0	0													
+8/31/2016 22:39	Henning	ht83@duke.edu	919 564 8144	2017			vegan	2	0	0													
 8/31/2016 22:39	Luke Eastman	Lbe4@duke.edu	6107423940	2017			No	2	0	0													
 8/31/2016 22:49	Julia Kahky	Jmk70@duke.edu	4079529764	2017			No	2	0	0													
 8/31/2016 22:53	Misty Sha	Ys114@duke.edu	9198088119	2017			No	2	0	0													
 8/31/2016 23:21	Simirpreet Gill	skg19@duke.edu	9736419126	2017			no	2	0	0													
 8/31/2016 23:21	Simirpreet Gill	skg19@duke.edu	9736419126	2017			no	2	0	0													
 8/31/2016 23:55	Meredith Davin	msd34@duke.edu	9495549832	2017			No diary	2	0	0													
-9/1/2016 0:20	Vinayak Chopra	vinayak.chopra@duke.edu	4849835154	2017			Vegetarian	2	0	0													
+9/1/2016 0:20	Vinayak Chopra	vc83@duke.edu	4849835154	2017			Vegetarian	2	0	0													
 9/1/2016 0:24	Priyanka V	Prv4@duke.edu	9199618-36	2017			No beef	2	0	0													
 9/1/2016 0:32	Bennett Hartley	bwh19@duke.edu	2487878979	2017			No	2	1	0													
 9/1/2016 1:34	Natalie Smithson	Nrs14@duke.edu	9176990235	2017			No!	2	0	0													
 9/1/2016 2:38	Ife Ayeni	ia35@duke.edu	404-951-8281	2017			N/A	2	0	0													
-9/1/2016 5:08	Bala Sahitya Vadlamani	v.balasahitya@gmail.com	6032770585	2017			Vegan	2	0	0													
+9/1/2016 5:08	Bala Sahitya Vadlamani	asv83@gmail.com	6032770585	2017			Vegan	2	0	0													
 9/1/2016 8:35	Nettie Song	ys120@duke.edu	9193818325	2017			No	2	0	0													
 9/1/2016 8:44	Vida Robinson	vjr3@duke.edu	9192602372	2017			Vegetarian	2	0	0													
 9/1/2016 8:46	Helen Liu	hl166@duke.edu	7324855388	2017			n/a	2	0	0													
 9/1/2016 10:02	Jenna Peters	jcp36@duke.edu	303-947-9052	2017			N/A	2	0	0													
-9/1/2016 12:27	Ashwanth A R	ashwanth.a.r@duke.edy	9194506763	2017			No	2	0	0													
+9/1/2016 12:27	Ashwanth A R	aa83@duke.edy	9194506763	2017			No	2	0	0													
 9/1/2016 12:58	Micah	Mte3@duke.edu	2406761573	2017			No	2	0	0													
 9/1/2016 13:17	Jessica Wang	jw397@duke.edu	6303382248	2017			no	2	0	0													
 9/1/2016 15:20	Melissa Piana	mkp17@duke.edu	7743657489	2017			no	2	0	0													
-9/1/2016 16:40	Felipe Concha	felipeconcha4@gmail.com	425-495-3419	2017			No	2	0	0													
+9/1/2016 16:40	Felipe Concha	fc83@gmail.com	425-495-3419	2017			No	2	0	0													
 9/1/2016 20:55	Jacob Gardner	grdnr13@gmail.com	216-283-2323	2017			no	2	0	0													
-9/1/2016 21:19	Roma Sonik	roma.sonik@duke.edu	7044258188	2017			no fish	2	1	0													
-9/1/2016 23:34	Andrew Huang	andrewhuang1994@gmail.com	9198138137	2017			None	2	0	0													
+9/1/2016 21:19	Roma Sonik	rs285@duke.edu	7044258188	2017			no fish	2	1	0													
+9/1/2016 23:34	Andrew Huang	ah83@gmail.com	9198138137	2017			None	2	0	0													
 9/2/2016 11:21	Brad Ackerson	bga8@duke.edu	5035050318	2017			No	2	0	0													
 9/2/2016 12:54	Sunny Zhang	scz4@duke.edu	9545479780	2017			N/A	2	0	0													
 9/2/2016 22:27	Katie Gladstone	kag54@duke.edu	516-532-4443	2017			no	2	0	0													
@@ -352,12 +352,12 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 9/4/2016 12:13	Craig Fiedorek	rcf17@duke.edu	7138067400	2020			no	2	0	0													
 9/4/2016 21:59	Nick Berray	njb24@duke.edu	7039990607	2020			No	2	0	0													
 9/5/2016 14:16	Junette	Yu	9195648839	2020			No	2	0	0													
-9/9/2016 19:04	DOROTHEOS PAPAVASILIS	dorotheos.papavasilis@duke.edu	9196415903	2017			-	3	1	0													
+9/9/2016 19:04	DOROTHEOS PAPAVASILIS	dp83@duke.edu	9196415903	2017			-	3	1	0													
 9/9/2016 19:18	Belex Cheng	yc171@duke.edu	3607718999	2017			no	3	1	0													
 9/9/2016 19:42	Shaq Junaid	Sj150@duke.edu	5615379806	2017			No	3	0	0													
 9/9/2016 20:51	Alexandra Martin	anm29@duke.edu	3014661287	2017			no	3	1	0													
 9/9/2016 20:57	Candice Dunn	cld36@duke.edu	8569041855	2017			No Cheese	3	1	0													
-9/10/2016 11:00	Henning	Henning.tovar@duke.edu	9195648144	2017			Vegan	3	0	0													
+9/10/2016 11:00	Henning	ht83@duke.edu	9195648144	2017			Vegan	3	0	0													
 9/10/2016 11:19	Jasmine Judge	Jkj12@duke.edu	6789778927	2017			No	3	0	0													
 9/10/2016 13:02	Jessica Wang	jw397@duke.edu	6303382248	2017			No	3	0	0													
 9/11/2016 22:45	Nikolaus Mayr	nm183@duke.edu	+1 984 377 9630	2017			no	3	0	0													
@@ -443,9 +443,9 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 9/10/2016 20:33	Tiffany Ho	th184@duke.edu	9199037822	2018			no	4	1	0													
 9/12/2016 12:08	Charlie Daniel	cpd23@duke.edu	770-330-4053	2020			No	4	0	0													
 9/9/2016 19:04	Chi	Kt142@duke.edu	9196418483	2017			No	5	0	0													
-9/9/2016 19:06	Dorotheos Papavasilis	dorotheos.papavasilis@duke.edu	9196415903	2017			No	5	1	0													
+9/9/2016 19:06	Dorotheos Papavasilis	dp83@duke.edu	9196415903	2017			No	5	1	0													
 9/9/2016 19:35	Allison Kam	ajk50@duke.edu	3347409114	2017			no	5	1	0													
-9/9/2016 20:17	Vinayak Chopra	vinayak.chopra@duke.edu	4849835154	2017			Vegetarian	5	0	0													
+9/9/2016 20:17	Vinayak Chopra	vc83@duke.edu	4849835154	2017			Vegetarian	5	0	0													
 9/9/2016 20:23	Vrushin Dani	vhd2@duke.edu	9195996059	2017			None	5	1	0													
 9/9/2016 21:16	Chi	Kt142@duke.edu	9196418483	2017			No	5	1	0													
 9/9/2016 23:07	Tierney Marey	tkm18@duke.edu	919 908 4856	2017			No	5	1	0													
@@ -523,14 +523,14 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 9/16/2016 12:29	Jacob Gardner	jeg55@duke.edu	216-283-2323	2017			no	6	1	0													
 9/16/2016 13:45	Wendy Lu	jl512@duke.edu	9198088116	2017			No	6	1	0													
 9/16/2016 14:27	Melissa Piana	mkp17@duke.edu	7743657489	2017			none	6	1	0													
-9/20/2016 1:18	Callie Mao	callie.mao@duke.edu	(858)863-3180	2017			No	6	0	0													
+9/20/2016 1:18	Callie Mao	cm83@duke.edu	(858)863-3180	2017			No	6	0	0													
 9/16/2016 10:30	Tianlin Duan	td96@duke.edu	9196990677	2018			Nope	6	0	0													
 9/16/2016 10:55	Anna Li	anna.li@duke.edu	9195995828	2018			No beef or pork	6	0	0													
 9/16/2016 11:18	Reena Debray	reena.debray@gmail.com	(520) 289-9624	2018			No	6	1	0													
 9/16/2016 11:34	Lucia Martos	Lm260@duke.edu	9198088740	2018			No	6	1	0													
 9/16/2016 12:29	Anne Driscoll	amd112@duke.edu	9176553632	2018			Vegetarian	6	0	0													
 9/16/2016 12:50	Cynthia	xw108@duke.edu	919-5996988	2018			No	6	0	0													
-9/16/2016 18:51	Anne Lott	anne.lott@duke.edu	352-262-8215	2018			No	6	1	0													
+9/16/2016 18:51	Anne Lott	al83@duke.edu	352-262-8215	2018			No	6	1	0													
 9/17/2016 1:32	Derek Wong	dw175@duke.edu	9195372273	2018			None	6	0	0													
 9/16/2016 10:25	Benjamin Baker	brb31@duke.edu	9375457822	2019			no	6	1	0													
 9/16/2016 10:27	Julia Song	julias4941@yahoo.com	3033968667	2019			No	6	1	0													
@@ -597,7 +597,7 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 9/19/2016 19:47	Arjun Ahluwalia	Arjun.ahluwalia@duke.edu	9082555572	2020			No	6	0	0													
 9/19/2016 22:34	Sandra Luksic	sandra.luksic@duke.edu	7192055935	2020			No	6	0	0													
 9/20/2016 10:47	Xiaolan You	xiaolan.you@duke.edu	2054278221	2020			No	6	0	0													
-9/16/2016 10:29	Suzanne	so86@duke.edu	3476978976	2017			no	7	1	0													
+9/16/2016 10:29	Suzanne Ou	so86@duke.edu	3476978976	2017			no	7	1	0													
 9/16/2016 12:13	Kelsey Evezich	kse9@duke.edu	3035578179	2017			Nope!	7	1	0													
 9/19/2016 0:54	Ife Ayeni	ia35@duke.edu	4049518281	2017			N/A	7	0	0													
 9/16/2016 10:26	Kathy Dai	kzd@duke.edu	9192658920	2018			No	7	1	0													
@@ -619,7 +619,7 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 9/17/2016 9:31	Jennifer Huh	jai.eun.huh@duke.edu	919-344-2309	2020			no	7	1	0													
 9/17/2016 18:37	Shenyang Huang	shenyang.huang@duke.edu	9195649618	2020			No	7	1	0													
 9/16/2016 10:31	Megan Ye	My70@duke.edu	2483455227	2017			No	8	1	0													
-9/16/2016 10:31	Tanner Lockhead	tanner.lockhead@duke.edu	9192196581	2017			no	8	1	0													
+9/16/2016 10:31	Tanner Lockhead	tl83@duke.edu	9192196581	2017			no	8	1	0													
 9/16/2016 10:37	Jessica Wang	Jw397@duke.edu	6303382248	2017			No	8	0	0													
 9/16/2016 10:38	Kaley Thornton	met23@duke.edu	5712945170	2017			vegetarian	8	1	0													
 9/16/2016 11:22	McCall Wells	mbw26@duke.edu	8583868674	2017			gluten intolerance	8	0	0													
@@ -722,25 +722,25 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 10/8/2016 14:29	Austin peer	Adp27@duke.edu	13138060028	2017			None	13	1	0													
 10/8/2016 14:29	Harrison Ferlauto	hrf6@duke.edu	631-704-9675	2017			No	13	1	0													
 10/8/2016 14:29	Shaq Junaid	sj150@duke.edu	5615379806	2017			No	13	1	0													
-10/8/2016 14:31	Jonathan Stern	jonathan.stern@duke.edu	214-909-8386	2017			No	13	1	0													
+10/8/2016 14:31	Jonathan Stern	js83@duke.edu	214-909-8386	2017			No	13	1	0													
 10/8/2016 14:32	Ge Jin	Ge.jin@duke.edu	9194918169	2017			No	13	1	0													
 10/8/2016 14:36	Jasmine Judge	Jkj12@duke.edu	6789778927	2017			No	13	1	0													
 10/8/2016 14:38	Roma Sonik	Rs285@duke.edu	7044258188	2017			I can't eat fish	13	1	0													
-10/8/2016 14:42	Henry Yan	henryyan829@gmail.com	9196997508	2017			none	13	1	0													
+10/8/2016 14:42	Henry Yan	hy83@gmail.com	9196997508	2017			none	13	1	0													
 10/8/2016 14:42	Eric Qi	eyq@duke.edu	6026264514	2017			No	13	1	0													
 10/8/2016 14:46	Diana Evans	Dle11@duke.edu	8327679299	2017			"Allergic to peanuts, chick peas, and sesame"	13	1	0													
 10/8/2016 14:50	Luis Antezana	laa31@duke.edu	7046147216	2017			None	13	1	0													
 10/8/2016 14:52	John Guarco	Jvg3@duke.edu	9177530756	2017			No grapefruit	13	1	0													
 10/8/2016 15:09	Cindy wang	Cxw2@duke.edu	8506942896	2017			No	13	1	0													
 10/8/2016 15:26	Ibanca Anand	ia40@duke.edu	7329108030	2017			no	13	1	0													
-10/8/2016 15:28	Kaley Thornton	Michaela.thornton@duke.edu	571-294-5170	2017			Vegetarian	13	1	0													
-10/8/2016 15:38	Tanner Lockhead	Tanner.lockhead@gmail.com	9192196581	2017			No	13	1	0													
+10/8/2016 15:28	Kaley Thornton	met23@duke.edu	571-294-5170	2017			Vegetarian	13	1	0													
+10/8/2016 15:38	Tanner Lockhead	tl83@gmail.com	9192196581	2017			No	13	1	0													
 10/8/2016 15:46	Paul Cajamarca	pac29@duke.edu	7044504119	2017			Vegetarian	13	1	0													
 10/8/2016 16:15	Mengdi Jia	mandy.jia@duke.edu	9197175619	2017			no	13	1	0													
 10/8/2016 16:15	McCall Wells	mbw26@duke.edu	8583868674	2017			"Gluten Intolerance, Lactose Intolerance"	13	1	0													
 10/8/2016 16:29	Rachael Nedrow	rin@Duke.edu	9712856911	2017			N/a	13	0	0													
 10/8/2016 16:56	Ife Ayeni	ia35@duke.edu	404-951-8281	2017			n/a	13	0	0													
-10/8/2016 20:49	Laura rosas	laura.rosas@duke.edu	9255288271	2017			No	13	0	0													
+10/8/2016 20:49	Laura rosas	lr83@duke.edu	9255288271	2017			No	13	0	0													
 10/9/2016 15:25	Claire Morton	crm54@duke.edu	4436101500	2017			no red meat	13	1	0													
 10/9/2016 15:53	Elaine M'Nkubitu	emm57@duke.edu	9194914744	2017			Vegeterian	13	0	0													
 10/10/2016 15:50	Bennett Hartley	bwh19@duke.edu	2487878979	2017			No	13	0	0													
@@ -1038,7 +1038,7 @@ time	name	email	phone	year	major	reason	food	dinner	selected	skipped
 10/30/2016 16:20	Jacob Gardner	jeg55@duke.edu	216-283-2323	2017	neuroscience/philosophy	How does modern neuroscience affect our idea of moral culpability?	nope	20	1	0													
 10/30/2016 16:48	Diana Evans	Dle11@duke.edu	8327679299	2017	Economics	What is the future of mental health from a biological perspective?	"Allergic to peanuts, chick peas, and sesame"	20	1	0													
 10/30/2016 19:38	Paul Cajamarca	pac29@duke.edu	704 450 4119	2017	Economics	"With regard to bioethics, what is an instance where government's interest in social welfare rightfully overpowers individual freedom or privacy?"	Vegetarian	20	1	0													
-10/30/2016 20:22	Jenna Peters	peters.jenna.c@gmail.com	303-947-9052	2017	Neuroscience	What ethical restrictions do we need to consider for embryo selection/is it ethical to select for a more intelligent child?	N/A	20	1	0													
+10/30/2016 20:22	Jenna Peters	jcp36@gmail.com	303-947-9052	2017	Neuroscience	What ethical restrictions do we need to consider for embryo selection/is it ethical to select for a more intelligent child?	N/A	20	1	0													
 10/30/2016 20:41	Zachary Gorwitz	zsg2@duke.edu	954-849-7305	2017	Public Policy	"How should we coordinate law internationally around questions of bioethics, specifically relating to genetic alteration?"	no	20	0	0													
 10/30/2016 16:08	Gary Wang	gxw@duke.edu	4252055410	2019	Neuroscience and Public Policy	What impacts do you see emerging technologies in the biosciences having on individuality and autonomy?	No	20	1	0													
 10/30/2016 16:59	Delia Li	dl202@duke.edu	610-291-3908	2019	Computer Science and ICS	To what extent do the benefits of emerging technologies in genetics and neuroscience outweigh the purported risks?	No	20	1	0													
