@@ -39,7 +39,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="new_page.html">Sign Up for Dinner</a>
+              <a class="nav-link" href="#">Sign Up for Dinner</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Review Dinner</a>
@@ -65,8 +65,120 @@
 
 
 </div>  -->
+<div class="container jumbotron">
+    <h1>Edit Profile</h1>
+    <hr>
+  <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+        </div>
+      </div>
+      
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
 
+        <h3>Personal info</h3>
+        
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="col-lg-3 control-label">First name:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Jane">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Last name:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="Bishop">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Net Id:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="abc2">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Unique id:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="1234567">
+            </div>
+          </div>
 
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Year:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="2018">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Major:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="English">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Pronouns:</label>
+            <div class="col-lg-8">
+               <div class="ui-select">
+                <select id="pronouns" class="form-control">
+                  <option value="Him">He/Him</option>
+                  <option value="Her">She/Her</option>
+                  <option value="They">They/Their</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Allergies:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="None">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Password:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="password123">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+              <a class="btn btn-primary"  href="studenthome.html">Save Changes</a>
+              <span></span>
+              <a class="btn btn-default" href="studenthome.html"> Cancel</a>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+<hr>
+
+<!--Logoutmodal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="homepage.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
