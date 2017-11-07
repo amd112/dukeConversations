@@ -1,0 +1,35 @@
+DROP VIEW Students_Data;
+DROP VIEW
+DROP VIEW Professors_DATA;
+DROP VIEW
+CREATE VIEW Students_Data AS
+SELECT unique_id, netid, name, food_restrictions, phone_number, year, major, gender,
+          (SELECT COUNT(*) FROM Applications WHERE s.unique_id = student_id) AS applied,
+          (SELECT COUNT(*) FROM Applications WHERE s.unique_id = student_id AND selected = 't') AS accepted
+FROM Students AS s;
+CREATE VIEW
+CREATE VIEW Professors_Data AS
+SELECT name, food_restrictions,
+          (SELECT COUNT(*) FROM Reviews WHERE dinner_id IN
+                 (SELECT dinner_id FROM Dinners WHERE professor_id = p.unique_id)) AS num_reviews,
+          (SELECT AVG(conversation_grade) FROM Reviews WHERE dinner_id IN
+                 (SELECT dinner_id FROM Dinners WHERE professor_id = p.unique_id)) AS avg_reviews,
+          (SELECT COUNT(*) FROM Dinners WHERE professor_id = p.unique_id) AS num_dinners
+FROM Professors as p;
+CREATE VIEW
+SELECT *
+FROM Students_Data AS s, Applications AS a
+WHERE s.unique_id = a.student_id AND a.dinner_id = 4;
+ unique_id | netid |      name       | food_restrictions | phone_number | year | major | gender | applied | accepted | student_id | dinner_id | drive_num | selected |      date_time
+-----------+-------+-----------------+-------------------+--------------+------+-------+--------+---------+----------+------------+-----------+-----------+----------+---------------------
+         7 | mza2  | Mitchell Abrams | Kosher            |   8455966009 | 2019 |       | Male   |       1 |        0 |          7 |         4 |           | f        | 2016-09-28 07:21:17
+         8 | ys114 | Misty Sha       |                   |   9198088119 | 2017 |       |        |       1 |        1 |          8 |         4 |         1 | t        | 2016-10-01 08:30:00
+(2 rows)
+
+SELECT *
+FROM Dinners AS d, Professors AS p
+WHERE p.unique_id = d.professor_id AND p.name = 'Clark Bray';
+ dinner_id |      date_time      | professor_id | unique_id |    name    | food_restrictions | netid
+-----------+---------------------+--------------+-----------+------------+-------------------+-------
+         4 | 2016-10-04 08:00:00 |          104 |       104 | Clark Bray |                   | bray2
+(1 row)

@@ -1,0 +1,1101 @@
+time	name	email	phone	year	major	reason	food	dinner	selected	skipped													
+8/31/2016 22:08	Cindy Wang	Cxw2@duke.edu	8506942896	2017			No	1	0	0													
+8/31/2016 22:12	Jack Carey	Jtc35@duke.edu	8457097432	2017			No	1	1	0													
+8/31/2016 22:15	Sierra Smith	sms95@duke.edu	(408)497-4041	2017			no	1	1	0													
+9/1/2016 0:27	Shaq Junaid	sj150@duke.edu	5615379806	2017			No	1	0	0													
+9/2/2016 17:30	Allison Kam	ajk50@duke.edu	334-740-9114	2017			no	1	0	0													
+8/31/2016 21:59	Suzanne Ou	so86@gmail.com	3476978976	2017			No	1	1	0													
+8/31/2016 22:00	Rachael Nedrow	rin@Duke.edu	9712856911	2017			No	1	1	0													
+8/31/2016 22:00	Chi Trinh	Kt142@duke.edu	9196418483	2017			No	1	1	0													
+8/31/2016 22:10	Anne Lott	al83@duke.edu	352-262-8215	2017			No	1	1	0													
+8/31/2016 22:22	McCall Wells	mbw26@duke.edu	8583868674	2017			No	1	0	0													
+8/31/2016 22:26	Lauren Shum	ls240@duke.edu	9177168956	2017			Vegetarian	1	0	0													
+9/1/2016 12:27	Ashwanth A R	aa83@duke.edu	9194506763	2017			No	1	0	0													
+9/1/2016 20:54	Jacob Gardner	grdnr13@gmail.com	216-283-2323	2017			no	1	0	0													
+9/1/2016 21:05	Elaine M'Nkubitu	emm57@duke.edu	9194914744	2017			Vegeterian	1	0	0													
+9/3/2016 13:03	Lauren Hagedorn	lph10@golauren.com	310-647-7767	2017			gluten intolerant	1	0	0													
+8/31/2016 21:58	Trevor Brownlow	ttb10@duke.edu	2527237984	2018			No	1	1	0													
+8/31/2016 22:01	Shivani Shah	sas107@duke.eu	3366133826	2018			Vegetarian	1	0	0													
+8/31/2016 22:07	Brooke Levin	Brooke.levin@duke.edu	9548164852	2018			No	1	1	0													
+8/31/2016 21:57	Michelle Lou	mbl24@duke.edu	973-342-8700	2018			none	1	1	0													
+8/31/2016 21:59	Alina Ahmad	alina.ahmad@duke.edu	9523566204	2018			No pork	1	1	0													
+8/31/2016 22:29	Ashka Stephen	aas74@duke.edu	3526033366	2018			Vegetarian	1	0	0													
+8/31/2016 23:59	David Jimenez	dej13@duke.edu	5166408311	2018			No	1	1	0													
+9/1/2016 11:37	Anne Driscoll	amd112@duke.edu	9176553632	2018			Vegetarian	1	0	0													
+8/31/2016 22:05	Allison Chang	alc87@duke.edu	9809394570	2019			No	1	1	0													
+9/1/2016 1:51	JaBria Bishop	jabria.bishop@duke.edu	8438584502	2019			"Allergic to seafood, pineapple, and bananas; don't eat most sandwiches"	1	0	0													
+8/31/2016 22:00	Aashna Aggarwal	Aa373@duke.edu	9174974486	2019			Vegetarian	1	0	0													
+8/31/2016 22:31	Haley Sink	haley.sink@duke.edu	336-561-1543	2019			No seafood	1	0	0													
+8/31/2016 22:42	Ashley Han	eh159@duke.edu	919-633-8888	2019			N/A	1	0	0													
+8/31/2016 22:53	Lilly Chiou	lfc15@duke.edu	575-302-6388	2019			No	1	0	0													
+8/31/2016 23:16	Matheus Dias	matheus.dias@duke.edu	9848887460	2019			no	1	1	0													
+8/31/2016 23:52	Sophie van Houweninge	Snv5@duke.edu	4156361934	2019			No	1	0	0													
+9/1/2016 0:21	John Benhart	john.benhart@duke.edu	412-526-3965	2019			No	1	1	0													
+9/1/2016 1:02	Thomas Vincent	Tav10@duke.edu	(603)531-1137	2019			No	1	1	0													
+9/1/2016 8:26	Manav Avlani	manav.avlani@duke.edu	9197682741	2019			No	1	0	0													
+8/31/2016 22:13	Jonathan Michala	jjm82@duke.edu	8643820797	2020			No	1	0	0													
+9/1/2016 1:38	Hal Lin	hal.lin@duke.edu	9194553350	2020			None	1	0	0													
+8/31/2016 23:20	Daisy Almonte	daisy.almonte@duke.edu	9103058304	2020			no	1	0	0													
+8/31/2016 21:58	Ibrahim Butt	Ib47@duke.edu	919 564 8770	2020			Vegetarian	1	1	0													
+8/31/2016 21:58	Wandi Che	wandi.che@duke.edu	(919)908-4086	2020			No	1	0	0													
+8/31/2016 22:02	Yuxuan (Jack) Wang	jack.wang1@duke.edu	6786436554	2020			No	1	0	0													
+8/31/2016 22:02	Annika Sharma	as712@duke.edu	9199170344	2020			No	1	1	0													
+8/31/2016 22:05	Bill Wei	ww122	2246889165	2020			No	1	0	0													
+8/31/2016 22:09	Melanie Camejo Coffigny	mc505@duke.edu	5616336955	2020			No	1	1	0													
+8/31/2016 22:17	Paulina	pg107@duke.edu	7862134677	2020			No	1	0	0													
+8/31/2016 22:18	Michael Tan	michael.tan@duke.edu	510-364-7549	2020			No	1	0	0													
+8/31/2016 22:24	Angeli Sharma	angeli.sharma@duke.edu	609-937-3186	2020			Vegetarian	1	0	0													
+8/31/2016 22:27	Beini Yin	by41@duke.edu	9195368586	2020			None	1	0	0													
+8/31/2016 22:27	Ivy Shi	js668@duke.edu	9195648766	2020			No	1	0	0													
+8/31/2016 22:35	Liuyi Zhu	lz114@duke.edu	+1 9195649615	2020			No	1	0	0													
+8/31/2016 22:39	Alexis Angel	apa17@duke.edu	9193605915	2020			No	1	0	0													
+8/31/2016 22:41	Amanda Conti	alc99@duke.edu	7047076123	2020			No	1	1	0													
+8/31/2016 22:42	Olivia Pennoyer	orp@duke.edu	4015272401	2020			No	1	0	0													
+8/31/2016 22:44	Marie Rogers	marie.rogers@duke.edu	8312364198	2020			none	1	0	0													
+8/31/2016 22:57	Hannah Chen	hannah.chen@duke.edu	3366932236	2020			no	1	0	0													
+8/31/2016 23:08	Sabrina Maciariello	sm560@duke.edu	9176570777	2020			no	1	0	0													
+8/31/2016 23:15	Ziwei Zhang	zz112@duke.edu	9193586529	2020			Ni	1	0	0													
+8/31/2016 23:20	Lily el Naccash	lilyelnaccash@gmail.com	919 525 5560	2020			None	1	0	0													
+8/31/2016 23:29	Vinit Parekh	vrp6@duke.edu	7143255323	2020			Vegetarian	1	0	0													
+8/31/2016 23:37	Yufeng Jiang	yufeng.jiang@duke.edu	9195648846	2020			No sea food	1	0	0													
+8/31/2016 23:44	Yufeng Jiang	yufeng.jiang@duke.edu	9195648846	2020			No sea food	1	0	0													
+8/31/2016 23:49	Alex Shang	as711@duke.edu	4252479208	2020			no	1	0	0													
+8/31/2016 23:57	Kelby Welsh	Kelby.welsh@duke.edu	9188992549	2020			No	1	0	0													
+9/1/2016 0:03	Jamie Busby	jab179@duke.edu	9258906107	2020			vegan/vegetarian	1	0	0													
+9/1/2016 0:42	Angela Moon	Am599@duke.edu	7024931732	2020			No	1	0	0													
+9/1/2016 7:52	Paulina	pg107@duke.edu	7862134677	2020			No	1	0	0													
+9/1/2016 8:49	Jake Wong	Jake.wong@duke.edu	6788829954	2020			No	1	0	0													
+9/1/2016 8:52	Elliott Davis	Elliott.davis@duke.edu	301-525-8469	2020			Vegetarian	1	1	0													
+9/1/2016 11:07	August Ning	august.ning@duke.edu	9195238111	2020			No	1	0	0													
+9/1/2016 12:09	Michael Cai	mc491@duke.edu	443-980-8122	2020			No	1	0	0													
+9/1/2016 12:48	Sachit Menon	sachit.menon@duke.edu	2146206006	2020			Vegetarian	1	0	0													
+9/1/2016 13:28	Joanna Li	joanna.li@duke.edu	8584950891	2020			no	1	0	0													
+9/1/2016 13:46	Isaac Andersen	isaaclandersen@gmail.com	7275185996	2020			No	1	1	0													
+9/1/2016 16:41	Sujal Manohar	sujal.manohar@duke.edu	2145350503	2020			allergic to nuts and shellfish	1	0	0													
+9/1/2016 16:54	Peter	peter.sun@duke.edu	9195199162	2020			N	1	0	0													
+9/1/2016 23:52	Tyler Lian	twl16@duke.edu	860-460-6715	2020			No	1	0	0													
+9/2/2016 2:44	Freddie Xu	fmx@duke.edu	913-687-9080	2020			No	1	0	0													
+9/2/2016 15:19	Amy Jiang	Sj214@duke.edu	832-526-0598	2020			No	1	0	0													
+9/2/2016 19:36	Ashwin Mahendra	amm163@duke.edu	9546518644	2020			No	1	0	0													
+9/3/2016 12:23	Jonathan Schwartzman	jonathan.schwartzman@duke.edu	3012377826	2020			No	1	0	0													
+9/3/2016 14:08	Aditya Mantri	am598@duke.edu	8123906326	2020			I am vegetarian.	1	0	0													
+8/31/2016 21:58	Brian Pollack	bap19@duke.edu	2039120268	2017			No	2	1	0													
+8/31/2016 21:58	Rachael Nedrow	rin@Duke.edu	9712856911	2017			No	2	1	0													
+8/31/2016 21:59	Sai Aditya Kolluru	sk471@duke.edu	9199374998	2017			Vegetarian	2	0	0													
+8/31/2016 21:59	Chi Trinh	Kt142@duke.edu	9196418483	2017			No	2	0	0													
+8/31/2016 21:59	Kara McGaughey	kdm34@duke.edu	8048377444	2017			Vegetarian	2	0	0													
+8/31/2016 22:01	Suzanne Ou	so86@gmail.com	3476978976	2017			No	2	1	0													
+8/31/2016 22:01	Trisharti	tg83@duke.edu	9195999647	2017			No	2	0	0													
+8/31/2016 22:02	Harrison Ferlauto	hrf6@duke.edu	631-704-9675	2017			No	2	0	0													
+8/31/2016 22:03	Jonathan Stern	js83@duke.edu	214-909-8386	2017			No	2	0	0													
+8/31/2016 22:03	Dorotheos Papavasilis	dp83@duke.edu	9196415903	2017			No	2	0	0													
+8/31/2016 22:04	Carter Duncan	cd83@duke.edu	704-221-7308	2017			No	2	0	0													
+8/31/2016 22:04	Alejandro de la torre	Ad239@duke.edu	9563719523	2017			No	2	0	0													
+8/31/2016 22:05	Sydney Speizman	sas104@duke.edu	4437458613	2017			No	2	1	0													
+8/31/2016 22:05	Elizabeth Davies	Esd10@duke.edu	224-234-2065	2017			No	2	0	0													
+8/31/2016 22:05	Joey Levy	JHL39@duke.edu	6786401224	2017			No	2	0	0													
+8/31/2016 22:08	Anne Lott	al83@duke.edu	352-262-8215	2017			No	2	0	0													
+8/31/2016 22:08	Vivienne Lim	vjl3@duke.edu	9252627335	2017			NA	2	0	0													
+8/31/2016 22:10	Nikolaus Mayr	nm183@gmail.com	9843779630	2017			no	2	0	0													
+8/31/2016 22:11	Austin Peer	Adp27@duke.edu	3138060028	2017			No	2	0	0													
+8/31/2016 22:17	Gautam Hathi	gkh8@duke.edu	4254204904	2017			Nut allergy	2	0	0													
+8/31/2016 22:18	Tai-Lin Wu	tw185@duke.edu	919-358-9422	2017			No	2	0	0													
+8/31/2016 22:21	Tierney Marey	tkm18@duke.edu	919 908 4856	2017			No	2	0	0													
+8/31/2016 22:22	Tanner Lockhead	tl83@gmail.com	9192196581	2017			no	2	0	0													
+8/31/2016 22:23	Lauren Shum	ls240@duke.edu	9177168956	2017			Pescetarian	2	0	0													
+8/31/2016 22:35	Ning Zhao	nz16@duke.edu	2105899885	2017			no	2	0	0													
+8/31/2016 22:39	Henning	ht83@duke.edu	919 564 8144	2017			vegan	2	0	0													
+8/31/2016 22:39	Luke Eastman	Lbe4@duke.edu	6107423940	2017			No	2	0	0													
+8/31/2016 22:49	Julia Kahky	Jmk70@duke.edu	4079529764	2017			No	2	0	0													
+8/31/2016 22:53	Misty Sha	Ys114@duke.edu	9198088119	2017			No	2	0	0													
+8/31/2016 23:21	Simirpreet Gill	skg19@duke.edu	9736419126	2017			no	2	0	0													
+8/31/2016 23:21	Simirpreet Gill	skg19@duke.edu	9736419126	2017			no	2	0	0													
+8/31/2016 23:55	Meredith Davin	msd34@duke.edu	9495549832	2017			No diary	2	0	0													
+9/1/2016 0:20	Vinayak Chopra	vc83@duke.edu	4849835154	2017			Vegetarian	2	0	0													
+9/1/2016 0:24	Priyanka V	Prv4@duke.edu	9199618-36	2017			No beef	2	0	0													
+9/1/2016 0:32	Bennett Hartley	bwh19@duke.edu	2487878979	2017			No	2	1	0													
+9/1/2016 1:34	Natalie Smithson	Nrs14@duke.edu	9176990235	2017			No!	2	0	0													
+9/1/2016 2:38	Ife Ayeni	ia35@duke.edu	404-951-8281	2017			N/A	2	0	0													
+9/1/2016 5:08	Bala Sahitya Vadlamani	asv83@gmail.com	6032770585	2017			Vegan	2	0	0													
+9/1/2016 8:35	Nettie Song	ys120@duke.edu	9193818325	2017			No	2	0	0													
+9/1/2016 8:44	Vida Robinson	vjr3@duke.edu	9192602372	2017			Vegetarian	2	0	0													
+9/1/2016 8:46	Helen Liu	hl166@duke.edu	7324855388	2017			n/a	2	0	0													
+9/1/2016 10:02	Jenna Peters	jcp36@duke.edu	303-947-9052	2017			N/A	2	0	0													
+9/1/2016 12:27	Ashwanth A R	aa83@duke.edy	9194506763	2017			No	2	0	0													
+9/1/2016 12:58	Micah	Mte3@duke.edu	2406761573	2017			No	2	0	0													
+9/1/2016 13:17	Jessica Wang	jw397@duke.edu	6303382248	2017			no	2	0	0													
+9/1/2016 15:20	Melissa Piana	mkp17@duke.edu	7743657489	2017			no	2	0	0													
+9/1/2016 16:40	Felipe Concha	fc83@gmail.com	425-495-3419	2017			No	2	0	0													
+9/1/2016 20:55	Jacob Gardner	grdnr13@gmail.com	216-283-2323	2017			no	2	0	0													
+9/1/2016 21:19	Roma Sonik	rs285@duke.edu	7044258188	2017			no fish	2	1	0													
+9/1/2016 23:34	Andrew Huang	ah83@gmail.com	9198138137	2017			None	2	0	0													
+9/2/2016 11:21	Brad Ackerson	bga8@duke.edu	5035050318	2017			No	2	0	0													
+9/2/2016 12:54	Sunny Zhang	scz4@duke.edu	9545479780	2017			N/A	2	0	0													
+9/2/2016 22:27	Katie Gladstone	kag54@duke.edu	516-532-4443	2017			no	2	0	0													
+9/3/2016 17:36	Dylan Stewart	dys4@duke.edu	9413208899	2017			No	2	0	0													
+9/5/2016 0:23	Eric Musselman	edm23@duke.edu	2144172237	2017			No	2	0	0													
+9/5/2016 10:12	Roberto	rts16@duke.edu	9198863587	2017			none	2	0	0													
+9/5/2016 17:25	Jen Chen	yc163@duke.edu	9197179683	2017			no	2	0	0													
+8/31/2016 21:54	Rishabh Kumar	rk172@duke.edu	9198088528	2018			No	2	1	0													
+8/31/2016 21:54	Oisin Harrington	ojh3@duke.edu	3863159941	2018			no	2	0	0													
+8/31/2016 21:55	Ziqi Deng	zd14@duke.edu	9198086370	2018			no	2	1	0													
+8/31/2016 21:56	Michelle Lou	mbl24@duke.edu	973-342-8700	2018			none	2	0	0													
+8/31/2016 21:58	Tiffany Ho	th184@duke.edu	9199037822	2018			no	2	0	0													
+8/31/2016 21:58	Garrett Holmes	geh12@duke.edu	2144932960	2018			No	2	0	0													
+8/31/2016 21:58	Sameer	sameer.pandhare@duke.edu	954-895-2893	2018			No	2	0	0													
+8/31/2016 22:01	Callan Loflin	cdl24@duke.edu	3368809557	2018			No	2	0	0													
+8/31/2016 22:01	Khalouk Shahbander	mks40@duke.edu	6027211662	2018			No	2	0	0													
+8/31/2016 22:10	Hannah Robinson	hhr7@duke.edu	6109091055	2018			no	2	0	0													
+8/31/2016 22:17	Ipek Kavasoglu	ipek.kavasoglu@duke.edu	9293718105	2018			No	2	0	0													
+8/31/2016 22:20	Ziwei Zhao	ziwei.zhao@duke.edu	9194485852	2018			no	2	0	0													
+8/31/2016 22:21	Danielle Dvir	dd131@duke.edu	9173745003	2018			No	2	0	0													
+8/31/2016 22:23	Newton Kwan	nk@2398.com	9253778886	2018			no	2	0	0													
+8/31/2016 22:33	Camila Vargas	cv59@duke.edu	3474161249	2018			Vegetarian	2	1	0													
+8/31/2016 22:34	Zach Ao	zxa@duke.edu	9102002276	2018			No	2	0	0													
+8/31/2016 22:46	Reena Debray	reena.debray@gmail.com	(520) 289-9624	2018			No	2	0	0													
+8/31/2016 23:08	Rita Cao	yc196@duke.edu	8283332997	2018			No	2	1	0													
+8/31/2016 23:26	Patricia Pinckombe	pp109@duke.edu	786.837.1675	2018			Pescatarian	2	0	0													
+8/31/2016 23:37	Shreya Ahuja	shreya.ahuja@duke.edu	2142138228	2018			Gluten Free	2	0	0													
+9/1/2016 1:46	Richard Law	Yl308@duke.edu	5169748608	2018			No	2	1	0													
+9/1/2016 5:44	Yi Yan Tay (Ian)	yi.yan.tay@duke.edu	8505865066	2018			No	2	0	0													
+9/1/2016 10:24	Dominic	dominic.lee@duke.edu	9196382258	2018			No	2	0	0													
+9/1/2016 10:41	Dorothy Feng	df82@duke.edu	2245670874	2018			No	2	1	0													
+9/1/2016 11:26	Danny Kim	Danny.Kim@duke.edu	9195648450	2018			No	2	0	0													
+9/1/2016 16:33	Surabhi Beriwal	sb371@duke.edu	7247591744	2018			Vegetarian	2	0	0													
+9/1/2016 17:57	Juan Pablo Gonzalez	jpg27	9844394378	2018			No	2	0	0													
+9/2/2016 5:47	Sebastian Lin	jl565@duke.edu	9198088304	2018			No	2	0	0													
+9/5/2016 10:12	May Benben	mtb29@duke.edu	3106999926	2018			none	2	0	0													
+8/31/2016 21:53	Teresa Meng	tm212@duke.edu	9193899687	2019			None	2	0	0													
+8/31/2016 21:54	Ben Baker	brb31@duke.edu	937-545-7822	2019			no	2	1	0													
+8/31/2016 21:54	Alan Khaykin	ak374@duke.edu	5164397065	2019			no	2	1	0													
+8/31/2016 21:54	Rubah Moton	zrm5@duke.edu	7042143496	2019			No pork	2	0	0													
+8/31/2016 21:55	Qusai Hussain	Qsh2@duke.edu	9544823297	2019			No pork	2	0	0													
+8/31/2016 21:58	Stephanie Ding	stephanie.ding@duke.edu	9199034030	2019			No cheese	2	0	0													
+8/31/2016 21:58	Peter Mikhael	pgm10@duke.edu	9728221134	2019			Shellfish allergy	2	0	0													
+8/31/2016 22:00	Raymond Zhuang	Rfz3@duke.edu	4085858324	2019			No	2	0	0													
+8/31/2016 22:00	Mahnoor Nazeer	mn155@duke.edu	9364043730	2019			Halal meat (I can just eat vegetarian)	2	0	0													
+8/31/2016 22:04	Brittany Day	bnd5@duke.edu	443-847-0869	2019			No	2	0	0													
+8/31/2016 22:04	Angela Liu	al279@duke.edu	3053019705	2019			No	2	0	0													
+8/31/2016 22:04	Jennifer Hong	jh458	8082284129	2019			no	2	0	0													
+8/31/2016 22:06	Stacey	staceyekuo@gmail.com	310-561-9943	2019			n/a	2	0	0													
+8/31/2016 22:07	David Wohlever Sanchez	djw40@duke.edu	4074084992	2019			N/a	2	0	0													
+8/31/2016 22:13	Joyce Choi	jc515@duke.edu	5712287819	2019			no	2	0	0													
+8/31/2016 22:14	Rafae Alam	ra146@duke.edu	3379624461	2019			No pork	2	0	0													
+8/31/2016 22:16	Mary Aline Fertin	mbf19@duke.edu	9194341768	2019			no	2	0	0													
+8/31/2016 22:18	Carly Fredericks	cnf6@duke.edu	952-220-1169	2019			Vegetarian	2	1	0													
+8/31/2016 22:19	Emre Kiziltug	ek124@duke.edu	9192654537	2019			No meat	2	0	0													
+8/31/2016 22:20	Kaijie Chen	kc267@duke.edu	9195996197	2019			Nope	2	0	0													
+8/31/2016 22:23	Wilson Zhang	bz43@duke.edu	9198139038	2019			Nope	2	0	0													
+8/31/2016 22:25	Anna-Karin Hess	agh22@duke.edu	8622667228	2019			none	2	0	0													
+8/31/2016 22:25	Amulya	Av134@duke.edu	9178627751	2019			No beef	2	0	0													
+8/31/2016 22:26	Andrew Lin	andrew.g.lin@duke.edu	3165196618	2019			No	2	0	0													
+8/31/2016 22:26	Nina Chen	sc422@duke.edu	9848887422	2019			no	2	0	0													
+8/31/2016 22:31	Brendan Aronhime	Brendan.aronhime@duke.edu	703-945-6287	2019			No	2	0	0													
+8/31/2016 22:31	Leah Yao	lzy@duke.edu	6104062628	2019			No	2	0	0													
+8/31/2016 22:32	Alec Li	alec.li@duke.edu	5614003800	2019			no	2	0	0													
+8/31/2016 22:33	Sarah Beckmen	shb24@duke.edu	9088680049	2019			No	2	0	0													
+8/31/2016 22:33	Victor Schwartz	victor.schwartz@duke.edu	5129476007	2019			No	2	1	0													
+8/31/2016 22:34	Astha Puri	Ap334@duke.edu	9087231008	2019			No	2	0	0													
+8/31/2016 22:35	Catie Grasse	Cg184@duke.edu	6304708398	2019			No	2	0	0													
+8/31/2016 22:35	Sarah Cogan	sbc25@duke.edu	9178281237	2019			Vegan	2	0	0													
+8/31/2016 22:36	Sara Shmueli	sbs44@duke.edu	561-302-1245	2019			no	2	0	0													
+8/31/2016 22:38	Rosie Eidelman	re56@duke.edu	305-988-8308	2019			no	2	0	0													
+8/31/2016 22:41	James Hwang	jlh136@duke.edu	2147382809	2019			no	2	0	0													
+8/31/2016 22:42	Shengjie Yao	yao.shengjie@duke.edu	9196275621	2019			No	2	0	0													
+8/31/2016 22:46	Annie Harshbarger	aeh64@duke.edu	4436760921	2019			No	2	0	0													
+8/31/2016 23:00	Grace Donahoe	grace.donahoe@duke.edu	415-525-9647	2019			N/A	2	0	0													
+8/31/2016 23:02	Francia Fang	francia.fang@duke.edu	2812164353	2019			none	2	0	0													
+8/31/2016 23:07	Alex Chang	achang1212@gmail.com	9498649575	2019			Nope	2	0	0													
+8/31/2016 23:15	Matheus Dias	matheus.dias@duke.edu	9848887460	2019			no	2	0	0													
+8/31/2016 23:16	Heather Zhou	yz244@duke.edu	9848887428	2019			No	2	0	0													
+8/31/2016 23:24	Eudora Miao	ruolin.miao@duke.edu	9848887432	2019			No	2	0	0													
+8/31/2016 23:46	Louden Richason	lpr7@duke.edu	7246108996	2019			no	2	1	0													
+8/31/2016 23:51	Maddie Hsiang	mhs363	8507970115	2019			I eat anythinf	2	0	0													
+8/31/2016 23:53	Sophie van Houweninge	Snv5@duke.edu	4156361934	2019			No	2	0	0													
+9/1/2016 0:02	Michael Gulcicek	msg31@duke.edu	2039887716	2019			vegetarian	2	0	0													
+9/1/2016 0:05	Francesca	Fld9@duke.edu	9196991426	2019			Allergic to nuts	2	0	0													
+9/1/2016 0:15	William Song	william.song@duke.edu	9728548966	2019			n/a	2	0	0													
+9/1/2016 0:22	John Benhart	john.benhart@duke.edu	412-526-3965	2019			"No, thanks"	2	0	0													
+9/1/2016 0:41	Rohan Kothari	rk193@duke.edu	6507036884	2019			no	2	0	0													
+9/1/2016 4:19	Jasmine Tan	Jot4@duke.edu	9196415838	2019			NA	2	0	0													
+9/1/2016 8:09	Jacob Baca	jrb99@duke.edu	(908)-442-4081	2019			No	2	0	0													
+9/1/2016 8:46	Elena Lie	elena.lie@duke.edu	9848886819	2019			Vegetarian	2	0	0													
+9/1/2016 9:32	Fran L'Esperance	francis.lesperance@duke.edu	9174993866	2019			No	2	0	0													
+9/1/2016 9:53	Grant Beaner	grant.besner@duke.edu	9643935116	2019			None	2	0	0													
+9/1/2016 9:58	George Gallagher	Gpg9@duke.edu	2812166726	2019			No	2	1	0													
+9/1/2016 10:07	Alison Frank	arf28@duke.edu	9175152556	2019			gluten free	2	0	0													
+9/1/2016 10:47	Leah Francis	Leah.francis@duke.edu	7893851926	2019			No	2	0	0													
+9/1/2016 11:24	Bianca D'Souza	bianca.d.souza@duke.edu	3363416262	2019			No	2	0	0													
+9/1/2016 12:07	Salo Abraham	sea26@duke.edu	3053638616	2019			none	2	0	0													
+9/1/2016 12:19	Jake Shulman	Jas198@duke.edu	2015668243	2019			No	2	0	0													
+9/1/2016 12:43	Carolyn Chen	czc3@duke.edu	215-429-3347	2019			no	2	0	0													
+9/1/2016 15:43	Prithvir Jhaveri	prithvir.jhaveri@duke.edu	9848887174	2019			No	2	0	0													
+9/1/2016 16:09	Anya Bali	anya.bali@duke.edu	8438583708	2019			"No beef, no pork, no chocolate"	2	0	0													
+9/1/2016 22:57	Jules Frost	jf195@duke.edu	9144508520	2019			No	2	0	0													
+9/2/2016 0:04	Jonah Santiago	jjs78@duke.edu	4072677171	2019			No	2	0	0													
+9/2/2016 8:01	Chenyang wang	Cw261@duke.edu	9848889127	2019			No	2	0	0													
+9/2/2016 17:31	Julia Song	jas201@duke.edu	303-396-8667	2019			no	2	0	0													
+9/4/2016 13:08	Kanav Chhabra	kc270@duke.edu	972-953-7657	2019			No Beef	2	0	0													
+9/4/2016 17:36	Arjun Nanda	arjun.nanda@duke.edu	4059243151	2019			no	2	0	0													
+9/5/2016 20:17	Sarah Zhou	sz107@duke.edu	4256529129	2019			n/a	2	0	0													
+9/5/2016 20:26	Clara Wang	clara.wang@duke.edu	410-299-2869	2019			N/A	2	0	0													
+9/5/2016 20:37	Anupriya Sivakumar	as656@duke.edu	909-325-9175	2019			"No red meat (pork, beef)"	2	0	0													
+8/31/2016 21:55	Joyce Er	joyce.er@duke.edu	9195196475	2020			Vegetarian	2	0	0													
+8/31/2016 21:55	Zilu Li	Zl126@duke.edu	8322838345	2020			No	2	0	0													
+8/31/2016 21:55	Amy Fan	Amy.fan@duke.edu	8323730778	2020			No	2	0	0													
+8/31/2016 21:55	Rainie Thai	van.thai@duke.edu	8327168266	2020			I'm allergic to cinnamon	2	0	0													
+8/31/2016 21:56	Georgia Young	georgia.young@duke.edu	9192657490	2020			No	2	0	0													
+8/31/2016 21:56	Sabrina Hao	sabrina.hao@duke.edu	415-686-7358	2020			No	2	0	0													
+8/31/2016 21:57	Ibrahim Butt	Ib47@duke.edu	919 564 8770	2020			Vegetarian	2	0	0													
+8/31/2016 21:58	Isabel Shepard	ips4@duke.edu	19145886088	2020			No	2	0	0													
+8/31/2016 21:59	Wandi Che	wandi.che@duke.edu	(919)908-4086	2020			No	2	0	0													
+8/31/2016 22:05	Michael Model	Mwm38@duke.edu	917-848-8544	2020			Gluten Free	2	0	0													
+8/31/2016 22:06	Annika Sharma	as712@duke.edu	9199170344	2020			No	2	0	0													
+8/31/2016 22:06	Bill Wei	ww122@duke.edu	2246889165	2020			No	2	0	0													
+8/31/2016 22:06	Emily Liu	efl7@duke.edu	7143888108	2020			No	2	0	0													
+8/31/2016 22:09	Sam Ben-Nun	Samuel.ben.nun@duke.edu	9195199165	2020			No	2	0	0													
+8/31/2016 22:10	Nick Berray	njb24@duke.edu	7039990607	2020			No	2	0	0													
+8/31/2016 22:11	Russell Llave	russell.llave@duke.edu	6028828400	2020			Allergic to peanuts	2	0	0													
+8/31/2016 22:12	Ruoqian Xiong	Ruoqian.xiong@duke.edu	2018883819	2020			No	2	0	0													
+8/31/2016 22:14	Daniel Boey	db254@duke.edu	(919) 564 8485	2020			-	2	0	0													
+8/31/2016 22:16	Samantha Garland	sjg41@duke.edu	7813851872	2020			No	2	0	0													
+8/31/2016 22:16	Eli weed	Eli.weed@duke.edu	2066600213	2020			No	2	0	0													
+8/31/2016 22:16	Alisa Bedrov	alisa.bedrov@duke.edu	8012013083	2020			No	2	0	0													
+8/31/2016 22:16	Hannah Chen	hannah.chen@duke.edu	3366932236	2020			no	2	0	0													
+8/31/2016 22:17	Michael Tan	michael.tan@duke.edu	510-364-7549	2020			No	2	0	0													
+8/31/2016 22:18	Nalini Gupta	nalini.guota@fule.edu	9199454579	2020			Vegetarian	2	0	0													
+8/31/2016 22:18	Katherine Li	katherine.li1@duke.edu	9193085554	2020			No	2	0	0													
+8/31/2016 22:20	Veronica Yuziuk	Veronica.yuziuk@duke.edu	(919)576-7169	2020			No	2	0	0													
+8/31/2016 22:21	Tina Tian	yuanshi.tian@duke.edu	9195193088	2020			No	2	0	0													
+8/31/2016 22:21	Tyler Lian	twl16@duke.edu	860-460-6715	2020			No	2	0	0													
+8/31/2016 22:22	Isabel Ivanescu	lilian.ivanescu@duke.edu	3137274472	2020			No.	2	0	0													
+8/31/2016 22:22	Lin Zuo	lin.zuo@duke.edu	(919) 381-7672?	2020			no	2	0	0													
+8/31/2016 22:23	Jeffrey Li	Jql3@duke.edu	9195970530	2020			No seafood	2	0	0													
+8/31/2016 22:23	Andie Carroll	Atc31@duke.edu	7039652029	2020			Vegetarian	2	0	0													
+8/31/2016 22:24	Yeon Woo Kim	yk154	9195648686	2020			No	2	0	0													
+8/31/2016 22:25	Kevin Cheng	qc25@duke.edu	5718880167	2020			No	2	0	0													
+8/31/2016 22:26	Esther Wang	ww116@duke.edu	4846338930	2020			None	2	0	0													
+8/31/2016 22:26	Beini Yin	by41@duke.edu	9195368586	2020			None	2	0	0													
+8/31/2016 22:27	Hal Lin	hal.lin@duke.edu	9194553350	2020			None	2	0	0													
+8/31/2016 22:28	Ivy Shi	js668@duke.edu	9195648766	2020			No	2	0	0													
+8/31/2016 22:29	Amy Jiang	Sj214@duke.edu	832-526-0598	2020			No	2	0	0													
+8/31/2016 22:30	Alethea Toh	alethea.toh@duke.edu	919-945-4639	2020			No	2	0	0													
+8/31/2016 22:30	Steven Gaston	swg12@duke.edu	7343558657	2020			No	2	0	0													
+8/31/2016 22:37	Jake Gerard	jhg27@duke.edu	9734247712	2020			No	2	0	0													
+8/31/2016 22:39	Alexis Angel	apa17@duke.edu	9193605915	2020			No	2	0	0													
+8/31/2016 22:40	Mukhtar Al-Nasrawi	mukhtar.al.nasrawi@duke.edu	Don't have one yet	2020			No	2	0	0													
+8/31/2016 22:40	Alicia Porile	ajp63@duke.edu	5748501193	2020			No	2	1	0													
+8/31/2016 22:41	Helena Wu	helena.wu@duke.edu	732-570-1172	2020			"Please don't just have junk food; I try to eat healthy options (fruits, vegetables, meat). Thank you!"	2	0	0													
+8/31/2016 22:42	rahul sengottuvelu	rgs24@duke.edu	919 564 8606	2020			Vegetarian	2	0	0													
+8/31/2016 22:44	Nikhil Ravi	Nvr7@duke.edu	8178805213	2020			No	2	0	0													
+8/31/2016 22:48	Geng Sng	geng.sng@duke.edu	919 519 5028	2020			NIL	2	0	0													
+8/31/2016 22:49	Brittany Amano	Brittany.amano@duke.edu	8082658927	2020			NA	2	0	0													
+8/31/2016 22:51	Caroline Armstrong	caroline.armstrong@duke.edu	804-615-5909	2020			no	2	0	0													
+8/31/2016 22:54	Xiaolan You	xiaolan.you@duke.edu	2054278221	2020			None	2	0	0													
+8/31/2016 22:55	Nicolas	nicolas.t.sanchez@duke.edu	9193280057	2020			None	2	0	0													
+8/31/2016 23:01	Natalie Yu	ny26@duke.edu	9195648821	2020			No	2	0	0													
+8/31/2016 23:03	Sabrina Maciariello	sm560@duke.edu	9176570777	2020			no	2	0	0													
+8/31/2016 23:05	Kora Kwok	gk72@duke.edu	6092132255	2020			No	2	0	0													
+8/31/2016 23:07	Caroline Wang	clw74@duke.edu	(716) 531-2370	2020			No	2	0	0													
+8/31/2016 23:11	Dan Lilientham	Danlilienthal19@gmail.com	8589457164	2020			No	2	0	0													
+8/31/2016 23:16	Ziwei Zhang	zz112@duke.edu	9193586529	2020			No	2	0	0													
+8/31/2016 23:19	Ann Bailey	Ann.bailey@duke.edu	7035176063	2020			No	2	0	0													
+8/31/2016 23:25	Claudia LaRose	claudia.larose@duke.edu	9526499886	2020			N/A	2	0	0													
+8/31/2016 23:32	Gillian Samios	gillian.samios@duke.edu	6094717364	2020			no	2	0	0													
+8/31/2016 23:33	Rohan Agarwal	ra157@duke.edu	9193608106	2020			None	2	0	0													
+8/31/2016 23:38	Lily el Naccash	lilyelnaccash@gmail.com	919 525 5560	2020			"I can't eat red meat (poultry and fish are fine, as are vegetarian options)."	2	0	0													
+8/31/2016 23:48	Mitch Murphy	mjm144@gmail.com	5743359966	2020			No	2	0	0													
+8/31/2016 23:53	Vicki Zhang	qz54@duke.edu	919-360-9270	2020			None	2	0	0													
+9/1/2016 0:03	Cooper Lair	cooper.lair@gmail.com	501-940-1286	2020			No	2	0	0													
+9/1/2016 0:36	Andrew Donohue	Andrew.donohue@duke.edu	9525407292	2020			No	2	0	0													
+9/1/2016 0:37	Nicholas Simmons	ngs7@duke.edu	(336) 624-1902	2020			None	2	0	0													
+9/1/2016 0:43	Angela Moon	Am599@duke.edu	7024931732	2020			No	2	0	0													
+9/1/2016 1:01	Dana Park	dp178@duke.edu	(985)788-6925	2020			No	2	0	0													
+9/1/2016 1:03	Dana Park	dp178@duke.edu	(985)788-6925	2020			no	2	0	0													
+9/1/2016 1:08	Amy Jiang	Sj214@duke.edu	832-526-0598	2020			No	2	0	0													
+9/1/2016 1:24	Chloe McGlynn	cam128@duke.edu	925-321-4012	2020			Vegetarian	2	0	0													
+9/1/2016 1:27	Matthew Keep	mck33@duke.edu	617-840-0373	2020			No	2	0	0													
+9/1/2016 1:48	Michelle Qiou	mpq4@duke.edu	732-318-8236	2020			No	2	0	0													
+9/1/2016 7:21	Tiffany Jiang	tiffany.jiang@duke.edu	9088092013	2020			No	2	0	0													
+9/1/2016 7:33	Jason Chou	jjc60@duke.edu	2405502015	2020			No	2	0	0													
+9/1/2016 7:36	Paulina Guerra	pg107@duke.edu	7862134677	2020			No	2	0	0													
+9/1/2016 7:51	Bassim Eledath	bassim.eledath@duke.edu	919 360 6903	2020			No	2	1	0													
+9/1/2016 8:09	Abigail Farley	Abigail.farley@duke.edu	2038582617	2020			No	2	0	0													
+9/1/2016 8:31	Matthew Treiber	mct27@duke.edu	2243433914	2020			no	2	0	0													
+9/1/2016 8:41	Craig Fiedorek	rcf17@duke.edu	7138067400	2020			No	2	0	0													
+9/1/2016 9:01	Lela Owens	lela.owens@duke.edu	(951)-237-6921	2020			None	2	0	0													
+9/1/2016 9:13	Agoston Walter	aw276@duke.edu	7575534281	2020			No	2	0	0													
+9/1/2016 9:21	Deniz Simsek	deniz.simsek@duke.edu	9195648666	2020			no	2	0	0													
+9/1/2016 9:45	Yusef Sabra	yusef.sabra@duke.edu	9196370317	2020			No	2	0	0													
+9/1/2016 11:33	Michael Zhang	michaelzhang6284@gmail.com	9195648747	2020			No	2	0	0													
+9/1/2016 11:57	Leah Abrams	lnabrams@gmail.com	9196194205	2020			none	2	0	0													
+9/1/2016 12:47	Sachit Menon	sachit.menon@duke.edu	2146206006	2020			Vegetarian	2	0	0													
+9/1/2016 12:52	Susie Choi	susie.choi@duke.edu	7039808642	2020			can't eat red meat	2	0	0													
+9/1/2016 13:01	Carolyn Macleod	Carolyn.macleod@duke.edu	9196190314	2020			No	2	0	0													
+9/1/2016 13:02	Callie Keen	callie.keen@duke.edu	(843)3403684	2020			No	2	0	0													
+9/1/2016 13:32	Joanna Li	joanna.li@duke.edu	8584050891	2020			no	2	0	0													
+9/1/2016 13:44	Isaac Andersen	isaac.andersen@duke.edu	7275185996	2020			No	2	0	0													
+9/1/2016 14:52	Jacob Levine	jrl58@gmail.com	7028859845	2020			No	2	0	0													
+9/1/2016 16:20	Yashas Manjunatha	ym101@duke.edu	2144912967	2020			Vegetarian	2	0	0													
+9/1/2016 16:20	Nicolas Cort	nicolas.cort@duke.edu	+1 (904) 699-7876	2020			n/a	2	0	0													
+9/1/2016 16:22	Caroline Brockett	Caroline.brockett@duke.edu	6266889067	2020			No	2	0	0													
+9/1/2016 16:55	Peter	peter.sun@duke.edu	9195199162	2020			N	2	0	0													
+9/1/2016 19:11	Pansy Tseng	pansy.tseng@duke.edu	9193969675	2020			No	2	0	0													
+9/1/2016 21:03	Gretchen Wright	gretchen.e.wright@duke.edu	(802) 899-0005	2020			no	2	0	0													
+9/1/2016 23:22	"Xiaoyu ""Ava"" Xu"	xiaoyu.xu@hotmail.com	518-577-9369	2020			No	2	0	0													
+9/2/2016 11:41	Tarika Iyer	tarika.iyer@duke.edu	9194485370	2020			vegetarian	2	0	0													
+9/3/2016 1:23	Ryan Huie	ryan.huie@duke.edu	5169871828	2020			I'm allergic to nuts	2	0	0													
+9/3/2016 2:07	Lexi Kadis	abk35@duke.edu	919-360-3031	2020			No	2	0	0													
+9/3/2016 2:07	Diane Hu	Diane.hu@duke.edu	2149090505	2020			No	2	0	0													
+9/4/2016 11:16	Akanksha Ray	akanksha.ray@duke.edu	918-935-4044	2020			Vegetarian	2	0	0													
+9/4/2016 11:59	Thuy-Vi Nguyen	tn72@duke.edu	7039757490	2020			no	2	0	0													
+9/4/2016 12:13	Craig Fiedorek	rcf17@duke.edu	7138067400	2020			no	2	0	0													
+9/4/2016 21:59	Nick Berray	njb24@duke.edu	7039990607	2020			No	2	0	0													
+9/5/2016 14:16	Junette	Yu	9195648839	2020			No	2	0	0													
+9/9/2016 19:04	DOROTHEOS PAPAVASILIS	dp83@duke.edu	9196415903	2017			-	3	1	0													
+9/9/2016 19:18	Belex Cheng	yc171@duke.edu	3607718999	2017			no	3	1	0													
+9/9/2016 19:42	Shaq Junaid	Sj150@duke.edu	5615379806	2017			No	3	0	0													
+9/9/2016 20:51	Alexandra Martin	anm29@duke.edu	3014661287	2017			no	3	1	0													
+9/9/2016 20:57	Candice Dunn	cld36@duke.edu	8569041855	2017			No Cheese	3	1	0													
+9/10/2016 11:00	Henning	ht83@duke.edu	9195648144	2017			Vegan	3	0	0													
+9/10/2016 11:19	Jasmine Judge	Jkj12@duke.edu	6789778927	2017			No	3	0	0													
+9/10/2016 13:02	Jessica Wang	jw397@duke.edu	6303382248	2017			No	3	0	0													
+9/11/2016 22:45	Nikolaus Mayr	nm183@duke.edu	+1 984 377 9630	2017			no	3	0	0													
+9/9/2016 20:50	Rita Cao	yc196@duke.edu	8283332997	2018			No	3	1	0													
+9/9/2016 21:12	Xinyi Wu	xw108@duke.edu	xw108@duke.edu	2018			No	3	0	0													
+9/9/2016 19:01	Anthony Ohayon	Anthony.ohayon@duke.edu	3055092888	2019			No	3	1	0													
+9/9/2016 19:02	Benjamin Baker	brb31@duke.edu	937-545-7822	2019			no	3	0	0													
+9/9/2016 19:03	Matheus Dias	Matheus.dias@duke.edu	9848887469	2019			No	3	0	0													
+9/9/2016 19:05	J.J. Moncus	jjm77@duke.edu	7069805445	2019			No	3	1	0													
+9/9/2016 19:17	Alan Khaykin	Ak374@duke.edu	5164397065	2019			No	3	0	0													
+9/9/2016 19:30	Aashna Aggarwal	Aa373@duke.edu	9175284355	2019			Vegetarian	3	0	0													
+9/9/2016 19:34	Rob Palmisano	rp161@duke.edu	443-798-4537	2019			No	3	0	0													
+9/9/2016 19:48	Sean Bissell	sab111@duke.edu	5402505461	2019			No	3	1	0													
+9/9/2016 19:58	Jasmine Tan	Jasmine.tan@duke.edu	9196415838	2019			No	3	0	0													
+9/9/2016 20:33	Peilin Lai	pl111@duke.edu	9198138625	2019			None	3	0	0													
+9/9/2016 22:04	Christopher Ong	co74@duke.edu	6506957737	2019			None	3	0	0													
+9/9/2016 23:29	James wang	Cw261@duke.edu	9848889127	2019			No	3	0	0													
+9/9/2016 23:38	Elizabeth lim	El137@duke.edu	9848887271	2019			None	3	0	0													
+9/9/2016 23:53	Katya Khlystova	eak42@duke.edu	9195935572	2019			N/A	3	0	0													
+9/11/2016 9:50	Victoria Cormack	vec5@duke.edu	6037140032	2019			No	3	0	0													
+9/9/2016 19:06	Nicolas Cort	nicolas.cort@duke.edu	19046997876	2020			No	3	1	0													
+9/9/2016 19:06	Wandi Che	wandi.che@duke.edu	(919)908-4086	2020			No	3	0	0													
+9/9/2016 19:07	Yashas Manjunatha	ym101@duke.edu	2144912967	2020			Vegetarian	3	0	0													
+9/9/2016 19:26	Meg Hancock	mmh51@duke.edu	2705599968	2020			No	3	1	0													
+9/9/2016 19:26	Ibrahim Butt	Ibrahim-butt@outlook.com	9195648770	2020			Vegetarian	3	0	0													
+9/9/2016 19:27	Alexis Angel	Apa17@duke.edu	9193605915	2020			No	3	0	0													
+9/9/2016 19:39	Bassim Eledath	bassim.eledath@duke.edu	9193606903	2020			no	3	0	0													
+9/9/2016 19:43	Akanksha Ray	akanksha.ray@duke.edu	9189354044	2020			"No beef/pork, carrot allergies"	3	0	0													
+9/9/2016 19:48	Bigyan Babu Regmi	bigyan.regmi@duke.edu	9193444897	2020			No	3	0	0													
+9/9/2016 20:24	Tina Tian	yuanshi.tian@duke.edu	9195193088	2020			No	3	0	0													
+9/9/2016 21:25	Lin Zuo	lin.zuo@duke.edu	9193817672	2020			None	3	0	0													
+9/10/2016 0:39	Hal Lin	hal.lin@duke.edu	9194553350	2020			N/A	3	0	0													
+9/10/2016 1:18	Alethea Toh	alethea.toh@duke.edu	919-945-4639	2020			No	3	0	0													
+9/10/2016 2:22	Samuel Robert Lester	srl35@duke.edu	2107889560	2020			No	3	0	0													
+9/10/2016 10:19	Lily el Naccash	Lilyelnaccash@gmail.com	9195255560	2020			I can't eat red meat	3	0	0													
+9/10/2016 11:14	Gouttham Chandrasekar	gc124@duke.edu	732-850-3929	2020			Vegetarian	3	0	0													
+9/10/2016 11:19	Megan Dorogi	megan.dorogi@duke.edu	4406688551	2020			no	3	0	0													
+9/10/2016 11:28	Cecilia Wu	yw198@duke.edu	9194914768	2020			No	3	0	0													
+9/10/2016 11:55	Sarah Faller	sarah.e.faller@duke.edu	9142994495	2020			no :)	3	1	0													
+9/10/2016 11:55	Blake Hobson	ann.hobson@duke.edu	2148625738	2020			no	3	0	0													
+9/10/2016 11:59	Emma Parker	Ehp8@duke.edu	9179304360	2020			No	3	0	0													
+9/10/2016 12:09	Bill Wei	ww122@duke.edu	2246889165	2020			No	3	0	0													
+9/10/2016 12:33	Allison Geary	Allison.geary@duke.edu	4022506795	2020			Vegetarian	3	0	0													
+9/10/2016 12:54	Tanya Riordan	tatiana.riordan.@duke.edu	8087296364	2020			No	3	0	0													
+9/10/2016 13:28	Anna Jestin	apj9@duke.edu	646-363-3046	2020			No	3	0	0													
+9/10/2016 13:28	Gabriel Crowell	gabriel.crowell@duke.edu	2103816495	2020			None	3	0	0													
+9/10/2016 14:04	Kevin Solomon	Kevin.solomon@duke.edu	7276676329	2020			No	3	0	0													
+9/10/2016 15:17	Deepti Agnihotri	da139@duke.edu	240-672-4126	2020			I am vegetarian	3	0	0													
+9/10/2016 15:36	Alex Mao	am580@duke.edu	8327629722	2020			No	3	0	0													
+9/10/2016 17:57	Calvin Ma	cm298@duke.edu	919-279-3690	2020			No	3	0	0													
+9/10/2016 17:57	Nicholas Simmons	ngs7@duke.edu	(336) 624-1902	2020			No	3	0	0													
+9/11/2016 11:08	Weiran Huang	weiran.huang@duke.edu	9195193311	2020			No	3	0	0													
+9/11/2016 15:48	Nicolas Sanchez	Nicolas.t.sanchez@duke.edu	9193280057	2020			No	3	0	0													
+9/12/2016 15:15	Hannah Horowitz	hannah.horowitz@duke.edu	6268237744	2020			no cheese	3	0	0													
+9/12/2016 15:17	Salil Mitra	salil.mitra@duke.edu	4085073113	2020			No	3	0	0													
+9/9/2016 19:36	Allison Kam	ajk50@duke.edu	334-740-9114	2017			no	4	1	0													
+9/9/2016 19:43	Nicole Rapfogel	Nr84@duke.edu	5175242895	2019			No	4	1	0													
+9/10/2016 11:57	Cara Leigh Downey	cld46@duke.edu	9196009394	2019			No	4	1	0													
+9/11/2016 2:48	Breanna Bradham	btb22@duke.edu	8034609001	2020			None	4	1	0													
+9/9/2016 19:05	Wandi Che	wandi.che@duke.edu	(919)908-4086	2020			No	4	1	0													
+9/9/2016 19:09	Mitch Murphy	mjm144@duke.edu	5743359066	2020			No	4	1	0													
+9/9/2016 19:24	Serene Cheng	sc441@duke.edu	9848889033	2019			No	4	1	0													
+9/9/2016 19:27	Ibrahim Butt	Ibrahim-butt@outlook.com	9195648770	2020			Vegetarian	4	0	0													
+9/9/2016 19:42	Victoria Johnson	vj38@duke.edu	9206593953	2020			No	4	1	0													
+9/9/2016 19:48	Jamie Busby	jab179@duke.edu	9258906107	2020			vegetarian	4	1	0													
+9/9/2016 19:51	Brittany Amano	bpa7@duke.edu	8982658927	2020			NA	4	1	0													
+9/9/2016 20:40	Joyce	he22@duke.edu	9195196475	2020			vegetarian	4	0	0													
+9/9/2016 20:42	Sara Evall	sbe7@duke.edu	3109775660	2019			"can you please make this only healthy foods?? i'm really trying to watch my figure here, so i really need you to make sure that there are fresh vegetables and no fried foods or desserts."	4	1	0													
+9/9/2016 22:09	Michelle Qiou	mpq4@duke.edu	7323188236	2020			No	4	0	0													
+9/9/2016 22:09	Michael Tan	michael.tan@duke.edu	510-364-7549	2020			No	4	0	0													
+9/9/2016 22:18	Jessica Chen	jc607@duke.edu	4087186995	2020			No	4	0	0													
+9/10/2016 1:58	Mahnoor Nazeer	Mn155@duke.edu	9364043730	2019			Vegetarian	4	1	0													
+9/10/2016 2:23	Samuel Robert Lester	srl35@duke.edu	2107889560	2020			No	4	1	0													
+9/10/2016 7:40	Georgia Lala	georgia.lala@duke.edu	9196103385	2020			No	4	1	0													
+9/10/2016 8:21	Sherry Feng	sf197@gmail.com	5712445849	2020			No	4	0	0													
+9/10/2016 10:53	Yousuf Rehman	yar5@duke.edu	5714215665	2020			Cannot eat pork	4	0	0													
+9/10/2016 11:26	Anne Driscoll	amd112@duke.edu	9176553632	2018			Vegetarian	4	1	0													
+9/10/2016 12:41	Carolyn Chen	czc3@duke.edu	215-429-3347	2019			no	4	1	0													
+9/10/2016 13:03	Stephanie Mayle	Stephanie.mayle@duke.edu	8043007749	2020			No	4	1	0													
+9/10/2016 13:27	Gabriel Crowell	gabriel.crowell@duke.edu	2103816495	2020			None	4	1	0													
+9/10/2016 14:06	Kevin Solomon	Kevin.solomon@duke.edu	7276676329	2020			None	4	1	0													
+9/10/2016 19:16	Dan Lilienthal	Danlilienthal19@gmail.com	8589457164	2020			No	4	0	0													
+9/10/2016 20:33	Tiffany Ho	th184@duke.edu	9199037822	2018			no	4	1	0													
+9/12/2016 12:08	Charlie Daniel	cpd23@duke.edu	770-330-4053	2020			No	4	0	0													
+9/9/2016 19:04	Chi	Kt142@duke.edu	9196418483	2017			No	5	0	0													
+9/9/2016 19:06	Dorotheos Papavasilis	dp83@duke.edu	9196415903	2017			No	5	1	0													
+9/9/2016 19:35	Allison Kam	ajk50@duke.edu	3347409114	2017			no	5	1	0													
+9/9/2016 20:17	Vinayak Chopra	vc83@duke.edu	4849835154	2017			Vegetarian	5	0	0													
+9/9/2016 20:23	Vrushin Dani	vhd2@duke.edu	9195996059	2017			None	5	1	0													
+9/9/2016 21:16	Chi	Kt142@duke.edu	9196418483	2017			No	5	1	0													
+9/9/2016 23:07	Tierney Marey	tkm18@duke.edu	919 908 4856	2017			No	5	1	0													
+9/10/2016 12:37	Joe Lam	jjl33@duke.edu	(415) 828-7357	2017			N/A	5	1	0													
+9/10/2016 14:15	Nisakorn Valyasevi	nv23@duke.edu	8325600299	2017			No	5	0	0													
+9/11/2016 14:21	Luke Eastman	lbe4@duke.edu	610-742-3940	2017			No	5	1	0													
+9/11/2016 22:45	Nikolaus Mayr	nm183@duke.edu	+1 984 377 9630	2017			no	5	0	0													
+9/16/2016 10:40	McCall Wells	mbw26@duke.edu	8583868674	2017			gluten intolerant	5	0	0													
+9/16/2016 10:45	Jaslyn Zhang	jz124@duke.edu	5163503039	2017			None	5	0	0													
+9/16/2016 11:50	Jasmine Judge	jkj12@duke.edu	6789778927	2017			Allergic to nuts	5	0	0													
+9/16/2016 13:45	Wendy Lu	jl512@duke.edu	9198088116	2017			No	5	0	0													
+9/9/2016 19:16	Sebastian Lin	jl5645@duke.edu	9198088304	2018			No	5	1	0													
+9/9/2016 19:44	Raymond Zhuang	rfz3@duke.edu	4085858324	2018			no	5	1	0													
+9/9/2016 20:26	Jenny Shang	js585@duke.edu	6175151660	2018			No	5	1	0													
+9/10/2016 11:27	Anne Driscoll	amd112@duke.edu	9176553632	2018			Vegetarian	5	0	0													
+9/10/2016 12:34	ziqi deng	zd14@duke.edu	9198086370	2018			no	5	1	0													
+9/16/2016 11:01	Shreya Ahuja	sra27@duke.edu	2142138228	2018			gluten free	5	0	0													
+9/19/2016 9:50	Sebastian Lin	jl565@duke.edu	9198088304	2018			No	5	0	0													
+9/9/2016 19:03	Qusai Hussain	qsh2@duke.edu	95444823297	2019			None	5	0	0													
+9/9/2016 19:03	Rohan Kothari	rohan.kothari@duke.edu	6507036884	2019			no	5	0	0													
+9/9/2016 19:04	Matheus Dias	matheus.dias@duke.edu	9848887469	2019			No	5	1	0													
+9/9/2016 19:15	Alan Khaykin	Ak374@duke.edu	5164397065	2019			No	5	0	0													
+9/9/2016 19:47	Kelly Chung	mc461@duke.edu	4256230616	2019			Vegetarian	5	0	0													
+9/9/2016 20:00	Jasmine Tan	Jasmine.tan@duke.edu	9196415838	2019			No	5	0	0													
+9/9/2016 20:05	Delia Li	dl202@duke.edu	610-291-3908	2019			No	5	0	0													
+9/9/2016 21:06	Rubah Moton	rubah.moton@duke.edu	7042143496	2019			No	5	1	0													
+9/9/2016 23:26	Sarah Zhou	sz107@duke.edu	4256529129	2019			N/A	5	0	0													
+9/9/2016 23:29	Haley Sink	haley.sink@duke.edu	336-561-1543	2019			No seafood	5	0	0													
+9/10/2016 9:59	Clara Wang	clara.wang@duke.edu	410-299-2869	2019			none	5	0	0													
+9/10/2016 10:59	Grant Besner	grant.besner@duke.edu	9543935116	2019			None	5	1	0													
+9/10/2016 16:44	Emily Ahlers	eka8@duke.edu	(712)540-7593	2019			Allergic to Peanuts	5	1	0													
+9/16/2016 10:40	James WAng	cw261@duke.edu	9848889127	2019			no	5	0	0													
+9/16/2016 11:34	Sydney Grob	stg15@duke.edu	720-883-8552	2019			no	5	0	0													
+9/9/2016 19:05	Wandi Che	wandi.che@duke.edu	(919)908-4086	2020			No	5	0	0													
+9/9/2016 19:15	"Xiaoyu ""Ava"" Xu"	xiaoyu.xu@duke.edu	5185779369	2020			No	5	0	0													
+9/9/2016 19:24	Audreya Metz	audreya.metz@duke.edu	7037328988	2020			No	5	0	0													
+9/9/2016 19:25	Alexis Angel	Apa17@duke.edu	9193605915	2020			No	5	1	0													
+9/9/2016 19:29	Ibrahim Butt	Ibrahim-butt@outlook.com	9195648770	2020			Vegetarian	5	0	0													
+9/9/2016 19:32	Michael Zhang	michael.zhang@duke.edu	9195648747	2020			No	5	0	0													
+9/9/2016 19:38	Bassim Eledath	bassim.eledath@duke.edu	9193606903	2020			no	5	0	0													
+9/9/2016 19:58	Linda Zhang	mz104@duke.edu	9196380086	2020			No	5	0	0													
+9/9/2016 19:59	Nick	Njb24@duke.edu	7039990607	2020			No	5	1	0													
+9/9/2016 20:33	Sachit Menon	sm568@duke.edu	2146206006	2020			Vegetarian	5	0	0													
+9/9/2016 20:38	Tommaso	Babucci	9195648757	2020			Allergic to sesame - shell fish	5	0	0													
+9/9/2016 21:34	Ray Liu	rhl10@duke.edu	7042615841	2020			no	5	0	0													
+9/9/2016 22:10	Michelle Qiou	mpq4@duke.edu	7323188236	2020			No	5	0	0													
+9/10/2016 0:16	Ray Liu	rhl10@duke.edu	7042615841	2020			no	5	0	0													
+9/10/2016 0:38	Hal Lin	hal.lin@duke.edu	9194553350	2020			N/A	5	1	0													
+9/10/2016 1:19	Alethea Toh	alethea.toh@duke.edu	919-945-4639	2020			No	5	0	0													
+9/10/2016 10:20	Lily el Naccash	lilyelnaccash@gmail.com	9195255560	2020			I can't eat red meat.	5	0	0													
+9/10/2016 11:20	Megan Dorogi	megan.dorogi@duke.edu	4406688551	2020			no	5	0	0													
+9/10/2016 11:32	Cecilia Wu	yw198@duke.edu	9194914768	2020			No	5	0	0													
+9/10/2016 11:36	Kora Kwok	gk72@duke.edu	6092132255	2020			No	5	0	0													
+9/10/2016 12:09	Tiarra Hughes	Tiarra.hughes@duke.edu	3479332055	2020			I am allergic to all seafood	5	0	0													
+9/10/2016 12:35	Alex Yu	acy12@duke.edu	970-817-1088	2020			Tree Nut allergy	5	0	0													
+9/10/2016 14:07	Kevin Solomon	Kevin.solomon@duke.edu	7276676329	2020			None	5	0	0													
+9/10/2016 14:44	Yufeng (Melody) Jiang	yufeng.jiang@duke.edu	9195648846	2020			No seafood	5	0	0													
+9/10/2016 15:44	Isaac Andersen	isaaclandersen@gmail.com	7275185996	2020			No	5	0	0													
+9/10/2016 16:56	Jake Wong	jake.wong@duke.edu	6788829954	2020			Nope!	5	0	0													
+9/10/2016 18:18	Yusef Sabra	yjs4@duke.edu	(919)637-0317	2020			No	5	0	0													
+9/11/2016 13:29	Trenton Bricken	tbb21@duke.edu	17044977554	2020			No	5	1	0													
+9/12/2016 7:01	Maram Elnagheeb	me115@duke.edu	7049183790	2020			Halal	5	0	0													
+9/12/2016 11:30	(Tinpei) Rachel Tung	tinpei.tung@duke.edu	908-458-7337	2020			nut allergy; does not eat beef	5	0	0													
+9/12/2016 14:24	Melanie Farfel	melanie.farfel@duke.edu	8589974139	2020			Gluten free	5	0	0													
+9/14/2016 19:55	Chelsea Schlacks	chelsea.schlacks@duke.edu	9193683695	2020			no	5	0	0													
+9/16/2016 10:32	Brittany Amano	bpa7@duke.edu	8082658927	2020			Ni	5	0	0													
+9/16/2016 11:33	Cecilia Wu	yw198@duke.edu	9194914768	2020			No	5	0	0													
+9/16/2016 13:20	Lin Zuo	lin.zuo@duke.edu	?+1 (919) 381-7672?	2020			No	5	0	0													
+9/18/2016 16:21	Deepti Agnihotri	da139@duke.edu	240-672-4126	2020			I am vegetarian	5	0	0													
+9/16/2016 10:28	Jeremy Fox	jdf37@duke.edu	9193609889	2017			No	6	1	0													
+9/16/2016 10:33	Matt Highland	mah94@duke.edu	2072528776	2017			No	6	1	0													
+9/16/2016 10:35	Jessica wang	Jw397@duke.edu	6303382248	2017			No	6	1	0													
+9/16/2016 10:45	Jaslyn Zhang	jz124@duke.edu	5163503039	2017			None	6	1	0													
+9/16/2016 11:23	Elaine MNkubitu	emm57@duke.edu	9194914744	2017			Vegeterian	6	1	0													
+9/16/2016 12:29	Jacob Gardner	jeg55@duke.edu	216-283-2323	2017			no	6	1	0													
+9/16/2016 13:45	Wendy Lu	jl512@duke.edu	9198088116	2017			No	6	1	0													
+9/16/2016 14:27	Melissa Piana	mkp17@duke.edu	7743657489	2017			none	6	1	0													
+9/20/2016 1:18	Callie Mao	cm83@duke.edu	(858)863-3180	2017			No	6	0	0													
+9/16/2016 10:30	Tianlin Duan	td96@duke.edu	9196990677	2018			Nope	6	0	0													
+9/16/2016 10:55	Anna Li	anna.li@duke.edu	9195995828	2018			No beef or pork	6	0	0													
+9/16/2016 11:18	Reena Debray	reena.debray@gmail.com	(520) 289-9624	2018			No	6	1	0													
+9/16/2016 11:34	Lucia Martos	Lm260@duke.edu	9198088740	2018			No	6	1	0													
+9/16/2016 12:29	Anne Driscoll	amd112@duke.edu	9176553632	2018			Vegetarian	6	0	0													
+9/16/2016 12:50	Cynthia	xw108@duke.edu	919-5996988	2018			No	6	0	0													
+9/16/2016 18:51	Anne Lott	al83@duke.edu	352-262-8215	2018			No	6	1	0													
+9/17/2016 1:32	Derek Wong	dw175@duke.edu	9195372273	2018			None	6	0	0													
+9/16/2016 10:25	Benjamin Baker	brb31@duke.edu	9375457822	2019			no	6	1	0													
+9/16/2016 10:27	Julia Song	julias4941@yahoo.com	3033968667	2019			No	6	1	0													
+9/16/2016 10:27	Jacob Baca	jrb99@duke.edu	908-442-4081	2019			No	6	1	0													
+9/16/2016 10:27	Andy Cho	yc230@duke.edu	919-768-3707	2019			None	6	1	0													
+9/16/2016 10:30	Rob Palmisano	rp161@duke.edu	443-798-4537	2019			No	6	1	0													
+9/16/2016 10:32	Alan Khaykin	ak374@duke.edu	5164397065	2019			no	6	1	0													
+9/16/2016 10:40	James Wang	cw261@duke.edu	9848889127	2019			no	6	0	0													
+9/16/2016 10:45	Jackie Xu	jjx@duke.edu	8609771360	2019			None	6	0	0													
+9/16/2016 10:47	Emre Kiziltug	emre.kiziltug@duke.edu	9192654537	2019			vegeterian	6	1	0													
+9/16/2016 11:06	Peilin Lai	pl111@duke.edu	919813865	2019			/	6	0	0													
+9/16/2016 11:08	Eudora Miao	Ruolin.miao@duke.edu	9848887432	2019			No	6	0	0													
+9/16/2016 11:13	Jasmine Tan	Jot4@duke.edu	9196415838	2019			NA	6	0	0													
+9/16/2016 11:28	Luke Farrell	lmf36@duke.edu	6318352375	2019			No	6	0	0													
+9/16/2016 11:48	Natasha Torrens	njt5@duke.edu	5402574034	2019			Cannot eat seafood	6	0	0													
+9/16/2016 12:27	Jake Shulman	Jas198@duke.edu	2015668243	2019			No	6	0	0													
+9/16/2016 12:51	Claire Wang	Crw40@duke.edu	8018334632	2019			Vegetarian	6	0	0													
+9/16/2016 13:07	Haley Sink	haley.sink@duke.edu	336-561-1543	2019			No seafood	6	0	0													
+9/16/2016 17:52	Sarah Zhou	sz107@duke.edu	4256529129	2019			No	6	0	0													
+9/17/2016 11:02	Clara Wang	clara.wang@duke.edu	410-299-2869	2019			none	6	0	0													
+9/16/2016 10:26	Aditya Mantri	am598@duke.edu	8123906326	2020			Vegetarian	6	1	0													
+9/16/2016 10:27	Rahul Sengottuvelu	rgs24@duke.edu	9195648606	2020			no	6	0	0													
+9/16/2016 10:28	Peter Sun	zs54@duke.edu	9195199162	2020			No	6	0	0													
+9/16/2016 10:30	Michael Tan	michael.tan@duke.edu	510-364-7549	2020			no	6	0	0													
+9/16/2016 10:32	Yashas Manjunatha	ym101@duke.edu	2144912967	2020			Vegetarian	6	0	0													
+9/16/2016 10:32	Webster Bei Yijie	yb44@duke.edu	9195649613	2020			No	6	0	0													
+9/16/2016 10:36	Claire Xiao	cbx@duke.edu	4159942905	2020			No	6	0	0													
+9/16/2016 10:37	Alexis Angel	Apa17@duke.edu	9193605915	2020			No	6	0	0													
+9/16/2016 10:38	Liuyi Zhu	lz114@duke.edu	19195649615	2020			No	6	0	0													
+9/16/2016 10:38	Alethea Toh	alethea.toh@duke.edu	919-945-4639	2020			No	6	0	0													
+9/16/2016 10:40	Isaac Andersen	isaac.andersen@duke.edu	7275185996	2020			No	6	1	0													
+9/16/2016 10:46	Ethan Holland	eh175@duke.edu	3019289918	2020			No	6	1	0													
+9/16/2016 11:00	Allison Geary	Allison.geary@duke.edu	4022506795	2020			Vegetarian	6	0	0													
+9/16/2016 11:10	Lúcia Mees	lucia.mees@duke.edu	9195191365	2020			No	6	0	0													
+9/16/2016 11:13	Cheryl Wang	xw104@duke.edu	9843779551	2020			No	6	0	0													
+9/16/2016 11:18	Hal Lin	hal.lin@duke.edu	9194553350	2020			None	6	0	0													
+9/16/2016 11:32	Chris Zhou	chris.zhou@duke.edu	7145886471	2020			No	6	0	0													
+9/16/2016 11:46	Wandi Che	wc121@duke.edu	9199084086	2020			No	6	0	0													
+9/16/2016 11:47	Katherine Guo	Kg162@duke.edu	2018885022	2020			No	6	0	0													
+9/16/2016 11:50	Jie Cai	jc561@duke.edu	No number yet :(	2020			NA	6	0	0													
+9/16/2016 11:52	Sophia Liu	sophia.liu@duke.edu	480-258-7939	2020			No	6	0	0													
+9/16/2016 12:01	Stephanie Mei	sm546@duke.edu	9195971883	2020			no	6	0	0													
+9/16/2016 12:11	Angela Zhou	angela.zhou1@duke.edu	(425)-365-6937	2020			N/A	6	0	0													
+9/16/2016 12:15	Susie Choi	sc477@duke.edu	7039808642	2020			can't eat red meat	6	0	0													
+9/16/2016 12:18	Bigyan Babu Regmi	bbr10@duke.edu	9193444897	2020			No	6	0	0													
+9/16/2016 12:22	Andrew Donohue	Andrew.donohue@duke.edu	9525407292	2020			No	6	0	0													
+9/16/2016 12:25	Amy Kim	yk154@duke.edu	9195648686	2020			N/A	6	0	0													
+9/16/2016 12:41	Lily el Naccash	Lke8@duke.edu	9195255560	2020			I can't eat red meat.	6	0	0													
+9/16/2016 12:54	Bassim Eledath	bassim.eledath@duke.edu	9193606903	2020			no	6	0	0													
+9/16/2016 13:19	Lin Zuo	lin.zuo@duke.edu	?+1 (919) 381-7672?	2020			No	6	0	0													
+9/16/2016 13:30	Daniel Ntim	don6@duke.edu	3365293347	2020			No	6	0	0													
+9/16/2016 13:33	Jesse Doppelt	jd324@duke.edu	732-513-5595	2020			No	6	0	0													
+9/16/2016 13:46	Michael Zhang	sz114@duke.edu	9195648747	2020			No	6	0	0													
+9/16/2016 16:52	Eli Weed	eli.weed@duke.edu	2066600213	2020			no	6	0	0													
+9/16/2016 17:19	Linda Zhang	mz104@duke.edu	9196380086	2020			No	6	0	0													
+9/16/2016 21:32	Brian Kanjo	bck14@duke.edu	3107218407	2020			No	6	1	0													
+9/17/2016 0:12	Joyce Yoo	joyce.yoo@duke.edu	714-318-4913	2020			NO	6	0	0													
+9/17/2016 0:13	Sara Cotsakis	sara.cotsakis@duke.edu	980-613-1971	2020			No red meat or fish	6	0	0													
+9/17/2016 12:29	Anna Power Jestin	anna.jestin@ymail.com	646 363 3046	2020			None	6	0	0													
+9/19/2016 2:41	Sahil Patel	sahil.s.patel@duke.edu	6468124115	2020			No	6	0	0													
+9/19/2016 3:29	Hannah Chen	hc199@duke.edu	3366932236	2020			no	6	0	0													
+9/19/2016 15:00	Katie-Rose Orr	kaitlin.orr@duke.edu	3368777803	2020			Low Catb	6	0	0													
+9/19/2016 15:01	Amir Perk	amir.perk@gmail.com	9172387134	2020			No	6	0	0													
+9/19/2016 19:47	Arjun Ahluwalia	Arjun.ahluwalia@duke.edu	9082555572	2020			No	6	0	0													
+9/19/2016 22:34	Sandra Luksic	sandra.luksic@duke.edu	7192055935	2020			No	6	0	0													
+9/20/2016 10:47	Xiaolan You	xiaolan.you@duke.edu	2054278221	2020			No	6	0	0													
+9/16/2016 10:29	Suzanne Ou	so86@duke.edu	3476978976	2017			no	7	1	0													
+9/16/2016 12:13	Kelsey Evezich	kse9@duke.edu	3035578179	2017			Nope!	7	1	0													
+9/19/2016 0:54	Ife Ayeni	ia35@duke.edu	4049518281	2017			N/A	7	0	0													
+9/16/2016 10:26	Kathy Dai	kzd@duke.edu	9192658920	2018			No	7	1	0													
+9/16/2016 10:30	Alina Ahmad	alina.ahmad@duke.edu	9523566204	2018			Can't eat pork	7	1	0													
+9/16/2016 10:36	Kathleen Marsh	km320@duke.edu	701-205-2872	2018			No	7	1	0													
+9/16/2016 10:37	Alvin Han	ah329@duke.edu	9258585822	2018			No	7	1	0													
+9/16/2016 11:12	Xinyu Li	xl120@duke.edu	9196676587	2018			no	7	1	0													
+9/16/2016 14:11	Tiffany Ho	th184@duke.edu	9199037822	2018			no	7	1	0													
+9/16/2016 10:32	Grant Besner	grant.besner@duke.edu	9543935116	2019			None	7	1	0													
+9/18/2016 13:51	Rachel Cohn	rmc51@duke.edu	9193608820	2019			vegetarian	7	1	0													
+9/16/2016 10:29	Anna Savelyeva	ss797@duke.edu	5129649929	2020			None	7	1	0													
+9/16/2016 10:38	Michelle Chen	michelle.y.chen@duke.edu	978-201-4220	2020			no	7	1	0													
+9/16/2016 10:41	Isaac Andersen	isaac.andersen@duke.edu	7275185996	2020			No	7	1	0													
+9/16/2016 10:45	Paulina Guerra	pg107@duke.edu	7862134677	2020			no	7	1	0													
+9/16/2016 11:01	Alexandra Paulenich	ajp61@duke.edu	415-328-7142	2020			nope	7	1	0													
+9/16/2016 11:22	Virginia Pan	vgp4@duke.edu	7035689185	2020			no	7	1	0													
+9/16/2016 11:51	Noelle Li	nl137	4439839188	2020			None	7	1	0													
+9/16/2016 12:07	Harrison Branner	harrison.branner@duke.edu	5407849244	2020			None	7	1	0													
+9/17/2016 9:31	Jennifer Huh	jai.eun.huh@duke.edu	919-344-2309	2020			no	7	1	0													
+9/17/2016 18:37	Shenyang Huang	shenyang.huang@duke.edu	9195649618	2020			No	7	1	0													
+9/16/2016 10:31	Megan Ye	My70@duke.edu	2483455227	2017			No	8	1	0													
+9/16/2016 10:31	Tanner Lockhead	tl83@duke.edu	9192196581	2017			no	8	1	0													
+9/16/2016 10:37	Jessica Wang	Jw397@duke.edu	6303382248	2017			No	8	0	0													
+9/16/2016 10:38	Kaley Thornton	met23@duke.edu	5712945170	2017			vegetarian	8	1	0													
+9/16/2016 11:22	McCall Wells	mbw26@duke.edu	8583868674	2017			gluten intolerance	8	0	0													
+9/16/2016 12:14	Allison Kam	ajk50@duke.edu	334-740-9114	2017			no	8	1	0													
+9/16/2016 12:32	Kim St. John	kds33@duke.edu	772-205-8072	2017			vegetarian! Also don't eat eggs	8	0	0													
+9/16/2016 13:42	Lindsey Zimmer	laz9@duke.edu	9102977856	2017			Vegetarian	8	0	0													
+9/16/2016 13:46	Wendy Lu	jl512@duke.edu	9198088116	2017			No	8	0	0													
+9/16/2016 13:47	Jaslyn Zhang	jz124@duke.edu	5163503039	2017			None	8	0	0													
+9/16/2016 14:35	Khloe Kim	hk145@duke.edu	9198088525	2017			No	8	0	0													
+9/16/2016 14:58	Jenna Peters	jcp36@duke.edu	303-947-9052	2017			N/A	8	0	0													
+9/19/2016 0:48	Ife Ayeni	ia35@duke.edu	404-951-8281	2017			N/A	8	0	0													
+9/16/2016 10:35	Jackson Skeen	jbs65@duke.edu	7037744743	2018			Severe tree nut allergy	8	1	0													
+9/16/2016 10:39	Natalie Moszczynski	Nem12@duke.edu	973-809-8019	2018			Nope	8	1	0													
+9/16/2016 11:01	Shreya Ahuja	sra27@duke.edu	2142138228	2018			gluten free	8	0	0													
+9/16/2016 13:11	Dev	d.d@duke.edu	12034442783	2018			Vegetarian	8	0	0													
+9/16/2016 10:34	Grant Besner	grant.besner@duke.edu	9543935116	2019			None	8	0	0													
+9/16/2016 10:37	Anna-Karin Hess	agh22@duke.edu	8622667228	2019			None	8	0	0													
+9/16/2016 10:50	Shweta Lodha	sl382@duke.edu	1-516-606-9353	2019			Vegetarian	8	0	0													
+9/16/2016 11:00	Mary Aline Fertin	Mbf19@duke.edu	9194341768	2019			no	8	0	0													
+9/16/2016 11:03	Amulya	Av134@duke.edu	9178627751	2019			No beef	8	0	0													
+9/16/2016 11:14	Jasmine Tan	Jasmine.tan@duke.edu	9196415838	2019			NA	8	0	0													
+9/16/2016 11:27	Audrey Wang	arw59@duke.edu	9198139570	2019			No	8	0	0													
+9/16/2016 11:30	Shom Tiwari	svt6@duke.edu	7049074388	2019			Vegetarian	8	1	0													
+9/16/2016 11:32	Sam Ditesheim	sgd11@duke.edu	7046508471	2019			no	8	0	0													
+9/16/2016 11:47	James Wang	cw261@duke.edu	9848889127	2019			no	8	0	0													
+9/16/2016 13:08	Shandiin Herrera	shh20@duke.edu	801-4626746	2019			no	8	0	0													
+9/16/2016 13:12	Haley Sink	haley.sink@duke.edu	336-561-1543	2019			No seafood	8	0	0													
+9/16/2016 14:14	Sanjidah Ahmed	sa250@duke.edu	316-250-8523	2019			Vegetarian	8	0	0													
+9/16/2016 19:03	Ethan Goldish	Epg8@duke.edu	3865690915	2019			Nope	8	1	0													
+9/19/2016 17:20	Elle Winfield	emw55	9197178147	2019			Vegetarian	8	0	0													
+9/16/2016 10:31	Tyler Lian	twl16@duke.edu	860-460-6715	2020			No	8	0	0													
+9/16/2016 10:33	Brittany Amano	bpa7@duke.edu	8082658927	2020			No	8	1	0													
+9/16/2016 10:35	Vicki Zhang	qz54@duke.edu	9193609270	2020			no	8	0	0													
+9/16/2016 10:38	Alethea Toh	alethea.toh@duke.edu	919-945-4639	2020			No	8	0	0													
+9/16/2016 11:34	Avivah Wang	avivah.wang@duke.edu	6145859888	2020			No	8	0	0													
+9/16/2016 11:36	Bo Carlson	bo.carlson@duke.edu	(704) 491-5888	2020			No	8	1	0													
+9/16/2016 11:48	Amy Kim	y154@duke.edu	9195648686	2020			NO	8	0	0													
+9/16/2016 12:05	Harrison Branner	harrison.branner@duke.edu	5407849244	2020			None	8	0	0													
+9/16/2016 12:09	Peyton Schafer	peyton.schafer@duke.edu	7088706468	2020			None	8	0	0													
+9/16/2016 12:34	Hannah Shepard	hannah.shepard@duke.edu	540-526-7744	2020			No	8	0	0													
+9/16/2016 13:21	Lin Zuo	lin.zuo@duke.edu	?+1 (919) 381-7672?	2020			None	8	0	0													
+9/17/2016 3:13	Ashleigh Smith	Acs89@duke.edu	3144775165	2020			Vegan	8	0	0													
+9/17/2016 8:11	Nalini Gupta	nalini.gupta@duke.edu	9199454579	2020			Vegetarian	8	0	0													
+9/18/2016 16:22	Deepti Agnihotri	da139@duke.edu	240-672-4126	2020			I am vegetarian	8	0	0													
+9/19/2016 15:14	Amy Xiong	Ruoqian.xiong@duke.edu	2018883819	2020			No	8	0	0													
+9/20/2016 10:06	Anna Savelyeva	ss797@duke.edu	5129647305	2020			No	8	0	0													
+9/24/2016 14:47	Ife Ayeni	ia35@duke.edu	404-951-8281	2017			N/A	9	1	0													
+9/24/2016 15:42	Jacob Gardner	grdnr13@gmail.com	2162832323	2017			no	9	1	0													
+9/24/2016 14:45	Chris Zhou	jz200@duke.edu	7145886471	2020			No	9	1	0													
+9/24/2016 14:45	Linda Zhang	mz104@duke.edu	9196380086	2020			No	9	1	0													
+9/24/2016 14:46	Liuyi Zhu	lz114@duke.edu	19195649615	2020			No	9	1	0													
+9/24/2016 14:46	Jason Chou	jjc60@duke.edu	2405502015	2020			none	9	1	0													
+9/24/2016 14:48	Avivah Wang	ajw70@duke.edu	6145859888	2020			No	9	1	0													
+9/24/2016 14:59	Sachit Menon	sm568@duke.edu	2146206006	2020			Vegetarian	9	1	0													
+9/24/2016 15:02	Allison Geary	Allison.geary@duke.edu	4022506795	2020			Vegetarian	9	1	0													
+9/24/2016 15:04	Russell Llave	ral30@duke.edu	6028828400	2020			none	9	1	0													
+9/24/2016 16:23	Felicia Chen	fc77@duke.edu	9192444059	2020			None	9	0	0													
+9/24/2016 16:45	Joanna Li	joanna.li@duke.edu	8584050891	2020			no	9	0	0													
+9/24/2016 17:07	Aoife McGirl	abm43@duke.edu	646-596-0201	2020			no	9	1	0													
+9/24/2016 17:28	Linden Ebeling	lve2@duke.edu	2489338931	2020			no	9	1	0													
+9/24/2016 17:48	Priya Nakkiran	pn61@duke.edu	4254428300	2020			Vegetarian	9	0	0													
+9/24/2016 18:18	Olivia Contratto	ogc5@duke.edu	2019620034	2020			no	9	1	0													
+9/24/2016 19:42	Rui Dai	rui.dai@duke.edu	2163349076	2020			N/A	9	1	0													
+9/24/2016 19:51	Jonathon Delery	Jonathon.delery@duke.edu	4792364938	2020			No	9	1	0													
+9/24/2016 21:34	Daniel Boey	db254@duke.edu	(919) 564 8485	2020			No	9	1	0													
+9/25/2016 14:20	Alex Shang	as711@duke.edu	4252479208	2020			no	9	0	0													
+9/25/2016 16:47	Junette Yu	jy202@duke.edu	9195648839	2020			no	9	0	0													
+10/1/2016 18:10	Dev Dabke	d.d@duke.edu	2034442783	2018			Vegetarian	10	1	0													
+10/2/2016 13:41	Mary Ziemba	mtz3@duke.edu	9082087598	2018			No	10	1	0													
+10/1/2016 13:21	Haeryn Kim	hk181@duke.edu	9842449320	2019			no	10	1	0													
+10/1/2016 13:21	Katya Khlystova	Eak42@duke.edu	9195935572	2019			N/a	10	1	0													
+10/1/2016 15:10	Peilin Lai	pl111@duke.edu	9198138625	2019			/	10	1	0													
+10/1/2016 13:21	Angela Zhou	angela.zhou1@duke.edu	4253656937	2020			N/A	10	1	0													
+10/1/2016 13:23	Lin Zuo	lz109@duke.edu	9193817672	2020			No	10	1	0													
+10/1/2016 13:35	Ben Nativi	bmn8@duke.edu	9198106930	2020			No	10	1	0													
+10/1/2016 13:36	Xiaolan You	xy72@duke.edu	2054278221	2020			No	10	1	0													
+10/1/2016 13:44	August Ning	August.ning@duke.edu	9195238111	2020			No	10	1	0													
+10/1/2016 13:51	Manlin Hsiao	Mh399@duke.edu	(919) 519-3496	2020			N/A	10	1	0													
+10/1/2016 13:56	Jake Wong	jake.wong@duke.edu	6788829954	2020			Nope!	10	1	0													
+10/1/2016 14:02	Ryan Bichoupan	Rb281@duke.edu	5167617124	2020			No	10	1	0													
+10/1/2016 14:09	Melanie Camejo Coffigny	mc505@duke.edu	5616336955	2020			No	10	1	0													
+10/1/2016 14:53	Linda Zhang	mz104@duke.edu	9196380086	2020			No	10	1	0													
+10/1/2016 15:12	Joanna Li	Jll77@duke.edu	8584050891	2020			No	10	1	0													
+10/1/2016 15:44	Charlton Lu	charlton.lu@duke.edu	9732942683	2020			No	10	1	0													
+10/1/2016 16:30	Valedie Oray	voo3@duke.edu	248-497-4513	2020			No	10	1	0													
+10/1/2016 17:50	Deepti Agnihotri	da139@duke.edu	240-672-4126	2020			I am vegetarian	10	1	0													
+10/2/2016 19:43	Ashwin Mahendra	amm163	9546518644	2020			No	10	1	0													
+10/1/2016 13:20	Anna-Karin Hess	Agh22@duke.edu	8622667228	2019			No	11	0	0													
+10/1/2016 13:22	Allison Geary	allison.geary@duke.edu	4022506795	2020			vegetarian	11	0	0													
+10/1/2016 13:26	Kelly Chung	mc461@duke.edu	4256230616	2019			Vegetarian	11	0	0													
+10/1/2016 13:37	Xiaolan You	xy72@duke.edu	2054278221	2020			No	11	0	0													
+10/1/2016 13:38	Yashas Manjunatha	ym101@duke.edu	2144912967	2020			Vegetarian	11	0	0													
+10/1/2016 13:55	Laura argueta	Lca15@duke.edu	6318290317	2017			No	11	0	0													
+10/1/2016 14:06	Jacob Baca	jrb99@duke.edu	908-442-4081	2019			No	11	0	0													
+10/1/2016 14:46	Sherry Feng	sf197@duke.edu	571-244-5849	2020			No	11	0	0													
+10/1/2016 15:16	Tenzin Yangkey	ty56@duke.edu	9195999483	2020			no	11	0	0													
+10/1/2016 16:06	Shenyang Huang	shenyang.huang@duke.edu	9195649618	2020			No	11	0	0													
+10/1/2016 17:09	Linden Ebeling	lve2@duke.edu	2489338931	2020			no	11	0	0													
+10/2/2016 13:00	Aditi Pilani	amp102@duke.edu	3366019033	2020			No	11	0	0													
+10/8/2016 14:29	Austin peer	Adp27@duke.edu	13138060028	2017			None	13	1	0													
+10/8/2016 14:29	Harrison Ferlauto	hrf6@duke.edu	631-704-9675	2017			No	13	1	0													
+10/8/2016 14:29	Shaq Junaid	sj150@duke.edu	5615379806	2017			No	13	1	0													
+10/8/2016 14:31	Jonathan Stern	js83@duke.edu	214-909-8386	2017			No	13	1	0													
+10/8/2016 14:32	Ge Jin	Ge.jin@duke.edu	9194918169	2017			No	13	1	0													
+10/8/2016 14:36	Jasmine Judge	Jkj12@duke.edu	6789778927	2017			No	13	1	0													
+10/8/2016 14:38	Roma Sonik	Rs285@duke.edu	7044258188	2017			I can't eat fish	13	1	0													
+10/8/2016 14:42	Henry Yan	hy83@gmail.com	9196997508	2017			none	13	1	0													
+10/8/2016 14:42	Eric Qi	eyq@duke.edu	6026264514	2017			No	13	1	0													
+10/8/2016 14:46	Diana Evans	Dle11@duke.edu	8327679299	2017			"Allergic to peanuts, chick peas, and sesame"	13	1	0													
+10/8/2016 14:50	Luis Antezana	laa31@duke.edu	7046147216	2017			None	13	1	0													
+10/8/2016 14:52	John Guarco	Jvg3@duke.edu	9177530756	2017			No grapefruit	13	1	0													
+10/8/2016 15:09	Cindy wang	Cxw2@duke.edu	8506942896	2017			No	13	1	0													
+10/8/2016 15:26	Ibanca Anand	ia40@duke.edu	7329108030	2017			no	13	1	0													
+10/8/2016 15:28	Kaley Thornton	met23@duke.edu	571-294-5170	2017			Vegetarian	13	1	0													
+10/8/2016 15:38	Tanner Lockhead	tl83@gmail.com	9192196581	2017			No	13	1	0													
+10/8/2016 15:46	Paul Cajamarca	pac29@duke.edu	7044504119	2017			Vegetarian	13	1	0													
+10/8/2016 16:15	Mengdi Jia	mandy.jia@duke.edu	9197175619	2017			no	13	1	0													
+10/8/2016 16:15	McCall Wells	mbw26@duke.edu	8583868674	2017			"Gluten Intolerance, Lactose Intolerance"	13	1	0													
+10/8/2016 16:29	Rachael Nedrow	rin@Duke.edu	9712856911	2017			N/a	13	0	0													
+10/8/2016 16:56	Ife Ayeni	ia35@duke.edu	404-951-8281	2017			n/a	13	0	0													
+10/8/2016 20:49	Laura rosas	lr83@duke.edu	9255288271	2017			No	13	0	0													
+10/9/2016 15:25	Claire Morton	crm54@duke.edu	4436101500	2017			no red meat	13	1	0													
+10/9/2016 15:53	Elaine M'Nkubitu	emm57@duke.edu	9194914744	2017			Vegeterian	13	0	0													
+10/10/2016 15:50	Bennett Hartley	bwh19@duke.edu	2487878979	2017			No	13	0	0													
+10/8/2016 14:27	Cole Wicker	Wcw13@duke.edu	9194984649	2018			No	13	1	0													
+10/8/2016 14:29	Jeffrey Wu	jeffrey.l.wu@duke.edu	2144545661	2018			No	13	1	0													
+10/8/2016 14:29	Alina Ahmad	Aaa50@duke.edu	9523566204	2018			Can't eat pork	13	1	0													
+10/8/2016 14:29	Cynthia	xw108@duke.edu	9195996988	2018			No	13	1	0													
+10/8/2016 14:30	Natalie Moszczynski	Nem12@duke.edu	9738098019	2018			Nopeeeee	13	1	0													
+10/8/2016 14:46	Newton Kwan	nk150@duke.edu	9253778886	2018			No	13	1	0													
+10/8/2016 14:57	Ziwei Zhao	zz88@duke.edu	9194485852	2018			No	13	1	0													
+10/8/2016 14:59	Kevin Mutchnick	Kjm36@duke.edu	8137270886	2018			No	13	1	0													
+10/8/2016 14:59	Brad Ackerson	Bga8@duke.edu	5035050318	2018			No	13	1	0													
+10/8/2016 15:01	Rhajaa Wright	Rw136@duke.edu	6196161864	2018			No pork	13	1	0													
+10/8/2016 15:06	Surabhi Beriwal	sb371@duke.edu	724-759-1744	2018			Vegetarian	13	0	0													
+10/8/2016 15:45	Kathy Dai	kzd@duke.edu	9192658920	2018			No	13	0	0													
+10/8/2016 16:06	Sebastian Lin	jl565@duke.edu	9198088304	2018			No	13	0	0													
+10/8/2016 17:08	Tiffany Ho	th184@duke.edu	9199037822	2018			no	13	0	0													
+10/8/2016 20:28	Brandon Yan	brandon.yan@duke.edu	4156806311	2018			No	13	0	0													
+10/9/2016 22:06	Akanksh Chaudhary	ac391@duke.edu	5088870076	2018			No Beef	13	0	0													
+10/11/2016 9:25	Wendy Lau	wcl7@duke.edu	305-301-4069	2018			None	13	0	0													
+10/8/2016 14:26	Peilin Lai	pl111@duke.edu	9198137625	2019			/	13	1	0													
+10/8/2016 14:27	Juliana Zhang	jvz2@duke.edu	2082069757	2019			No	13	1	0													
+10/8/2016 14:28	Teddy Marchildon	Tmm61@duke.edu	3036385360	2019			No	13	1	0													
+10/8/2016 14:29	Grant Besner	grant.besner	9848887460	2019			No	13	1	0													
+10/8/2016 14:30	Ethan Miller	em219@duke.edu	3038806220	2019			No	13	1	0													
+10/8/2016 14:30	Katya Khlystova	Eak42@duke.edu	9195935572	2019			No	13	1	0													
+10/8/2016 14:31	Qusai Hussain	Qsh2@duke.edu	954-482-3297	2019			No pork	13	1	0													
+10/8/2016 14:32	Rachel Sereix	res46@duke.edu	95463266070	2019			no	13	1	0													
+10/8/2016 14:32	Célia Kohler	celia.kohler@duke.edu	14088938136	2019			None	13	1	0													
+10/8/2016 14:36	Eric Reit	epr9@duke.edu	561-716-0279	2019			no	13	1	0													
+10/8/2016 14:36	Ross Winston	jrw91@duke.edu	7046663813	2019			No	13	1	0													
+10/8/2016 14:41	Aashna Aggarwal	Aa373@duke.edu	9175284355	2019			Vegetarian	13	1	0													
+10/8/2016 14:41	Shom Tiwari	Svt6@duke.edu	7049074388	2019			Vegetarian	13	1	0													
+10/8/2016 14:42	Molly Chen	mc449@duke.edu	832-282-5093	2019			Nope!	13	1	0													
+10/8/2016 14:43	Charlaine Chen	Cvc9@duke.edu	4077185688	2019			No	13	0	0													
+10/8/2016 15:04	Mahnoor Nazeer	Mn155@gmail.com	9364043730	2019			Vegetarian	13	0	0													
+10/8/2016 15:10	Francesca Martella	fgm7@duke.edu	3475220931	2019			No meat please	13	0	0													
+10/8/2016 15:20	Emre Kiziltug	ek124@duke.edu	9192654537	2019			Vegeterian	13	0	0													
+10/8/2016 15:29	Julia Wohl	jbw47@duke.edu	8187311984	2019			No	13	1	0													
+10/8/2016 15:42	Claire Wang	crw40@duke.edu	8018334632	2019			No beef	13	0	0													
+10/8/2016 16:20	Rob Palmisano	Rp161@duke.edu	443-798-4537	2019			No	13	0	0													
+10/8/2016 16:34	Sophie van Houweninge	snv5@duke.edu	(415) 636-1934	2019			nope	13	0	0													
+10/8/2016 16:53	Rohan Kothari	rohan.kothari@duke.edu	650-703-6884	2019			no	13	0	0													
+10/8/2016 17:04	Virginia Reid	vlr10@duke.edu	9802545049	2019			Vegeterian	13	1	0													
+10/8/2016 17:08	Sydney Grob	stg15@duke.edu	720-883-8552	2019			none	13	1	0													
+10/8/2016 18:14	Manav Avlani	mta13@duke.edu	9197682741	2019			No	13	0	0													
+10/8/2016 18:29	Carly Fredericks	Cnf6@duke.edu	952-220-1169	2019			Nope	13	1	0													
+10/8/2016 19:05	Alexandra Bateman	alb106@duke.edu	6187890496	2019			Gluten Free	13	0	0													
+10/8/2016 19:07	Kushal kadakia	Ktk11@duke.edu	8322442714	2019			Vegetarian	13	0	0													
+10/8/2016 19:34	Tyjair Sadler	tjs58@duke.edu	678-993-3559	2019			No	13	0	0													
+10/9/2016 2:15	Nic Wainwright	naw21@duke.edu	4242419457	2019			no	13	1	0													
+10/9/2016 2:15	Riley Hockett	ghockett7@gmail.com	4157450953	2019			No	13	1	0													
+10/9/2016 3:07	Thomas Vincent	Tav10@duke.edu	(603)531-1137	2019			No	13	1	0													
+10/9/2016 3:25	Avni Mehta	aam66@duke.edu	7328048645	2019			No red meat	13	0	0													
+10/9/2016 10:32	Thomas Rhodes	Trhodes9614@gmail.com	302-668-4912	2019			No	13	1	0													
+10/10/2016 12:13	Eudora Miao	Ruolin.miao@duke.edu	9848887432	2019			No	13	0	0													
+10/12/2016 13:23	Ben Ezroni	be41@duke.edu	5164399420	2019			None	13	0	0													
+10/8/2016 14:28	Elizabeth	eas87@duke.edu	2034611502	2020			N/A	13	1	0													
+10/8/2016 14:28	Lúcia Mees	lucia.mees@duke.edu	9195191365	2020			No	13	1	0													
+10/8/2016 14:29	Hannah Chen	Hc199@duke.edu	3366932236	2020			None	13	1	0													
+10/8/2016 14:29	Yunfan Zhang	yunfan.zhang@duke.edu	9195649552	2020			No	13	1	0													
+10/8/2016 14:29	Tommaso Babucci	tb223@duke.edu	9195648757	2020			sesame allergy	13	1	0													
+10/8/2016 14:29	Rui Dai	rui.dai@duke.edu	2163349076	2020			None	13	1	0													
+10/8/2016 14:31	Joshua jen	Joshua.jen@duke.edu	626-215-7595	2020			No	13	1	0													
+10/8/2016 14:31	DUstin Zhu	Ddz2@duke.edu	5852868404	2020			No	13	1	0													
+10/8/2016 14:32	Shanjiao Jiang	Sj214@duke.edu	8325260598	2020			No	13	0	0													
+10/8/2016 14:33	Maria Espinosa	mfe3@duke.edu	6145932822	2020			Pescatarian	13	1	0													
+10/8/2016 14:33	Bigyan Babu Regmi	bbr10@duke.edu	9193444897	2020			No	13	1	0													
+10/8/2016 14:33	Meg Shieh	ms683@duke.edu	9195193996	2020			Allergic to beef	13	1	0													
+10/8/2016 14:33	Dan lilienthal	Dl233@duke.edu	8589457164	2020			No	13	1	0													
+10/8/2016 14:35	Alex Shang	As711@duke.edu	4252479208	2020			No peanuts please	13	1	0													
+10/8/2016 14:37	Charlton Lu	Charlton.lu@duke.edu	9732942683	2020			No	13	1	0													
+10/8/2016 14:37	Sandra Kendall	sandra.kendall@duke.edu.	5713297941	2020			No	13	1	0													
+10/8/2016 14:40	Shrey Gupta	shrey.gupta@duke.edu	571 209 8638	2020			vegetarian	13	0	0													
+10/8/2016 14:40	Ketan Gupta	ketan.gupta@duke.edu	9194918118	2020			I don't eat seafood (including fish) and eggs.	13	0	0													
+10/8/2016 14:41	Jake Wong	Jake.wong@duke.edu	6788829954	2020			Nope	13	0	0													
+10/8/2016 14:42	Joel Mire	Joel.mre@duke.edu	8282087235	2020			None	13	0	0													
+10/8/2016 14:44	Jonathon Delery	jad97@duke.edu	4792364938	2020			No	13	0	0													
+10/8/2016 14:44	Aryaman Gupta	ag402@duke.edu	3174426877	2020			No beef	13	0	0													
+10/8/2016 14:46	Taylor Albus	Tma30@duke.edu	9184087986	2020			No	13	0	0													
+10/8/2016 14:49	Mukhtar Al-Nasrawi	mukhtar.al.nasrawi@duke.edu	9196272122	2020			No	13	0	0													
+10/8/2016 14:49	Azim Dharani	azim.dharani@duke.edu	214-927-4570	2020			No pork	13	0	0													
+10/8/2016 14:51	Brittany Amano	brittany.amano@duke.edu	8082658927	2020			No	13	0	0													
+10/8/2016 14:51	Noelle Li	Noelle.li@duke.edu	4439839188	2020			None	13	0	0													
+10/8/2016 14:52	Deepti Agnihotri	da139@duke.edu	240-672-4126	2020			Vegetarian	13	0	0													
+10/8/2016 14:55	Aditya Mantri	am598@duke.edu	18123906326	2020			Vegetarian + chicken and seafood	13	0	0													
+10/8/2016 14:58	Tyler Lian	twl16@duke.edu	860-460-6715	2020			No	13	0	0													
+10/8/2016 15:04	Amy Fan	Af192@duke.edu	8323730778	2020			No	13	0	0													
+10/8/2016 15:09	August Ning	August.ning@duke.edu	9195238111	2020			No	13	0	0													
+10/8/2016 15:10	Eli Weed	eli.weed@duke.edu	2066600213	2020			No	13	0	0													
+10/8/2016 15:20	Shamikh Hossain	ssh50@duke.edu	4693861378	2020			"Halal/kosher preferred, but no special needs (can eat vegetarian)"	13	0	0													
+10/8/2016 15:27	Lily el Naccash	Lke8@duke.edu	9195255560	2020			I can't eat res meat.	13	0	0													
+10/8/2016 15:29	Avivah Wang	ajw70@duke.edu	6145859888	2020			No	13	0	0													
+10/8/2016 15:30	Sujal Manohar	Sm564@duke.edu	2145350503	2020			Allergic to nuts and seafood	13	0	0													
+10/8/2016 15:31	Mitch Murphy	mjm144@duke.edu	5743359066	2020			None	13	0	0													
+10/8/2016 15:32	Beini Yin	by41@duke.edu	9195368586	2020			None	13	0	0													
+10/8/2016 15:39	Pranav	pw88	8135700633	2020			No Beef	13	0	0													
+10/8/2016 15:39	Lin Zuo	lin.zuo@duke.edu	9193817672	2020			NO	13	0	0													
+10/8/2016 15:42	Beini Wang	bw158@duke.edu	9193087780	2020			No	13	0	0													
+10/8/2016 15:46	Junette Yu	jy202@duke.edu	9195648839	2020			No	13	0	0													
+10/8/2016 15:49	Blaire Rikard	bkr13@duke.edu	8033912002	2020			no	13	0	0													
+10/8/2016 16:06	Kelby	Kelby.welsh@duke.edu	9188992549	2020			No	13	0	0													
+10/8/2016 16:15	Katherine guo	Kg162@duke.edu	2018885922	2020			None	13	0	0													
+10/8/2016 16:46	Josie Tarin	jct39@duke.edu	4792204011	2020			N/A	13	0	0													
+10/8/2016 16:47	Bryce Starr	bryce.starr@duke.edu	7729717990	2020			No	13	0	0													
+10/8/2016 16:47	Kinza Khan	kk288@duke.edu	9195970097	2020			Pescatarian	13	0	0													
+10/8/2016 17:16	Natalie	nrl13@duke.edu	6624042169	2020			no	13	0	0													
+10/8/2016 17:36	Linda Zhang	mz104@duke.edu	9196380086	2020			No	13	0	0													
+10/8/2016 17:55	Gillian Samios	gillian.samios@duke.edu	6094717364	2020			No	13	0	0													
+10/8/2016 18:11	Hal Lin	hl261@duke.edu	9194553350	2020			None	13	0	0													
+10/8/2016 18:19	Ian Handler	inh3@duke.edu	203-962-5903	2020			No	13	0	0													
+10/8/2016 18:21	Bill Wei	ww122@duke.edu	2246889165	2020			No	13	0	0													
+10/8/2016 18:58	Sam Elliott	Samuel.elliott@duke.edu	(913) 957-0265	2020			No	13	0	0													
+10/8/2016 19:04	Jason Chou	jjc60@duke.edu	2405502015	2020			No	13	0	0													
+10/8/2016 20:01	Jandé Thomas	jande.thomas@duke.edu	6148932168	2020			No	13	0	0													
+10/8/2016 20:50	Rose Farah	Rose.farah@duke.edu	646-275-7879	2020			Vegetarian	13	0	0													
+10/8/2016 22:23	Destini Clark	destini.clark@duke.edu	8565623855	2020			no	13	0	0													
+10/8/2016 22:37	Matthew O'Boyle	mo121@duke.edu	9195970335	2020			None	13	0	0													
+10/8/2016 23:13	olivia contratto	ogc5@duke.edu	2019620034	2020			no	13	0	0													
+10/9/2016 3:36	Ibrahim Butt	ibrahim-butt@outlook.com	919 564 8770	2020			Vegetarian	13	0	0													
+10/9/2016 10:14	Gabe Crowell	Gabriel.crowell@duke.edu	2103816495	2020			None	13	0	0													
+10/9/2016 14:07	Gaurav Uppal	gu7@duke.edu	9143304381	2020			No	13	0	0													
+10/9/2016 14:49	Anna Jestin	annajestin@ymail.com	646-363-3045	2020			None	13	0	0													
+10/9/2016 16:04	D'amy Steward	dns20@duke.edu	6196001200	2020			Allergic to Rosemary	13	0	0													
+10/9/2016 22:45	Ryan Huie	rch39@duke.edu	5169871828	2020			Allergic to nuts	13	0	0													
+10/9/2016 22:57	Cristina Michelle Garcia Ayala	cmg82@duke.edu	4079659590	2020			No red meat.	13	0	0													
+10/10/2016 12:09	Kristen Siegel	kes91@duke.edu	774-207-8490	2020			None	13	0	0													
+10/10/2016 15:11	Kristine Stanners	kjs59@duke.edu	9254517430	2020			No	13	0	0													
+10/11/2016 23:46	Karen Zhao	krz3@duke.edu	864-906-6248	2020			No	13	0	0													
+10/12/2016 20:05	Quinci King	quinci.king@duke.edu	2536516249	2020			Allergy to peanuts	13	0	0													
+10/12/2016 20:44	Anna Jestin	apj9@duke.edu	646-363-3046	2020			vegetarian	13	0	0													
+10/15/2016 12:30	Sunny Zhang	scz4@duke.edu	9545479780	2017	"Environmental Science, Public policy"		n/a	14	1	0													
+10/15/2016 12:35	Catalina Villegas	cv53@duke.edu	(305) 298-7778	2017	"Public Policy, Global Health"		No	14	1	0													
+10/15/2016 15:19	Ife Ayeni	ia35@duke.edu	404-951-8281	2017	Biology		N/A	14	1	0													
+10/15/2016 12:22	Kathy Dai	kzd@duke.edu	9192658920	2018	Neuroscience		No	14	1	0													
+10/15/2016 12:34	Sebatian Lin	jl565@duke.edu	9198088304	2018	Math		No	14	1	0													
+10/15/2016 14:39	Kameron Schroeder	Kameron.schroeder@duke.edu	9165080116	2018	Environmental Science and Policy		Pescaterian	14	1	0													
+10/15/2016 14:53	Natasha Derezinski-Choo	njd21@duke.edu	3362552291	2018	Linguistics and Neuroscience		none	14	1	0													
+10/15/2016 16:18	Jackie Lin	jjl39@duke.edu	9197683905	2018	Biology / Economics		N/A	14	1	0													
+10/15/2016 12:18	Haeryn Kim	hk181@duke.edu	9842449320	2019	BME		No	14	1	0													
+10/15/2016 12:32	Luke Farrell	lmf36@duke.edu	6318352375	2019	Neuroscience & Computer Science		No	14	1	0													
+10/15/2016 12:47	Eudora Miao	Ruolin.miao@duke.edu	9848887432	2019	Biology		No	14	1	0													
+10/15/2016 13:22	Kaijie	kc267@duke.edu	9195996197	2019	Mechanical Engineering		No	14	0	0													
+10/15/2016 14:41	adair jones	laj24@duke.edu	2525048884	2019	Art History + Visual Studies		pescatarian	14	0	0													
+10/15/2016 20:44	Thomas Vincent	tav10@duke.edu	6035311137	2019	Biomedical engineering		No	14	0	0													
+10/15/2016 20:47	Mitchell Abrams	mza2@duke.edu	8455966009	2019	BME		"Kosher (Can do vegetarian, or fish, except shellfish/catfish)"	14	0	0													
+10/17/2016 10:58	Yemi Kolawole	ok20@duke.edu	4014875327	2019	Biophysics		No	14	0	0													
+10/15/2016 12:18	Anna Savelyeva	ss797@duke.edu	5129647305	2020	Biology		None	14	1	0													
+10/15/2016 12:28	Akanksha Ray	Ar399@duke.edu	918-935-4044	2020	Public Policy		No red meat	14	1	0													
+10/15/2016 12:28	Sachit Menon	sm568@duke.edu	2146206006	2020	Undecided		Vegetarian	14	1	0													
+10/15/2016 12:33	Jie Cai	Jc561@duke.edu	(919)491-3569	2020	Statistics		N/A	14	1	0													
+10/15/2016 12:38	Matthew Harris	matthew.harris1@duke.edu	540-580-8095	2020	ECE/Comp Sci		N/A	14	1	0													
+10/15/2016 13:09	Ryan Hill	rdh35@duke.edu	(919) 864-1977	2020	Computer Science (maybe)		No	14	1	0													
+10/15/2016 13:27	Lily el Naccash	lke8@duke.edu	9195255560	2020	Undecided		I can't eat red meat	14	0	0													
+10/15/2016 14:41	Nick Berray	njb24@duke.edu	7039990607	2020	Neuroscience/music		No	14	0	0													
+10/15/2016 14:49	Hal Lin	hl261@duke.edu	919-455-3350	2020	"Electrical/Computer Engineering, Economics"		None	14	1	0													
+10/15/2016 15:11	Sherry Feng	sherry.feng@duke.edu	571-244-5849	2020	Environmental Engineering/Econ		No	14	0	0													
+10/15/2016 15:25	Sandy Kendall	sandra.kendall@duke.edu	571-329-7941	2020	Biomedical Engineering		No	14	0	0													
+10/15/2016 15:36	Linden Ebeling	lve2@duke.edu	2489338931	2020	Biomedical Engineering		No	14	0	0													
+10/15/2016 17:16	Robyn kwok	Robyn.kwok@duke.edu	9199454672	2020	Computer science		No	14	0	0													
+10/15/2016 17:48	Melody Jiang	yj90@duke.edu	9195648846	2020	Prospective neuroscience major		No	14	0	0													
+10/17/2016 1:23	Gaurav Uppal	gu7@duke.edu	9143304381	2020	Mechanical engineering		No	14	0	0													
+10/17/2016 14:48	Trenton Bricken	trenton.bricken@duke.edu	7044977554	2020	Computer Science and Neuroscience		no	14	0	0													
+10/17/2016 23:22	Raahina Malik	ram98@duke.edu	6625388525	2020	Biology with a concentration in Genetics or Neuroscience		"No pork, sausage, or pepperoni"	14	0	0													
+10/23/2016 15:32	Shelley Wu	sw237@duke.edu	4089300899	2017	Public Policy		No	15	0	0													
+10/23/2016 15:42	Walid Salah	ws101@duke.edu	6466304344	2017	Political Science		No	15	1	0													
+10/23/2016 16:06	Joseph Levy	JHL39@duke.edu	6786401224	2017	Psychology and Global Health		No	15	0	0													
+10/23/2016 16:33	Mengdi Jia	mandy.jia@duke.edu	9197175619	2017	Management		No	15	0	0													
+10/24/2016 11:29	Laura argueta	Lca15@duke.edu	6318290317	2017	ICS		No	15	0	0													
+10/23/2016 15:28	Alina Ahmad	aaa50@duke.edu	9523566204	2018	Biology		I can't eat pork	15	1	0													
+10/23/2016 15:36	Sean gilbert	Smg41@duke.edu	2402718022	2018	Econ		No	15	1	0													
+10/23/2016 15:40	Hannah Wang	hw136@duke.edu	7046491535	2018	Political Science		No	15	1	0													
+10/23/2016 15:31	Chenyang Wang	cw261@duke.edu	9848889127	2019	stats		no	15	0	0													
+10/23/2016 15:32	Jacob Baca	jrb99@duke.edu	908-442-4081	2019	Economics and Computer Science		No	15	1	0													
+10/23/2016 15:33	Will Tong	wt49@duke.edu	9195997329	2019	Polisci/philosophy		No	15	1	0													
+10/23/2016 16:36	Sally Wang	dw189@duke.edu	9842449683	2019	Public Policy & Biology		None	15	0	0													
+10/23/2016 18:00	Ian Burgess	ian.burgess@duke.edu	5713796004	2019	Political Science		None	15	0	0													
+10/23/2016 20:54	George Elliott	george.elliott@duke.edu	650-924-7173	2019	Political Science		Vegetarian	15	1	0													
+10/23/2016 15:31	Ibrahim Butt	ibrahim-butt@outlook.com	9195648770	2020	Public Policy		Vegetarian	15	1	0													
+10/23/2016 15:32	Juan Bermudez	jdb94@duke.edu	9783400250	2020	Computer Science		No	15	1	0													
+10/23/2016 15:34	Richard Huang	rlh45@duke.edu	9784942725	2020	Neuroscience		No	15	0	0													
+10/23/2016 15:38	Marisa Aleguas	marisa.aleguas@duke.edu	9545159375	2020	Political Science		Vegetarian	15	1	0													
+10/23/2016 15:45	Isabel Ivanescu	lilian.ivanescu@duke.edu	(313) 727-4472	2020	Poli. Sci. & Physics		No	15	1	0													
+10/23/2016 15:53	Linda Zhang	mz104@duke.edu	9196380086	2020	Undecided		No	15	1	0													
+10/23/2016 15:56	Divya Juneja	dj115@duke.edu	9199178565	2020	Public Policy and Economics		n/a	15	0	0													
+10/23/2016 16:09	Avivah Wang	ajw70@duke.edu	6145859888	2020	Economics		No	15	0	0													
+10/23/2016 16:39	Jennifer Han	jennifer.han@duke.edu	7247624874	2020	Undecided		None	15	0	0													
+10/23/2016 17:10	Yashas Manjunatha	ym101@duke.edu	2144912967	2020	Computer Science/Mathematics		Vegetarian	15	0	0													
+10/23/2016 17:51	Yutao Gong	yg96@duke.edu	214-679-6428	2020	Environmental science + Stats/Econ		No	15	0	0													
+10/23/2016 23:21	Bassim Eledath	bassim.eledath@duke.edu	9193606903	2020	Behavioral Econ		no	15	0	0													
+10/24/2016 16:57	Jie Cai	jc561@duke.edu	9194913569	2020	Statistics		NA	15	0	0													
+10/23/2016 15:34	Sophia Jamal	sj154@duke.edu	9196994952	2017	Public Policy		No pork	16	0	0													
+10/23/2016 21:49	Lauren Hagedorn	Lph10@duke.edu	3106477767	2017	"Psychology, Environmental Science, Documentary Studies"		Gluten-intolerant	16	1	0													
+10/24/2016 19:04	Jacob Gardner	jeg55@duke.edu	216-283-2323	2017	Neuroscience/philosophy		no	16	1	0													
+10/31/2016 11:04	Allison Kam	ajk50@duke.edu	3347409114	2017	Neuroscience		no; where is the dinner taking place? I can drive	16	0	0													
+10/23/2016 15:38	Celia Kohler	celia.kohler@duke.edu	14088938136	2019	Psychology		No	16	1	0													
+10/23/2016 15:40	Maxine Ow	so95@duke.edu	9193085832	2019	Economics		No	16	1	0													
+10/24/2016 0:12	Serene Cheng	sc441@duke.edu	9848889033	2019	Biology/VMS		No	16	1	0													
+10/23/2016 15:31	Jonathon Delery	jad97@duke.edu	4792364938	2020	undecided		No	16	1	0													
+10/23/2016 15:34	Jake Wong	Jake.wong@duke.edu	6788829954	2020	Undecided! Maybe Global Health and Chemistry!		Nope	16	1	0													
+10/23/2016 16:02	August Ning	august.ning@duke.edu	9195238111	2020	ECE		No	16	1	0													
+10/23/2016 16:20	Maya Iskandarani	Mii4@duke.edu	3052993203	2020	Undeclared (bio/EOS)		No tomato sauce or chocolate	16	1	0													
+10/23/2016 16:34	Ryan Huie	rch39@duke.edu	5169871828	2020	Economics and Psychology		Allergic to Nuts	16	1	0													
+10/23/2016 17:52	Yutao Gong	yg96@duke.edu	214-679-6428	2020	Environmental science + Stats/Econ		No	16	1	0													
+10/23/2016 18:22	Sherry Feng	sherry.feng@duke.edu	5712445849	2020	ECE/Econ		No	16	1	0													
+10/23/2016 18:25	Nick Berray	Njb24@duke.edu	7039990607	2020	Neuro and music		No	16	0	0													
+10/23/2016 20:52	Virginia Pan	vgp4@duke.edu	7035689185	2020	Environmental Engineering		nope	16	1	0													
+10/23/2016 22:28	Ahmed Almansoori	aea33@duke.edu	5718886960	2020	Economics		None	16	1	0													
+10/23/2016 23:08	Natalie Bui	tb224@duke.edu	9195648452	2020	Undecided		No	16	1	0													
+10/24/2016 0:17	Gabriel Crowell	gabriel.crowell@duk.edu	210-381-6495	2020	Biology and CS		None	16	1	0													
+10/24/2016 8:45	Tatiana Riordan	tatiana.riordan@duke.edu	8087296364	2020	History		No	16	0	0													
+10/24/2016 16:58	Jie Cai	jc561@duke.edu	9194913569	2020	Statistics		N/A	16	0	0													
+10/23/2016 15:28	Joyce Er	he22@duke.edu	9195196475	2020	Undecided		Vegetarian	17	0	0													
+10/23/2016 15:31	James Wang	cw261@duke.edu	9848889127	2019	sta		no	17	0	0													
+10/23/2016 15:35	Nina Chen	sc422@duke.edu	9848887422	2019	"Public Policy, Documentary Studies, and Museum Practices (possibly)"		no	17	0	0													
+10/23/2016 15:56	Elaine MNkubitu	emm57@duke.edu	9194914744	2017	Computer science		Vegeterian	17	0	0													
+10/23/2016 16:05	Joseph Levy	JHL39@duke.edu	6786401224	2017	Psychology and Global Health		No	17	0	0													
+10/23/2016 16:28	Julia Song	julias4941@yahoo.com	3033968667	2019	Economics		No	17	0	0													
+10/23/2016 17:53	Yutao Gong	yg96@duke.edu	214-679-6428	2020	Environmental science + Stats/Econ		No	17	0	0													
+10/24/2016 10:15	Jennifer Zhou	jrz10@duke.edu	8016439230	2018	CS		Vegetarian	17	0	0													
+10/24/2016 10:16	Hunter Stark	hunter.stark@duke.edu	4198894396	2018	VMS		Vegetarian	17	0	0													
+10/24/2016 13:01	Katherine guo	Kg162@duke.edu	2018885022	2020	Stats econ		No	17	0	0													
+10/26/2016 23:30	Janie Booth	jlb142@duke.edu	9802281771	2019	Art History		N/A	17	0	0													
+30/10/2016 16:04:30	Eric Qi	eyq@duke.edu	6026264514	2017	Economics/philosophy	do you think managers should invest in unethical companies to generate higher returns?	No	18	1	0													
+30/10/2016 16:16:56	Jacob Gardner	jeg55@duke.edu	216-283-2323	2017	Neuroscience/philosophy	Should trash collectors be paid more than bankers?	no	18	1	0													
+30/10/2016 16:44:53	Diana Evans	Dle11@duke.edu	8327679299	2017	Economics	The Presidential candidates have discussed bringing Glass-Steagal back. What are the pros and cons?	"Allergic to peanuts, chick peas, -and sesame"	18	1	0													
+30/10/2016 16:51:27	Eileen Cheng	ec159@duke.edu	6788625586	2017	Economics	Do you think mentorship has impacted your experience at GS?	No kiwi or pineapple	18	1	0													
+30/10/2016 16:51:58	Daniel Hull	dah41@duke.edu	214-728-1280	2017	BME and Finance	By what ethical standards should financial institutions be held by regulations?	Nope	18	1	0													
+30/10/2016 20:59:07	Vivian Zhang	vxz@duke.edu	(303)-728-4536	2017	Public Policy	Do you think companies’ efforts to cut costs have affected their adherence to compliance rules?	No	18	1	0													
+30/10/2016 15:58:30	Ziqi Deng	zd14@duke.edu	9198086370	2018	Pubpol	How do you reconcile financial market with liberal ideology.	no	18	1	0													
+30/10/2016 15:59:36	Yifan Song	ys142@duke.edu	4055893148	2018	Economics	None	No	18	1	0													
+30/10/2016 16:02:30	Lucila Bloemendaal	Ljh22@duke.edu	7135155972	2018	Earth and ocean sciences	-	No	18	1	0													
+30/10/2016 16:04:37	Andrew Zhang	Yz221@duke.edu	7862730677	2018	Economics	-	-	18	1	0													
+30/10/2016 16:21:38	Tim Overeem	tim.overeem@duke.edu	9193817998	2018	"Economics, Mathematics"	"To whom does the term ""financial ethics"" apply, and who in particular needs to be more ""ethical""?"	No	18	1	0													
+30/10/2016 17:03:26	Michael Dessau	mld37@duke.edu	3034896774	2018	Economics	Have compliance divisions been an effective tool in mitigating illegal actions?	celiac - allergic to gluten	18	1	0													
+30/10/2016 17:33:39	Divya Dhulipala	dd135@duke.edu	4072578740	2018	Economics	"What do you see as the future of the finance industry, given potential technological advancements?"	Vegetarian	18	1	0													
+30/10/2016 18:04:06	Ipek Kavasoglu	ipek.kavasoglu@duke.edu	9293718105	2018	Economics	I do not have any specific questions	No	18	0	0													
+30/10/2016 18:05:48	Ipek Kavasoglu	ipek.kavasoglu@duke.edu	9293718105	2018	Economics	I do not have any specific questions	No	18	0	0													
+31/10/2016 20:19:30	Peter Koch	peter.koch@duke.edu	917-434-4342	2018	Econ	How do wealth managers balance their fiduciary duty with their need to make money for their firm?	Allergic to soy	18	0	0													
+30/10/2016 15:59:19	Christopher Ong	co74@duke.edu	6506957737	2019	Economics	Should we break up the big banks?	NONE	18	1	0													
+30/10/2016 16:12:18	Adaiya Granberry	Ag370@duke.edu	2539056580	2019	Public Policy	How has your perception of people in the financial industry changed since entering yourself?	No	18	1	0													
+30/10/2016 16:21:23	Arthur Wu	aw258@duke.edu	9848887018	2019	Statistics	What are your thoughts on the effects of high frequency trading to market quality and integrity?	No	18	0	0													
+30/10/2016 16:32:53	Alan Khaykin	ak374@duke.edu	516-439-7065	2019	Computer Science and Statistics; minor in math	Where do you see the financial services industry 5 - 10 years from now?	N/A	18	0	0													
+30/10/2016 16:53:59	Ekim Buyuk	eb237@duke.edu	9142073278	2019	Economics; Statistics	What are your thoughts on where the S&P 500 Index will be 6 months from now?	No	18	1	0													
+30/10/2016 17:16:40	Ben Ezroni	be41@duke.edu	5164399420	2019	Public Policy	How do we balance ethics and regulation to protect financial markets?	no	18	0	0													
+30/10/2016 17:46:44	Shengjie Yao	yao.shengjie@duke.edu	9196275621	2019	Economics and Psychology	What are the main challenges for students who want to go into the field of finance?	No	18	0	0													
+30/10/2016 22:51:17	Ashka Stephen	aas74@duke.edu	3526033366	2019	Economics and CS	Experience in the field and what she wishes she could change	Vegetarian	18	0	0													
+7/11/2016 20:03	Sheridan Wilbur	sheridan.wilbur@duke.edu	4013018521	2019	"Polisci major, environmental science and policy minor, ethics certificate"	How did you grapple with your personal ethical quandaries while climbing the corporate ladder?	tree nut allergy	18	0	0													
+30/10/2016 16:02:34	Michael Tan	mt273@duke.edu	5103647549	2020	Economics	How did investment banks react to the 2008 crisis?	No	18	1	0													
+30/10/2016 16:04:34	Beini Wang	bw158@duke.edu	9193087780	2020	Economics/Public Policy	What are the possible solutions to the ethical dilemmas we face in financial market	No	18	1	0													
+30/10/2016 16:06:43	Ava Xu	xx46@duke.edu	518-577-9369	2020	Undecided (possibly econ)	What is the nature of the financial market regulation?	None	18	1	0													
+30/10/2016 16:19:42	Ryan Huie	rch39@duke.edu	5169871828	2020	Economics with finance concentration and minor in psychology	How much did ethics play into major decisions you made at Goldman?	allergic to nuts	18	0	0													
+30/10/2016 16:21:37	Julia Weidman	jw488@duke.edu	520-901-0557	2020	Econ	What are the different internships and job opportunities available to undergrad Econ majors?	No	18	0	0													
+30/10/2016 16:42:17	Andie Carroll	Atc31@duke.edu	7039652029	2020	Economics	Do you think the increased compliance scrutiny and regulation has been effective?	Vegetarian	18	0	0													
+30/10/2016 16:59:01	Mannat Bakshi	mannat.bakshi@duke.edu	9195648598	2020	Economics	What can be done to promote equal representation of men and women in finance?	No	18	0	0													
+30/10/2016 17:05:02	Anna Jestin	apj9@duke.edu	646-363-3046	2020	Undecided	How important is ethics in finance and economy.	Vegetarian	18	0	0													
+30/10/2016 17:07:45	Alex Yu	acy12@duke.edu	970-817-1088	2020	Economics	What are some of the financial resources the DFE offers to freshman?	Tree nut allergy	18	0	0													
+30/10/2016 17:09:02	Esther Wang	ww116@duke.edu	4846338930	2020	Statistics/History with a minor in Finance	What was the biggest ethical challenge you encountered as a financial professional?	N/A	18	1	0													
+30/10/2016 17:12:58	Peter Sun	zs54@duke.edu	9195199162	2020	stats and philosophy	Who has the right to determine what is ethical in finance?	no	18	0	0													
+30/10/2016 17:22:15	Michael Zhang	michaelzhang6284@gmail.com	9195648747	2020	Engineering	What ethical issues did you face while working for Goldman in London?	No	18	0	0													
+30/10/2016 17:24:34	Kevin Cheng	qc25@duke.edu	5718880167	2020	Computer Science/Psychology	What's attractive about finance other than the high return?	No	18	0	0													
+30/10/2016 17:33:27	Pansy Tseng	pansy.tseng@duke.edu	919-396-9675	2020	Economics	How do you find an equilibrium between ethical choices and profit maximization?	No	18	0	0													
+30/10/2016 17:36:37	Shannon Golden	shannon.golden@duke.edu	2034512611	2020	Economics	"What do you wish you knew about networking, internships, or investment banking at our age?"	No	18	0	0													
+30/10/2016 18:09:36	Shaurya Aggarwal	Sa277@duke.edu	4259740279	2020	Economics	Is there one specific quality someone should have in order to succeed in a career in finance?	No	18	0	0													
+30/10/2016 20:33:50	Brian	Njoroge	9195999162	2020	Economics	What is the most common misconception with students who have an interest in finance?	No	18	0	0													
+31/10/2016 00:12:20	Harrison Schulz	harrison.schulz@duke.edu	3195384793	2020	Economics/Computer Science	What is bond trading's actual contribution to the betterment of humanity?	No	18	0	0													
+31/10/2016 10:24:56	Shannon Golden	shannon.golden@duke.edu	2034512611	2020	Economics	"What do you wish you knew about networking, internships, or investment banking at our age?"	No	18	0	0													
+31/10/2016 16:44:31	Felicia Chen	fc77@duke.edu	9192444059	2020	Computer Science/Mathematics	How do you see the role of AI affecting finance/investment banking?	No	18	0	0													
+30/10/2016 15:59:10	Katrina Zhu	kz37@duke.edu	9258722450	2018	Computer science	Does learning computer science make you a better/more useful/more interesting person?	No	19	1	0													
+30/10/2016 16:00:13	Justin Sherman	js684@duke.edu	973-727-0043	2020	Computer Science / Public Policy	Is better CS literacy achieved through conceptual or basic technical education?	No	19	1	0													
+30/10/2016 16:02:21	Wandi Che	wandi.che@duke.edu	9199084086	2020	Undecided	No	No	19	1	0													
+30/10/2016 16:06:09	Lucia Martos	Lm260@duke.edu	9198088740	2018	ECE & Computer science	how can educational systems change to encourage reading and learning for fun?	No	19	1	0													
+30/10/2016 16:06:44	Liuyi Zhu	lz114@duke.edu	19195649615	2020	Math + Computer Science	Would some parts in coding combine reading for fun and lead to better understanding of ourselves?	No	19	1	0													
+30/10/2016 16:08:30	Richard Ruiz	rhr7@duke.edu	2014912737	2019	ECE	How did the knowledge of CS help you in Google vs. Oracle lawsuit?	N/A	19	1	0													
+30/10/2016 16:11:57	Charlaine Chen	Cvc9@duke.edu	4077185688	2019	Biology	What do you feel is your biggest achievement	No	19	1	0													
+30/10/2016 16:12:33	Shrey Gupta	sg355@duke.edu	571 209 8638	2020	Computer Science	Why he does what he does.	vegetarian	19	1	0													
+30/10/2016 16:12:42	Michael Wang	mw313@duke.edu	6306059195	2019	ECE/CS	"Where is the future of programming, or is its evolution plateauing?"	no	19	1	0													
+30/10/2016 16:15:21	Cheryl Wang	xw104@duke.edu	984 377 9551	2020	Mathematics & Computer Science	"Does reading for fun give new inspiration for understanding of knowledge, or specifically coding?"	No	19	1	0													
+30/10/2016 16:22:09	Alexander Zapata	az73@duke.edu	7866260946	2019	Electrical Engineering and Computer Science	About his work in CS outside of academics	No	19	1	0													
+30/10/2016 16:27:53	Eudora Miao	Ruolin.miao@duke.edu	9848887432	2019	Biology	Should our mode and purpose of reading change in an age of information explosion?	Nope	19	1	0													
+30/10/2016 16:34:17	Harshvardhan Sanghi	hs178@duke.edu	6303409637	2020	Mechanical engineering	Shouldn't you learn what is fun ? Why is there a necessary distinction between learning and fun	I don't eat red meat.	19	1	0													
+30/10/2016 16:39:57	Juan Bermudez	jdb94@duke.edu	9783400250	2020	Computer Science	"Are you familiar with the work of Neal Postman; if so, what are your thoughts on it?"	No	19	1	0													
+30/10/2016 16:43:40	Neil Dhar	nd98@duke.edu	9195648585	2020	Electrical and Computer Engineering	In what ways could introductory CS classes be made directly applicable to people's daily lives?	No beef	19	1	0													
+30/10/2016 16:58:36	Sebastian Lin	jl565@duke.edu	9198088304	2018	Math & Stats	How to find passion in codinf	No	19	1	0													
+30/10/2016 17:18:09	Lily el Naccash	Lke8@duke.edu	9195255560	2020	Undecided	What can be done to encourage more of the general public to read for pleasure?	I can't eat red meat	19	1	0													
+30/10/2016 17:19:12	Peter Sun	zs54@duke.edu	9195199162	2020	stats and philosophy	Is there anywhere reading for fun and coding intersect and how?	no	19	1	0													
+30/10/2016 17:28:53	Kevin Cheng	qc25@duke.edu	5718880167	2020	CS/Psych	What's the connection between reading and coding?	No	19	1	0													
+30/10/2016 17:42:14	Daniel Rubinstein	dr148@duke.edu	914-656-6570	2019	Computer Science	How do you keep underrepresented groups in CS after introductory classes?	no	19	1	0													
+30/10/2016 20:24:22	Matheus Dias	matheus.dias@duke.edu	9848887460	2019	Mathematics/Philosophy	How eraly should one start learning cs?	no	19	1	0													
+30/10/2016 21:24:03	Kirielle Singarajah	ks420@duke.edu	6023178221	2020	Computer Science	Would you rather give up books or computer science?	None	19	1	0													
+30/10/2016 22:06:03	Daniel Boey	db254@duke.edu	9195648485	2020	Env. Engineering!	How can computing become an ethical dilemma?	No!	19	0	0													
+30/10/2016 22:07:05	Daniel Boey	db254@duke.edu	919-564-8485	2020	Env. Engineering!	How can computing become an ethical dilemma?	No	19	0	0													
+30/10/2016 23:09:12	Trenton Bricken	tbb21@duke.edu	7044977554	2020	Computer Science/Neuroscience	"What is something you believe to be true, that almost nobody else in the world agrees with you on?"	No	19	0	0													
+13/11/2016 16:53:48	Sarah Zhou	sz107@duke.edu	4256529129	2019	Computer Science	In what ways do you see Literature and Computer Science intersecting?	No	19	0	0													
+10/30/2016 16:20	Jacob Gardner	jeg55@duke.edu	216-283-2323	2017	neuroscience/philosophy	How does modern neuroscience affect our idea of moral culpability?	nope	20	1	0													
+10/30/2016 16:48	Diana Evans	Dle11@duke.edu	8327679299	2017	Economics	What is the future of mental health from a biological perspective?	"Allergic to peanuts, chick peas, and sesame"	20	1	0													
+10/30/2016 19:38	Paul Cajamarca	pac29@duke.edu	704 450 4119	2017	Economics	"With regard to bioethics, what is an instance where government's interest in social welfare rightfully overpowers individual freedom or privacy?"	Vegetarian	20	1	0													
+10/30/2016 20:22	Jenna Peters	jcp36@gmail.com	303-947-9052	2017	Neuroscience	What ethical restrictions do we need to consider for embryo selection/is it ethical to select for a more intelligent child?	N/A	20	1	0													
+10/30/2016 20:41	Zachary Gorwitz	zsg2@duke.edu	954-849-7305	2017	Public Policy	"How should we coordinate law internationally around questions of bioethics, specifically relating to genetic alteration?"	no	20	0	0													
+10/30/2016 16:08	Gary Wang	gxw@duke.edu	4252055410	2019	Neuroscience and Public Policy	What impacts do you see emerging technologies in the biosciences having on individuality and autonomy?	No	20	1	0													
+10/30/2016 16:59	Delia Li	dl202@duke.edu	610-291-3908	2019	Computer Science and ICS	To what extent do the benefits of emerging technologies in genetics and neuroscience outweigh the purported risks?	No	20	1	0													
+10/30/2016 20:22	Matheus Dias	matheus.dias@duke.edu	9848887460	2019	Mathematics/Philosophy	What is free will?	no	20	0	0													
+10/30/2016 16:10	Ruoqian Xiong	rx16@duke.edu	2018883819	2020	ECE/Econ	What do you mean by the Ex Vivo Brain?	No	20	1	0													
+10/30/2016 16:29	Valedie Oray	voo3@duke.edu	2484974513	2020	Biology/Public Policy	"Do you believe that high-risk experimental surgeries, like head transplants, should be studied through clinical trials, or whether it would do more harm than good?"	No	20	1	0													
+10/30/2016 16:46	Jonathon Delery	Jonathon.delery@duke.edu	4792364938	2020	Undecided	"In the realm of bioethics, what experiences and ideas led you to explore this particular issue of the fourth amendment in terms of technology?"	No	20	1	0													
+10/30/2016 18:00	Ziwei Zhang	zz112@duke.edu	9193586529	2020	Neuroscience and Psychology	"What is the relationship between brain, behavior and social change?"	No	20	1	0													
+10/30/2016 18:10	Raahina Malik	ram98@duke.edu	6625388525	2020	Neuroscience or Biology	"How did you find the integration of neuroscience, genetics, and law in your professional endeavors important to shaping science and bioethical policy, especially in current times?"	"No pork, ham, pepperoni, or sausage"	20	1	0													
+10/30/2016 19:06	Yutao Gong	yg96@duke.edu	214-679-6428	2020	"Environmental Science, Statistical Science, Global Health"	"When weighing between science development and ethical problems, is there a finite answer?"	No.	20	1	0													
+10/30/2016 23:10	Trenton Bricken	tbb21@duke.edu	7044977554	2020	Computer Science/Neuroscience	How long do we have to wait before WBE (Whole Brain Emulation)?	No	20	1	0													
+10/30/2016 23:32	Jennifer Han	jennifer.han@duke.edu	7247624874	2020	Undecided	What do you do in the Presidential Commission?	None	20	1	0													
+10/31/2016 10:02	Veronica Yuziuk	vny2@duke.edu	9195767169	2020	Behavioral Economics	Are designer babies ethical?	no	20	1	0													
+10/31/2016 14:47	Maya Iskandarani	Mii4@duke.edu	3052993203	2020	Possibly bio	What is the ethical boundary for gene engineering/gene editing in humans?	No tomato sauce or chocolate	20	1	0													
+10/31/2016 23:44	Claire Fu	claire.fu@duke.edu	925 963 1489	2020	Biomedical Engineering	What is the greatest ethical issue that we face today with current and emerging technologies?	No	20	0	0													
+10/30/2016 17:17	Peter Sun	zs54@duke.edu	9195199162	2020	stats and philosophy	"What is the identity of the person after a transplant: same as before, the owner of the head or a brand new person?"	no	20	0	0													
+11/6/2016 21:30	Agoston Walter	agoston.walter@duke.edu	7575534281	2020	Bio and Global Health	"I'm not quite sure yet, I'd like to see the presentation first."	No	23	0	0													
+11/6/2016 22:25	Lily el Naccash	Lke8@duke.edu	9195255560	2020	Undecided	Whan changes do you think can be made in the media to help get people more engaged and aware of the facts of what is going on in politics?	I can't eat red meat.	23	0	0													
+11/7/2016 11:50	Prathibha Juturu	pj46@duke.edu	4694221567	2017	Environmental Engineering	What kind of problems do you think about when dealing with contaminant transport?	Vegetarian	23	0	0													
+11/7/2016 11:50	Daniel Herron	dih6@duke.edu	4058379744	2017	Civil and Environmental Engineering	How much do environmental issues affect your political decisions?	No	23	0	0													
+11/7/2016 11:52	Rekha Korlipara	rsk17@duke.edu	6319650184	2017	"Civil Engineering, Economics"	What do you think the most important issue in this election is?	No	23	0	0													
+11/7/2016 16:34	Daniel Boey	Db254@duke.edu	9195648485	2020	Env Engineering	How can we engineer human-centric solutions rather than techno-centric solutions?	No	23	0	0													
+11/7/2016 17:31	Tiffany Wei	tiffany.wei@duke.edu	(919) 297-8799	2020	Environmental Engineering	Why did you choose to study subsurface hydrology in particular?	Vegetarian	23	0	0													
+11/13/2016 15:43	Shaq Junaid	sj150@duke.edu	5615379806	2017	Biology	"Who gets to define what is ""American"" and what is ""un-American?"""	No	24	0	0													
+11/13/2016 15:44	Wandi Che	wc121@duke.edu	9199084086	2020	Women's studies	I truly admire Doctor Sarah Deutsch! I would love to discuss more about post-colonialism with her.	No	24	1	0													
+11/13/2016 16:06	Cecilia Wu	yw198@duke.edu	9194914768	2020	Political Science & History	How strong do you think the role of American civic identity still plays in today's society?	No	24	1	0													
+11/13/2016 16:18	Paul Cajamarca	pac29@duke.edu	704-450-4119	2017	Economics	"As Hispanic Americans become less immigrant-focused, how will their political allegiances change?"	Vegetarian	24	1	0													
+11/13/2016 16:21	Peter Sun	zs54@duke.edu	9195199162	2020	Stats	"Who gets to define being ""American""?"	N	24	1	0													
+11/13/2016 15:46	Joyce Er	he22@duke.edu	9195196465	2020	Undecided (potentially Program II)	How do you think the election will impact women public policy majors seeking to enter government?	Vegetarian	24	0	0													
+11/13/2016 15:47	Wandi Che	wc121@duke.edu	9199084086	2020	Women's studies	I'm very interested in the topic!	No	24	0	0													
+11/13/2016 15:47	Megan Ye	my70@duke.edu	2483455227	2017	Economics and Public Policy	What advice would you give to younger women starting their careers?	No	24	0	0													
+11/13/2016 15:48	Jie Cai	Jc562@duke.edu	9194913569	2020	Statistics & Public Policy	How has the expierence of being a woman's Duke changed over the last decades?	N/A	24	0	0													
+11/13/2016 15:55	Elizabeth Finny	ekf6@duke.edu	7862578059	2019	Visual Media Studies	How do you think Half The Sky impacts women in America?	No	24	0	0													
+11/13/2016 16:05	Kasey wien	Kiw2@duke.edu	5162423111	2017	"Public policy, statistics minor"	"Re the election, what advice do u have for female student interested in public service or statistics"	No red meat	24	0	0													
+11/13/2016 16:15	Lin Zuo	lin.zuo@duke.edu	919-381-7672	2020	"Public Policy, Statistics"	What difficulties female students would encounter because of their sex during Duke career?	No	24	0	0													
+11/13/2016 16:33	Nina Chen	Sc422@duke.edu	9848887422	2019	Public policy	how has the role of female leadership changes in light of the election?	No	24	0	0													
+11/13/2016 17:18	Madelynne Norton	mrn13@duke.edu	703-424-5413	2019	Public Policy	Do you have any recommendations for interdepartmental collaboration between women at Duke?	No	24	0	0													
+11/13/2016 20:54	Robyn Kwok	robyn.kwok@duke.edu	9199454672	2020	Computer Science	"How would recent developments influence women in the STEM field, especially women of minority?"	no	24	0	0													
+11/14/2016 10:03	Ehime Ohue	Ejo13@duke.edu	8039712040	2020	Public Policy	What is the career outlook for women who graduate with a Public Policy degree?	No	24	0	0													
+11/14/2016 10:37	Jackie Lin	jjl39@duke.edu	9197683905	2018	Biology	How should women navigate academic life when most of their colleagues are men?	no	24	0	0													
+11/14/2016 11:03	Ziqi Deng(referred by Stangl)	zd14@duke.edu	9198086370	2018	pubpol and stats	The intersection between statistics and policy	no	24	0	0													
+11/13/2016 16:18	Francia Fang	fyi@duke.edu	2812164353	2019	Neuroscience	How can women continue to pursue their full potential under the Trump presidency?	none	24	0	0													
+11/13/2016 15:49	Julia Wohl	jbw47@duke.edu	8187311984	2019	"History, minor in Statistics"	What do you think prevents more Duke women from entering math/science fields?	No	24	0	0													
+11/13/2016 15:55	Maryam Asenuga	maryam.asenuga@duke.edu	4016966018	2020	Public Policy	"Despite discrimination based on gender, how have can women confidently succeed as entrepreneurs?"	No.	24	0	0													
+11/13/2016 16:04	Chloe McGlynn	cam128@duke.edu	9253214012	2020	Undecided	"What does ""half the sky"" refer to?"	Vegetarian	24	0	0													
+11/13/2016 17:00	Sarah Sculco	sas129@duke.edu	3214392365	2019	Philosophy	"In your opinion, what are the most effective ways to increase civic engagement in the US?"	Pescetarian	24	0	0													
+11/13/2016 16:20	Peter Sun	zs54@duke.edu	9195199162	2020	Stats	Can the two Asias - Middle East and Far East - work together?	N	26	1	0													
+11/13/2016 16:26	Tae Markey	tcm26@duke.edu	9842092227	2019	GCS	How does gaming culture in Japan fit into the country's historical context?	No	26	1	0													
+11/13/2016 16:32	Gabriel Crowell	gc126@duke.edu	(210)381-6495	2020	Bio-Comp Sci	Why do you think the majority of the public aren't taught about US colonization in Eastern Asia?	none	26	1	0													
+11/13/2016 16:34	Harry Elworthy	hfe2@duke.edu	9195646812	2019	Economics	How does the social forum of an online game differ from other online platforms?	Vegetarian	26	1	0													
+11/13/2016 16:36	Haeryn Kim	hk181@duke.edu	9842449320	2019	BME/ECE	What are the psychological effects of games on intelligence?	no	26	1	0													
+11/13/2016 16:57	Sarah Zhou	sz107@duke.edu	4256529129	2019	Computer Science	What types of games tend to be the most telling of or impactful on culture?	No	26	1	0													
+11/13/2016 17:18	Maxine Ow	so95@duke.edu	9193085832	2019	Economics	What are your views on cultural appropriation in the media?	No	26	1	0													
+11/13/2016 17:41	Delia Li	dl202@duke.edu	610-291-3908	2019	Computer Science and ICS	What are the social implications of games that have better diversity and representation?	None	26	1	0													
+11/13/2016 19:34	Lauren Shum	ls240@duke.edu	5169868567	2017	ECE	What do you think about identify formation and polarization in the US?	"Pescetarian... but please, please: this does not mean that I can just eat salad and potatoes for dinner. I've been to a few of these dinners that have claimed to be accommodating for dietary needs and were not."	26	0	0													
+11/13/2016 21:41	Agoston Walter	agoston.walter@duke.edu	7575534281	2020	Biology and Global Health	Not sure yet	No	26	1	0													
+11/13/2016 22:31	Danielle Dvir	dd131@duke.edu	9173745003	2018	Cultural Anthropology & History	How can we encourage Duke to hire more faculty of color?	No	26	1	0													
+11/13/2016 23:31	Ahmed Almansoori	aea33@duke.edu	5718886960	2020	Economics	How has colonialism come to inform our understanding of countries that were colonized?	none	26	1	0													
+11/13/2016 23:42	Wandi Che	wc121@duke.edu	9199084086	2020	"Women's studies, ICS, East Asian Studies"	I'm interested in the topic!	No	26	0	0													
+11/14/2016 16:16	Jen Chen	yc163@duke.edu	9197179683	2017	Economics	What are some ways that you think we can make the American society more culturally integrated?	No	26	0	0													
