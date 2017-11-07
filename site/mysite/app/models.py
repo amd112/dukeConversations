@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 # Create your models here.
 class Student(models.Model):
@@ -100,10 +101,10 @@ class Application(models.Model):
 class Review(models.Model):
 	student_id = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
-	food_grade = models.IntegerField()
-	convo_grade = models.IntegerField()
-	food_comments = models.CharField(max_length = 1000)
-	convo_comments = models.CharField(max_length = 1000)
+	food_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)])
+	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)])
+	food_comments = models.TextField(max_length = 1000)
+	convo_comments = models.TextField(max_length = 1000)
 	date_time = models.DateTimeField()
 	class Meta:
 		unique_together = (("student_id", "dinner_id"),)
@@ -111,6 +112,9 @@ class Review(models.Model):
 		return str(self.student_id) + " reviewed " + str(self.dinner_id)
 
 class Attendance(models.Model):
-	application_id = models.ForeignKey(Application, on_delete = models.DO_NOTHING)
+	student_id = models.ForeignKey(Student, on_delete = models.DO_NOTHING, null = True)
+	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING, null = True) 
+	class Meta:
+		unique_together = (("student_id", "dinner_id"),)
 	def __str__(self):
-		return str(self.application_id)
+		return str(self.student_id) + " attended " + str(self.dinner_id)
