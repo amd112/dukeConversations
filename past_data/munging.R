@@ -34,4 +34,4 @@ for (i in 1:nrow(apps)){
   application[i, ] = c(row[9], sid, row[c(1, 7, 10, 11)])
   i = i + 1
 }
-write.csv(student, file = "application.csv", row.names = FALSE)
+write.csv(application, file = "application.csv", row.names = FALSE)
