@@ -56,7 +56,8 @@ class Student(models.Model):
 		("50", "Statistical Science"),
 		("51", "Theater Studies"), 
 		("52", "Visual Arts"), 
-		("53", "Visual and Media Studies")	
+		("53", "Visual and Media Studies"),
+		("54", "Undecided")
 	)
 	pronouns = (
 		("1", "he/him/his"),
@@ -85,6 +86,7 @@ class Professor(models.Model):
 class Dinner(models.Model):
 	date_time = models.DateTimeField(null = True)
 	professor_id = models.ForeignKey(Professor, on_delete = models.DO_NOTHING)
+	topic = models.CharField(max_length = 400)
 	def __str__(self):
 		return str(self.professor_id) + " at " + str(self.date_time)
 	
@@ -93,6 +95,7 @@ class Application(models.Model):
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
 	selected = models.NullBooleanField(default = None, null = True)
 	date_time = models.DateTimeField()
+	interest = models.TextField(max_length = 1000)
 	class Meta:
 		unique_together = (("student_id", "dinner_id"),)
 	def __str__(self):
