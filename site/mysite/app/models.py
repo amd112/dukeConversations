@@ -87,6 +87,7 @@ class Dinner(models.Model):
 	date_time = models.DateTimeField(null = True)
 	professor_id = models.ForeignKey(Professor, on_delete = models.DO_NOTHING)
 	topic = models.CharField(max_length = 400)
+	description = models.TextField(max_length = 1500)
 	def __str__(self):
 		return str(self.professor_id) + " at " + str(self.date_time)
 	
