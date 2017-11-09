@@ -78,8 +78,14 @@ class Student(models.Model):
 		return self.name
 
 class Professor(models.Model):
+	genders = (
+		("1", "M"),
+		("2", "F"),
+		("3", "O")
+	)
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50)
+	gender = models.CharField(max_length = 1, choices = genders)
 	def __str__(self):
 		return self.name
 	
