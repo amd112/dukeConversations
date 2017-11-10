@@ -2025,17 +2025,6 @@
   },
   {
     "model": "app.application",
-    "pk": 14,
-    "fields": {
-      "student_id": 14,
-      "dinner_id": 1,
-      "selected": false,
-      "date_time": "2016-09-01 21:05:00",
-      "interest": "NA"
-    }
-  },
-  {
-    "model": "app.application",
     "pk": 15,
     "fields": {
       "student_id": 15,
@@ -2193,17 +2182,6 @@
     "pk": 29,
     "fields": {
       "student_id": 26,
-      "dinner_id": 2,
-      "selected": false,
-      "date_time": "2016-08-31 22:05:00",
-      "interest": "NA"
-    }
-  },
-  {
-    "model": "app.application",
-    "pk": 30,
-    "fields": {
-      "student_id": 27,
       "dinner_id": 2,
       "selected": false,
       "date_time": "2016-08-31 22:05:00",
@@ -2773,17 +2751,6 @@
   },
   {
     "model": "app.application",
-    "pk": 83,
-    "fields": {
-      "student_id": 69,
-      "dinner_id": 5,
-      "selected": false,
-      "date_time": "2016-09-09 19:04:00",
-      "interest": "NA"
-    }
-  },
-  {
-    "model": "app.application",
     "pk": 84,
     "fields": {
       "student_id": 22,
@@ -2823,17 +2790,6 @@
       "dinner_id": 5,
       "selected": true,
       "date_time": "2016-09-09 20:23:00",
-      "interest": "NA"
-    }
-  },
-  {
-    "model": "app.application",
-    "pk": 88,
-    "fields": {
-      "student_id": 69,
-      "dinner_id": 5,
-      "selected": true,
-      "date_time": "2016-09-09 21:16:00",
       "interest": "NA"
     }
   },
@@ -3499,17 +3455,6 @@
   },
   {
     "model": "app.application",
-    "pk": 149,
-    "fields": {
-      "student_id": 14,
-      "dinner_id": 13,
-      "selected": false,
-      "date_time": "2016-10-09 15:53:00",
-      "interest": "NA"
-    }
-  },
-  {
-    "model": "app.application",
     "pk": 150,
     "fields": {
       "student_id": 44,
@@ -4050,14 +3995,6 @@
     "pk": 0,
     "fields": {
       "student_id": 70,
-      "dinner_id": 5
-    }
-  },
-  {
-    "model": "app.attendance",
-    "pk": 0,
-    "fields": {
-      "student_id": 69,
       "dinner_id": 5
     }
   },
