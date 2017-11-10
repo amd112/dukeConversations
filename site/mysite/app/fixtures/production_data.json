@@ -1,0 +1,4512 @@
+[
+  {
+    "model": "app.student",
+    "pk": 1,
+    "fields": {
+      "name": "Cindy Wang",
+      "netid": "cxw2",
+      "phone_number": 8506942896,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 2,
+    "fields": {
+      "name": "Jack Carey",
+      "netid": "jtc35",
+      "phone_number": 8457097432,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 3,
+    "fields": {
+      "name": "Sierra Smith",
+      "netid": "sms95",
+      "phone_number": 4084974041,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 4,
+    "fields": {
+      "name": "Shaq Junaid",
+      "netid": "sj150",
+      "phone_number": 5615379806,
+      "year": 2017,
+      "major": "Biology",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 5,
+    "fields": {
+      "name": "Allison Kam",
+      "netid": "ajk50",
+      "phone_number": 3347409114,
+      "year": 2017,
+      "major": "Neuroscience",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 6,
+    "fields": {
+      "name": "Suzanne Ou",
+      "netid": "so86",
+      "phone_number": 3476978976,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 7,
+    "fields": {
+      "name": "Rachael Nedrow",
+      "netid": "rin",
+      "phone_number": 9712856911,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 8,
+    "fields": {
+      "name": "Chi Trinh",
+      "netid": "kt142",
+      "phone_number": 9196418483,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 9,
+    "fields": {
+      "name": "Anne Lott",
+      "netid": "al83",
+      "phone_number": 3522628215,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 10,
+    "fields": {
+      "name": "Mccall Wells",
+      "netid": "mbw26",
+      "phone_number": 8583868674,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 11,
+    "fields": {
+      "name": "Lauren Shum",
+      "netid": "ls240",
+      "phone_number": 5169868567,
+      "year": 2017,
+      "major": "ECE",
+      "pronoun": "other",
+      "food_restrictions": "Pescetarian... but please, please: this does not mean that I can just eat salad and potatoes for dinner. I've been to a few of these dinners that have claimed to be accommodating for dietary needs and were not."
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 12,
+    "fields": {
+      "name": "Ashwanth A R",
+      "netid": "aa83",
+      "phone_number": 9194506763,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 13,
+    "fields": {
+      "name": "Jacob Gardner",
+      "netid": "jeg55",
+      "phone_number": 2162832323,
+      "year": 2017,
+      "major": "Neuroscience",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 15,
+    "fields": {
+      "name": "Lauren Hagedorn",
+      "netid": "lph10",
+      "phone_number": 3106477767,
+      "year": 2017,
+      "major": "Psychology",
+      "pronoun": "other",
+      "food_restrictions": "Gluten-intolerant"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 16,
+    "fields": {
+      "name": "Brian Pollack",
+      "netid": "bap19",
+      "phone_number": 2039120268,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 17,
+    "fields": {
+      "name": "Sai Aditya Kolluru",
+      "netid": "sk471",
+      "phone_number": 9199374998,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 18,
+    "fields": {
+      "name": "Kara Mcgaughey",
+      "netid": "kdm34",
+      "phone_number": 8048377444,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 19,
+    "fields": {
+      "name": "Trisharti",
+      "netid": "tg83",
+      "phone_number": 9195999647,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 20,
+    "fields": {
+      "name": "Harrison Ferlauto",
+      "netid": "hrf6",
+      "phone_number": 6317049675,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 21,
+    "fields": {
+      "name": "Jonathan Stern",
+      "netid": "js83",
+      "phone_number": 2149098386,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 22,
+    "fields": {
+      "name": "Dorotheos Papavasilis",
+      "netid": "dp83",
+      "phone_number": 9196415903,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 23,
+    "fields": {
+      "name": "Carter Duncan",
+      "netid": "cd83",
+      "phone_number": 7042217308,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 24,
+    "fields": {
+      "name": "Alejandro De La Torre",
+      "netid": "ad239",
+      "phone_number": 9563719523,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 25,
+    "fields": {
+      "name": "Sydney Speizman",
+      "netid": "sas104",
+      "phone_number": 4437458613,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 26,
+    "fields": {
+      "name": "Elizabeth Davies",
+      "netid": "esd10",
+      "phone_number": 2242342065,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 28,
+    "fields": {
+      "name": "Vivienne Lim",
+      "netid": "vjl3",
+      "phone_number": 9252627335,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "NA"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 29,
+    "fields": {
+      "name": "Nikolaus Mayr",
+      "netid": "nm183",
+      "phone_number": 9843779630,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 30,
+    "fields": {
+      "name": "Austin Peer",
+      "netid": "adp27",
+      "phone_number": 3138060028,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 31,
+    "fields": {
+      "name": "Gautam Hathi",
+      "netid": "gkh8",
+      "phone_number": 4254204904,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Nut allergy"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 32,
+    "fields": {
+      "name": "Tai-Lin Wu",
+      "netid": "tw185",
+      "phone_number": 9193589422,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 33,
+    "fields": {
+      "name": "Tierney Marey",
+      "netid": "tkm18",
+      "phone_number": 9199084856,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 34,
+    "fields": {
+      "name": "Tanner Lockhead",
+      "netid": "tl83",
+      "phone_number": 9192196581,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 35,
+    "fields": {
+      "name": "Ning Zhao",
+      "netid": "nz16",
+      "phone_number": 2105899885,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 36,
+    "fields": {
+      "name": "Henning",
+      "netid": "ht83",
+      "phone_number": 9195648144,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "vegan"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 37,
+    "fields": {
+      "name": "Luke Eastman",
+      "netid": "lbe4",
+      "phone_number": 6107423940,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 38,
+    "fields": {
+      "name": "Julia Kahky",
+      "netid": "jmk70",
+      "phone_number": 4079529764,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 39,
+    "fields": {
+      "name": "Misty Sha",
+      "netid": "ys114",
+      "phone_number": 9198088119,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 40,
+    "fields": {
+      "name": "Simirpreet Gill",
+      "netid": "skg19",
+      "phone_number": 9736419126,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 41,
+    "fields": {
+      "name": "Meredith Davin",
+      "netid": "msd34",
+      "phone_number": 9495549832,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 42,
+    "fields": {
+      "name": "Vinayak Chopra",
+      "netid": "vc83",
+      "phone_number": 4849835154,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 43,
+    "fields": {
+      "name": "Priyanka V",
+      "netid": "prv4",
+      "phone_number": 919961836,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 44,
+    "fields": {
+      "name": "Bennett Hartley",
+      "netid": "bwh19",
+      "phone_number": 2487878979,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 45,
+    "fields": {
+      "name": "Natalie Smithson",
+      "netid": "nrs14",
+      "phone_number": 9176990235,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 46,
+    "fields": {
+      "name": "Ife Ayeni",
+      "netid": "ia35",
+      "phone_number": 4049518281,
+      "year": 2017,
+      "major": "Biology",
+      "pronoun": "other",
+      "food_restrictions": "N/A"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 47,
+    "fields": {
+      "name": "Bala Sahitya Vadlamani",
+      "netid": "asv83",
+      "phone_number": 6032770585,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegan"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 48,
+    "fields": {
+      "name": "Nettie Song",
+      "netid": "ys120",
+      "phone_number": 9193818325,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 49,
+    "fields": {
+      "name": "Vida Robinson",
+      "netid": "vjr3",
+      "phone_number": 9192602372,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 50,
+    "fields": {
+      "name": "Helen Liu",
+      "netid": "hl166",
+      "phone_number": 7324855388,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "n/a"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 51,
+    "fields": {
+      "name": "Jenna Peters",
+      "netid": "jcp36",
+      "phone_number": 3039479052,
+      "year": 2017,
+      "major": "Neuroscience",
+      "pronoun": "other",
+      "food_restrictions": "N/A"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 52,
+    "fields": {
+      "name": "Micah",
+      "netid": "mte3",
+      "phone_number": 2406761573,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 53,
+    "fields": {
+      "name": "Jessica Wang",
+      "netid": "jw397",
+      "phone_number": 6303382248,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 54,
+    "fields": {
+      "name": "Melissa Piana",
+      "netid": "mkp17",
+      "phone_number": 7743657489,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 55,
+    "fields": {
+      "name": "Felipe Concha",
+      "netid": "fc83",
+      "phone_number": 4254953419,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 56,
+    "fields": {
+      "name": "Roma Sonik",
+      "netid": "rs285",
+      "phone_number": 7044258188,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 57,
+    "fields": {
+      "name": "Andrew Huang",
+      "netid": "ah83",
+      "phone_number": 9198138137,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 58,
+    "fields": {
+      "name": "Brad Ackerson",
+      "netid": "bga8",
+      "phone_number": 5035050318,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 59,
+    "fields": {
+      "name": "Sunny Zhang",
+      "netid": "scz4",
+      "phone_number": 9545479780,
+      "year": 2017,
+      "major": "Environmental Science",
+      "pronoun": "other",
+      "food_restrictions": "n/a"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 60,
+    "fields": {
+      "name": "Katie Gladstone",
+      "netid": "kag54",
+      "phone_number": 5165324443,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 61,
+    "fields": {
+      "name": "Dylan Stewart",
+      "netid": "dys4",
+      "phone_number": 9413208899,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 62,
+    "fields": {
+      "name": "Eric Musselman",
+      "netid": "edm23",
+      "phone_number": 2144172237,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 63,
+    "fields": {
+      "name": "Roberto",
+      "netid": "rts16",
+      "phone_number": 9198863587,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 64,
+    "fields": {
+      "name": "Jen Chen",
+      "netid": "yc163",
+      "phone_number": 9197179683,
+      "year": 2017,
+      "major": "Economics",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 65,
+    "fields": {
+      "name": "Belex Cheng",
+      "netid": "yc171",
+      "phone_number": 3607718999,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 66,
+    "fields": {
+      "name": "Alexandra Martin",
+      "netid": "anm29",
+      "phone_number": 3014661287,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 67,
+    "fields": {
+      "name": "Candice Dunn",
+      "netid": "cld36",
+      "phone_number": 8569041855,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 68,
+    "fields": {
+      "name": "Jasmine Judge",
+      "netid": "jkj12",
+      "phone_number": 6789778927,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 70,
+    "fields": {
+      "name": "Vrushin Dani",
+      "netid": "vhd2",
+      "phone_number": 9195996059,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 71,
+    "fields": {
+      "name": "Joe Lam",
+      "netid": "jjl33",
+      "phone_number": 4158287357,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "N/A"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 72,
+    "fields": {
+      "name": "Nisakorn Valyasevi",
+      "netid": "nv23",
+      "phone_number": 8325600299,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 73,
+    "fields": {
+      "name": "Jaslyn Zhang",
+      "netid": "jz124",
+      "phone_number": 5163503039,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 74,
+    "fields": {
+      "name": "Wendy Lu",
+      "netid": "jl512",
+      "phone_number": 9198088116,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 75,
+    "fields": {
+      "name": "Jeremy Fox",
+      "netid": "jdf37",
+      "phone_number": 9193609889,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 76,
+    "fields": {
+      "name": "Matt Highland",
+      "netid": "mah94",
+      "phone_number": 2072528776,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 77,
+    "fields": {
+      "name": "Elaine Mnkubitu",
+      "netid": "emm57",
+      "phone_number": 9194914744,
+      "year": 2017,
+      "major": "Computer Science",
+      "pronoun": "other",
+      "food_restrictions": "Vegeterian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 78,
+    "fields": {
+      "name": "Callie Mao",
+      "netid": "cm83",
+      "phone_number": 8588633180,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 79,
+    "fields": {
+      "name": "Kelsey Evezich",
+      "netid": "kse9",
+      "phone_number": 3035578179,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 80,
+    "fields": {
+      "name": "Megan Ye",
+      "netid": "my70",
+      "phone_number": 2483455227,
+      "year": 2017,
+      "major": "Economics",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 81,
+    "fields": {
+      "name": "Kaley Thornton",
+      "netid": "met23",
+      "phone_number": 5712945170,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 82,
+    "fields": {
+      "name": "Kim St. John",
+      "netid": "kds33",
+      "phone_number": 7722058072,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "vegetarian! Also don't eat eggs"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 83,
+    "fields": {
+      "name": "Lindsey Zimmer",
+      "netid": "laz9",
+      "phone_number": 9102977856,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 84,
+    "fields": {
+      "name": "Khloe Kim",
+      "netid": "hk145",
+      "phone_number": 9198088525,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 85,
+    "fields": {
+      "name": "Laura Argueta",
+      "netid": "lca15",
+      "phone_number": 6318290317,
+      "year": 2017,
+      "major": "International Comparative Studies",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 86,
+    "fields": {
+      "name": "Ge Jin",
+      "netid": "ge.jin",
+      "phone_number": 9194918169,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 87,
+    "fields": {
+      "name": "Henry Yan",
+      "netid": "hy83",
+      "phone_number": 9196997508,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 88,
+    "fields": {
+      "name": "Eric Qi",
+      "netid": "eyq",
+      "phone_number": 6026264514,
+      "year": 2017,
+      "major": "Philosophy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 89,
+    "fields": {
+      "name": "Diana Evans",
+      "netid": "dle11",
+      "phone_number": 8327679299,
+      "year": 2017,
+      "major": "Economics",
+      "pronoun": "other",
+      "food_restrictions": "Allergic to peanuts, chick peas, -and sesame"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 90,
+    "fields": {
+      "name": "Luis Antezana",
+      "netid": "laa31",
+      "phone_number": 7046147216,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 91,
+    "fields": {
+      "name": "John Guarco",
+      "netid": "jvg3",
+      "phone_number": 9177530756,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 92,
+    "fields": {
+      "name": "Ibanca Anand",
+      "netid": "ia40",
+      "phone_number": 7329108030,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 93,
+    "fields": {
+      "name": "Paul Cajamarca",
+      "netid": "pac29",
+      "phone_number": 7044504119,
+      "year": 2017,
+      "major": "Economics",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 94,
+    "fields": {
+      "name": "Mengdi Jia",
+      "netid": "mandy.jia",
+      "phone_number": 9197175619,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 95,
+    "fields": {
+      "name": "Laura Rosas",
+      "netid": "lr83",
+      "phone_number": 9255288271,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 96,
+    "fields": {
+      "name": "Claire Morton",
+      "netid": "crm54",
+      "phone_number": 4436101500,
+      "year": 2017,
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 97,
+    "fields": {
+      "name": "Catalina Villegas",
+      "netid": "cv53",
+      "phone_number": 3052987778,
+      "year": 2017,
+      "major": "Global Health",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 98,
+    "fields": {
+      "name": "Shelley Wu",
+      "netid": "sw237",
+      "phone_number": 4089300899,
+      "year": 2017,
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 99,
+    "fields": {
+      "name": "Walid Salah",
+      "netid": "ws101",
+      "phone_number": 6466304344,
+      "year": 2017,
+      "major": "Political Science",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 100,
+    "fields": {
+      "name": "Joseph Levy",
+      "netid": "jhl39",
+      "phone_number": 6786401224,
+      "year": 2017,
+      "major": "Psychology",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 101,
+    "fields": {
+      "name": "Sophia Jamal",
+      "netid": "sj154",
+      "phone_number": 9196994952,
+      "year": 2017,
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 102,
+    "fields": {
+      "name": "Eileen Cheng",
+      "netid": "ec159",
+      "phone_number": 6788625586,
+      "year": 2017,
+      "major": "Economics",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 103,
+    "fields": {
+      "name": "Daniel Hull",
+      "netid": "dah41",
+      "phone_number": 2147281280,
+      "year": 2017,
+      "major": "Biomedical Engineering",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 104,
+    "fields": {
+      "name": "Vivian Zhang",
+      "netid": "vxz",
+      "phone_number": 3037284536,
+      "year": 2017,
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 105,
+    "fields": {
+      "name": "Zachary Gorwitz",
+      "netid": "zsg2",
+      "phone_number": 9548497305,
+      "year": 2017,
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 106,
+    "fields": {
+      "name": "Prathibha Juturu",
+      "netid": "pj46",
+      "phone_number": 4694221567,
+      "year": 2017,
+      "major": "Environmental Engineering",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 107,
+    "fields": {
+      "name": "Daniel Herron",
+      "netid": "dih6",
+      "phone_number": 4058379744,
+      "year": 2017,
+      "major": "Environmental Engineering",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 108,
+    "fields": {
+      "name": "Rekha Korlipara",
+      "netid": "rsk17",
+      "phone_number": 6319650184,
+      "year": 2017,
+      "major": "Civil Engineering",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": 109,
+    "fields": {
+      "name": "Kasey Wien",
+      "netid": "kiw2",
+      "phone_number": 5162423111,
+      "year": 2017,
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 1,
+    "fields": {
+      "name": "Steve Nowicki",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 2,
+    "fields": {
+      "name": "Dan Ariely",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 3,
+    "fields": {
+      "name": "Lori Leachman",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 4,
+    "fields": {
+      "name": "Robin Kirk",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 5,
+    "fields": {
+      "name": "George Grody",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 6,
+    "fields": {
+      "name": "David Banks",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 7,
+    "fields": {
+      "name": "Sonke Johnsen",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 8,
+    "fields": {
+      "name": "Catherine Admay",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 9,
+    "fields": {
+      "name": "Craig Henriquez",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 10,
+    "fields": {
+      "name": "Clark Bray",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 11,
+    "fields": {
+      "name": "Ana Barros",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 12,
+    "fields": {
+      "name": "Suzanne Shanahan",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 13,
+    "fields": {
+      "name": "Richard Brodhead",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 14,
+    "fields": {
+      "name": "Buz Waitskin",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 15,
+    "fields": {
+      "name": "John Aldrich",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 16,
+    "fields": {
+      "name": "Sue Wasiolek",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 17,
+    "fields": {
+      "name": "Pedro Lasch",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 18,
+    "fields": {
+      "name": "Emma Rasiel",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 19,
+    "fields": {
+      "name": "Owen Astrachan",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 20,
+    "fields": {
+      "name": "Nita Farahany",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 21,
+    "fields": {
+      "name": "Mark Anthony Neal",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 22,
+    "fields": {
+      "name": "Orin Starn",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 23,
+    "fields": {
+      "name": "Zbigniew Kabala",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 24,
+    "fields": {
+      "name": "Sarah Deutsch",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 25,
+    "fields": {
+      "name": "Kristin Gross",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 26,
+    "fields": {
+      "name": "Dalene Stangl",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": 27,
+    "fields": {
+      "name": "Leo Ching",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 1,
+    "fields": {
+      "date_time": "2016-09-06 00:00:00",
+      "professor_id": 1,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 2,
+    "fields": {
+      "date_time": "2016-09-08 00:00:00",
+      "professor_id": 2,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 3,
+    "fields": {
+      "date_time": "2016-09-13 00:00:00",
+      "professor_id": 3,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 4,
+    "fields": {
+      "date_time": "2016-09-14 00:00:00",
+      "professor_id": 4,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 5,
+    "fields": {
+      "date_time": "2016-09-15 00:00:00",
+      "professor_id": 5,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 6,
+    "fields": {
+      "date_time": "2016-09-20 00:00:00",
+      "professor_id": 6,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 7,
+    "fields": {
+      "date_time": "2016-09-21 00:00:00",
+      "professor_id": 7,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 8,
+    "fields": {
+      "date_time": "2016-09-22 00:00:00",
+      "professor_id": 8,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 9,
+    "fields": {
+      "date_time": "2016-09-27 00:00:00",
+      "professor_id": 9,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 10,
+    "fields": {
+      "date_time": "2016-10-04 00:00:00",
+      "professor_id": 10,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 11,
+    "fields": {
+      "date_time": "2016-10-05 00:00:00",
+      "professor_id": 11,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 12,
+    "fields": {
+      "date_time": "2016-10-06 00:00:00",
+      "professor_id": 12,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 13,
+    "fields": {
+      "date_time": "2016-10-13 00:00:00",
+      "professor_id": 13,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 14,
+    "fields": {
+      "date_time": "2016-10-19 00:00:00",
+      "professor_id": 14,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 15,
+    "fields": {
+      "date_time": "2016-10-25 00:00:00",
+      "professor_id": 15,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 16,
+    "fields": {
+      "date_time": "2016-10-26 00:00:00",
+      "professor_id": 16,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 17,
+    "fields": {
+      "date_time": "2016-10-27 00:00:00",
+      "professor_id": 17,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 18,
+    "fields": {
+      "date_time": "2016-11-01 00:00:00",
+      "professor_id": 18,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 19,
+    "fields": {
+      "date_time": "2016-11-02 00:00:00",
+      "professor_id": 19,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 20,
+    "fields": {
+      "date_time": "2016-11-03 00:00:00",
+      "professor_id": 20,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 21,
+    "fields": {
+      "date_time": "2016-11-03 00:00:00",
+      "professor_id": 21,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 22,
+    "fields": {
+      "date_time": "2016-11-07 00:00:00",
+      "professor_id": 22,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 23,
+    "fields": {
+      "date_time": "2016-11-09 00:00:00",
+      "professor_id": 23,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 24,
+    "fields": {
+      "date_time": "2016-11-15 00:00:00",
+      "professor_id": 24,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 25,
+    "fields": {
+      "date_time": "2016-11-16 00:00:00",
+      "professor_id": 25,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 26,
+    "fields": {
+      "date_time": "2016-11-17 00:00:00",
+      "professor_id": 27,
+      "topic": "placeholder",
+      "description": "placeholder"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 1,
+    "fields": {
+      "student_id": 1,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-08-31 22:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 2,
+    "fields": {
+      "student_id": 2,
+      "dinner_id": 1,
+      "selected": true,
+      "date_time": "2016-08-31 22:12:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 3,
+    "fields": {
+      "student_id": 3,
+      "dinner_id": 1,
+      "selected": true,
+      "date_time": "2016-08-31 22:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 4,
+    "fields": {
+      "student_id": 4,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-09-01 00:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 5,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-09-02 17:30:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 6,
+    "fields": {
+      "student_id": 6,
+      "dinner_id": 1,
+      "selected": true,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 7,
+    "fields": {
+      "student_id": 7,
+      "dinner_id": 1,
+      "selected": true,
+      "date_time": "2016-08-31 22:00:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 8,
+    "fields": {
+      "student_id": 8,
+      "dinner_id": 1,
+      "selected": true,
+      "date_time": "2016-08-31 22:00:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 9,
+    "fields": {
+      "student_id": 9,
+      "dinner_id": 1,
+      "selected": true,
+      "date_time": "2016-08-31 22:10:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 10,
+    "fields": {
+      "student_id": 10,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-08-31 22:22:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 11,
+    "fields": {
+      "student_id": 11,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-08-31 22:26:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 12,
+    "fields": {
+      "student_id": 12,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-09-01 12:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 13,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-09-01 20:54:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 14,
+    "fields": {
+      "student_id": 14,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-09-01 21:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 15,
+    "fields": {
+      "student_id": 15,
+      "dinner_id": 1,
+      "selected": false,
+      "date_time": "2016-09-03 13:03:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 16,
+    "fields": {
+      "student_id": 16,
+      "dinner_id": 2,
+      "selected": true,
+      "date_time": "2016-08-31 21:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 17,
+    "fields": {
+      "student_id": 7,
+      "dinner_id": 2,
+      "selected": true,
+      "date_time": "2016-08-31 21:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 18,
+    "fields": {
+      "student_id": 17,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 19,
+    "fields": {
+      "student_id": 8,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 20,
+    "fields": {
+      "student_id": 18,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 21,
+    "fields": {
+      "student_id": 6,
+      "dinner_id": 2,
+      "selected": true,
+      "date_time": "2016-08-31 22:01:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 22,
+    "fields": {
+      "student_id": 19,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:01:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 23,
+    "fields": {
+      "student_id": 20,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:02:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 24,
+    "fields": {
+      "student_id": 21,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:03:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 25,
+    "fields": {
+      "student_id": 22,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:03:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 26,
+    "fields": {
+      "student_id": 23,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 27,
+    "fields": {
+      "student_id": 24,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 28,
+    "fields": {
+      "student_id": 25,
+      "dinner_id": 2,
+      "selected": true,
+      "date_time": "2016-08-31 22:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 29,
+    "fields": {
+      "student_id": 26,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 30,
+    "fields": {
+      "student_id": 27,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 31,
+    "fields": {
+      "student_id": 9,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 32,
+    "fields": {
+      "student_id": 28,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 33,
+    "fields": {
+      "student_id": 29,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:10:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 34,
+    "fields": {
+      "student_id": 30,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:11:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 35,
+    "fields": {
+      "student_id": 31,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:17:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 36,
+    "fields": {
+      "student_id": 32,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:18:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 37,
+    "fields": {
+      "student_id": 33,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 38,
+    "fields": {
+      "student_id": 34,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:22:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 39,
+    "fields": {
+      "student_id": 11,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 40,
+    "fields": {
+      "student_id": 35,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 41,
+    "fields": {
+      "student_id": 36,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:39:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 42,
+    "fields": {
+      "student_id": 37,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:39:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 43,
+    "fields": {
+      "student_id": 38,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:49:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 44,
+    "fields": {
+      "student_id": 39,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 22:53:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 46,
+    "fields": {
+      "student_id": 40,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 23:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 47,
+    "fields": {
+      "student_id": 41,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-08-31 23:55:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 48,
+    "fields": {
+      "student_id": 42,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 00:20:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 49,
+    "fields": {
+      "student_id": 43,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 00:24:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 50,
+    "fields": {
+      "student_id": 44,
+      "dinner_id": 2,
+      "selected": true,
+      "date_time": "2016-09-01 00:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 51,
+    "fields": {
+      "student_id": 45,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 01:34:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 52,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 02:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 53,
+    "fields": {
+      "student_id": 47,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 05:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 54,
+    "fields": {
+      "student_id": 48,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 08:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 55,
+    "fields": {
+      "student_id": 49,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 08:44:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 56,
+    "fields": {
+      "student_id": 50,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 08:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 57,
+    "fields": {
+      "student_id": 51,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 10:02:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 58,
+    "fields": {
+      "student_id": 12,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 12:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 59,
+    "fields": {
+      "student_id": 52,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 12:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 60,
+    "fields": {
+      "student_id": 53,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 13:17:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 61,
+    "fields": {
+      "student_id": 54,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 15:20:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 62,
+    "fields": {
+      "student_id": 55,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 16:40:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 63,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 20:55:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 64,
+    "fields": {
+      "student_id": 56,
+      "dinner_id": 2,
+      "selected": true,
+      "date_time": "2016-09-01 21:19:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 65,
+    "fields": {
+      "student_id": 57,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-01 23:34:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 66,
+    "fields": {
+      "student_id": 58,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-02 11:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 67,
+    "fields": {
+      "student_id": 59,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-02 12:54:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 68,
+    "fields": {
+      "student_id": 60,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-02 22:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 69,
+    "fields": {
+      "student_id": 61,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-03 17:36:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 70,
+    "fields": {
+      "student_id": 62,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-05 00:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 71,
+    "fields": {
+      "student_id": 63,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-05 10:12:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 72,
+    "fields": {
+      "student_id": 64,
+      "dinner_id": 2,
+      "selected": false,
+      "date_time": "2016-09-05 17:25:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 73,
+    "fields": {
+      "student_id": 22,
+      "dinner_id": 3,
+      "selected": true,
+      "date_time": "2016-09-09 19:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 74,
+    "fields": {
+      "student_id": 65,
+      "dinner_id": 3,
+      "selected": true,
+      "date_time": "2016-09-09 19:18:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 75,
+    "fields": {
+      "student_id": 4,
+      "dinner_id": 3,
+      "selected": false,
+      "date_time": "2016-09-09 19:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 76,
+    "fields": {
+      "student_id": 66,
+      "dinner_id": 3,
+      "selected": true,
+      "date_time": "2016-09-09 20:51:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 77,
+    "fields": {
+      "student_id": 67,
+      "dinner_id": 3,
+      "selected": true,
+      "date_time": "2016-09-09 20:57:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 78,
+    "fields": {
+      "student_id": 36,
+      "dinner_id": 3,
+      "selected": false,
+      "date_time": "2016-09-10 11:00:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 79,
+    "fields": {
+      "student_id": 68,
+      "dinner_id": 3,
+      "selected": false,
+      "date_time": "2016-09-10 11:19:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 80,
+    "fields": {
+      "student_id": 53,
+      "dinner_id": 3,
+      "selected": false,
+      "date_time": "2016-09-10 13:02:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 81,
+    "fields": {
+      "student_id": 29,
+      "dinner_id": 3,
+      "selected": false,
+      "date_time": "2016-09-11 22:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 82,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 4,
+      "selected": true,
+      "date_time": "2016-09-09 19:36:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 83,
+    "fields": {
+      "student_id": 69,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-09 19:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 84,
+    "fields": {
+      "student_id": 22,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-09 19:06:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 85,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-09 19:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 86,
+    "fields": {
+      "student_id": 42,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-09 20:17:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 87,
+    "fields": {
+      "student_id": 70,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-09 20:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 88,
+    "fields": {
+      "student_id": 69,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-09 21:16:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 89,
+    "fields": {
+      "student_id": 33,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-09 23:07:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 90,
+    "fields": {
+      "student_id": 71,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-10 12:37:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 91,
+    "fields": {
+      "student_id": 72,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-10 14:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 92,
+    "fields": {
+      "student_id": 37,
+      "dinner_id": 5,
+      "selected": true,
+      "date_time": "2016-09-11 14:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 93,
+    "fields": {
+      "student_id": 29,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-11 22:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 94,
+    "fields": {
+      "student_id": 10,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-16 10:40:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 95,
+    "fields": {
+      "student_id": 73,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-16 10:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 96,
+    "fields": {
+      "student_id": 68,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-16 11:50:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 97,
+    "fields": {
+      "student_id": 74,
+      "dinner_id": 5,
+      "selected": false,
+      "date_time": "2016-09-16 13:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 98,
+    "fields": {
+      "student_id": 75,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 10:28:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 99,
+    "fields": {
+      "student_id": 76,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 10:33:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 100,
+    "fields": {
+      "student_id": 53,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 10:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 101,
+    "fields": {
+      "student_id": 73,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 10:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 102,
+    "fields": {
+      "student_id": 77,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 11:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 103,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 12:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 104,
+    "fields": {
+      "student_id": 74,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 13:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 105,
+    "fields": {
+      "student_id": 54,
+      "dinner_id": 6,
+      "selected": true,
+      "date_time": "2016-09-16 14:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 106,
+    "fields": {
+      "student_id": 78,
+      "dinner_id": 6,
+      "selected": false,
+      "date_time": "2016-09-20 01:18:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 107,
+    "fields": {
+      "student_id": 6,
+      "dinner_id": 7,
+      "selected": true,
+      "date_time": "2016-09-16 10:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 108,
+    "fields": {
+      "student_id": 79,
+      "dinner_id": 7,
+      "selected": true,
+      "date_time": "2016-09-16 12:13:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 109,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 7,
+      "selected": false,
+      "date_time": "2016-09-19 00:54:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 110,
+    "fields": {
+      "student_id": 80,
+      "dinner_id": 8,
+      "selected": true,
+      "date_time": "2016-09-16 10:31:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 111,
+    "fields": {
+      "student_id": 34,
+      "dinner_id": 8,
+      "selected": true,
+      "date_time": "2016-09-16 10:31:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 112,
+    "fields": {
+      "student_id": 53,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 10:37:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 113,
+    "fields": {
+      "student_id": 81,
+      "dinner_id": 8,
+      "selected": true,
+      "date_time": "2016-09-16 10:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 114,
+    "fields": {
+      "student_id": 10,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 11:22:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 115,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 8,
+      "selected": true,
+      "date_time": "2016-09-16 12:14:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 116,
+    "fields": {
+      "student_id": 82,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 12:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 117,
+    "fields": {
+      "student_id": 83,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 13:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 118,
+    "fields": {
+      "student_id": 74,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 13:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 119,
+    "fields": {
+      "student_id": 73,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 13:47:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 120,
+    "fields": {
+      "student_id": 84,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 14:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 121,
+    "fields": {
+      "student_id": 51,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-16 14:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 122,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 8,
+      "selected": false,
+      "date_time": "2016-09-19 00:48:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 123,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 9,
+      "selected": true,
+      "date_time": "2016-09-24 14:47:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 124,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 9,
+      "selected": true,
+      "date_time": "2016-09-24 15:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 125,
+    "fields": {
+      "student_id": 85,
+      "dinner_id": 11,
+      "selected": false,
+      "date_time": "2016-10-01 13:55:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 126,
+    "fields": {
+      "student_id": 30,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 127,
+    "fields": {
+      "student_id": 20,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 128,
+    "fields": {
+      "student_id": 4,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 129,
+    "fields": {
+      "student_id": 21,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:31:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 130,
+    "fields": {
+      "student_id": 86,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 131,
+    "fields": {
+      "student_id": 68,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:36:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 132,
+    "fields": {
+      "student_id": 56,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 133,
+    "fields": {
+      "student_id": 87,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 134,
+    "fields": {
+      "student_id": 88,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 135,
+    "fields": {
+      "student_id": 89,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 136,
+    "fields": {
+      "student_id": 90,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:50:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 137,
+    "fields": {
+      "student_id": 91,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 14:52:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 138,
+    "fields": {
+      "student_id": 1,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 15:09:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 139,
+    "fields": {
+      "student_id": 92,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 15:26:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 140,
+    "fields": {
+      "student_id": 81,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 15:28:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 141,
+    "fields": {
+      "student_id": 34,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 15:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 142,
+    "fields": {
+      "student_id": 93,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 15:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 143,
+    "fields": {
+      "student_id": 94,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 16:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 144,
+    "fields": {
+      "student_id": 10,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-08 16:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 145,
+    "fields": {
+      "student_id": 7,
+      "dinner_id": 13,
+      "selected": false,
+      "date_time": "2016-10-08 16:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 146,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 13,
+      "selected": false,
+      "date_time": "2016-10-08 16:56:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 147,
+    "fields": {
+      "student_id": 95,
+      "dinner_id": 13,
+      "selected": false,
+      "date_time": "2016-10-08 20:49:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 148,
+    "fields": {
+      "student_id": 96,
+      "dinner_id": 13,
+      "selected": true,
+      "date_time": "2016-10-09 15:25:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 149,
+    "fields": {
+      "student_id": 14,
+      "dinner_id": 13,
+      "selected": false,
+      "date_time": "2016-10-09 15:53:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 150,
+    "fields": {
+      "student_id": 44,
+      "dinner_id": 13,
+      "selected": false,
+      "date_time": "2016-10-10 15:50:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 151,
+    "fields": {
+      "student_id": 59,
+      "dinner_id": 14,
+      "selected": true,
+      "date_time": "2016-10-15 12:30:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 152,
+    "fields": {
+      "student_id": 97,
+      "dinner_id": 14,
+      "selected": true,
+      "date_time": "2016-10-15 12:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 153,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 14,
+      "selected": true,
+      "date_time": "2016-10-15 15:19:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 154,
+    "fields": {
+      "student_id": 98,
+      "dinner_id": 15,
+      "selected": false,
+      "date_time": "2016-10-23 15:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 155,
+    "fields": {
+      "student_id": 99,
+      "dinner_id": 15,
+      "selected": true,
+      "date_time": "2016-10-23 15:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 156,
+    "fields": {
+      "student_id": 100,
+      "dinner_id": 15,
+      "selected": false,
+      "date_time": "2016-10-23 16:06:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 157,
+    "fields": {
+      "student_id": 94,
+      "dinner_id": 15,
+      "selected": false,
+      "date_time": "2016-10-23 16:33:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 158,
+    "fields": {
+      "student_id": 85,
+      "dinner_id": 15,
+      "selected": false,
+      "date_time": "2016-10-24 11:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 159,
+    "fields": {
+      "student_id": 101,
+      "dinner_id": 16,
+      "selected": false,
+      "date_time": "2016-10-23 15:34:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 160,
+    "fields": {
+      "student_id": 15,
+      "dinner_id": 16,
+      "selected": true,
+      "date_time": "2016-10-23 21:49:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 161,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 16,
+      "selected": true,
+      "date_time": "2016-10-24 19:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 162,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 16,
+      "selected": false,
+      "date_time": "2016-10-31 11:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 163,
+    "fields": {
+      "student_id": 77,
+      "dinner_id": 17,
+      "selected": false,
+      "date_time": "2016-10-23 15:56:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 164,
+    "fields": {
+      "student_id": 100,
+      "dinner_id": 17,
+      "selected": false,
+      "date_time": "2016-10-23 16:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 165,
+    "fields": {
+      "student_id": 88,
+      "dinner_id": 18,
+      "selected": true,
+      "date_time": "2016-10-30 16:04:00",
+      "interest": "do you think managers should invest in unethical companies to generate higher returns?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 166,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 18,
+      "selected": true,
+      "date_time": "2016-10-30 16:16:00",
+      "interest": "Should trash collectors be paid more than bankers?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 167,
+    "fields": {
+      "student_id": 89,
+      "dinner_id": 18,
+      "selected": true,
+      "date_time": "2016-10-30 16:44:00",
+      "interest": "The Presidential candidates have discussed bringing Glass-Steagal back. What are the pros and cons?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 168,
+    "fields": {
+      "student_id": 102,
+      "dinner_id": 18,
+      "selected": true,
+      "date_time": "2016-10-30 16:51:00",
+      "interest": "Do you think mentorship has impacted your experience at GS?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 169,
+    "fields": {
+      "student_id": 103,
+      "dinner_id": 18,
+      "selected": true,
+      "date_time": "2016-10-30 16:51:00",
+      "interest": "By what ethical standards should financial institutions be held by regulations?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 170,
+    "fields": {
+      "student_id": 104,
+      "dinner_id": 18,
+      "selected": true,
+      "date_time": "2016-10-30 20:59:00",
+      "interest": "Do you think companies<U+0092> efforts to cut costs have affected their adherence to compliance rules?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 171,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 20,
+      "selected": true,
+      "date_time": "2016-10-30 16:20:00",
+      "interest": "How does modern neuroscience affect our idea of moral culpability?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 172,
+    "fields": {
+      "student_id": 89,
+      "dinner_id": 20,
+      "selected": true,
+      "date_time": "2016-10-30 16:48:00",
+      "interest": "What is the future of mental health from a biological perspective?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 173,
+    "fields": {
+      "student_id": 93,
+      "dinner_id": 20,
+      "selected": true,
+      "date_time": "2016-10-30 19:38:00",
+      "interest": "With regard to bioethics, what is an instance where government's interest in social welfare rightfully overpowers individual freedom or privacy?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 174,
+    "fields": {
+      "student_id": 51,
+      "dinner_id": 20,
+      "selected": true,
+      "date_time": "2016-10-30 20:22:00",
+      "interest": "What ethical restrictions do we need to consider for embryo selection/is it ethical to select for a more intelligent child?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 175,
+    "fields": {
+      "student_id": 105,
+      "dinner_id": 20,
+      "selected": false,
+      "date_time": "2016-10-30 20:41:00",
+      "interest": "How should we coordinate law internationally around questions of bioethics, specifically relating to genetic alteration?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 176,
+    "fields": {
+      "student_id": 106,
+      "dinner_id": 23,
+      "selected": false,
+      "date_time": "2016-11-07 11:50:00",
+      "interest": "What kind of problems do you think about when dealing with contaminant transport?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 177,
+    "fields": {
+      "student_id": 107,
+      "dinner_id": 23,
+      "selected": false,
+      "date_time": "2016-11-07 11:50:00",
+      "interest": "How much do environmental issues affect your political decisions?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 178,
+    "fields": {
+      "student_id": 108,
+      "dinner_id": 23,
+      "selected": false,
+      "date_time": "2016-11-07 11:52:00",
+      "interest": "What do you think the most important issue in this election is?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 179,
+    "fields": {
+      "student_id": 4,
+      "dinner_id": 24,
+      "selected": false,
+      "date_time": "2016-11-13 15:43:00",
+      "interest": "\"Who gets to define what is \"\"American\"\" and what is \"\"un-American?\"\"\""
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 180,
+    "fields": {
+      "student_id": 93,
+      "dinner_id": 24,
+      "selected": true,
+      "date_time": "2016-11-13 16:18:00",
+      "interest": "As Hispanic Americans become less immigrant-focused, how will their political allegiances change?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 181,
+    "fields": {
+      "student_id": 80,
+      "dinner_id": 24,
+      "selected": false,
+      "date_time": "2016-11-13 15:47:00",
+      "interest": "What advice would you give to younger women starting their careers?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 182,
+    "fields": {
+      "student_id": 109,
+      "dinner_id": 24,
+      "selected": false,
+      "date_time": "2016-11-13 16:05:00",
+      "interest": "Re the election, what advice do u have for female student interested in public service or statistics"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 183,
+    "fields": {
+      "student_id": 11,
+      "dinner_id": 26,
+      "selected": false,
+      "date_time": "2016-11-13 19:34:00",
+      "interest": "What do you think about identify formation and polarization in the US?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 184,
+    "fields": {
+      "student_id": 64,
+      "dinner_id": 26,
+      "selected": false,
+      "date_time": "2016-11-14 16:16:00",
+      "interest": "What are some ways that you think we can make the American society more culturally integrated?"
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 2,
+      "dinner_id": 1
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 3,
+      "dinner_id": 1
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 6,
+      "dinner_id": 1
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 7,
+      "dinner_id": 1
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 8,
+      "dinner_id": 1
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 9,
+      "dinner_id": 1
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 16,
+      "dinner_id": 2
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 7,
+      "dinner_id": 2
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 6,
+      "dinner_id": 2
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 25,
+      "dinner_id": 2
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 44,
+      "dinner_id": 2
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 56,
+      "dinner_id": 2
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 22,
+      "dinner_id": 3
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 65,
+      "dinner_id": 3
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 66,
+      "dinner_id": 3
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 67,
+      "dinner_id": 3
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 4
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 22,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 70,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 69,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 33,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 71,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 37,
+      "dinner_id": 5
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 75,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 76,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 53,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 73,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 77,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 74,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 54,
+      "dinner_id": 6
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 6,
+      "dinner_id": 7
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 79,
+      "dinner_id": 7
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 80,
+      "dinner_id": 8
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 34,
+      "dinner_id": 8
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 81,
+      "dinner_id": 8
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 5,
+      "dinner_id": 8
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 9
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 9
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 30,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 20,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 4,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 21,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 86,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 68,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 56,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 87,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 88,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 89,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 90,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 91,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 1,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 92,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 81,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 34,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 93,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 94,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 10,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 96,
+      "dinner_id": 13
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 59,
+      "dinner_id": 14
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 97,
+      "dinner_id": 14
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 46,
+      "dinner_id": 14
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 99,
+      "dinner_id": 15
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 15,
+      "dinner_id": 16
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 16
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 88,
+      "dinner_id": 18
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 18
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 89,
+      "dinner_id": 18
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 102,
+      "dinner_id": 18
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 103,
+      "dinner_id": 18
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 104,
+      "dinner_id": 18
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 13,
+      "dinner_id": 20
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 89,
+      "dinner_id": 20
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 93,
+      "dinner_id": 20
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 51,
+      "dinner_id": 20
+    }
+  },
+  {
+    "model": "app.attendance",
+    "pk": 0,
+    "fields": {
+      "student_id": 93,
+      "dinner_id": 24
+    }
+  }
+]

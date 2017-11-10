@@ -56,7 +56,7 @@ class Student(models.Model):
 		("50", "Statistical Science"),
 		("51", "Theater Studies"), 
 		("52", "Visual Arts"), 
-		("53", "Visual and Media Studies"),
+		("53", "Visual and Media Studies"), 
 		("54", "Undecided")
 	)
 	pronouns = (
@@ -68,7 +68,7 @@ class Student(models.Model):
 	)
 	id = models.CharField(max_length = 7, primary_key = True)
 	name = models.CharField(max_length = 40)
-	food_restrictions = models.CharField(max_length = 50)
+	food_restrictions = models.CharField(max_length = 50, null = True)
 	netid = models.CharField(max_length = 7, unique = True)
 	phone_number = models.IntegerField(unique = True)
 	year = models.IntegerField()
@@ -84,16 +84,16 @@ class Professor(models.Model):
 		("3", "O")
 	)
 	name = models.CharField(max_length = 40)
-	food_restrictions = models.CharField(max_length = 50)
-	gender = models.CharField(max_length = 1, choices = genders)
+	food_restrictions = models.CharField(max_length = 50, null = True)
+	gender = models.CharField(max_length = 2, choices = genders)
 	def __str__(self):
 		return self.name
 	
 class Dinner(models.Model):
 	date_time = models.DateTimeField(null = True)
 	professor_id = models.ForeignKey(Professor, on_delete = models.DO_NOTHING)
-	topic = models.CharField(max_length = 400)
-	description = models.TextField(max_length = 1500)
+	topic = models.CharField(max_length = 100)
+	description = models.TextField(max_length = 1000)
 	def __str__(self):
 		return str(self.professor_id) + " at " + str(self.date_time)
 	
@@ -111,10 +111,10 @@ class Application(models.Model):
 class Review(models.Model):
 	student_id = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
-	food_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)])
-	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)])
-	food_comments = models.TextField(max_length = 1000)
-	convo_comments = models.TextField(max_length = 1000)
+	food_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
+	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
+	food_comments = models.TextField(max_length = 1000, null = True)
+	convo_comments = models.TextField(max_length = 1000, null = True)
 	date_time = models.DateTimeField()
 	class Meta:
 		unique_together = (("student_id", "dinner_id"),)
