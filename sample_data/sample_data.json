@@ -1,0 +1,409 @@
+[
+	{
+		"model": "app.student",
+		"pk": 1,
+		"fields": {
+			"name": "Aashna Aggarwal", 
+			"food_restrictions": "Vegetarian",
+			"netid": "aa373",
+			"phone_number": 9174974486,
+			"year": 2019,
+			"major": "Economics",
+			"pronoun": "she/her/hers"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 2,
+		"fields": {
+			"name": "Adaiya Granberry", 
+			"food_restrictions": null,
+			"netid": "ag370",
+			"phone_number": 2539056580,
+			"year": 2019,
+			"major": "Public Policy",
+			"pronoun": "she/her/hers"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 3,
+		"fields": {
+			"name": "Anne Driscoll", 
+			"food_restrictions": "Vegetarian",
+			"netid": "amd112",
+			"phone_number": 9176553632,
+			"year": 2018,
+			"major": "Statistics",
+			"pronoun": "she/her/hers"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 4,
+		"fields": {
+			"name": "Arthur Wu", 
+			"food_restrictions": null,
+			"netid": "aw258",
+			"phone_number": 9848887018,
+			"year": 2019,
+			"major": "Statistics",
+			"pronoun": "he/him/his"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 5,
+		"fields": {
+			"name": "Candace Dunn", 
+			"food_restrictions": "No Cheese",
+			"netid": "cld36",
+			"phone_number": 8569041855,
+			"year": 2017,
+			"major": "Undecided",
+			"pronoun": "she/her/hers"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 6,
+		"fields": {
+			"name": "Lauren Hagedorn", 
+			"food_restrictions": "Gluten Intolerant",
+			"netid": "lph10",
+			"phone_number": 3106477767,
+			"year": 2017,
+			"major": "Psychology",
+			"pronoun": "she/her/hers"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 7,
+		"fields": {
+			"name": "Mitchell Abrams", 
+			"food_restrictions": "Kosher",
+			"netid": "mza2",
+			"phone_number": 8455966009,
+			"year": 2019,
+			"major": "Undecided",
+			"pronoun": "he/him/his"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 8,
+		"fields": {
+			"name": "Misty Sha", 
+			"food_restrictions": null,
+			"netid": "ys114",
+			"phone_number": 9198088119,
+			"year": 2017,
+			"major": "Neuroscience",
+			"pronoun": "she/her/hers"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 9,
+		"fields": {
+			"name": "Nikolaus Mayr", 
+			"food_restrictions": null,
+
+			"netid": "nm183",
+			"phone_number": 9843779630,
+			"year": 2017,
+			"major": "Art History",
+			"pronoun": "he/him/his"
+		}
+	},
+	{
+		"model": "app.student",
+		"pk": 10,
+		"fields": {
+			"name": "Sean Gilbert", 
+			"food_restrictions": "Vegetarian",
+			"netid": "smg41",
+			"phone_number": 2402718022,
+			"year": 2018,
+			"major": "Political Science",
+			"pronoun": "he/him/his"
+		}
+	},
+	{
+		"model": "app.professor",
+		"pk": 1,
+		"fields": {
+			"name": "Steve Nowicki", 
+			"food_restrictions": null,
+			"gender": "M"
+		}
+	},
+	{
+		"model": "app.professor",
+		"pk": 2,
+		"fields": {
+			"name": "Dan Ariely", 
+			"food_restrictions": "Vegetarian",
+			"gender": "M"
+		}
+	},
+	{
+		"model": "app.professor",
+		"pk": 3,
+		"fields": {
+			"name": "David Banks", 
+			"food_restrictions": "Vegetarian",
+			"gender": "M"
+		}
+	},
+	{
+		"model": "app.professor",
+		"pk": 4,
+		"fields": {
+			"name": "CLark Bray", 
+			"food_restrictions": null,
+			"gender": "M"
+		}
+	},
+	{
+		"model": "app.professor",
+		"pk": 5,
+		"fields": {
+			"name": "Richard Broadhead", 
+			"food_restrictions": null,
+			"gender": "M"
+		}
+	},
+	{
+		"model": "app.dinner",
+		"pk": 1,
+		"fields": {
+			"date_time": "2016-09-06 07:30:00", 
+			"professor_id": 1,
+			"topic": "Playing Trombone as a Hobby",
+			"description": "Dean Nowicki often grabs his trombone and joins the Duke Pep Band in the stands at Duke Basketball games. Hear him discuss that experience."
+		}
+	},
+	{
+		"model": "app.dinner",
+		"pk": 2,
+		"fields": {
+			"date_time": "2015-09-08 06:00:00", 
+			"professor_id": 2,
+			"topic": "Behavorial Things",
+			"description": "Why are people irrational? Professor Arriely describes how people act irrationally and argues why they should instead behave rationally."
+		}
+	},
+	{
+		"model": "app.dinner",
+		"pk": 3,
+		"fields": {
+			"date_time": "2016-09-20 06:45:00", 
+			"professor_id": 3,
+			"topic": "Kindness and Bayesian Priors",
+			"description": "Predicting emotional responses to human acts of kindness and the Bayesian priors that might influence a statistical analysis of the results."
+		}
+	},
+	{
+		"model": "app.dinner",
+		"pk": 4,
+		"fields": {
+			"date_time": "2016-10-04 08:00:00", 
+			"professor_id": 4,
+			"topic": "Writing His Own Textbook for Multi",
+			"description": "Professor Bray reads aloud from sections of his book and shares his insightful secrets to writing Multivariable Calculus books."
+		}
+	},
+	{
+		"model": "app.dinner",
+		"pk": 5,
+		"fields": {
+			"date_time": "2015-10-13 05:30:00", 
+			"professor_id": 5,
+			"topic": "Construction and Grass Maintenance",
+			"description": "How does a university president build his legacy? Literally. President Broadhead describes the process of the construction he oversaw and the importance of grass at a prestigious university."
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 1,
+		"fields": {
+			"student_id": 1, 
+			"dinner_id": 1,
+			"selected": true,
+			"date_time": "2016-08-06 07:30:00",
+			"interest": "Best prof ever" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 2,
+		"fields": {
+			"student_id": 2, 
+			"dinner_id": 1,
+			"selected": false,
+			"date_time": "2016-09-01 04:30:00",
+			"interest": "Took a class with him it sounds lit" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 3,
+		"fields": {
+			"student_id": 3, 
+			"dinner_id": 2,
+			"selected": true,
+			"date_time": "2015-08-15 01:30:00",
+			"interest": "tbh I want free food" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 4,
+		"fields": {
+			"student_id": 4, 
+			"dinner_id": 2,
+			"selected": false,
+			"date_time": "2015-09-06 07:35:33",
+			"interest": "really interested in the topic" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 5,
+		"fields": {
+			"student_id": 5, 
+			"dinner_id": 2,
+			"selected": false,
+			"date_time": "2015-09-07 04:00:00",
+			"interest": "want to meet new people" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 6,
+		"fields": {
+			"student_id": 6, 
+			"dinner_id": 3,
+			"selected": true,
+			"date_time": "2016-09-06 07:30:00",
+			"interest": "food on campus sucks" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 7,
+		"fields": {
+			"student_id": 7, 
+			"dinner_id": 4,
+			"selected": false,
+			"date_time": "2016-9-28 07:21:17",
+			"interest": "Do I need a reason?" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 8,
+		"fields": {
+			"student_id": 8, 
+			"dinner_id": 4,
+			"selected": true,
+			"date_time": "2016-10-01 08:30:00",
+			"interest": "sounds lit" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 9,
+		"fields": {
+			"student_id": 9, 
+			"dinner_id": 5,
+			"selected": false,
+			"date_time": "2015-09-14 05:35:53",
+			"interest": "Always wanted to meet him!" 
+		}
+	},
+	{
+		"model": "app.application",
+		"pk": 10,
+		"fields": {
+			"student_id": 10, 
+			"dinner_id": 5,
+			"selected": true,
+			"date_time": "2015-10-06 03:33:33",
+			"interest": "not sure really" 
+		}
+	},
+	{
+		"model": "app.review",
+		"pk": 1,
+		"fields": {
+			"student_id": 3, 
+			"dinner_id": 2,
+			"food_grade": 4,
+			"convo_grade": 5,
+			"food_comments": "nom",
+			"convo_comments": "Great conversation!",
+			"date_time": "2015-09-10 06:00:00" 
+		}
+	},
+	{
+		"model": "app.review",
+		"pk": 2,
+		"fields": {
+			"student_id": 6, 
+			"dinner_id": 3,
+			"food_grade": 5,
+			"convo_grade": 2,
+			"food_comments": "The chicken was delicious",
+			"convo_comments": "boo",
+			"date_time": "2016-09-21 07:45:00" 
+		}
+	},
+	{
+		"model": "app.review",
+		"pk": 3,
+		"fields": {
+			"student_id": 8, 
+			"dinner_id": 4,
+			"food_grade": 4,
+			"convo_grade": 5,
+			"food_comments": "good",
+			"convo_comments": "Clark Bray is the best",
+			"date_time": "2016-10-07 03:22:00" 
+		}
+	},
+	{
+		"model": "app.attendance",
+		"pk": 1,
+		"fields": {
+			"student_id": 3, 
+			"dinner_id": 2
+		}
+	},
+	{
+		"model": "app.attendance",
+		"pk": 2,
+		"fields": {
+			"student_id": 1, 
+			"dinner_id": 1
+		}
+	},
+	{
+		"model": "app.attendance",
+		"pk": 3,
+		"fields": {
+			"student_id": 6, 
+			"dinner_id": 3
+		}
+	},
+	{
+		"model": "app.attendance",
+		"pk": 4,
+		"fields": {
+			"student_id": 8, 
+			"dinner_id": 4
+		}
+	}
+]
