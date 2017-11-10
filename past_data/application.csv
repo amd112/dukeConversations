@@ -1,110 +1,184 @@
-"","uniqueID","name","phone","netid","year","major","pronouns","food"
-"1",1,"cindy wang","8506942896","cxw2",2017,NA,NA,"No"
-"NA",2,"jack carey","8457097432","jtc35",2017,NA,NA,"No"
-"3",3,"sierra smith","4084974041","sms95",2017,NA,NA,"no"
-"4",4,"shaq junaid","5615379806","sj150",2017,"Biology",NA,"No"
-"5",5,"allison kam","3347409114","ajk50",2017,"Neuroscience",NA,"no; where is the dinner taking place? I can drive"
-"6",6,"suzanne ou","3476978976","so86",2017,NA,NA,"No"
-"7",7,"rachael nedrow","9712856911","rin",2017,NA,NA,"No"
-"8",8,"chi trinh","9196418483","kt142",2017,NA,NA,"No"
-"9",9,"anne lott","3522628215","al83",2017,NA,NA,"No"
-"10",10,"mccall wells","8583868674","mbw26",2017,NA,NA,"No"
-"11",11,"lauren shum","5169868567","ls240",2017,"ECE",NA,"Pescetarian... but please, please: this does not mean that I can just eat salad and potatoes for dinner. I've been to a few of these dinners that have claimed to be accommodating for dietary needs and were not."
-"12",12,"ashwanth a r","9194506763","aa83",2017,NA,NA,"No"
-"13",13,"jacob gardner","2162832323","jeg55",2017,"neuroscience/philosophy",NA,"nope"
-"14",14,"elaine m'nkubitu","9194914744","emm57",2017,NA,NA,"Vegeterian"
-"15",15,"lauren hagedorn","3106477767","lph10",2017,"Psychology, Environmental Science, Documentary Studies",NA,"Gluten-intolerant"
-"16",16,"brian pollack","2039120268","bap19",2017,NA,NA,"No"
-"17",17,"sai aditya kolluru","9199374998","sk471",2017,NA,NA,"Vegetarian"
-"18",18,"kara mcgaughey","8048377444","kdm34",2017,NA,NA,"Vegetarian"
-"19",19,"trisharti","9195999647","tg83",2017,NA,NA,"No"
-"20",20,"harrison ferlauto","6317049675","hrf6",2017,NA,NA,"No"
-"21",21,"jonathan stern","2149098386","js83",2017,NA,NA,"No"
-"22",22,"dorotheos papavasilis","9196415903","dp83",2017,NA,NA,"No"
-"23",23,"carter duncan","7042217308","cd83",2017,NA,NA,"No"
-"24",24,"alejandro de la torre","9563719523","ad239",2017,NA,NA,"No"
-"25",25,"sydney speizman","4437458613","sas104",2017,NA,NA,"No"
-"26",26,"elizabeth davies","2242342065","esd10",2017,NA,NA,"No"
-"27",27,"joey levy","6786401224","jhl39",2017,NA,NA,"No"
-"28",28,"vivienne lim","9252627335","vjl3",2017,NA,NA,NA
-"29",29,"nikolaus mayr","9843779630","nm183",2017,NA,NA,"no"
-"30",30,"austin peer","3138060028","adp27",2017,NA,NA,"No"
-"31",31,"gautam hathi","4254204904","gkh8",2017,NA,NA,"Nut allergy"
-"32",32,"tai-lin wu","9193589422","tw185",2017,NA,NA,"No"
-"33",33,"tierney marey","919 908 4856","tkm18",2017,NA,NA,"No"
-"34",34,"tanner lockhead","9192196581","tl83",2017,NA,NA,"no"
-"35",35,"ning zhao","2105899885","nz16",2017,NA,NA,"no"
-"36",36,"henning","919 564 8144","ht83",2017,NA,NA,"vegan"
-"37",37,"luke eastman","6107423940","lbe4",2017,NA,NA,"No"
-"38",38,"julia kahky","4079529764","jmk70",2017,NA,NA,"No"
-"39",39,"misty sha","9198088119","ys114",2017,NA,NA,"No"
-"40",40,"simirpreet gill","9736419126","skg19",2017,NA,NA,"no"
-"41",41,"meredith davin","9495549832","msd34",2017,NA,NA,"No diary"
-"42",42,"vinayak chopra","4849835154","vc83",2017,NA,NA,"Vegetarian"
-"43",43,"priyanka v","919961836","prv4",2017,NA,NA,"No beef"
-"44",44,"bennett hartley","2487878979","bwh19",2017,NA,NA,"No"
-"45",45,"natalie smithson","9176990235","nrs14",2017,NA,NA,"No!"
-"46",46,"ife ayeni","4049518281","ia35",2017,"Biology",NA,"N/A"
-"47",47,"bala sahitya vadlamani","6032770585","asv83",2017,NA,NA,"Vegan"
-"48",48,"nettie song","9193818325","ys120",2017,NA,NA,"No"
-"49",49,"vida robinson","9192602372","vjr3",2017,NA,NA,"Vegetarian"
-"50",50,"helen liu","7324855388","hl166",2017,NA,NA,"n/a"
-"51",51,"jenna peters","3039479052","jcp36",2017,"Neuroscience",NA,"N/A"
-"52",52,"micah","2406761573","mte3",2017,NA,NA,"No"
-"53",53,"jessica wang","6303382248","jw397",2017,NA,NA,"no"
-"54",54,"melissa piana","7743657489","mkp17",2017,NA,NA,"no"
-"55",55,"felipe concha","4254953419","fc83",2017,NA,NA,"No"
-"56",56,"roma sonik","7044258188","rs285",2017,NA,NA,"no fish"
-"57",57,"andrew huang","9198138137","ah83",2017,NA,NA,"None"
-"58",58,"brad ackerson","5035050318","bga8",2017,NA,NA,"No"
-"59",59,"sunny zhang","9545479780","scz4",2017,"Environmental Science, Public policy",NA,"n/a"
-"60",60,"katie gladstone","5165324443","kag54",2017,NA,NA,"no"
-"61",61,"dylan stewart","9413208899","dys4",2017,NA,NA,"No"
-"62",62,"eric musselman","2144172237","edm23",2017,NA,NA,"No"
-"63",63,"roberto","9198863587","rts16",2017,NA,NA,"none"
-"64",64,"jen chen","9197179683","yc163",2017,"Economics",NA,"No"
-"65",65,"belex cheng","3607718999","yc171",2017,NA,NA,"no"
-"66",66,"alexandra martin","3014661287","anm29",2017,NA,NA,"no"
-"67",67,"candice dunn","8569041855","cld36",2017,NA,NA,"No Cheese"
-"68",68,"jasmine judge","6789778927","jkj12",2017,NA,NA,"No"
-"69",69,"chi","9196418483","kt142",2017,NA,NA,"No"
-"70",70,"vrushin dani","9195996059","vhd2",2017,NA,NA,"None"
-"71",71,"joe lam","415 8287357","jjl33",2017,NA,NA,"N/A"
-"72",72,"nisakorn valyasevi","8325600299","nv23",2017,NA,NA,"No"
-"73",73,"jaslyn zhang","5163503039","jz124",2017,NA,NA,"None"
-"74",74,"wendy lu","9198088116","jl512",2017,NA,NA,"No"
-"75",75,"jeremy fox","9193609889","jdf37",2017,NA,NA,"No"
-"76",76,"matt highland","2072528776","mah94",2017,NA,NA,"No"
-"77",77,"elaine mnkubitu","9194914744","emm57",2017,"Computer science",NA,"Vegeterian"
-"78",78,"callie mao","8588633180","cm83",2017,NA,NA,"No"
-"79",79,"kelsey evezich","3035578179","kse9",2017,NA,NA,"Nope!"
-"80",80,"megan ye","2483455227","my70",2017,"Economics and Public Policy",NA,"No"
-"81",81,"kaley thornton","5712945170","met23",2017,NA,NA,"vegetarian"
-"82",82,"kim st. john","7722058072","kds33",2017,NA,NA,"vegetarian! Also don't eat eggs"
-"83",83,"lindsey zimmer","9102977856","laz9",2017,NA,NA,"Vegetarian"
-"84",84,"khloe kim","9198088525","hk145",2017,NA,NA,"No"
-"85",85,"laura argueta","6318290317","lca15",2017,"ICS",NA,"No"
-"86",86,"ge jin","9194918169","ge.jin",2017,NA,NA,"No"
-"87",87,"henry yan","9196997508","hy83",2017,NA,NA,"none"
-"88",88,"eric qi","6026264514","eyq",2017,"Economics/philosophy",NA,"No"
-"89",89,"diana evans","8327679299","dle11",2017,"Economics",NA,"Allergic to peanuts, chick peas, -and sesame"
-"90",90,"luis antezana","7046147216","laa31",2017,NA,NA,"None"
-"91",91,"john guarco","9177530756","jvg3",2017,NA,NA,"No grapefruit"
-"92",92,"ibanca anand","7329108030","ia40",2017,NA,NA,"no"
-"93",93,"paul cajamarca","704 450 4119","pac29",2017,"Economics",NA,"Vegetarian"
-"94",94,"mengdi jia","9197175619","mandy.jia",2017,"Management",NA,"No"
-"95",95,"laura rosas","9255288271","lr83",2017,NA,NA,"No"
-"96",96,"claire morton","4436101500","crm54",2017,NA,NA,"no red meat"
-"97",97,"catalina villegas","305 2987778","cv53",2017,"Public Policy, Global Health",NA,"No"
-"98",98,"shelley wu","4089300899","sw237",2017,"Public Policy",NA,"No"
-"99",99,"walid salah","6466304344","ws101",2017,"Political Science",NA,"No"
-"100",100,"joseph levy","6786401224","jhl39",2017,"Psychology and Global Health",NA,"No"
-"101",101,"sophia jamal","9196994952","sj154",2017,"Public Policy",NA,"No pork"
-"102",102,"eileen cheng","6788625586","ec159",2017,"Economics",NA,"No kiwi or pineapple"
-"103",103,"daniel hull","2147281280","dah41",2017,"BME and Finance",NA,"Nope"
-"104",104,"vivian zhang","3037284536","vxz",2017,"Public Policy",NA,"No"
-"105",105,"zachary gorwitz","9548497305","zsg2",2017,"Public Policy",NA,"no"
-"106",106,"prathibha juturu","4694221567","pj46",2017,"Environmental Engineering",NA,"Vegetarian"
-"107",107,"daniel herron","4058379744","dih6",2017,"Civil and Environmental Engineering",NA,"No"
-"108",108,"rekha korlipara","6319650184","rsk17",2017,"Civil Engineering, Economics",NA,"No"
-"109",109,"kasey wien","5162423111","kiw2",2017,"Public policy, statistics minor",NA,"No red meat"
+dinnerID,studentID,datetime,interest,selected,missed
+1,1,8/31/2016 22:08,NA,0,0
+13,1,10/8/2016 15:09,NA,1,0
+1,2,8/31/2016 22:12,NA,1,0
+1,3,8/31/2016 22:15,NA,1,0
+1,4,9/1/2016 0:27,NA,0,0
+3,4,9/9/2016 19:42,NA,0,0
+13,4,10/8/2016 14:29,NA,1,0
+24,4,11/13/2016 15:43,"""Who gets to define what is """"American"""" and what is """"un-American?""""""",0,0
+1,5,9/2/2016 17:30,NA,0,0
+4,5,9/9/2016 19:36,NA,1,0
+5,5,9/9/2016 19:35,NA,1,0
+8,5,9/16/2016 12:14,NA,1,0
+16,5,10/31/2016 11:04,NA,0,0
+1,6,8/31/2016 21:59,NA,1,0
+2,6,8/31/2016 22:01,NA,1,0
+7,6,9/16/2016 10:29,NA,1,0
+1,7,8/31/2016 22:00,NA,1,0
+2,7,8/31/2016 21:58,NA,1,0
+13,7,10/8/2016 16:29,NA,0,0
+1,8,8/31/2016 22:00,NA,1,0
+2,8,8/31/2016 21:59,NA,0,0
+1,9,8/31/2016 22:10,NA,1,0
+2,9,8/31/2016 22:08,NA,0,0
+1,10,8/31/2016 22:22,NA,0,0
+5,10,9/16/2016 10:40,NA,0,0
+8,10,9/16/2016 11:22,NA,0,0
+13,10,10/8/2016 16:15,NA,1,0
+1,11,8/31/2016 22:26,NA,0,0
+2,11,8/31/2016 22:23,NA,0,0
+26,11,11/13/2016 19:34,What do you think about identify formation and polarization in the US?,0,0
+1,12,9/1/2016 12:27,NA,0,0
+2,12,9/1/2016 12:27,NA,0,0
+1,13,9/1/2016 20:54,NA,0,0
+2,13,9/1/2016 20:55,NA,0,0
+6,13,9/16/2016 12:29,NA,1,0
+9,13,9/24/2016 15:42,NA,1,0
+16,13,10/24/2016 19:04,NA,1,0
+18,13,30/10/2016 16:16:56,Should trash collectors be paid more than bankers?,1,0
+20,13,10/30/2016 16:20,How does modern neuroscience affect our idea of moral culpability?,1,0
+1,14,9/1/2016 21:05,NA,0,0
+13,14,10/9/2016 15:53,NA,0,0
+1,15,9/3/2016 13:03,NA,0,0
+16,15,10/23/2016 21:49,NA,1,0
+2,16,8/31/2016 21:58,NA,1,0
+2,17,8/31/2016 21:59,NA,0,0
+2,18,8/31/2016 21:59,NA,0,0
+2,19,8/31/2016 22:01,NA,0,0
+2,20,8/31/2016 22:02,NA,0,0
+13,20,10/8/2016 14:29,NA,1,0
+2,21,8/31/2016 22:03,NA,0,0
+13,21,10/8/2016 14:31,NA,1,0
+2,22,8/31/2016 22:03,NA,0,0
+3,22,9/9/2016 19:04,NA,1,0
+5,22,9/9/2016 19:06,NA,1,0
+2,23,8/31/2016 22:04,NA,0,0
+2,24,8/31/2016 22:04,NA,0,0
+2,25,8/31/2016 22:05,NA,1,0
+2,26,8/31/2016 22:05,NA,0,0
+2,27,8/31/2016 22:05,NA,0,0
+2,28,8/31/2016 22:08,NA,0,0
+2,29,8/31/2016 22:10,NA,0,0
+3,29,9/11/2016 22:45,NA,0,0
+5,29,9/11/2016 22:45,NA,0,0
+2,30,8/31/2016 22:11,NA,0,0
+13,30,10/8/2016 14:29,NA,1,0
+2,31,8/31/2016 22:17,NA,0,0
+2,32,8/31/2016 22:18,NA,0,0
+2,33,8/31/2016 22:21,NA,0,0
+5,33,9/9/2016 23:07,NA,1,0
+2,34,8/31/2016 22:22,NA,0,0
+8,34,9/16/2016 10:31,NA,1,0
+13,34,10/8/2016 15:38,NA,1,0
+2,35,8/31/2016 22:35,NA,0,0
+2,36,8/31/2016 22:39,NA,0,0
+3,36,9/10/2016 11:00,NA,0,0
+2,37,8/31/2016 22:39,NA,0,0
+5,37,9/11/2016 14:21,NA,1,0
+2,38,8/31/2016 22:49,NA,0,0
+2,39,8/31/2016 22:53,NA,0,0
+2,40,8/31/2016 23:21,NA,0,0
+2,41,8/31/2016 23:55,NA,0,0
+2,42,9/1/2016 0:20,NA,0,0
+5,42,9/9/2016 20:17,NA,0,0
+2,43,9/1/2016 0:24,NA,0,0
+2,44,9/1/2016 0:32,NA,1,0
+13,44,10/10/2016 15:50,NA,0,0
+2,45,9/1/2016 1:34,NA,0,0
+2,46,9/1/2016 2:38,NA,0,0
+7,46,9/19/2016 0:54,NA,0,0
+8,46,9/19/2016 0:48,NA,0,0
+9,46,9/24/2016 14:47,NA,1,0
+13,46,10/8/2016 16:56,NA,0,0
+14,46,10/15/2016 15:19,NA,1,0
+2,47,9/1/2016 5:08,NA,0,0
+2,48,9/1/2016 8:35,NA,0,0
+2,49,9/1/2016 8:44,NA,0,0
+2,50,9/1/2016 8:46,NA,0,0
+2,51,9/1/2016 10:02,NA,0,0
+8,51,9/16/2016 14:58,NA,0,0
+20,51,10/30/2016 20:22,What ethical restrictions do we need to consider for embryo selection/is it ethical to select for a more intelligent child?,1,0
+2,52,9/1/2016 12:58,NA,0,0
+2,53,9/1/2016 13:17,NA,0,0
+3,53,9/10/2016 13:02,NA,0,0
+6,53,9/16/2016 10:35,NA,1,0
+8,53,9/16/2016 10:37,NA,0,0
+2,54,9/1/2016 15:20,NA,0,0
+6,54,9/16/2016 14:27,NA,1,0
+2,55,9/1/2016 16:40,NA,0,0
+2,56,9/1/2016 21:19,NA,1,0
+13,56,10/8/2016 14:38,NA,1,0
+2,57,9/1/2016 23:34,NA,0,0
+2,58,9/2/2016 11:21,NA,0,0
+2,59,9/2/2016 12:54,NA,0,0
+14,59,10/15/2016 12:30,NA,1,0
+2,60,9/2/2016 22:27,NA,0,0
+2,61,9/3/2016 17:36,NA,0,0
+2,62,9/5/2016 0:23,NA,0,0
+2,63,9/5/2016 10:12,NA,0,0
+2,64,9/5/2016 17:25,NA,0,0
+26,64,11/14/2016 16:16,What are some ways that you think we can make the American society more culturally integrated?,0,0
+3,65,9/9/2016 19:18,NA,1,0
+3,66,9/9/2016 20:51,NA,1,0
+3,67,9/9/2016 20:57,NA,1,0
+3,68,9/10/2016 11:19,NA,0,0
+5,68,9/16/2016 11:50,NA,0,0
+13,68,10/8/2016 14:36,NA,1,0
+5,69,9/9/2016 19:04,NA,0,0
+5,69,9/9/2016 21:16,NA,1,0
+5,70,9/9/2016 20:23,NA,1,0
+5,71,9/10/2016 12:37,NA,1,0
+5,72,9/10/2016 14:15,NA,0,0
+5,73,9/16/2016 10:45,NA,0,0
+6,73,9/16/2016 10:45,NA,1,0
+8,73,9/16/2016 13:47,NA,0,0
+5,74,9/16/2016 13:45,NA,0,0
+6,74,9/16/2016 13:45,NA,1,0
+8,74,9/16/2016 13:46,NA,0,0
+6,75,9/16/2016 10:28,NA,1,0
+6,76,9/16/2016 10:33,NA,1,0
+6,77,9/16/2016 11:23,NA,1,0
+17,77,10/23/2016 15:56,NA,0,0
+6,78,9/20/2016 1:18,NA,0,0
+7,79,9/16/2016 12:13,NA,1,0
+8,80,9/16/2016 10:31,NA,1,0
+24,80,11/13/2016 15:47,What advice would you give to younger women starting their careers?,0,0
+8,81,9/16/2016 10:38,NA,1,0
+13,81,10/8/2016 15:28,NA,1,0
+8,82,9/16/2016 12:32,NA,0,0
+8,83,9/16/2016 13:42,NA,0,0
+8,84,9/16/2016 14:35,NA,0,0
+11,85,10/1/2016 13:55,NA,0,0
+15,85,10/24/2016 11:29,NA,0,0
+13,86,10/8/2016 14:32,NA,1,0
+13,87,10/8/2016 14:42,NA,1,0
+13,88,10/8/2016 14:42,NA,1,0
+18,88,30/10/2016 16:04:30,do you think managers should invest in unethical companies to generate higher returns?,1,0
+13,89,10/8/2016 14:46,NA,1,0
+18,89,30/10/2016 16:44:53,The Presidential candidates have discussed bringing Glass-Steagal back. What are the pros and cons?,1,0
+20,89,10/30/2016 16:48,What is the future of mental health from a biological perspective?,1,0
+13,90,10/8/2016 14:50,NA,1,0
+13,91,10/8/2016 14:52,NA,1,0
+13,92,10/8/2016 15:26,NA,1,0
+13,93,10/8/2016 15:46,NA,1,0
+20,93,10/30/2016 19:38,"With regard to bioethics, what is an instance where government's interest in social welfare rightfully overpowers individual freedom or privacy?",1,0
+24,93,11/13/2016 16:18,"As Hispanic Americans become less immigrant-focused, how will their political allegiances change?",1,0
+13,94,10/8/2016 16:15,NA,1,0
+15,94,10/23/2016 16:33,NA,0,0
+13,95,10/8/2016 20:49,NA,0,0
+13,96,10/9/2016 15:25,NA,1,0
+14,97,10/15/2016 12:35,NA,1,0
+15,98,10/23/2016 15:32,NA,0,0
+15,99,10/23/2016 15:42,NA,1,0
+15,100,10/23/2016 16:06,NA,0,0
+17,100,10/23/2016 16:05,NA,0,0
+16,101,10/23/2016 15:34,NA,0,0
+18,102,30/10/2016 16:51:27,Do you think mentorship has impacted your experience at GS?,1,0
+18,103,30/10/2016 16:51:58,By what ethical standards should financial institutions be held by regulations?,1,0
+18,104,30/10/2016 20:59:07,Do you think companies<U+0092> efforts to cut costs have affected their adherence to compliance rules?,1,0
+20,105,10/30/2016 20:41,"How should we coordinate law internationally around questions of bioethics, specifically relating to genetic alteration?",0,0
+23,106,11/7/2016 11:50,What kind of problems do you think about when dealing with contaminant transport?,0,0
+23,107,11/7/2016 11:50,How much do environmental issues affect your political decisions?,0,0
+23,108,11/7/2016 11:52,What do you think the most important issue in this election is?,0,0
+24,109,11/13/2016 16:05,"Re the election, what advice do u have for female student interested in public service or statistics",0,0
