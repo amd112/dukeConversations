@@ -25,10 +25,12 @@ urlpatterns = [
 	url(r'^register$', views.register, name = 'registration'),
 	#reviewing dinner /review
 	url(r'^review$', views.review, name = 'review'),
-	#registering for dinner /register
+	#registering for dinner /confirm
 	url(r'^confirm$', views.confirm, name = 'confirmation'),
 	#registering for website /signup
 	url(r'^signup$', views.signup, name = 'signup'),
 	#logging in to system /login
 	url(r'^login$', views.login, name = 'login'),
+	url(r'^edit$', views.edit, name = 'edit'),
+	url(r'^home$', views.loginhome, name = 'loginhome')
 ]

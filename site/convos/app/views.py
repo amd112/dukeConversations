@@ -9,6 +9,9 @@ def index(request):
 	#context = {'latest_question_list': latest_question_list}
 	return render(request, 'html_work/homepage.html')
 	
+def loginhome(request):
+	return(render(request, 'html_work/loginhome.html'))
+
 def register(request):
 	return render(request, 'html_work/signupdin.html')
 	
@@ -23,6 +26,10 @@ def confirm(request):
 
 def review(request):
 	return render(request, 'html_work/reviewDinner.html')
+
+def edit(request):
+	return render(request, 'html_work/editprof.html')
 	
 #forgot password
-#logged in mainpage
+#logged in mainpage?
+#edit account

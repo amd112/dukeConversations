@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 
   <head>
@@ -8,18 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full - Start Bootstrap Template</title>
+    <title>Sign up for a Dinner</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href={% static "vendor/bootstrap/css/bootstrap.min.css" %}>
     <!-- Custom styles for this template -->
-    <link href="css/full.css" rel="stylesheet">
-   <!-- <link rel="stylesheet" href="sandstonebootstrap.css"> -->
-  <!-- Custom fonts for this template-->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
- 
-
+    <link rel="stylesheet" href={$ static "css/full.css" %}>
+    <!-- <link rel="stylesheet" href="sandstonebootstrap.css"> -->
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor/font-awesome/css/font-awesome.min.css" %}>
   </head>
 
   <body>
@@ -27,25 +25,25 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="studenthome.html">Duke Conversations</a>
+        <a class="navbar-brand" href="/">Duke Conversations</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="studenthome.html">Home
+              <a class="nav-link" href="home">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="signupdin.html">Sign Up for Dinner</a>
+              <a class="nav-link active" href="register">Sign Up for a Dinner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reviewDinner.html">Review Dinner</a>
+              <a class="nav-link" href="review">Review Dinner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="editprof.html">Edit Profile</a>
+              <a class="nav-link" href="edit">Edit Profile</a>
             </li>
             <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
@@ -98,9 +96,9 @@
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
-              <a class="btn btn-primary"  href="studenthome.html">Submit</a>
+              <a class="btn btn-primary"  href="confirm">Submit</a>
               <span></span>
-              <a class="btn btn-default" href="studenthome.html"> Cancel</a>
+              <a class="btn btn-default" href="home"> Cancel</a>
             </div>
           </div>
         </form>
@@ -122,7 +120,7 @@
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="homepage.html">Logout</a>
+            <a class="btn btn-primary" href="/">Logout</a>
           </div>
         </div>
       </div>

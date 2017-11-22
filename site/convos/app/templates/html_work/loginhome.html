@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
+
   <head>
 
     <meta charset="utf-8">
@@ -8,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Duke Conversations</title>
+    <title>Current Dinners</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href={% static "vendor/bootstrap/css/bootstrap.min.css" %}>
@@ -30,23 +31,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-           <!--  <li class="nav-item active">
-              <a class="nav-link" href="#=./index.html">Home
+            <li class="nav-item">
+              <a class="nav-link active" href="home">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./new_page.html">About</a>
+              <a class="nav-link" href="register">Sign Up for a Dinner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="review">Review Dinner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li> -->
+              <a class="nav-link" href="edit">Edit Profile</a>
+            </li>
             <li class="nav-item">
-          <a class="nav-link" href="./login">
-            <i class="fa fa-fw fa-sign-in" ></i>Login</a>
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
         </li>
           </ul>
         </div>
@@ -57,20 +58,41 @@
 
 
     <!-- Page Content -->
-    <div class="container">
-<div class="jumbotron text-center jumbotronhomepage" >
-  <h1>Duke Conversations</h1>
-  <!-- <div class="container vertical-center"> -->
-  <p class=" vertical-center text-center">Sparking Intellectual Discovery Through Thoughtful Discussion</p>
-  <p><a class="btn btn-primary btn-lg" href="signup" role="button">Register</a></p>
-<!--    </div> -->
+<!--   <div class="mt-4 col-md-12">
+        This will have a two-point top margin!
+
+
+</div>  -->
+<div class="container jumbotron">
+  <div class="dinner">
+      
+      <h5> Dinner name </h5>
+		<p> name 1</p>
+		<p> date </p>
+		<p> professor </p>
+		<p> what is this dinner about?????? </p>    
+  </div>
 </div>
-</div>
+<hr>
 
-
-<iframe  class="embed-responsive"  src="https://calendar.google.com/calendar/embed?src=5rd5nnaucjn4fc215o1cesdcso%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
-
-
+<!--Logoutmodal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="/">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
