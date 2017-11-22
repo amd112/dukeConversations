@@ -1,36 +1,28 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
-from django.template import loader
 
 from .models import Application
 
-# Create your views here.
+
 def index(request):
-	latest_question_list = Application.objects.order_by('-date_time')[:5]
-	template = loader.get_template('index.html')
-	context = {
-		'latest_question_list': latest_question_list,
-	}
-	return HttpResponse(template.render(context, request))
+	#latest_question_list = Application.objects.order_by('-date_time')[:5]
+	#context = {'latest_question_list': latest_question_list}
+	return render(request, 'html_work/homepage.html')
 	
 def register(request):
-	return HttpResponse("This is where you register for a dinner")
+	return render(request, 'html_work/signupdin.html')
 	
 def login(request):
-	return HttpResponse("This is where you login")
+	return render(request, 'html_work/login.html')
 		
 def signup(request):
-	return HttpResponse("This is where you create an account")
+	return render(request, 'html_work/register.html')
 	
 def confirm(request):
 	return HttpResponse("You signed up for the thing!!")
 
 def review(request):
-	return HttpResponse("This is where you review a dinner.")
-
-#signup 
-	#login
-	#signup for dinner
-	#signup confirmation
-	#review a dinner
-	#calendar?	
+	return render(request, 'html_work/reviewDinner.html')
+	
+#forgot password
+#logged in mainpage
