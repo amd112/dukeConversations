@@ -1,0 +1,10 @@
+<main> List of most recent applications: </main>
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a>{{ question.student_id }}, {{question.date_time}}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
