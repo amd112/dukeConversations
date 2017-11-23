@@ -23,12 +23,12 @@
     <div class="card card-register mx-auto mt-5">
       <div class="card-header">Create an Account</div>
       <div class="card-body">
-        <form method='post'> {% csrf_token %}
+        <form>
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-6">
                 <label for="exampleInputName">First name</label>
-                <input name='firstname' class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
               </div>
               <div class="col-md-6">
                 <label for="exampleInputLastName">Last name</label>
@@ -81,7 +81,7 @@
             </div>
           </div>
            
-          <button type='submit' class="btn btn-primary btn-block" href="signup">Register</button>
+          <a class="btn btn-primary btn-block" href="signup">Register</a>
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="login">Login Page</a>
