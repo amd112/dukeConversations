@@ -25,67 +25,13 @@
       <div class="card-body">
         <form method='post'> {% csrf_token %}
           <div class="form-group">
-            <div class="form-row">
-              <div class="col-md-6">
-                <label for="exampleInputName">First name</label>
-                <input name='firstname' class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
-              </div>
-              <div class="col-md-6">
-                <label for="exampleInputLastName">Last name</label>
-                <input class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
-              </div>
-            </div>
+			{{ form.as_p }}
           </div>
-          <div class="form-group">
-            <label for="netid1">Net ID</label>
-            <input class="form-control" id="netid1" placeholder="Enter Net ID">
-          </div>
-           <div class="form-group">
-            <label for="uniqueid1">Unique ID</label>
-            <input class="form-control" id="uniqueid1" placeholder="Enter Unique ID">
-          </div>
-            <div class="form-group">
-            <label for="Year1">Year</label>
-            <input class="form-control" id="Year1" placeholder="Enter Year">
-          </div>
-           <div class="form-group">
-            <label for="Major1">Major</label>
-            <input class="form-control" id="uniqueid1" placeholder="Enter Major">
-          </div>
-          <div class="form-group">
-            <label for="pronouns1">Pronouns:</label>
-            <div>
-               <div class="ui-select">
-                <select id="pronouns" class="form-control">
-                  <option value="Him">He/Him</option>
-                  <option value="Her">She/Her</option>
-                  <option value="They">They/Their</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="Allergies1">Food Allergies</label>
-            <input class="form-control" id="Allergies1" placeholder="Enter Food Allergies">
-          </div>
-          <div class="form-group">
-            <div class="form-row">
-              <div class="col-md-6">
-                <label for="exampleInputPassword1">Password</label>
-                <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
-              </div>
-              <div class="col-md-6">
-                <label for="exampleConfirmPassword">Confirm password</label>
-                <input class="form-control" id="exampleConfirmPassword" type="password" placeholder="Confirm password">
-              </div>
-            </div>
-          </div>
-           
-          <button type='submit' class="btn btn-primary btn-block" href="signup">Register</button>
+		  <button type='submit' class="btn btn-primary btn-block">Register</button>
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="login">Login Page</a>
-          <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+          <a class="d-block small" href="password">Forgot Password?</a>
         </div>
       </div>
     </div>

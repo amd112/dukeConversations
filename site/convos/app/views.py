@@ -7,7 +7,8 @@ from django.template.context_processors import csrf
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 from django.contrib.auth.models import User
 
-from .models import Application
+from .models import Application, Student
+from .forms import createAccount
 
 
 def index(request):
@@ -18,18 +19,20 @@ def index(request):
 def loginhome(request):
 	return(render(request, 'html_work/loginhome.html'))
 
-#@csrf_protect	
-#def login(request):
-#	return(render(request, 'html_work/login.html'))
+@csrf_protect	
+def login(request):
+	return(render(request, 'html_work/login.html'))
 
 @csrf_protect	
 def signup(request):
 	if request.method == 'POST':
-		name = request.POST
-		#insert the create user stuff here
-		return(redirect('/home'))
+		form = createAccount(request.POST)
+		if form.is_valid():
+			form.save()
+			return(redirect('edit'))
 	else:
-		return(render(request, 'html_work/register.html'))
+		form = createAccount()
+	return(render(request, 'html_work/register.html', {'form': form}))
 
 @login_required(login_url = '/login')
 def confirm(request):
@@ -45,9 +48,6 @@ def edit(request):
 
 @login_required
 def register(request):
-	#user = User.objects.create_user(username='john',
-    #                            email='jlennon@beatles.com',
-    #                            password='glass onion')
 	return render(request, 'html_work/signupdin.html')
 	
 #forgot password
