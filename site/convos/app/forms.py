@@ -2,10 +2,9 @@ from django import forms
 from django.contrib.auth.models import User
 from .models import Student
 
-class createAccount(forms.ModelForm):
-	class Meta:
-		model = User
-		fields = ('username', 'password')
+class loginForm(forms.Form):
+	username = forms.CharField(max_length = 70)
+	password = forms.CharField(max_length = 70)
 
 class accountInfo(forms.ModelForm):
 	class Meta:

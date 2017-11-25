@@ -66,7 +66,8 @@ class Student(models.Model):
 		("4", "xe/xem/xyr"),
 		("5", "other")
 	)
-	id = models.CharField(max_length = 7, primary_key = True)
+	username = models.CharField(max_length = 70, primary_key = True)
+	id = models.CharField(max_length = 7)
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True)
 	netid = models.CharField(max_length = 7, unique = True)

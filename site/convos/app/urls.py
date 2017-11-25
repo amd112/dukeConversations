@@ -32,8 +32,9 @@ urlpatterns = [
 	#registering for website /signup
 	url(r'^signup$', views.signup, name = 'signup'),
 	#logging in to system /login
-	url(r'^login$', views.login, name = 'login'),
+	url(r'^login$', views.log_in, name = 'login'),
 	url(r'^edit$', views.edit, name = 'edit'),
 	url(r'^home$', views.loginhome, name = 'loginhome'),
+	url(r'^logout$', views.log_out, name = 'logout'),
 	url('^password$', auth_views.PasswordChangeView.as_view(template_name='html_work/forgot-password.html')),
 ]

@@ -22,16 +22,15 @@
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Login</div>
       <div class="card-body">
+		{% if form.errors %}
+			<p class=" label label-danger">
+				Your username and password didn't match. Please try again.
+				{{form.errors}}
+			</p>
+		{% endif %}
         <form action="" method='post'> {% csrf_token %}
-          <div class="form-group">
-            <label for="InputEmail1">Username</label>
-            <input class="form-control" name='email' placeholder="Enter username">
-          </div>
-          <div class="form-group">
-            <label for="InputPassword1">Password</label>
-            <input class="form-control" name="password" type="password" placeholder="Password">
-          </div>
-          <button type = "submit" class="btn btn-primary btn-block">Login</button>
+			{{ form.as_p }}
+			<button type='submit' class="btn btn-primary btn-block">Log in</button>
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="signup">Register an Account</a>
