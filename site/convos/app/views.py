@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 from django.http import HttpResponse
 
@@ -10,6 +10,8 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 
 from django.template import RequestContext
 from django.template.context_processors import csrf
+
+from django.core.exceptions import ObjectDoesNotExist
 
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 
@@ -82,18 +84,27 @@ def confirm(request):
 def review(request):
 	return render(request, 'html_work/reviewDinner.html')
 
+#Works, don't mess with
 @login_required(login_url = '/login')
 def edit(request):
-	if request.method == 'POST':
-		form = accountInfo(request.POST)
+	user = request.user.get_username()
+	try:
+		student = Student.objects.get(username = user) 
+	except ObjectDoesNotExist:
+		student = None
+
+	if request.method == "POST":
+		form = accountInfo(request.POST, instance = student)
+		form.fields['username'].widget.attrs['readonly'] = True
 		if form.is_valid():
-			username = request.user.username
 			form.save(commit=False)
-			form.username = username
+			form.username = user
 			form.save()
+			return redirect('/home')
 	else:
-		form = accountInfo()
-	return render(request, 'html_work/editprof.html')
+		form = accountInfo(initial={'username':user}, instance=student)
+		form.fields['username'].widget.attrs['readonly'] = True
+	return render(request, 'html_work/editprof.html', {'form': form, "user": user})
 
 @login_required(login_url = '/login')
 def register(request):

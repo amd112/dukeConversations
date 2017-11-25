@@ -75,82 +75,13 @@
       
       <!-- edit form column -->
       <div class="col-md-9 personal-info">
-
-        <h3>Personal info</h3>
-        
-        <form class="form-horizontal" role="form">
+		<form action="" method='post'> {% csrf_token %}
           <div class="form-group">
-            <label class="col-lg-3 control-label">First name:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Jane">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Last name:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Bishop">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Net ID:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="abc2">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Unique ID:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="1234567">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Year:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="2018">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Major:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="English">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Pronouns:</label>
-            <div class="col-lg-8">
-               <div class="ui-select">
-                <select id="pronouns" class="form-control">
-                  <option value="Him">He/Him</option>
-                  <option value="Her">She/Her</option>
-                  <option value="They">They/Their</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Allergies:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="None">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Password:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="password123">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-md-3 control-label"></label>
+            {{ form.as_p }}
             <div class="col-md-8">
-              <a class="btn btn-primary"  href="home">Save Changes</a>
+              <button class="btn btn-primary"  href="edit">Save Changes</button>
               <span></span>
-              <a class="btn btn-default" href="home"> Cancel</a>
+              <button class="btn btn-default" href="home"> Cancel</button>
             </div>
           </div>
         </form>

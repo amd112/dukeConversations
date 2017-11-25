@@ -9,4 +9,4 @@ class loginForm(forms.Form):
 class accountInfo(forms.ModelForm):
 	class Meta:
 		model = Student
-		fields = ('name', 'id', 'netid', 'phone_number', 'year', 'major', 'pronoun', 'food_restrictions')
+		fields = ('username', 'name', 'id', 'netid', 'phone_number', 'year', 'major', 'pronoun', 'food_restrictions')
