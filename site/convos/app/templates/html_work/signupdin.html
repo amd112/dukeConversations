@@ -77,20 +77,19 @@
       <div class="col-md-9 personal-info">
 
         <h3>Current Dinners</h3>
-      
-
-          <form class="form-group" action="" method='post'> {% csrf_token %}
+          <form class="form-group" action="" method='POST'> {% csrf_token %}
            {{ form.as_p }}
+			<div class="col-md-8">
+              <button type="submit" class="btn btn-primary"  href="confirm">Submit</button>
+              <span></span>
+              <a class="btn btn-default" href="home"> Cancel</a>
+            </div>
           </form>
 
 
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
-            <div class="col-md-8">
-              <a class="btn btn-primary"  href="confirm">Submit</a>
-              <span></span>
-              <a class="btn btn-default" href="home"> Cancel</a>
-            </div>
+            
           </div>
         </form>
       </div>

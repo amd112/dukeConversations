@@ -16,7 +16,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 
 import datetime
-from .models import Application, Student
+from .models import Application, Student, Dinner
 from .forms import loginForm, accountInfo, registerDinner
 
 
@@ -37,7 +37,7 @@ def index(request):
 #Uses form instead of ModelForm to feed data, checks w/ authenticate
 @csrf_protect	
 def log_in(request):
-	if request.method == 'POST':
+	if request.POST:
 		form = loginForm(request.POST)
 		if form.is_valid():
 			data = form.cleaned_data
@@ -60,17 +60,15 @@ def log_out(request):
 #Appears to work, don't touch
 @csrf_protect	
 def signup(request):
-	if request.method == 'POST':
+	if request.POST:
 		form = UserCreationForm(request.POST)
 		if form.is_valid():
 			form.save()
-			#successfully creates user but authentication isn't working
 			data = form.cleaned_data
 			username = data['username']
 			password = data['password1']
 			user = authenticate(username=username, password=password)
 			if user is not None:
-				#got through the user is not None but login not working
 				login(request, user)
 				return(redirect('edit'))
 	else:
@@ -83,7 +81,8 @@ def loginhome(request):
 
 @login_required(login_url = '/login')
 def confirm(request):
-	return HttpResponse("You signed up for the thing!!")
+	#context = {"user":user, "dinner":dinner, "interest":interest}
+	return render(request, 'html_work/confirm.html')
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
@@ -100,6 +99,7 @@ def edit(request):
 		student = None
 
 	if request.method == "POST":
+		#instance lets us reference a certain object 
 		form = accountInfo(request.POST, instance = student)
 		form.fields['username'].widget.attrs['readonly'] = True
 		if form.is_valid():
@@ -111,24 +111,29 @@ def edit(request):
 		form = accountInfo(initial={'username':user}, instance=student)
 		form.fields['username'].widget.attrs['readonly'] = True
 	return render(request, 'html_work/editprof.html', {'form': form, "user": user})
-
-#maybe check to see if they have reviewed all the dinners they've been to	
+	
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
+#check they have reviewed all dinners before registering again
+#doesn't pass the data to confirm correctly yet
 def register(request):
 	user = request.user.username
-	if request.method == 'POST':
-		form = registerDinner(request.POST)
-		if form.is_valid:
+	user = Student.objects.get(username = user)
+	if request.POST:
+		form = registerDinner(request.POST, user=user)
+		if form.is_valid():
 			data = form.cleaned_data
 			din = data['dinner']
+			din = Dinner.objects.get(pk = din)
 			inter = data['interest']
 			time = datetime.datetime.now()
 			a = Application.objects.create(username = user, dinner_id = din, selected = None, date_time = time, interest = inter)
 			a.save()
-			return redirect('/confirm')
+			return redirect('/confirm', {"user":user.username, "dinner":din.topic, "interest":inter})
 	else:
-		form = registerDinner(user)
-	return render(request, 'html_work/signupdin.html', {'form': form})
+		form = registerDinner(user=user)
+	return render(request, 'html_work/signupdin.html', {"form": form})
+	
+	
 #forgot password?
 #password change?
