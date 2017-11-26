@@ -14,8 +14,9 @@ class accountInfo(forms.ModelForm):
 		fields = ('username', 'name', 'id', 'netid', 'phone_number', 'year', 'major', 'pronoun', 'food_restrictions')
 
 class registerDinner(forms.Form):
-	def __init__(self, user, *args, **kwargs):
-		super(registerDinner, self).__init__(*args, **kwargs)
+	def __init__(self,*args,**kwargs):
+		self.user = kwargs.pop('user',None)
+		super(registerDinner, self).__init__(*args,**kwargs)
 		
 		startdate = datetime.date.today()
 		enddate = startdate + datetime.timedelta(days=20)
@@ -24,14 +25,15 @@ class registerDinner(forms.Form):
 		future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate]).values()
 	
 		#selecting all the applications already submitted by person
-		applied = Application.objects.filter(username = user)
-		if len(applied) > 0:
-			applied = [x.dinner_id for x in applied]
+		applied = Application.objects.filter(username = self.user.username)
+		applied = applied.values_list("dinner_id", flat=True)
 	
 		#creating tuples for the options to show, for future dinners, excluding already applied to
-		options = [(x['id'], Professor.objects.get(id = x['professor_id_id']).name + ", " + x['topic'] + ", " + str(x['date_time'].date())) for x in future_dins if x not in applied]
+		options = [(x['id'], Professor.objects.get(id = x['professor_id_id']).name + ", " + x['topic'] + ", " + str(x['date_time'].date())) for x in future_dins if x['id'] not in applied]
 		options = sorted(options, key=lambda tup: tup[1].split(",")[2]) #sorting by soonest date
 	
-		self.fields['dinner'] = forms.ChoiceField(choices=options)
-		self.fields['interest'] = forms.CharField(widget=forms.Textarea)
+		self.fields['dinner'].choices = options
+		#self.fields['interest'] = forms.CharField(widget=forms.Textarea)
 	
+	dinner = forms.ChoiceField()
+	interest = forms.CharField(widget=forms.Textarea)
