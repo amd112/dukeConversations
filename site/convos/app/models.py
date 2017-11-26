@@ -69,7 +69,7 @@ class Student(models.Model):
 	username = models.CharField(max_length = 70, primary_key = True)
 	id = models.CharField(max_length = 7)
 	name = models.CharField(max_length = 40)
-	food_restrictions = models.CharField(max_length = 50, null = True)
+	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	netid = models.CharField(max_length = 7, unique = True)
 	phone_number = models.IntegerField(unique = True)
 	year = models.IntegerField()
@@ -99,18 +99,18 @@ class Dinner(models.Model):
 		return str(self.professor_id) + " at " + str(self.date_time)
 	
 class Application(models.Model):
-	student_id = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
+	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
 	selected = models.NullBooleanField(default = None, null = True)
 	date_time = models.DateTimeField()
 	interest = models.TextField(max_length = 1000)
 	class Meta:
-		unique_together = (("student_id", "dinner_id"),)
+		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
-		return str(self.student_id) + " for " + str(self.dinner_id)
+		return str(self.username) + " for " + str(self.dinner_id)
 		
 class Review(models.Model):
-	student_id = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
+	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
 	food_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
 	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
@@ -118,14 +118,14 @@ class Review(models.Model):
 	convo_comments = models.TextField(max_length = 1000, null = True)
 	date_time = models.DateTimeField()
 	class Meta:
-		unique_together = (("student_id", "dinner_id"),)
+		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
-		return str(self.student_id) + " reviewed " + str(self.dinner_id)
+		return str(self.username) + " reviewed " + str(self.dinner_id)
 
 class Attendance(models.Model):
-	student_id = models.ForeignKey(Student, on_delete = models.DO_NOTHING, null = True)
+	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING, null = True)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING, null = True) 
 	class Meta:
-		unique_together = (("student_id", "dinner_id"),)
+		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
-		return str(self.student_id) + " attended " + str(self.dinner_id)
+		return str(self.username) + " attended " + str(self.dinner_id)

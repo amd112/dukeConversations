@@ -70,11 +70,13 @@
       <!-- left column -->
       <div class="col-md-3">
         <div class="text-center">
+
         </div>
       </div>
       
       <!-- edit form column -->
       <div class="col-md-9 personal-info">
+		<h5 style="padding-bottom: 40px; padding-top: 20px;" > Profile must be complete to submit any other form. <h5>
 		<form action="" method='post'> {% csrf_token %}
           <div class="form-group">
             {{ form.as_p }}

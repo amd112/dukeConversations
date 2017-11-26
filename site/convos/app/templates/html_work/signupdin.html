@@ -79,18 +79,9 @@
         <h3>Current Dinners</h3>
       
 
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Dinners:</label>
-            <div class="col-lg-8">
-               <div class="ui-select">
-                <select id="Dinneroptions" class="form-control">
-                  <option id="Din1" value="Din1">Dinner 1 </option>
-                  <option id= "Din2" value="Din2">Dinner 2 </option>
-                  <option  id="Din3" value="Din3">Dinner 3 </option>
-                </select>
-              </div>
-            </div>
-          </div>
+          <form class="form-group" action="" method='post'> {% csrf_token %}
+           {{ form.as_p }}
+          </form>
 
 
           <div class="form-group">

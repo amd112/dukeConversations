@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, Group
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required, user_passes_test
 
@@ -15,20 +15,25 @@ from django.core.exceptions import ObjectDoesNotExist
 
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 
-
+import datetime
 from .models import Application, Student
-from .forms import loginForm, accountInfo
+from .forms import loginForm, accountInfo, registerDinner
 
 
 def check_complete_user(user):
-	return True
+	try:
+		exists = Student.objects.get(pk = user.username)
+		exists = True
+	except ObjectDoesNotExist:
+		exists = False
+	return exists
 
 def index(request):
 	#latest_question_list = Application.objects.order_by('-date_time')[:5]
 	#context = {'latest_question_list': latest_question_list}
 	return render(request, 'html_work/homepage.html')
 	
-#Works, but doesn't give incorrect password warning. 
+#Works, but doesn't give 'incorrect password' warning. 
 #Uses form instead of ModelForm to feed data, checks w/ authenticate
 @csrf_protect	
 def log_in(request):
@@ -81,6 +86,7 @@ def confirm(request):
 	return HttpResponse("You signed up for the thing!!")
 
 @login_required(login_url = '/login')
+@user_passes_test(check_complete_user, login_url='/edit')
 def review(request):
 	return render(request, 'html_work/reviewDinner.html')
 
@@ -106,12 +112,23 @@ def edit(request):
 		form.fields['username'].widget.attrs['readonly'] = True
 	return render(request, 'html_work/editprof.html', {'form': form, "user": user})
 
+#maybe check to see if they have reviewed all the dinners they've been to	
 @login_required(login_url = '/login')
+@user_passes_test(check_complete_user, login_url='/edit')
 def register(request):
-	#use check_complete_user to see if the person has completed form, pass to render. 
-	#add to html so form is only rendered if their profile is complete
-	return render(request, 'html_work/signupdin.html')
-	
-#forgot password
-#logged in mainpage?
-#password change
+	user = request.user.username
+	if request.method == 'POST':
+		form = registerDinner(request.POST)
+		if form.is_valid:
+			data = form.cleaned_data
+			din = data['dinner']
+			inter = data['interest']
+			time = datetime.datetime.now()
+			a = Application.objects.create(username = user, dinner_id = din, selected = None, date_time = time, interest = inter)
+			a.save()
+			return redirect('/confirm')
+	else:
+		form = registerDinner(user)
+	return render(request, 'html_work/signupdin.html', {'form': form})
+#forgot password?
+#password change?
