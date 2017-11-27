@@ -15,8 +15,26 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib.auth import views as auth_views
 from . import views
 
+
 urlpatterns = [
+	#main page, /
 	url(r'^$', views.index, name = 'index'),
+	#registering for dinner /register
+	url(r'^register$', views.register, name = 'registration'),
+	#reviewing dinner /review
+	url(r'^review$', views.review, name = 'review'),
+	#registering for dinner /confirm
+	url(r'^confirm$', views.confirm, name = 'confirmation'),
+	#registering for website /signup
+	url(r'^signup$', views.signup, name = 'signup'),
+	#logging in to system /login
+	url(r'^login$', views.log_in, name = 'login'),
+	url(r'^edit$', views.edit, name = 'edit'),
+	url(r'^home$', views.loginhome, name = 'loginhome'),
+	url(r'^logout$', views.log_out, name = 'logout'),
+	url('^password$', auth_views.PasswordChangeView.as_view(template_name='html_work/forgot-password.html')),
 ]
