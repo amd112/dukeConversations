@@ -1,23 +1,27 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
+  <head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>SB Admin - Start Bootstrap Template</title>
-  <!-- Bootstrap core CSS-->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom fonts for this template-->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <!-- Custom styles for this template-->
-  <link href="css/sb-admin.css" rel="stylesheet">
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body class="fixed-nav sticky-footer bg-dark" id="page-top">
-  <div class="content-wrapper">
+    <title>Sign up for a Dinner</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href={% static "../../static/vendor/bootstrap/css/bootstrap.min.css" %}>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href={% static "../../static/css/full.css" %}>
+    <!-- <link rel="stylesheet" href="sandstonebootstrap.css"> -->
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" type="text/css" href={% static "../../static/vendor/font-awesome/css/font-awesome.min.css" %}>
+  </head>
+
+
+<body>
+<!--   <div class="content-wrapper">
     <div class="container-fluid">
 
       <div class="row">
@@ -27,7 +31,47 @@
 		  <p>  {{ dinner }} </p>
         </div>
       </div>
-    </div>
+    </div>  -->
+<div class="container jumbotron">
+        <h1 class="text-center">Sign Up Confirmation</h1>
+    <hr>
+  <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+        </div>
+      </div>
+      
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+
+        <h3>Your sign up has been sucessfully submitted.</h3>
+       <!--  <h4>Signup information:</h4> -->
+      <div class="col-12">
+          <p> Name: {{ user }} </p>
+      <p> Interest: {{ interest }} </p>
+      <p> Dinner: {{ dinner }} </p>
+        </div>
+
+
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+              <a class="btn btn-block btn-primary"  href="home">Continue</a>
+            </div>
+          </div>
+
+      </div>
+  </div>
+<!--   <div class="row">
+        <div class="col-12">
+          <p>  {{ user }} </p>
+      <p>  {{ interest }} </p>
+      <p>  {{ dinner }} </p>
+        </div>
+      </div> -->
+  </div>
+<!-- </div> -->
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
