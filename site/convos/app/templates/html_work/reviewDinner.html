@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Create an Account</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href={% static "vendor/bootstrap/css/bootstrap.min.css" %} rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href={% static "css/full.css" %} rel="stylesheet">
+   <!-- <link rel="stylesheet" href="sandstonebootstrap.css"> -->
+  <!-- Custom fonts for this template-->
+  <link href={% static "vendor/font-awesome/css/font-awesome.min.css" %} rel="stylesheet" type="text/css">
+ 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Duke Conversations</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register">Sign Up for Dinner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="review">Review Dinner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="edit">Edit Profile</a>
+            </li>
+            <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="logout">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <!-- Page Content -->
+<!--   <div class="mt-4 col-md-12">
+        This will have a two-point top margin!
+
+
+</div>  -->
+<div class="container jumbotron">
+    <h1>Review Dinner</h1>
+    <hr>
+  <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+        </div>
+      </div>
+      
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+
+        <h3>Review Dinner</h3>
+      
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Dinner attended:</label>
+            <div class="col-lg-8">
+               <div class="ui-select">
+                <select id="Dinneroptions" class="form-control">
+                  <option id="Din1" value="Din1">Dinner 1 </option>
+                  <option id= "Din2" value="Din2">Dinner 2 </option>
+                  <option  id="Din3" value="Din3">Dinner 3 </option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">How satisfied were you with this dinner?</label>
+            <div class="form-check form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 (Not satisfied)
+                </label>
+                </div>
+                  <div class="form-check form-check">
+                  <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                  </label>
+                  </div>
+                  <div class="form-check form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 3
+                </label>
+                </div>
+                <div class="form-check form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 4
+                </label>
+                </div>
+                <div class="form-check form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 5 (very satisfied)
+                </label>
+                </div>
+                <div class="form-check form-check disabled">
+                <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled> 6
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="textarea">Additional comments:</label>
+            <div class="col-md-4">                     
+              <textarea class="form-control" id="textarea" name="textarea" placeholder='Comments here'></textarea>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+              <a class="btn btn-primary"  href="confirm">Submit</a>
+              <span></span>
+              <a class="btn btn-default" href="home"> Cancel</a>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+</div>
+<hr>
+
+<!--Logoutmodal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="/">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

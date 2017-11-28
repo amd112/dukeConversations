@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Create an Account</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href={% static "vendor/bootstrap/css/bootstrap.min.css" %}>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href={% static "css/full.css" %}>
+    <!-- <link rel="stylesheet" href="sandstonebootstrap.css"> -->
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor/font-awesome/css/font-awesome.min.css" %}>
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="card card-register mx-auto mt-5">
+      <div class="card-header">Create an Account</div>
+      <div class="card-body">
+        <form method='post'> {% csrf_token %}
+          <div class="form-group">
+			{{ form.as_p }}
+          </div>
+		  <button type='submit' class="btn btn-primary btn-block">Register</button>
+        </form>
+        <div class="text-center">
+          <a class="d-block small mt-3" href="login">Login Page</a>
+          <a class="d-block small" href="password">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+</body>
+
+</html>
