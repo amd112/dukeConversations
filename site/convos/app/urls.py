@@ -17,7 +17,6 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib.auth import views as auth_views
-
 from . import views
 
 
@@ -38,5 +37,4 @@ urlpatterns = [
 	url(r'^home$', views.loginhome, name = 'loginhome'),
 	url(r'^logout$', views.log_out, name = 'logout'),
 	url('^password$', auth_views.PasswordChangeView.as_view(template_name='html_work/forgot-password.html')),
-	url(r'^emailpage$', views.sendSimpleEmail, name = 'emailpage'),
 ]
