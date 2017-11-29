@@ -124,16 +124,16 @@ LOGIN_REDIRECT_URL = '/'
 
 
 #Email Stuff
-EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST = 'smtp.gmail.com'
 
 # My user to access to sendgrid account
-EMAIL_HOST_USER = 'Kimberly3' # hello@hostayni.com
+EMAIL_HOST_USER = 'DukeConversation@gmail.com' # hello@hostayni.com
 
 # Sender
-EMAIL_MAIN = 'noreply@Kimberly3.com'
+EMAIL_MAIN = 'noreply@DukeConversation.com'
 
 # My password to access to sendgrid account
-EMAIL_HOST_PASSWORD = '5993rock'
+EMAIL_HOST_PASSWORD = 'compsci316'
 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True

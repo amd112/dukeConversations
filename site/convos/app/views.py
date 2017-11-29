@@ -141,5 +141,5 @@ def register(request):
 #password change?
 
 def sendSimpleEmail(request):
-	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["kimbonicole@gmail.com"])
+	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["kne3@duke.edu"])
 	return HttpResponse('%s'%res)
