@@ -102,7 +102,7 @@ class Application(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
 	selected = models.NullBooleanField(default = None, null = True)
-	date_time = models.DateTimeField()
+	date_time = models.DateTimeField(auto_now_add=True)
 	interest = models.TextField(max_length = 1000)
 	class Meta:
 		unique_together = (("username", "dinner_id"),)
@@ -116,7 +116,7 @@ class Review(models.Model):
 	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
 	food_comments = models.TextField(max_length = 1000, null = True)
 	convo_comments = models.TextField(max_length = 1000, null = True)
-	date_time = models.DateTimeField()
+	date_time = models.DateTimeField(auto_now_add=True)
 	class Meta:
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
@@ -129,3 +129,8 @@ class Attendance(models.Model):
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
 		return str(self.username) + " attended " + str(self.dinner_id)
+		
+		
+class Selection(Application):
+    class Meta:
+        proxy = True
