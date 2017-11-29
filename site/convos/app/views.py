@@ -7,6 +7,8 @@ from django.contrib.auth.models import User, Group
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required, user_passes_test
 
+from django.core.mail import send_mail
+
 
 from django.template import RequestContext
 from django.template.context_processors import csrf
@@ -137,3 +139,7 @@ def register(request):
 	
 #forgot password?
 #password change?
+
+def sendSimpleEmail(request):
+	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["kimbonicole@gmail.com"])
+	return HttpResponse('%s'%res)
