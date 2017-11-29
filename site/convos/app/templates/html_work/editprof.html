@@ -73,8 +73,12 @@
 
         </div>
       </div>
-
- <form class="form-horizontal" role="form" method="post">{% csrf_token %}
+      
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+		<h5 > Profile must be complete to submit any other form. </h5>
+		
+ <form class="form-horizontal col-lg-12" role="form" method="post">{% csrf_token %}
     <fieldset>
         <legend>{{ title }}</legend>
         {% for field in form %}
@@ -105,8 +109,7 @@
               <button class="btn btn-default" href="home"> Cancel</button>
             </div>
 </form> 
-
-      </div>
+</div>
   </div>
 </div>
 <hr>
