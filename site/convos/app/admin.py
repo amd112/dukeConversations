@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Student, Application, Professor, Attendance, Review, Dinner, Selection
 
-f
+
 # Register your models here.
 
 
@@ -11,7 +11,7 @@ class ApplicationAdmin(admin.ModelAdmin):
 	list_per_page = 25
 	
 @admin.register(Selection)
-class Selection(ModelAdmin):
+class Selection(admin.ModelAdmin):
     change_list_template = 'admin/selection.html'
 	
 admin.site.register(Student)
