@@ -76,35 +76,25 @@
       
       <!-- edit form column -->
       <div class="col-md-9 personal-info">
-		<h5 > Profile must be complete to submit any other form. <h5>
-<!-- 		<form action="" method='post'> {% csrf_token %}
-          <div class="form-group">
-            {{ form.as_p }}
-            <div class="col-md-8">
-              <button class="btn btn-primary"  href="edit">Save Changes</button>
-              <span></span>
-              <button class="btn btn-default" href="home"> Cancel</button>
-            </div>
-          </div>
-        </form> -->
-
- <form class="form-horizontal" method="post">{% csrf_token %}
+		<h5 > Profile must be complete to submit any other form. </h5>
+		
+ <form class="form-horizontal col-lg-12" role="form" method="post">{% csrf_token %}
     <fieldset>
         <legend>{{ title }}</legend>
         {% for field in form %}
             {% if field.errors %}
                 <div class="control-group error">
-                    <label class="control-label">{{ field.label }}</label> 
-                    <div class="controls">{{ field }}
+                    <label class="col-lg-3 control-label">{{ field.label }}</label> 
+                    <div class="col-lg-8">{{ field }}
                         <span class="help-inline">
                             {% for error in  field.errors %}{{ error }}{% endfor %}
                         </span>
                     </div>
                 </div>
             {% else %}
-                <div class="control-group">
-                    <label class="control-label">{{ field.label }}</label> 
-                    <div class="controls">{{ field }}
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">{{ field.label }}</label> 
+                    <div class="col-lg-8">{{ field }}
                         {% if field.help_text %}
                             <p class="help-text"><small>{{ field.help_text }}</small></p>
                         {% endif %}
@@ -119,8 +109,7 @@
               <button class="btn btn-default" href="home"> Cancel</button>
             </div>
 </form> 
-
-      </div>
+</div>
   </div>
 </div>
 <hr>

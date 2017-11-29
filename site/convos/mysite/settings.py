@@ -121,3 +121,19 @@ USE_TZ = True
 STATIC_URL = '/static/'
 LOGIN_URL = "/login"
 LOGIN_REDIRECT_URL = '/'
+
+
+#Email Stuff
+EMAIL_HOST = 'smtp.sendgrid.net'
+
+# My user to access to sendgrid account
+EMAIL_HOST_USER = 'Kimberly3' # hello@hostayni.com
+
+# Sender
+EMAIL_MAIN = 'noreply@Kimberly3.com'
+
+# My password to access to sendgrid account
+EMAIL_HOST_PASSWORD = '5993rock'
+
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
