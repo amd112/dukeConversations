@@ -6,7 +6,9 @@ from .models import Student, Dinner, Professor, Application
 
 class loginForm(forms.Form):
 	username = forms.CharField(max_length = 70)
-	password = forms.CharField(max_length = 70)
+	password = forms.CharField(widget=forms.PasswordInput())
+	
+
 
 class accountInfo(forms.ModelForm):
 	class Meta:

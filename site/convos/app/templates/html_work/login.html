@@ -22,7 +22,7 @@
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Login</div>
       <div class="card-body">
-		{% if form.errors %}
+<!-- 		{% if form.errors %}
 			<p class=" label label-danger">
 				Your username and password didn't match. Please try again.
 				{{form.errors}}
@@ -31,7 +31,43 @@
         <form action="" method='post'> {% csrf_token %}
 			{{ form.as_p }}
 			<button type='submit' class="btn btn-primary btn-block">Log in</button>
-        </form>
+        </form> -->
+{% if form.errors %}
+      <p class="label label-danger">
+        Your username and password didn't match. Please try again.
+        {{form.errors}}
+      </p>
+    {% endif %}
+
+    <form class="form-horizontal text-center" method="post">{% csrf_token %}
+    <fieldset>
+        <legend>{{ title }}</legend>
+        {% for field in form %}
+            {% if field.errors %}
+                <div class="control-group error">
+                    <label class="control-label">{{ field.label }}</label> 
+                    <div class="controls">{{ field }}
+                        <span class="help-inline">
+                            {% for error in  field.errors %}{{ error }}{% endfor %}
+                        </span>
+                    </div>
+                </div>
+            {% else %}
+                <div class="control-group">
+                    <label class="control-label">{{ field.label }}</label> 
+                    <div class="controls">{{ field }}
+                        {% if field.help_text %}
+                            <p class="help-text"><small>{{ field.help_text }}</small></p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </fieldset>
+     <div  style="padding-bottom: 40px; padding-top: 20px;" class="form-group">
+            <button type='submit' class="btn btn-primary btn-block">Log in</button>
+            </div>
+</form> 
         <div class="text-center">
           <a class="d-block small mt-3" href="signup">Register an Account</a>
           <a class="d-block small" href="admin">Login as Admin</a>
