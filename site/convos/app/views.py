@@ -82,7 +82,10 @@ def loginhome(request):
 	startdate = datetime.date.today()
 	enddate = startdate + datetime.timedelta(days=20)
 	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate])
-	context = {"dinners": future_dins}
+	future_dins = future_dins.order_by('date_time')
+	apps = Application.objects.filter(username = request.user.get_username())
+	#still need to filter so the apps must equal one of the future dins
+	context = {"dinners": future_dins, "applications":apps}
 	return(render(request, 'html_work/loginhome.html', context))
 
 @login_required(login_url = '/login')
