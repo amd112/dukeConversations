@@ -56,62 +56,46 @@
 
 
 
-
-    <!-- Page Content -->
-<!--   <div class="mt-4 col-md-12">
-        This will have a two-point top margin!
-
-
-</div>  -->
 <div class="container jumbotron">
-    <h1>Edit Profile</h1>
+    <h1 class="text-center">Edit Profile</h1>
     <hr>
   <div class="row">
       <!-- left column -->
-      <div class="col-md-3">
+      <div class="col-md-2">
         <div class="text-center">
-
         </div>
       </div>
+    
       
       <!-- edit form column -->
-      <div class="col-md-9 personal-info">
-		<h5 > Profile must be complete to submit any other form. </h5>
-		
- <form class="form-horizontal col-lg-12" role="form" method="post">{% csrf_token %}
-    <fieldset>
-        <legend>{{ title }}</legend>
-        {% for field in form %}
-            {% if field.errors %}
-                <div class="control-group error">
-                    <label class="col-lg-3 control-label">{{ field.label }}</label> 
-                    <div class="col-lg-8">{{ field }}
-                        <span class="help-inline">
-                            {% for error in  field.errors %}{{ error }}{% endfor %}
-                        </span>
-                    </div>
-                </div>
-            {% else %}
-                <div class="form-group">
-                    <label class="col-lg-3 control-label">{{ field.label }}</label> 
-                    <div class="col-lg-8">{{ field }}
-                        {% if field.help_text %}
-                            <p class="help-text"><small>{{ field.help_text }}</small></p>
-                        {% endif %}
-                    </div>
-                </div>
-            {% endif %}
-        {% endfor %}
-    </fieldset>
-     <div  style="padding-bottom: 40px; padding-top: 20px;" class="form-group">
-              <button class="btn btn-primary"  href="edit">Save Changes</button>
+      <div class="col-md-8 personal-info">
+
+        <h3>Current Dinners</h3>
+          <form class="form-group" action="" method='POST'> {% csrf_token %}
+           {{ form.as_p }}
+
+      <div class="text-center col-md-12">
+              <button type="submit" class="btn btn-primary"  href="confirm">Save Changes</button>
               <span></span>
               <button class="btn btn-default" href="home"> Cancel</button>
             </div>
-</form> 
+          </form>
+
+<div class="col-md-2">
+        <div class="text-center"> 
+        </div>
+      </div>
+
 </div>
+
+      
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            
+          </div>
+        
+      </div>
   </div>
-</div>
 <hr>
 
 <!--Logoutmodal-->
