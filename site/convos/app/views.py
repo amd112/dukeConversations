@@ -79,7 +79,11 @@ def signup(request):
 
 @login_required(login_url = '/login')
 def loginhome(request):
-	return(render(request, 'html_work/loginhome.html'))
+	startdate = datetime.date.today()
+	enddate = startdate + datetime.timedelta(days=20)
+	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate])
+	context = {"dinners": future_dins}
+	return(render(request, 'html_work/loginhome.html', context))
 
 @login_required(login_url = '/login')
 def confirm(request):

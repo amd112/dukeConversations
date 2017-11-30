@@ -65,16 +65,19 @@
 
 </div>  -->
 <div class="container jumbotron">
-  <div class="dinner">
-      
-      <h5> Dinner name </h5>
-		<p> name 1</p>
-		<p> date </p>
-		<p> professor </p>
-		<p> what is this dinner about?????? </p>    
-  </div>
-</div>
-<hr>
+        <h1 class="text-center" style="margin-top: 50px">Future Dinners</h1>
+    <hr>
+	{% for dinner in dinners %}
+	 <div class="row">
+	<div class="card w-75 card-outline-secondary mb-3">
+		<div class="card-block">
+			<h3 class="card-title" style="padding: 15px 15px 0 15px">Topic: {{ dinner.topic }}</h3>
+			<h6 class="card-text" style="padding: 0 15px 0 15px">Professor: {{ dinner.professor_id }}</h6>
+			<p class="card-text" style="padding: 0 15px 15px 15px">Description: {{ dinner.description }}</p>
+		</div>
+	</div>
+		</div>
+	{% endfor %}
 
 <!--Logoutmodal-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
