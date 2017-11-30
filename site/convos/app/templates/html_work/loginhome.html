@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Current Dinners</title>
+    <title>Upcoming Dinners</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href={% static "../../static/vendor/bootstrap/css/bootstrap.min.css" %}>
@@ -56,22 +56,37 @@
     </nav>
 
 
-
-
-    <!-- Page Content -->
-<!--   <div class="mt-4 col-md-12">
-        This will have a two-point top margin!
-
-
-</div>  -->
 <div class="container jumbotron">
-        <h1 class="text-center" style="margin-top: 50px">Future Dinners</h1>
-    <hr>
+	<h1 class="text-center" style="margin-top: 50px">Your Dinners</h1>
+	<hr>
+	<div class="row">
+	<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
+		<div class="card-block center-block" style="padding: 15px 15px 15px 15px">
+			{% for app in applications %}
+			<h6 class="card-text">Dinner with {{ app.dinner_id }}</h6>
+				{% if app.selected is True %}
+					<p class="card-text">Status:  Selected </p>
+				{% elif app.selected is False %}
+					<p class="card-text">Status:  Not Selected </p>
+				{% else %}
+					<p class="card-text">Status:  Pending </p>
+				{% endif %}
+			{% empty %}
+			<h6 class="card-text text-center">You don't have any current applications.</h6>
+			{% endfor %}
+		</div>
+	</div>
+	</div>
+	
+  
+	<hr>
+	
+	<h1 class="text-center" style="margin-top: 50px">Upcoming Dinners</h1>
 	{% for dinner in dinners %}
 	 <div class="row">
 	<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
 		<div class="card-block center-block">
-			<h3 class="card-title" style="padding: 15px 15px 0 15px">Topic: {{ dinner.topic }}</h3>
+			<h3 class="card-title" style="padding: 15px 15px 0 15px">{{ dinner.topic }}</h3>
 			<h6 class="card-text" style="padding: 0 15px 0 15px">Professor: {{ dinner.professor_id }}</h6>
 			<h6 class="card-text" style="padding: 0 15px 0 15px">Date: {{ dinner.date_time }}</h6>
 			<p class="card-text" style="padding: 0 15px 15px 15px">{{ dinner.description }}</p>
