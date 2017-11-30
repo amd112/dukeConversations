@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.conf.urls import include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib.auth import views as auth_views
 
@@ -40,4 +41,5 @@ urlpatterns = [
 	url(r'^logout$', views.log_out, name = 'logout'),
 	url('^password$', views.password, name = 'password'),
 	url(r'^emailpage$', views.sendSimpleEmail, name = 'emailpage'),
+	url('^', include('django.contrib.auth.urls')),
 ]
