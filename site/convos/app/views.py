@@ -166,8 +166,10 @@ def register(request):
 			inter = data['interest']
 			#save their application
 			a = Application.objects.create(username = user, dinner_id = din, selected = None, interest = inter)
+			request.session['prof_application'] = din.professor_id.name
+			request.session['topic_application'] = din.topic
 			a.save()
-			return redirect('/confirm', {"user":user.username, "dinner":din.topic, "interest":inter})
+			return redirect('/emailpage')
 	else:
 		#show form
 		form = registerDinner(user=user)
@@ -179,8 +181,18 @@ def password(request):
 #password change?
 
 def send_email(request):
-	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["amd112@duke.edu"])
-	return HttpResponse('%s'%res)
+	#get the signup information
+	prof = request.session['prof_application']
+	topic = request.session['topic_application']
+	
+	#get the user information
+	user = request.user.username
+	user = User.objects.get(username = user)
+	email = user.email
+	
+	#send the email and redirect
+	res=send_mail("dinner", prof + ", " + topic, "noreply@Kimberly3.com", [email])
+	return redirect('/confirm')
 
 
 def change_password(request):
