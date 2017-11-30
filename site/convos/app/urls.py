@@ -19,6 +19,7 @@ from django.conf.urls import include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib.auth import views as auth_views
 
+
 from . import views
 
 
@@ -42,4 +43,5 @@ urlpatterns = [
 	url('^password$', views.password, name = 'password'),
 	url(r'^emailpage$', views.sendSimpleEmail, name = 'emailpage'),
 	url('^', include('django.contrib.auth.urls')),
+	url(r'^change_password/$', views.change_password, name='change_password'),
 ]
