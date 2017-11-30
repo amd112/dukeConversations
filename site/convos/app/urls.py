@@ -30,6 +30,7 @@ urlpatterns = [
 	url(r'^review$', views.review, name = 'review'),
 	#registering for dinner /confirm
 	url(r'^confirm$', views.confirm, name = 'confirmation'),
+	url(r'^confirmr$', views.confirm_review, name = 'confirmation'),
 	#registering for website /signup
 	url(r'^signup$', views.signup, name = 'signup'),
 	#logging in to system /login

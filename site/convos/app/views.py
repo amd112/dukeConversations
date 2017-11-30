@@ -87,8 +87,11 @@ def loginhome(request):
 
 @login_required(login_url = '/login')
 def confirm(request):
-	#context = {"user":user, "dinner":dinner, "interest":interest}
 	return render(request, 'html_work/confirm.html')
+	
+@login_required(login_url = '/login')
+def confirm_review(request):
+	return render(request, 'html_work/confirmreview.html')
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
