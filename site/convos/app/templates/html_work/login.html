@@ -48,7 +48,7 @@
                 <div class="control-group error">
                     <label class="control-label">{{ field.label }}</label> 
                     <div class="controls">{{ field }}
-                        <span class="help-inline">
+                        <span class="help-inline form-control form-control-danger">
                             {% for error in  field.errors %}{{ error }}{% endfor %}
                         </span>
                     </div>
