@@ -82,12 +82,17 @@ def signup(request):
 	return(render(request, 'html_work/register.html', {'form': form}))
 
 @login_required(login_url = '/login')
+#get the dinners they've applied to and upcoming dinners
+#display status of their applications
 def loginhome(request):
 	startdate = datetime.date.today()
 	enddate = startdate + datetime.timedelta(days=20)
+	pastdate = startdate + datetime.timedelta(days=-20)
 	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate])
 	future_dins = future_dins.order_by('date_time')
 	apps = Application.objects.filter(username = request.user.get_username())
+	apps = apps.filter(date_time__range=[pastdate, startdate+datetime.timedelta(days=1)])
+	apps = apps.order_by('-date_time')
 	#still need to filter so the apps must equal one of the future dins
 	context = {"dinners": future_dins, "applications":apps}
 	return(render(request, 'html_work/loginhome.html', context))
@@ -105,30 +110,38 @@ def confirm_review(request):
 def review(request):
 	return render(request, 'html_work/reviewDinner.html')
 
-#Works, don't mess with
 @login_required(login_url = '/login')
+#check if they already have a student object
+#if they do, update info. If they don't, create
 def edit(request):
 	user = request.user.get_username()
+	
+	#see if they already have a student object entry
+	#now when we reference we either edit existing, or create new
 	try:
 		student = Student.objects.get(username = user) 
 	except ObjectDoesNotExist:
 		student = None
 
-	if request.method == "POST":
-		#instance lets us reference a certain object 
+	#if they entered data	
+	if request.method == "POST": 
 		form = accountInfo(request.POST, instance = student)
 		form.fields['username'].widget.attrs['readonly'] = True
 		if form.is_valid():
 			form.save(commit=False)
 			form.username = user
+			#save their student object
 			form.save()
+			#get their email
 			netid = form.cleaned_data['netid']
 			email = netid + "@duke.edu"
 			current = User.objects.get(username = user)
 			current.email = email
+			#save to their user obejct
 			current.save()
 			return redirect('/home')
 	else:
+		#build the form
 		form = accountInfo(initial={'username':user}, instance=student)
 		form.fields['username'].widget.attrs['readonly'] = True
 	return render(request, 'html_work/editprof.html', {'form': form, "user": user})
@@ -138,20 +151,25 @@ def edit(request):
 #check they have reviewed all dinners before registering again
 #doesn't pass the data to confirm correctly yet
 def register(request):
+	#get user object
 	user = request.user.username
 	user = Student.objects.get(username = user)
+	
+	#if they filled out form
 	if request.POST:
 		form = registerDinner(request.POST, user=user)
 		if form.is_valid():
 			data = form.cleaned_data
+			#fill out automatic data
 			din = data['dinner']
 			din = Dinner.objects.get(pk = din)
 			inter = data['interest']
-			time = datetime.datetime.now()
-			a = Application.objects.create(username = user, dinner_id = din, selected = None, date_time = time, interest = inter)
+			#save their application
+			a = Application.objects.create(username = user, dinner_id = din, selected = None, interest = inter)
 			a.save()
 			return redirect('/confirm', {"user":user.username, "dinner":din.topic, "interest":inter})
 	else:
+		#show form
 		form = registerDinner(user=user)
 	return render(request, 'html_work/signupdin.html', {"form": form})
 	
