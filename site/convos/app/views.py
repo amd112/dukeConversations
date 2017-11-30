@@ -21,6 +21,10 @@ import datetime
 from .models import Application, Student, Dinner
 from .forms import loginForm, accountInfo, registerDinner
 
+from django.contrib import messages
+from django.contrib.auth import update_session_auth_hash
+from django.contrib.auth.forms import PasswordChangeForm
+
 
 def check_complete_user(user):
 	try:
@@ -82,7 +86,10 @@ def loginhome(request):
 	startdate = datetime.date.today()
 	enddate = startdate + datetime.timedelta(days=20)
 	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate])
-	context = {"dinners": future_dins}
+	future_dins = future_dins.order_by('date_time')
+	apps = Application.objects.filter(username = request.user.get_username())
+	#still need to filter so the apps must equal one of the future dins
+	context = {"dinners": future_dins, "applications":apps}
 	return(render(request, 'html_work/loginhome.html', context))
 
 @login_required(login_url = '/login')
@@ -151,3 +158,20 @@ def password(request):
 def sendSimpleEmail(request):
 	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["kne3@duke.edu"])
 	return HttpResponse('%s'%res)
+
+
+def change_password(request):
+    if request.method == 'POST':
+        form = PasswordChangeForm(request.user, request.POST)
+        if form.is_valid():
+            user = form.save()
+            update_session_auth_hash(request, user)  # Important!
+            messages.success(request, 'Your password was successfully updated!')
+            return redirect('change_password')
+        else:
+            messages.error(request, 'Please correct the error below.')
+    else:
+        form = PasswordChangeForm(request.user)
+    return render(request, 'html_work/change_password.html', {
+        'form': form
+    })

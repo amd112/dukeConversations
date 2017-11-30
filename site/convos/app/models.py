@@ -76,7 +76,7 @@ class Student(models.Model):
 	major = models. CharField(max_length = 2, choices = majors)
 	pronoun = models.CharField(max_length = 1, choices = pronouns)
 	def __str__(self):
-		return self.name
+		return self.username
 
 class Professor(models.Model):
 	genders = (
@@ -96,7 +96,7 @@ class Dinner(models.Model):
 	topic = models.CharField(max_length = 100)
 	description = models.TextField(max_length = 1000)
 	def __str__(self):
-		return str(self.professor_id) + " at " + str(self.date_time)
+		return str(self.professor_id) + " on " + str(self.date_time.date())
 	
 class Application(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
