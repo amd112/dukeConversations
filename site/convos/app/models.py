@@ -85,7 +85,7 @@ class Professor(models.Model):
 		("3", "O")
 	)
 	name = models.CharField(max_length = 40)
-	food_restrictions = models.CharField(max_length = 50, null = True)
+	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	gender = models.CharField(max_length = 2, choices = genders)
 	def __str__(self):
 		return self.name

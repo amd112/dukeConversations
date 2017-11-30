@@ -65,35 +65,23 @@
 
 </div>  -->
 <div class="container jumbotron">
-  <div class="dinner">
-      
-      <h5> Dinner name </h5>
-		<p> name 1</p>
-		<p> date </p>
-		<p> professor </p>
-		<p> what is this dinner about?????? </p>    
-  </div>
+        <h1 class="text-center" style="margin-top: 50px">Future Dinners</h1>
+    <hr>
+	{% for dinner in dinners %}
+	 <div class="row">
+	<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
+		<div class="card-block center-block">
+			<h3 class="card-title" style="padding: 15px 15px 0 15px">Topic: {{ dinner.topic }}</h3>
+			<h6 class="card-text" style="padding: 0 15px 0 15px">Professor: {{ dinner.professor_id }}</h6>
+			<h6 class="card-text" style="padding: 0 15px 0 15px">Date: {{ dinner.date_time }}</h6>
+			<p class="card-text" style="padding: 0 15px 15px 15px">{{ dinner.description }}</p>
+		</div>
+	</div>
+		</div>
+	{% endfor %}
 </div>
-<hr>
-
 <!--Logoutmodal-->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="logout">Logout</a>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
