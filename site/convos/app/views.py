@@ -178,8 +178,8 @@ def password(request):
 #forgot password?
 #password change?
 
-def sendSimpleEmail(request):
-	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["kne3@duke.edu"])
+def send_email(request):
+	res=send_mail("hello world","how are you?", "noreply@Kimberly3.com", ["amd112@duke.edu"])
 	return HttpResponse('%s'%res)
 
 

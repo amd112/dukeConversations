@@ -135,8 +135,3 @@ class Attendance(models.Model):
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
 		return str(self.username) + " attended " + str(self.dinner_id)
-		
-		
-class Selection(Application):
-    class Meta:
-        proxy = True
