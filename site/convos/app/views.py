@@ -143,7 +143,8 @@ def register(request):
 		form = registerDinner(user=user)
 	return render(request, 'html_work/signupdin.html', {"form": form})
 	
-	
+def password(request):
+	return render(request, 'html_work/password.html')
 #forgot password?
 #password change?
 

@@ -38,6 +38,6 @@ urlpatterns = [
 	url(r'^edit$', views.edit, name = 'edit'),
 	url(r'^home$', views.loginhome, name = 'loginhome'),
 	url(r'^logout$', views.log_out, name = 'logout'),
-	url('^password$', auth_views.PasswordChangeView.as_view(template_name='html_work/forgot-password.html')),
+	url('^password$', views.password, name = 'password'),
 	url(r'^emailpage$', views.sendSimpleEmail, name = 'emailpage'),
 ]
