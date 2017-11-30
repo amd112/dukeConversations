@@ -122,6 +122,11 @@ def edit(request):
 			form.save(commit=False)
 			form.username = user
 			form.save()
+			netid = form.cleaned_data['netid']
+			email = netid + "@duke.edu"
+			current = User.objects.get(username = user)
+			current.email = email
+			current.save()
 			return redirect('/home')
 	else:
 		form = accountInfo(initial={'username':user}, instance=student)

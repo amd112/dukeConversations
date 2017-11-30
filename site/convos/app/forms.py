@@ -15,8 +15,10 @@ class accountInfo(forms.ModelForm):
 		super(accountInfo, self).__init__(*args, **kwargs)
 		majors = Student._meta.get_field('major').choices
 		pronouns = Student._meta.get_field('pronoun').choices
+		years = Student._meta.get_field('year').choices
 		self.fields['major'].choices = majors
 		self.fields['pronoun'].choices = pronouns
+		self.fields['year'].choices = years
 		for field in self.fields: 
 			self.fields[field].widget.attrs.update({'class' : 'form-control'})
 			
@@ -29,12 +31,16 @@ class accountInfo(forms.ModelForm):
 			'id': forms.TextInput(attrs={'class': 'form-control'}),
             'netid': forms.TextInput(attrs={'class': 'form-control'}),
 			'phone_number': forms.TextInput(attrs={'class': 'form-control'}),
-            'year': forms.TextInput(attrs={'class': 'form-control'}),
+            'year': forms.Select(attrs={'class': 'form-control'}),
 			#needs to not be text input
 			'major': forms.Select(attrs={'class': 'form-control'}),
             'pronoun': forms.Select(attrs={'class': 'form-control'}),
 			'food_restrictions': forms.TextInput(attrs={'class': 'form-control'})
 		}
+		labels = {
+            'netid': 'NetID',
+			'id': 'Unique ID'
+        }
 		
 
 class registerDinner(forms.Form):

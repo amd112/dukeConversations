@@ -1,5 +1,8 @@
+import datetime
+
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.utils.translation import ugettext_lazy as _
 
 # Create your models here.
 class Student(models.Model):
@@ -66,14 +69,17 @@ class Student(models.Model):
 		("4", "xe/xem/xyr"),
 		("5", "other")
 	)
+	years = datetime.datetime.now().year
+	years = range(years - 2, years + 5)
+	years = [(str(x), str(x)) for x in years]
 	username = models.CharField(max_length = 70, primary_key = True)
-	id = models.CharField(max_length = 7)
+	id = models.CharField(max_length = 10, unique = True)
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	netid = models.CharField(max_length = 7, unique = True)
 	phone_number = models.IntegerField(unique = True)
-	year = models.IntegerField()
-	major = models. CharField(max_length = 2, choices = majors)
+	year = models.CharField(max_length = 1, choices = years)
+	major = models. CharField(max_length = 1, choices = majors)
 	pronoun = models.CharField(max_length = 1, choices = pronouns)
 	def __str__(self):
 		return self.username
