@@ -3,6 +3,7 @@ import datetime
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.translation import ugettext_lazy as _
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Student(models.Model):
@@ -72,12 +73,13 @@ class Student(models.Model):
 	years = datetime.datetime.now().year
 	years = range(years - 2, years + 5)
 	years = [(str(x), str(x)) for x in years]
-	username = models.CharField(max_length = 70, primary_key = True)
-	id = models.CharField(max_length = 10, unique = True)
+	
+	username = models.CharField(max_length = 30, primary_key = True)
+	unique_id = models.CharField(max_length = 7, unique = True)
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	netid = models.CharField(max_length = 7, unique = True)
-	phone_number = models.IntegerField(unique = True)
+	phone_number = models.CharField(unique = True, max_length = 10)
 	year = models.CharField(max_length = 4, choices = years)
 	major = models. CharField(max_length = 10, choices = majors)
 	pronoun = models.CharField(max_length = 1, choices = pronouns)
@@ -90,6 +92,7 @@ class Professor(models.Model):
 		("2", "F"),
 		("3", "O")
 	)
+	unique_id = models.CharField(max_length = 7, primary_key = True)
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	gender = models.CharField(max_length = 5, choices = genders)
