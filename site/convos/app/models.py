@@ -84,6 +84,10 @@ class Student(models.Model):
 	def __str__(self):
 		return self.username
 
+	@classmethod
+	def StudentForUsername(self, username):
+	    return Student.objects.get(username=username)
+
 class Professor(models.Model):
 	genders = (
 		("1", "M"),
@@ -124,6 +128,7 @@ class Application(models.Model):
 	def __str__(self):
 		return str(self.username) + " for " + str(self.dinner_id)
 
+#username is not actually username, it is a student instance, so we may want to correct these
 class Review(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
@@ -136,6 +141,10 @@ class Review(models.Model):
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
 		return str(self.username) + " reviewed " + str(self.dinner_id)
+
+	@classmethod
+	def available_reviews(self, user):
+		return Application.objects.filter(username=Student.StudentForUsername(user)).filter(selected=True).filter(attendance=True).values('dinner_id')
 
 
 # Moved attendance as an attribute of Application

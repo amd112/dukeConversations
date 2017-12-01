@@ -22,7 +22,7 @@ from django.views.decorators.csrf import csrf_protect, csrf_exempt
 
 import os
 import datetime
-from .models import Application, Student, Dinner
+from .models import Application, Student, Dinner, Review
 from .forms import loginForm, accountInfo, registerDinner
 
 from django.contrib import messages
@@ -119,7 +119,7 @@ def confirm_review(request):
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review_index(request):
-	available_reviews = []
+	available_reviews = list(Review.available_reviews(request.user))
 	context = {'available_reviews':available_reviews}
 	return render(request, 'html_work/review_index.html', context)
 

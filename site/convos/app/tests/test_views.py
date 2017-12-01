@@ -26,8 +26,7 @@ def createApplications_AllSelected():
 def createProfessor(name, gender="1", food_restriction="Broccoli"):
     return Professor.objects.create(gender=gender, name=name, food_restrictions=food_restriction)
 
-def StudentForUsername(username):
-    return Student.objects.get(username=username)
+
 
 
 
@@ -57,6 +56,7 @@ class ReviewIndexViewTests(TestCase):
         createProfessor("Jun Yang")
         createDinners()
         createApplications_AllSelected()
-        attended_dinners = Application.objects.filter(username=StudentForUsername(self.user)).filter(selected=True).filter(attendance=True).values('dinner_id')
-
+        attended_dinners = Application.objects.filter(username=Student.StudentForUsername(self.user)).filter(selected=True).filter(attendance=True).values('dinner_id')
         response = self.client.get(reverse('reviewIndex'))
+        self.assertContains(response, "Please review the dinners below")
+        self.assertQuerysetEqual(response.context['available_reviews'], map(repr, attended_dinners))
