@@ -83,7 +83,7 @@
 	
 	<h1 class="text-center" style="margin-top: 50px">Upcoming Dinners</h1>
 	{% for dinner in dinners %}
-	 <div class="row">
+	<div class="row">
 	<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
 		<div class="card-block center-block">
 			<h3 class="card-title" style="padding: 15px 15px 0 15px">{{ dinner.topic }}</h3>
@@ -92,7 +92,13 @@
 			<p class="card-text" style="padding: 0 15px 15px 15px">{{ dinner.description }}</p>
 		</div>
 	</div>
+	</div>
+	{% empty %}
+	<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
+		<div class="card-block center-block">
+			<h6 class="card-text text-center" style="padding: 15px 15px 15px 15px">There are no upcoming dinners. Check back soon!</h6>
 		</div>
+	</div>
 	{% endfor %}
 </div>
 <!--Logoutmodal-->
