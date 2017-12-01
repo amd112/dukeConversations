@@ -58,4 +58,5 @@ class ReviewIndexViewTests(TestCase):
         createDinners()
         createApplications_AllSelected()
         attended_dinners = Application.objects.filter(username=StudentForUsername(self.user)).filter(selected=True).filter(attendance=True).values('dinner_id')
-        attended_dinners
+
+        response = self.client.get(reverse('reviewIndex'))
