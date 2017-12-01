@@ -43,5 +43,6 @@ urlpatterns = [
 	url('^password$', views.password, name = 'password'),
 	url(r'^emailpage$', views.send_email, name = 'emailpage'),
 	url('^', include('django.contrib.auth.urls')),
+	#(r'^/accounts/password/reset/$', password_reset, {'template_name': 'my_templates/password_reset.html'}),
 	url(r'^changepassword$', views.change_password, name = 'change_password'),
 ]

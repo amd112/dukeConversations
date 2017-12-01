@@ -235,3 +235,7 @@ def change_password(request):
     return render(request, 'html_work/change_password.html', {
         'form': form
     })
+
+
+
+    
