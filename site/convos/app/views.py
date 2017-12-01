@@ -9,14 +9,18 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 
 from django.core.mail import send_mail
 
+from django.conf import settings
 
 from django.template import RequestContext
 from django.template.context_processors import csrf
+from django.template.loader import render_to_string
 
 from django.core.exceptions import ObjectDoesNotExist
+from django.core.mail import EmailMultiAlternatives
 
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 
+import os
 import datetime
 from .models import Application, Student, Dinner
 from .forms import loginForm, accountInfo, registerDinner
@@ -25,6 +29,7 @@ from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import PasswordChangeForm
 
+from django.utils.html import strip_tags
 
 def check_complete_user(user):
 	try:
@@ -168,6 +173,7 @@ def register(request):
 			a = Application.objects.create(username = user, dinner_id = din, selected = None, interest = inter)
 			request.session['prof_application'] = din.professor_id.name
 			request.session['topic_application'] = din.topic
+			request.session['date_application'] = din.date_time.date().strftime('%m/%d/%Y')
 			a.save()
 			return redirect('/emailpage')
 	else:
@@ -184,14 +190,33 @@ def send_email(request):
 	#get the signup information
 	prof = request.session['prof_application']
 	topic = request.session['topic_application']
+	date = request.session['date_application']
 	
 	#get the user information
 	user = request.user.username
 	user = User.objects.get(username = user)
 	email = user.email
+	subject = "Your Duke Conversations signup has been submitted!"
+
+	#file_path = os.path.join(settings.STATIC_ROOT, 'confirmationemail.html')
+
+	#with open(file_path, 'r') as file:
+	#	message = file.read().replace('\n', ' ')
+	#message.replace("{{ professor }}", prof)
+	#message.replace("{{ topic }}", topic)
+	#message.replace("{{ date }}", topic)
+	
+
+	html_content = render_to_string('html_work/confirmationemail.html', {'professor':prof, 'topic':topic, 'date':date})
+	text_content = strip_tags(html_content) # this strips the html, so people will have the text as well.
+
+	# create the email, and attach the HTML version as well.
+	msg = EmailMultiAlternatives(subject, text_content, 'dukeconversation@gmail.com', [email])
+	msg.attach_alternative(html_content, "text/html")
+	msg.send()
 	
 	#send the email and redirect
-	res=send_mail("dinner", prof + ", " + topic, "noreply@Kimberly3.com", [email])
+	#res=send_mail("Your Duke Conversations signup has been submitted!", message, "noreply@Kimberly3.com", [email])
 	return redirect('/confirm')
 
 
