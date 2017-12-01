@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  {% if available_reviews %}
+  <ul>
+    {% for review in available_reviews %}
+    <li><a href="/reviews/{{ review.id }}/">{{ review.text }}</a></li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No reviews needed.</p>
+  {% endif %}
+</body>
+
+</html>

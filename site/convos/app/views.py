@@ -43,10 +43,10 @@ def index(request):
 	#latest_question_list = Application.objects.order_by('-date_time')[:5]
 	#context = {'latest_question_list': latest_question_list}
 	return render(request, 'html_work/homepage.html')
-	
-#Works, but doesn't give 'incorrect password' warning. 
+
+#Works, but doesn't give 'incorrect password' warning.
 #Uses form instead of ModelForm to feed data, checks w/ authenticate
-@csrf_protect	
+@csrf_protect
 def log_in(request):
 	if request.POST:
 		form = loginForm(request.POST)
@@ -74,7 +74,7 @@ def log_out(request):
 	return(redirect('/'))
 
 #Appears to work, don't touch
-@csrf_protect	
+@csrf_protect
 def signup(request):
 	if request.POST:
 		form = UserCreationForm(request.POST)
@@ -110,14 +110,24 @@ def loginhome(request):
 @login_required(login_url = '/login')
 def confirm(request):
 	return render(request, 'html_work/confirm.html')
-	
+
 @login_required(login_url = '/login')
 def confirm_review(request):
 	return render(request, 'html_work/confirmreview.html')
 
+
+@login_required(login_url = '/login')
+@user_passes_test(check_complete_user, login_url='/edit')
+def review_index(request):
+	available_reviews = []
+	context = {'available_reviews':available_reviews}
+	return render(request, 'html_work/review_index.html', context)
+
+
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review(request):
+
 	return render(request, 'html_work/reviewDinner.html')
 
 @login_required(login_url = '/login')
@@ -125,16 +135,16 @@ def review(request):
 #if they do, update info. If they don't, create
 def edit(request):
 	user = request.user.get_username()
-	
+
 	#see if they already have a student object entry
 	#now when we reference we either edit existing, or create new
 	try:
-		student = Student.objects.get(username = user) 
+		student = Student.objects.get(username = user)
 	except ObjectDoesNotExist:
 		student = None
 
-	#if they entered data	
-	if request.method == "POST": 
+	#if they entered data
+	if request.method == "POST":
 		form = accountInfo(request.POST, instance = student)
 		form.fields['username'].widget.attrs['readonly'] = True
 		if form.is_valid():
@@ -155,7 +165,7 @@ def edit(request):
 		form = accountInfo(initial={'username':user}, instance=student)
 		form.fields['username'].widget.attrs['readonly'] = True
 	return render(request, 'html_work/editprof.html', {'form': form, "user": user})
-	
+
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 #check they have reviewed all dinners before registering again
@@ -164,7 +174,7 @@ def register(request):
 	#get user object
 	user = request.user.username
 	user = Student.objects.get(username = user)
-	
+
 	#if they filled out form
 	if request.POST:
 		form = registerDinner(request.POST, user=user)
@@ -185,7 +195,7 @@ def register(request):
 		#show form
 		form = registerDinner(user=user)
 	return render(request, 'html_work/signupdin.html', {"form": form})
-	
+
 def password(request):
 	return render(request, 'html_work/password.html')
 #forgot password?
@@ -196,7 +206,7 @@ def send_email(request):
 	prof = request.session['prof_application']
 	topic = request.session['topic_application']
 	date = request.session['date_application']
-	
+
 	#get the user information
 	user = request.user.username
 	user = User.objects.get(username = user)
@@ -210,7 +220,7 @@ def send_email(request):
 	#message.replace("{{ professor }}", prof)
 	#message.replace("{{ topic }}", topic)
 	#message.replace("{{ date }}", topic)
-	
+
 
 	html_content = render_to_string('html_work/confirmationemail.html', {'professor':prof, 'topic':topic, 'date':date})
 	text_content = strip_tags(html_content) # this strips the html, so people will have the text as well.
@@ -219,7 +229,7 @@ def send_email(request):
 	msg = EmailMultiAlternatives(subject, text_content, 'dukeconversation@gmail.com', [email])
 	msg.attach_alternative(html_content, "text/html")
 	msg.send()
-	
+
 	#send the email and redirect
 	#res=send_mail("Your Duke Conversations signup has been submitted!", message, "noreply@Kimberly3.com", [email])
 	return redirect('/confirm')
@@ -240,6 +250,3 @@ def change_password(request):
     return render(request, 'html_work/change_password.html', {
         'form': form
     })
-
-
-
