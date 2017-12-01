@@ -56,11 +56,16 @@ def log_in(request):
 			password = data['password']
 			user = authenticate(username=username, password=password)
 			#gets here
+			if not user:
+				messages.error(request, 'Username and/or password is incorrect')
+				form = loginForm()
+				return(render(request, 'html_work/login.html', {'form': form}))
 			if user is not None:
 				login(request, user)
 				return(redirect('/home'))
 	else:
 		form = loginForm()
+
 	return(render(request, 'html_work/login.html', {'form': form}))
 
 #Works, seems to be appropriately linked everywhere
@@ -238,4 +243,3 @@ def change_password(request):
 
 
 
-    

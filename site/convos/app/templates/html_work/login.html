@@ -43,6 +43,15 @@
     <form class="form-horizontal text-center" method="post">{% csrf_token %}
     <fieldset>
         <legend>{{ title }}</legend>
+
+          {% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li class="{{ message.tags }} form-control">{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
         {% for field in form %}
             {% if field.errors %}
                 <div class="control-group error">
