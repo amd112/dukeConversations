@@ -186,11 +186,6 @@ def register(request):
 		form = registerDinner(user=user)
 	return render(request, 'html_work/signupdin.html', {"form": form})
 	
-def password(request):
-	return render(request, 'html_work/password.html')
-#forgot password?
-#password change?
-
 def send_email(request):
 	#get the signup information
 	prof = request.session['prof_application']
