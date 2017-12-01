@@ -21,6 +21,7 @@ from django.core.mail import EmailMultiAlternatives
 from django.views.decorators.csrf import csrf_protect, csrf_exempt
 
 import os
+from datetime import timedelta
 import datetime
 from .models import Application, Student, Dinner, Review
 from .forms import loginForm, accountInfo, registerDinner
@@ -95,15 +96,17 @@ def signup(request):
 #get the dinners they've applied to and upcoming dinners
 #display status of their applications
 def loginhome(request):
-	startdate = datetime.date.today()
-	enddate = startdate + datetime.timedelta(days=20)
-	pastdate = startdate + datetime.timedelta(days=-20)
-	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate])
+	#getting dinners in near future
+	today = datetime.date.today()
+	future_dins = Dinner.objects.filter(date_time__range=[today, today + timedelta(days = 20)])
 	future_dins = future_dins.order_by('date_time')
+	d_id = future_dins.values('id')
+	
+	#getting applications from dinners in near future
 	apps = Application.objects.filter(username = request.user.get_username())
-	apps = apps.filter(date_time__range=[pastdate, startdate+datetime.timedelta(days=1)])
+	apps = apps.filter(dinner_id__in = d_id)
 	apps = apps.order_by('-date_time')
-	#still need to filter so the apps must equal one of the future dins
+	
 	context = {"dinners": future_dins, "applications":apps}
 	return(render(request, 'html_work/loginhome.html', context))
 
