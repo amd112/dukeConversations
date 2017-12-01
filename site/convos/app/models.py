@@ -96,18 +96,27 @@ class Professor(models.Model):
 	def __str__(self):
 		return self.name
 
+#Ensure that no past dinners can be created. Perhaps not ensure this at db level tho (so that tests can run)?
 class Dinner(models.Model):
 	date_time = models.DateTimeField(null = True)
 	professor_id = models.ForeignKey(Professor, on_delete = models.DO_NOTHING)
 	topic = models.CharField(max_length = 100)
 	description = models.TextField(max_length = 1000)
+
+	class Meta:
+		unique_together  = (("date_time", "professor_id"))
+
 	def __str__(self):
 		return str(self.professor_id) + " on " + str(self.date_time.date())
 
+# Need to ensure nothing funny happens: so nothing like someone not chosen for a dinner shows up as attended
+# this is not possible in models though, need to ensure this check somewhere else.
 class Application(models.Model):
+	#THE USERNAME BELOW REQUIRES AN ACTUAL STUDENT OBJECT!
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
 	selected = models.NullBooleanField(default = None, null = True)
+	attendance = models.BooleanField(default = False)
 	date_time = models.DateTimeField(auto_now_add=True)
 	interest = models.TextField(max_length = 1000)
 	class Meta:
@@ -128,6 +137,10 @@ class Review(models.Model):
 	def __str__(self):
 		return str(self.username) + " reviewed " + str(self.dinner_id)
 
+
+# Moved attendance as an attribute of Application
+
+"""
 class Attendance(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING, null = True)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING, null = True)
@@ -135,3 +148,4 @@ class Attendance(models.Model):
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
 		return str(self.username) + " attended " + str(self.dinner_id)
+"""
