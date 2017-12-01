@@ -29,14 +29,14 @@ class accountInfo(forms.ModelForm):
 	class Meta:
 		model = Student
 		#define which fileds
-		fields = ('username', 'name', 'id', 'netid', 'phone_number', 'year', 'major', 'pronoun', 'food_restrictions')
+		fields = ('username', 'name', 'unique_id', 'netid', 'phone_number', 'year', 'major', 'pronoun', 'food_restrictions')
 		widgets = {
 			#give each field class that engages css
             'username': forms.TextInput(attrs={'class': 'form-control'}),
             'name': forms.TextInput(attrs={'class': 'form-control'}),
-			'id': forms.TextInput(attrs={'class': 'form-control'}),
+			'unique_id': forms.TextInput(attrs={'class': 'form-control', 'min_length': 7, 'pattern':'[0-9]+', 'title':'Numbers only, no spaces or dashes.'}),
             'netid': forms.TextInput(attrs={'class': 'form-control'}),
-			'phone_number': forms.TextInput(attrs={'class': 'form-control'}),
+			'phone_number': forms.TextInput(attrs={'class': 'form-control', 'pattern':'^[0-9]+$', 'title':'Numbers only, no spaces or dashes.'}),
             'year': forms.Select(attrs={'class': 'form-control'}),
 			'major': forms.Select(attrs={'class': 'form-control'}),
             'pronoun': forms.Select(attrs={'class': 'form-control'}),
@@ -45,7 +45,7 @@ class accountInfo(forms.ModelForm):
 		labels = {
 			#give fields human readable labels
             'netid': 'NetID',
-			'id': 'Unique ID',
+			'unique_id': 'Unique ID',
 			'pronoun': 'Preferred pronouns'
         }
 		
