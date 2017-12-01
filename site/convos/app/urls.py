@@ -41,7 +41,7 @@ urlpatterns = [
 	url(r'^home$', views.loginhome, name = 'loginhome'),
 	url(r'^logout$', views.log_out, name = 'logout'),
 	url('^password$', views.password, name = 'password'),
-	url(r'^emailpage$', views.sendSimpleEmail, name = 'emailpage'),
+	url(r'^emailpage$', views.send_email, name = 'emailpage'),
 	url('^', include('django.contrib.auth.urls')),
 	url(r'^changepassword$', views.change_password, name = 'change_password'),
 ]

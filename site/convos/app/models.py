@@ -78,8 +78,8 @@ class Student(models.Model):
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	netid = models.CharField(max_length = 7, unique = True)
 	phone_number = models.IntegerField(unique = True)
-	year = models.CharField(max_length = 1, choices = years)
-	major = models. CharField(max_length = 1, choices = majors)
+	year = models.CharField(max_length = 4, choices = years)
+	major = models. CharField(max_length = 10, choices = majors)
 	pronoun = models.CharField(max_length = 1, choices = pronouns)
 	def __str__(self):
 		return self.username
@@ -92,7 +92,7 @@ class Professor(models.Model):
 	)
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
-	gender = models.CharField(max_length = 2, choices = genders)
+	gender = models.CharField(max_length = 5, choices = genders)
 	def __str__(self):
 		return self.name
 	
@@ -135,8 +135,3 @@ class Attendance(models.Model):
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
 		return str(self.username) + " attended " + str(self.dinner_id)
-		
-		
-class Selection(Application):
-    class Meta:
-        proxy = True
