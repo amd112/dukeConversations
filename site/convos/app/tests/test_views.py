@@ -12,6 +12,10 @@ def createDinners():
         professor_id=prof, topic="Ultramegachemicobiophysioquantum dynamics",
         description="blah")
 
+        Dinner.objects.create(date_time=timezone.now() + timezone.timedelta(days=-4),
+        professor_id=prof, topic="Ultramegachemicobiophysioquantum dynamics",
+        description="blah")
+
     return Dinner.objects.all()
 
 def createApplications_AllSelected():
@@ -34,7 +38,7 @@ def createProfessor(name, gender="1", food_restriction="Broccoli"):
 class ReviewIndexViewTests(TestCase):
 
     def setUp(self):
-        Student.objects.create(major="12", pronoun="1", year="2018", phone_number="9196272390", netid="su26", id="11111",
+        Student.objects.create(major="12", pronoun="1", year="2018", phone_number="9196272390", netid="su26", unique_id="11111",
         username='sarp', name="Sarp Uner")
         self.user = User.objects.create_user(username='sarp', email='sarpim@gmail.com', password='top_secret')
 
@@ -59,4 +63,7 @@ class ReviewIndexViewTests(TestCase):
         attended_dinners = Application.objects.filter(username=Student.StudentForUsername(self.user)).filter(selected=True).filter(attendance=True).values('dinner_id')
         response = self.client.get(reverse('reviewIndex'))
         self.assertContains(response, "Please review the dinners below")
-        self.assertQuerysetEqual(response.context['available_reviews'], map(repr, attended_dinners))
+        self.assertQuerysetEqual(response.context['available_reviews'], [str(item['dinner_id']) for item in list(attended_dinners)])
+
+    def test_review_index_to_review(self):
+        self.client.force_login(self.user)

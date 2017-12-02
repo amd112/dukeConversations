@@ -6,7 +6,7 @@
   <p>Please review the dinners below.</p>
   <ul>
     {% for review in available_reviews %}
-    <li><a href="/reviews/{{ review.id }}/">{{ review.text }}</a></li>
+    <li><a href="{% url 'review' review %}">{{ review.text }}</a></li>
     {% endfor %}
   </ul>
   {% else %}

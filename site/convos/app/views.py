@@ -119,7 +119,7 @@ def confirm_review(request):
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review_index(request):
-	available_reviews = list(Review.available_reviews(request.user))
+	available_reviews = [item['dinner_id'] for item in list(Review.available_reviews(request.user))]
 	context = {'available_reviews':available_reviews}
 	return render(request, 'html_work/review_index.html', context)
 

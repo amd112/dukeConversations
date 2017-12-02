@@ -73,7 +73,7 @@ class Student(models.Model):
 	years = datetime.datetime.now().year
 	years = range(years - 2, years + 5)
 	years = [(str(x), str(x)) for x in years]
-	
+
 	username = models.CharField(max_length = 30, primary_key = True)
 	unique_id = models.CharField(max_length = 7, unique = True)
 	name = models.CharField(max_length = 40)
@@ -140,6 +140,8 @@ class Review(models.Model):
 	food_comments = models.TextField(max_length = 1000, null = True)
 	convo_comments = models.TextField(max_length = 1000, null = True)
 	date_time = models.DateTimeField(auto_now_add=True)
+
+
 	class Meta:
 		unique_together = (("username", "dinner_id"),)
 	def __str__(self):
