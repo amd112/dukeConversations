@@ -1,0 +1,4088 @@
+[
+  {
+    "model": "app.student",
+    "pk": "ad239",
+    "fields": {
+      "unique_id": "1572232",
+      "name": "Alejandro De La Torre",
+      "netid": "ad239",
+      "phone_number": "9563719523",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "anm29",
+    "fields": {
+      "unique_id": "2242182",
+      "name": "Alexandra Martin",
+      "netid": "anm29",
+      "phone_number": "3014661287",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ajk50",
+    "fields": {
+      "unique_id": "1337478",
+      "name": "Allison Kam",
+      "netid": "ajk50",
+      "phone_number": "3347409114",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ah83",
+    "fields": {
+      "unique_id": "8452841",
+      "name": "Andrew Huang",
+      "netid": "ah83",
+      "phone_number": "9198138137",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "None"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "al83",
+    "fields": {
+      "unique_id": "8391193",
+      "name": "Anne Lott",
+      "netid": "al83",
+      "phone_number": "3522628215",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "aa83",
+    "fields": {
+      "unique_id": "8338231",
+      "name": "Ashwanth A R",
+      "netid": "aa83",
+      "phone_number": "9194506763",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "adp27",
+    "fields": {
+      "unique_id": "9737664",
+      "name": "Austin Peer",
+      "netid": "adp27",
+      "phone_number": "3138060028",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "asv83",
+    "fields": {
+      "unique_id": "5672899",
+      "name": "Bala Sahitya Vadlamani",
+      "netid": "asv83",
+      "phone_number": "6032770585",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegan"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "yc171",
+    "fields": {
+      "unique_id": "3648243",
+      "name": "Belex Cheng",
+      "netid": "yc171",
+      "phone_number": "3607718999",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "bwh19",
+    "fields": {
+      "unique_id": "6503517",
+      "name": "Bennett Hartley",
+      "netid": "bwh19",
+      "phone_number": "2487878979",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "bga8",
+    "fields": {
+      "unique_id": "3987677",
+      "name": "Brad Ackerson",
+      "netid": "bga8",
+      "phone_number": "5035050318",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "bap19",
+    "fields": {
+      "unique_id": "4241948",
+      "name": "Brian Pollack",
+      "netid": "bap19",
+      "phone_number": "2039120268",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "cm83",
+    "fields": {
+      "unique_id": "5102081",
+      "name": "Callie Mao",
+      "netid": "cm83",
+      "phone_number": "8588633180",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "cld36",
+    "fields": {
+      "unique_id": "3466729",
+      "name": "Candice Dunn",
+      "netid": "cld36",
+      "phone_number": "8569041855",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "No Cheese"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "cd83",
+    "fields": {
+      "unique_id": "7576732",
+      "name": "Carter Duncan",
+      "netid": "cd83",
+      "phone_number": "7042217308",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "cv53",
+    "fields": {
+      "unique_id": "5365228",
+      "name": "Catalina Villegas",
+      "netid": "cv53",
+      "phone_number": "3052987778",
+      "year": "2017",
+      "major": "Public Policy, Global Health",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "kt142",
+    "fields": {
+      "unique_id": "1457877",
+      "name": "Chi Trinh",
+      "netid": "kt142",
+      "phone_number": "9196418483",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "cxw2",
+    "fields": {
+      "unique_id": "5918605",
+      "name": "Cindy Wang",
+      "netid": "cxw2",
+      "phone_number": "8506942896",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "crm54",
+    "fields": {
+      "unique_id": "6205218",
+      "name": "Claire Morton",
+      "netid": "crm54",
+      "phone_number": "4436101500",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "no red meat"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "dih6",
+    "fields": {
+      "unique_id": "9526670",
+      "name": "Daniel Herron",
+      "netid": "dih6",
+      "phone_number": "4058379744",
+      "year": "2017",
+      "major": "Civil and Environmental Engineering",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "dah41",
+    "fields": {
+      "unique_id": "2396421",
+      "name": "Daniel Hull",
+      "netid": "dah41",
+      "phone_number": "2147281280",
+      "year": "2017",
+      "major": "BME and Finance",
+      "pronoun": "other",
+      "food_restrictions": "Nope"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "dle11",
+    "fields": {
+      "unique_id": "1298363",
+      "name": "Diana Evans",
+      "netid": "dle11",
+      "phone_number": "8327679299",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Allergic to peanuts, chick peas, and sesame"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "dp83",
+    "fields": {
+      "unique_id": "6977136",
+      "name": "Dorotheos Papavasilis",
+      "netid": "dp83",
+      "phone_number": "9196415903",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "dys4",
+    "fields": {
+      "unique_id": "5363406",
+      "name": "Dylan Stewart",
+      "netid": "dys4",
+      "phone_number": "9413208899",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ec159",
+    "fields": {
+      "unique_id": "7143500",
+      "name": "Eileen Cheng",
+      "netid": "ec159",
+      "phone_number": "6788625586",
+      "year": "2017",
+      "major": "Economics",
+      "pronoun": "other",
+      "food_restrictions": "No kiwi or pineapple"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "emm57",
+    "fields": {
+      "unique_id": "9560218",
+      "name": "Elaine M'Nkubitu",
+      "netid": "emm57",
+      "phone_number": "9194914744",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegeterian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "esd10",
+    "fields": {
+      "unique_id": "6251862",
+      "name": "Elizabeth Davies",
+      "netid": "esd10",
+      "phone_number": "2242342065",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "edm23",
+    "fields": {
+      "unique_id": "4778644",
+      "name": "Eric Musselman",
+      "netid": "edm23",
+      "phone_number": "2144172237",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "eyq",
+    "fields": {
+      "unique_id": "4257280",
+      "name": "Eric Qi",
+      "netid": "eyq",
+      "phone_number": "6026264514",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "fc83",
+    "fields": {
+      "unique_id": "6008059",
+      "name": "Felipe Concha",
+      "netid": "fc83",
+      "phone_number": "4254953419",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "gkh8",
+    "fields": {
+      "unique_id": "3692501",
+      "name": "Gautam Hathi",
+      "netid": "gkh8",
+      "phone_number": "4254204904",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Nut allergy"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "hrf6",
+    "fields": {
+      "unique_id": "5969855",
+      "name": "Harrison Ferlauto",
+      "netid": "hrf6",
+      "phone_number": "6317049675",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "hl166",
+    "fields": {
+      "unique_id": "2431437",
+      "name": "Helen Liu",
+      "netid": "hl166",
+      "phone_number": "7324855388",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ht83",
+    "fields": {
+      "unique_id": "3270295",
+      "name": "Henning",
+      "netid": "ht83",
+      "phone_number": "9195648144",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "vegan"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "hy83",
+    "fields": {
+      "unique_id": "1890144",
+      "name": "Henry Yan",
+      "netid": "hy83",
+      "phone_number": "9196997508",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "none"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ia40",
+    "fields": {
+      "unique_id": "1896687",
+      "name": "Ibanca Anand",
+      "netid": "ia40",
+      "phone_number": "7329108030",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ia35",
+    "fields": {
+      "unique_id": "6874070",
+      "name": "Ife Ayeni",
+      "netid": "ia35",
+      "phone_number": "4049518281",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jtc35",
+    "fields": {
+      "unique_id": "4389647",
+      "name": "Jack Carey",
+      "netid": "jtc35",
+      "phone_number": "8457097432",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jeg55",
+    "fields": {
+      "unique_id": "7980085",
+      "name": "Jacob Gardner",
+      "netid": "jeg55",
+      "phone_number": "2162832323",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jz124",
+    "fields": {
+      "unique_id": "3046966",
+      "name": "Jaslyn Zhang",
+      "netid": "jz124",
+      "phone_number": "5163503039",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jkj12",
+    "fields": {
+      "unique_id": "3699983",
+      "name": "Jasmine Judge",
+      "netid": "jkj12",
+      "phone_number": "6789778927",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "yc163",
+    "fields": {
+      "unique_id": "8714031",
+      "name": "Jen Chen",
+      "netid": "yc163",
+      "phone_number": "9197179683",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jcp36",
+    "fields": {
+      "unique_id": "1269799",
+      "name": "Jenna Peters",
+      "netid": "jcp36",
+      "phone_number": "3039479052",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "N/A"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jdf37",
+    "fields": {
+      "unique_id": "5970817",
+      "name": "Jeremy Fox",
+      "netid": "jdf37",
+      "phone_number": "9193609889",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jw397",
+    "fields": {
+      "unique_id": "9730786",
+      "name": "Jessica Wang",
+      "netid": "jw397",
+      "phone_number": "6303382248",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jjl33",
+    "fields": {
+      "unique_id": "6155723",
+      "name": "Joe Lam",
+      "netid": "jjl33",
+      "phone_number": "4158287357",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "N/A"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jhl39",
+    "fields": {
+      "unique_id": "7309913",
+      "name": "Joey Levy",
+      "netid": "jhl39",
+      "phone_number": "6786401224",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jvg3",
+    "fields": {
+      "unique_id": "6884877",
+      "name": "John Guarco",
+      "netid": "jvg3",
+      "phone_number": "9177530756",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "No grapefruit"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "js83",
+    "fields": {
+      "unique_id": "7197010",
+      "name": "Jonathan Stern",
+      "netid": "js83",
+      "phone_number": "2149098386",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jmk70",
+    "fields": {
+      "unique_id": "5252780",
+      "name": "Julia Kahky",
+      "netid": "jmk70",
+      "phone_number": "4079529764",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "met23",
+    "fields": {
+      "unique_id": "6838854",
+      "name": "Kaley Thornton",
+      "netid": "met23",
+      "phone_number": "5712945170",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "kdm34",
+    "fields": {
+      "unique_id": "4535888",
+      "name": "Kara Mcgaughey",
+      "netid": "kdm34",
+      "phone_number": "8048377444",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "kiw2",
+    "fields": {
+      "unique_id": "2993724",
+      "name": "Kasey Wien",
+      "netid": "kiw2",
+      "phone_number": "5162423111",
+      "year": "2017",
+      "major": "Public policy, statistics minor",
+      "pronoun": "other",
+      "food_restrictions": "No red meat"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "kag54",
+    "fields": {
+      "unique_id": "5471204",
+      "name": "Katie Gladstone",
+      "netid": "kag54",
+      "phone_number": "5165324443",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "kse9",
+    "fields": {
+      "unique_id": "1965808",
+      "name": "Kelsey Evezich",
+      "netid": "kse9",
+      "phone_number": "3035578179",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "hk145",
+    "fields": {
+      "unique_id": "4276285",
+      "name": "Khloe Kim",
+      "netid": "hk145",
+      "phone_number": "9198088525",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "kds33",
+    "fields": {
+      "unique_id": "4737076",
+      "name": "Kim St. John",
+      "netid": "kds33",
+      "phone_number": "7722058072",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "vegetarian! Also don't eat eggs"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "lca15",
+    "fields": {
+      "unique_id": "6315483",
+      "name": "Laura Argueta",
+      "netid": "lca15",
+      "phone_number": "6318290317",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "lr83",
+    "fields": {
+      "unique_id": "6635098",
+      "name": "Laura Rosas",
+      "netid": "lr83",
+      "phone_number": "9255288271",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "lph10",
+    "fields": {
+      "unique_id": "7593019",
+      "name": "Lauren Hagedorn",
+      "netid": "lph10",
+      "phone_number": "3106477767",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "gluten intolerant"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ls240",
+    "fields": {
+      "unique_id": "2258578",
+      "name": "Lauren Shum",
+      "netid": "ls240",
+      "phone_number": "9177168956",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "laz9",
+    "fields": {
+      "unique_id": "5827124",
+      "name": "Lindsey Zimmer",
+      "netid": "laz9",
+      "phone_number": "9102977856",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "laa31",
+    "fields": {
+      "unique_id": "7998129",
+      "name": "Luis Antezana",
+      "netid": "laa31",
+      "phone_number": "7046147216",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "None"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "lbe4",
+    "fields": {
+      "unique_id": "6168015",
+      "name": "Luke Eastman",
+      "netid": "lbe4",
+      "phone_number": "6107423940",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "mah94",
+    "fields": {
+      "unique_id": "3765734",
+      "name": "Matt Highland",
+      "netid": "mah94",
+      "phone_number": "2072528776",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "mbw26",
+    "fields": {
+      "unique_id": "2007099",
+      "name": "Mccall Wells",
+      "netid": "mbw26",
+      "phone_number": "8583868674",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "my70",
+    "fields": {
+      "unique_id": "2960589",
+      "name": "Megan Ye",
+      "netid": "my70",
+      "phone_number": "2483455227",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "mkp17",
+    "fields": {
+      "unique_id": "4908667",
+      "name": "Melissa Piana",
+      "netid": "mkp17",
+      "phone_number": "7743657489",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "msd34",
+    "fields": {
+      "unique_id": "5580430",
+      "name": "Meredith Davin",
+      "netid": "msd34",
+      "phone_number": "9495549832",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "No diary"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "mte3",
+    "fields": {
+      "unique_id": "8209902",
+      "name": "Micah",
+      "netid": "mte3",
+      "phone_number": "2406761573",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ys114",
+    "fields": {
+      "unique_id": "6237951",
+      "name": "Misty Sha",
+      "netid": "ys114",
+      "phone_number": "9198088119",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "nrs14",
+    "fields": {
+      "unique_id": "5623262",
+      "name": "Natalie Smithson",
+      "netid": "nrs14",
+      "phone_number": "9176990235",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ys120",
+    "fields": {
+      "unique_id": "8756809",
+      "name": "Nettie Song",
+      "netid": "ys120",
+      "phone_number": "9193818325",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "nm183",
+    "fields": {
+      "unique_id": "2711322",
+      "name": "Nikolaus Mayr",
+      "netid": "nm183",
+      "phone_number": "9843779630",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "nz16",
+    "fields": {
+      "unique_id": "8186817",
+      "name": "Ning Zhao",
+      "netid": "nz16",
+      "phone_number": "2105899885",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "nv23",
+    "fields": {
+      "unique_id": "2901017",
+      "name": "Nisakorn Valyasevi",
+      "netid": "nv23",
+      "phone_number": "8325600299",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "pac29",
+    "fields": {
+      "unique_id": "1896868",
+      "name": "Paul Cajamarca",
+      "netid": "pac29",
+      "phone_number": "7044504119",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "pj46",
+    "fields": {
+      "unique_id": "3216091",
+      "name": "Prathibha Juturu",
+      "netid": "pj46",
+      "phone_number": "4694221567",
+      "year": "2017",
+      "major": "Environmental Engineering",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "prv4",
+    "fields": {
+      "unique_id": "5664363",
+      "name": "Priyanka V",
+      "netid": "prv4",
+      "phone_number": "919961836",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "No beef"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "rin",
+    "fields": {
+      "unique_id": "9312560",
+      "name": "Rachael Nedrow",
+      "netid": "rin",
+      "phone_number": "9712856911",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "rsk17",
+    "fields": {
+      "unique_id": "4359866",
+      "name": "Rekha Korlipara",
+      "netid": "rsk17",
+      "phone_number": "6319650184",
+      "year": "2017",
+      "major": "Civil Engineering, Economics",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "rts16",
+    "fields": {
+      "unique_id": "4379411",
+      "name": "Roberto",
+      "netid": "rts16",
+      "phone_number": "9198863587",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "none"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "rs285",
+    "fields": {
+      "unique_id": "9766185",
+      "name": "Roma Sonik",
+      "netid": "rs285",
+      "phone_number": "7044258188",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "no fish"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "sk471",
+    "fields": {
+      "unique_id": "1272880",
+      "name": "Sai Aditya Kolluru",
+      "netid": "sk471",
+      "phone_number": "9199374998",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "sj150",
+    "fields": {
+      "unique_id": "2779852",
+      "name": "Shaq Junaid",
+      "netid": "sj150",
+      "phone_number": "5615379806",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "sw237",
+    "fields": {
+      "unique_id": "1078204",
+      "name": "Shelley Wu",
+      "netid": "sw237",
+      "phone_number": "4089300899",
+      "year": "2017",
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "sms95",
+    "fields": {
+      "unique_id": "8514009",
+      "name": "Sierra Smith",
+      "netid": "sms95",
+      "phone_number": "4084974041",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "skg19",
+    "fields": {
+      "unique_id": "2186225",
+      "name": "Simirpreet Gill",
+      "netid": "skg19",
+      "phone_number": "9736419126",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "sj154",
+    "fields": {
+      "unique_id": "2501066",
+      "name": "Sophia Jamal",
+      "netid": "sj154",
+      "phone_number": "9196994952",
+      "year": "2017",
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": "No pork"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "scz4",
+    "fields": {
+      "unique_id": "8382701",
+      "name": "Sunny Zhang",
+      "netid": "scz4",
+      "phone_number": "9545479780",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "so86",
+    "fields": {
+      "unique_id": "5626649",
+      "name": "Suzanne Ou",
+      "netid": "so86",
+      "phone_number": "3476978976",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "sas104",
+    "fields": {
+      "unique_id": "5539993",
+      "name": "Sydney Speizman",
+      "netid": "sas104",
+      "phone_number": "4437458613",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "tw185",
+    "fields": {
+      "unique_id": "5112771",
+      "name": "Tai-Lin Wu",
+      "netid": "tw185",
+      "phone_number": "9193589422",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "tl83",
+    "fields": {
+      "unique_id": "4276519",
+      "name": "Tanner Lockhead",
+      "netid": "tl83",
+      "phone_number": "9192196581",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "tkm18",
+    "fields": {
+      "unique_id": "7677618",
+      "name": "Tierney Marey",
+      "netid": "tkm18",
+      "phone_number": "9199084856",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "tg83",
+    "fields": {
+      "unique_id": "3784611",
+      "name": "Trisharti",
+      "netid": "tg83",
+      "phone_number": "9195999647",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "vjr3",
+    "fields": {
+      "unique_id": "9213681",
+      "name": "Vida Robinson",
+      "netid": "vjr3",
+      "phone_number": "9192602372",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "vc83",
+    "fields": {
+      "unique_id": "3334557",
+      "name": "Vinayak Chopra",
+      "netid": "vc83",
+      "phone_number": "4849835154",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "Vegetarian"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "vxz",
+    "fields": {
+      "unique_id": "8876245",
+      "name": "Vivian Zhang",
+      "netid": "vxz",
+      "phone_number": "3037284536",
+      "year": "2017",
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "vjl3",
+    "fields": {
+      "unique_id": "2199303",
+      "name": "Vivienne Lim",
+      "netid": "vjl3",
+      "phone_number": "9252627335",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "vhd2",
+    "fields": {
+      "unique_id": "5750077",
+      "name": "Vrushin Dani",
+      "netid": "vhd2",
+      "phone_number": "9195996059",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": "None"
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "ws101",
+    "fields": {
+      "unique_id": "4696993",
+      "name": "Walid Salah",
+      "netid": "ws101",
+      "phone_number": "6466304344",
+      "year": "2017",
+      "major": "Political Science",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "jl512",
+    "fields": {
+      "unique_id": "5310789",
+      "name": "Wendy Lu",
+      "netid": "jl512",
+      "phone_number": "9198088116",
+      "year": "2017",
+      "major": "Undecided",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.student",
+    "pk": "zsg2",
+    "fields": {
+      "unique_id": "1453926",
+      "name": "Zachary Gorwitz",
+      "netid": "zsg2",
+      "phone_number": "9548497305",
+      "year": "2017",
+      "major": "Public Policy",
+      "pronoun": "other",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0096830",
+    "fields": {
+      "name": "Steve Nowicki",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0055841",
+    "fields": {
+      "name": "Dan Ariely",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0217560",
+    "fields": {
+      "name": "Lori Leachman",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0329482",
+    "fields": {
+      "name": "Robin Kirk",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0004031",
+    "fields": {
+      "name": "George Grody",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0084092",
+    "fields": {
+      "name": "David Banks",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0284644",
+    "fields": {
+      "name": "Sonke Johnsen",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0137361",
+    "fields": {
+      "name": "Catherine Admay",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0005545",
+    "fields": {
+      "name": "Craig Henriquez",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0332908",
+    "fields": {
+      "name": "Clark Bray",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0315845",
+    "fields": {
+      "name": "Ana Barros",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0001255",
+    "fields": {
+      "name": "Suzanne Shanahan",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0315387",
+    "fields": {
+      "name": "Richard Brodhead",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0000000",
+    "fields": {
+      "name": "Buz Waitskin",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0099533",
+    "fields": {
+      "name": "John Aldrich",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0027858",
+    "fields": {
+      "name": "Sue Wasiolek",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0297571",
+    "fields": {
+      "name": "Pedro Lasch",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0198449",
+    "fields": {
+      "name": "Emma Rasiel",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0055136",
+    "fields": {
+      "name": "Owen Astrachan",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0278412",
+    "fields": {
+      "name": "Nita Farahany",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0331940",
+    "fields": {
+      "name": "Mark Anthony Neal",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0117347",
+    "fields": {
+      "name": "Orin Starn",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0097070",
+    "fields": {
+      "name": "Zbigniew Kabala",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0316163",
+    "fields": {
+      "name": "Sarah Deutsch",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0116008",
+    "fields": {
+      "name": "Dalene Stangl",
+      "gender": "F",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.professor",
+    "pk": "0117196",
+    "fields": {
+      "name": "Leo Ching",
+      "gender": "M",
+      "food_restrictions": null
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 1,
+    "fields": {
+      "date_time": "2016-09-06 00:00:00",
+      "professor_id": "0096830",
+      "topic": "Dean Nowicki",
+      "description": "Steve Nowicki is the Dean and Vice Provost for Undergraduate Education and a professor in the departments of biology and psychology and neuroscience in Trinity College, and in the department of neurobiology in Duke\ufffds medical center. Outside the office and classroom \ufffd and sometimes inside \ufffd he enjoys juggling and playing music \ufffd at home with his wife or in the student pep band that performs at Duke basketball games."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 2,
+    "fields": {
+      "date_time": "2016-09-08 00:00:00",
+      "professor_id": "0055841",
+      "topic": "Dishonesty",
+      "description": "Dan Ariely is the James B. Duke Professor of Psychology and Behavioral Economics at Duke University and a founding member of the Center for Advanced Hindsight. His talks on TED have been watched over 7.8 million times. He is the author of Predictably Irrational and The Upside of Irrationality, both of which became New York Times best sellers, as well as The Honest Truth about Dishonesty."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 3,
+    "fields": {
+      "date_time": "2016-09-13 00:00:00",
+      "professor_id": "0217560",
+      "topic": "International Trade",
+      "description": "Professor Leachman is interested in studying the subjects of international trade, exchange rates, fiscal policy, and international macroeconomics. In conducting her research, she often incorporates intertemporal models, multicointegration and sustainability. Her current research project explores the political economy of intertemporal budgeting."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 4,
+    "fields": {
+      "date_time": "2016-09-14 00:00:00",
+      "professor_id": "0329482",
+      "topic": "Human Rights",
+      "description": "Robin Kirk is the Faculty Co-Chair of the Executive Committee of the Duke Human Rights Center at the Franklin Humanities Institute. An author and human rights advocate, Kirk directs the Belfast program for DukeEngage. She directs Undergraduate Studies for Duke\ufffds International Comparative Studies major, where she teaches, and is a lecturer in the Department of Cultural Anthropology. Kirk has written three books, including More Terrible Than Death: Massacres, Drugs and America\ufffds War in Colombia and The Monkey\ufffds Paw: New Chronicles from Peru."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 5,
+    "fields": {
+      "date_time": "2016-09-15 00:00:00",
+      "professor_id": "0004031",
+      "topic": "Markets and Management",
+      "description": "George retired from Procter & Gamble after 26 years of service. George joined P&G after graduating from Duke University in 1981 with a bachelor\ufffds degree in management sciences. After numerous assignments in the United States, he spent 11 years working internationally on start-ups, mergers, acquisitions, and developing and implementing new business models. He has lived in the Bahamas, Australia, Taiwan, Germany, Switzerland, and Romania and has worked in an additional 34 countries. He currently teaches in the markets and management certificate program at Duke University. He also boasts a nearly perfect 4.8 out of 5.0 score on Rate My Professors in regards to overall quality."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 6,
+    "fields": {
+      "date_time": "2016-09-20 00:00:00",
+      "professor_id": "0084092",
+      "topic": "Statistics and Human Rights",
+      "description": "David L. Banks is an American statistician. He is a former editor of the Journal of the American Statistical Association; a founding editor of Statistics, Politics and Policy; and a co-editor of the monograph Statistical Methods for Human Rights. He is a fellow of the Institute of Mathematical Statistics and the Royal Statistical Society. He has been a member of the Board of Directors of the American Statistical Association, and he is a past-President of the Classification Society. He has taught at the University of Cambridge and at Carnegie Mellon University; he was also Chief Statistician of the U.S. Department of Transportation. Additionally, he has served on six National Academies panels. Banks is currently Professor of the Practice of Statistics at Duke University. "
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 7,
+    "fields": {
+      "date_time": "2016-09-21 00:00:00",
+      "professor_id": "0284644",
+      "topic": "Monte Carlo modeling",
+      "description": "Johnsen entered biology with backgrounds in math, physics, and art and has since used all three fields to investigate the visual ecology of oceanic zooplankton. After a graduate career, in which he studied the vision and behavior of animals with neither eyes nor brains, he completed postdoctoral fellowships at Harbor Branch Oceanographic Institution and WHOI. After a year as an assistant scientist at WHOI, he accepted a position in the Biology Department at Duke University. He is interested in all aspects of vision in oceanic species, with a particular emphasis on strategies for camouflage. The camouflage research has involved investigations into UV vision, whole-body transparency, cryptic coloration, and counterillumination using techniques ranging from blue water diving to protein biochemistry to Monte Carlo modeling of photon trajectories. He gives numerous talks to the general public and his work has been featured in newspapers, magazines and a John Updike poem."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 8,
+    "fields": {
+      "date_time": "2016-09-22 00:00:00",
+      "professor_id": "0137361",
+      "topic": "Socio-economic Rights",
+      "description": "Catherine Admay taught at NYU Law School and Duke Law School before joining, as visiting faculty, the departments of Political Science and Public Policy/Duke Center for International Development. Admay is a Faculty Affiliate to Duke\ufffds Global Health Institute. Admay worked for the Legal Resources Centre in Pretoria and Gazankulu, South Africa, the NAACP Legal Defense Fund, the Office of the Legal Advisor in the United States Department of State, and with private law firms in Washington, D.C. and Seattle. Admay's teaching and research interests are in the areas of human rights, law and development, global health, comparative constitutional law of socio-economic rights, conflict transformation, and interdisciplinary engagements with law (ethics, arts, storytelling)."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 9,
+    "fields": {
+      "date_time": "2016-09-27 00:00:00",
+      "professor_id": "0005545",
+      "topic": "Neuroengineering",
+      "description": "Dr. Henriquez is also a Professor of Computer Science and Co-Director of the Center for Neuroengineering. Henriquez's research interests include large scale computing, heart modeling, and brain modeling. Dr. Henriquez's group is also interested in developing realistic models that will enable investigators to better interpret electrophysiological measurements made in the clinic. "
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 10,
+    "fields": {
+      "date_time": "2016-10-04 00:00:00",
+      "professor_id": "0332908",
+      "topic": "Math",
+      "description": "Clark Bray!"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 11,
+    "fields": {
+      "date_time": "2016-10-05 00:00:00",
+      "professor_id": "0315845",
+      "topic": "Anna Barros",
+      "description": "Anna Barros!"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 12,
+    "fields": {
+      "date_time": "2016-10-06 00:00:00",
+      "professor_id": "0001255",
+      "topic": "Suzanne Shanahan",
+      "description": "Suzanne Shanahan"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 13,
+    "fields": {
+      "date_time": "2016-10-13 00:00:00",
+      "professor_id": "0315387",
+      "topic": "President Brodhead",
+      "description": "President Brodhead"
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 14,
+    "fields": {
+      "date_time": "2016-10-19 00:00:00",
+      "professor_id": "0000000",
+      "topic": "Science and Society",
+      "description": "Michael \ufffdBuz\ufffd Waitzkin is the Deputy Director of Science & Society and Senior Lecturing Fellow at Duke University. For the past fifteen years, he has taught at Duke and been a frequent lecturer at other universities on issues of science law, policy, ethics and politics, with a focus on developing biomedical technologies."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 15,
+    "fields": {
+      "date_time": "2016-10-25 00:00:00",
+      "professor_id": "0099533",
+      "topic": "Political Science",
+      "description": "Dr. Aldrich is a Pfizer-Pratt University Professor of Political Science. He specializes in American politics and behavior, formal theory, and methodology. Books he has authored or co-authored include Why Parties, Before the Convention, Linear Probability, Logit and Probit Models, and a series of books on elections, the most recent of which is Change and Continuity in the 2012 and 2014 Elections. His articles have appeared in the American Political Science Review, American Journal of Political Science, Journal of Politics, Public Choice, and other journals and edited volumes. He has received grants from the National Science Foundation and the National Endowment for the Humanities, and has served as co-editor of the American Journal of Political Science and as a Fellow at the Center for Advanced Study in the Behavioral Sciences. He has been President of the American Political Science Association, Midwest Political Science Association, and Southern Political Science Association.  He is a Fellow of the American Academy of Arts and Sciences."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 16,
+    "fields": {
+      "date_time": "2016-10-26 00:00:00",
+      "professor_id": "0027858",
+      "topic": "Student Affairs",
+      "description": "Dean Sue is the Associate Vice President for Student Affairs & Dean of Students. She was born in New Jersey and grew up in Charlotte, North Carolina. She completed a Bachelor of Arts with a major in Science Education and a Masters of Health Administration at Duke. While in graduate school, Sue was a Resident Advisor in Aycock and Hanes House. She worked in the Medical Center for 18 months and then, in 1979, joined the Student Affairs staff. Sue completed her J.D. at NCCU and her L.L.M. at Duke in 1993 and her Ed.D.in 2008 from the University of Pennsylvania.  In 1994, Sue joined the law firm of Maxwell, Freeman and Bowman in Durham where she practiced law for nine months. Although practicing law was challenging and interesting, Sue found that she truly missed working with students. Sue returned to Student Affairs in 1995 and has continued to thoroughly enjoy her life here."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 17,
+    "fields": {
+      "date_time": "2016-10-27 00:00:00",
+      "professor_id": "0297571",
+      "topic": "Art History",
+      "description": "Pedro Lasch is a professor of Art, Art History and Visual Studies at Duke University since 2002, a graduate faculty for the MFA in Experimental and Documentary Arts, and was a fellow at the Franklin Humanities Institute. He is a visual artist born in Mexico City, and based in the U.S. since 1994. He produces works of conceptual art, institutional critique, social practice, and site-specific art, as well as paintings, photographs, prints, and works in traditional media. Born in Mexico City, Lasch studied art at the Cooper Union with Dore Ashton, Hans Haacke, Day Gleeson, and Doug Ashford (Group Material), among others, and later completed an MFA in Fine Arts at Goldsmiths, University of London. Lasch has been regularly involved with the New York art and politics collective 16 Beaver Group since 2000. "
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 18,
+    "fields": {
+      "date_time": "2016-11-01 00:00:00",
+      "professor_id": "0198449",
+      "topic": "Financial Markets",
+      "description": "Dr. Emma Rasiel is an Associate Professor of the Practice in the Department of Economics. Dr. Rasiel completed her PhD in finance at The Fuqua School of Business, Duke University, in 2003. She also received an MBA from the Wharton School of the University of Pennsylvania in 1990, and bachelor's and master's degrees in mathematics from Oxford University. Before beginning her PhD program at Fuqua, Dr Rasiel was an Executive Director in the London office of Goldman Sachs, a leading investment bank, where she traded bond options."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 19,
+    "fields": {
+      "date_time": "2016-11-02 00:00:00",
+      "professor_id": "0055136",
+      "topic": "Computing",
+      "description": "Owen Astrachan is a Professor of the Practice in the Department of Computer Science at Duke University. He has taught computer science at Duke for more than 25 years and taught high school for seven years before starting at Duke. In recent years, Professor Astrachan has worked with colleagues to redesign Duke\ufffds introductory computer science course to reach a broader range of students at Duke from a variety of backgrounds and fields. He also leads the Computer Science Principles project, which is completely grounded in a philosophy of engendering interest in new and previously untargeted/uninterested students, broadening participation in computing. Professor Astrachan received an NSF Career award, the NSF CISE Distinguished Education Fellow award, received two teaching awards at Duke and a teaching award when teaching on a sabbatical leave at the University of British Columbia. Professor Astrachan holds a PhD in Computer Science and a Master of Arts in Teaching (Mathematics), both from Duke University."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 20,
+    "fields": {
+      "date_time": "2016-11-03 00:00:00",
+      "professor_id": "0278412",
+      "topic": "Social Implications of Biosciences",
+      "description": "Nita A. Farahany is a leading scholar on the ethical, legal, and social implications of biosciences and emerging technologies, particularly those related to neuroscience and behavioral genetics. She is the Director of Duke Science & Society, the Duke MA in Bioethics & Science Policy, and a Professor of Law & Philosophy. In 2010, Farahany was appointed by President Obama to the Presidential Commission for the Study of Bioethical Issues, and continues to serve as a member. Her recent scholarship includes \"Searching Secrets,\" 160 U. Penn. L. Rev. 1239 (2012) which explores the descriptive potential of intellectual property law as a metaphor to describe current Fourth Amendment search and seizure law and predict how the Fourth Amendment will apply to emerging technology."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 21,
+    "fields": {
+      "date_time": "2016-11-03 00:00:00",
+      "professor_id": "0331940",
+      "topic": "Black Performance Tradition",
+      "description": "Mark Anthony Neal is Professor of African & African American Studies and the founding director of the Center for Arts, Digital Culture and Entrepreneurship (CADCE) at Duke University where he offers courses on Black Masculinity, Popular Culture, and Digital Humanities, including signature courses on Michael Jackson & the Black Performance Tradition, and The History of Hip-Hop, which he co-teaches with Grammy Award Winning producer 9th Wonder (Patrick Douthit)."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 22,
+    "fields": {
+      "date_time": "2016-11-07 00:00:00",
+      "professor_id": "0117347",
+      "topic": "Activist Anthropology",
+      "description": "Orin Starn is Professor of Cultural Anthropology and History. He has wide-ranging interests including Latin America, Native North America, social movements and indigenous politics, the history of anthropology, activist anthropology, and, more recently, sports and society. His newest book, \"The Passion of Tiger Woods: An Anthropologist Reports on Golf, Race, and Celebrity Scandal,\" examines the superstar golfer's place in American society and culture. Starn is also the author of the award-winning \"Ishi's Brain: In Search of America's Last 'Wild' Indian,\" a chronicle of the life and legend of the last survivor of California's Yahi tribe. Earlier in his career, Starn worked for many years in Andean South America, mostly Peru. His \"Nightwatch: The Politics of Protest in the Andes\" recounts the history of one of Peru's major 20th century rural movements. Starn is also lead editor of the \"The Peru Reader: History, Culture, Politics\" and edits Duke's very successful World Readers Series. In 2005, he won Duke's highest undergraduate teaching award and was awarded the Sally Dalton Robinson Professorship in Cultural Anthropology. "
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 23,
+    "fields": {
+      "date_time": "2016-11-09 00:00:00",
+      "professor_id": "0097070",
+      "topic": "Stochastic Theory of Fluid Flow",
+      "description": "Dr. Zbigniew Kabala is an Associate Professor of Civil and Environmental Engineering at Duke University. He earned his master's degree in civil engineering in 1980 from Poznan Polytechnic in Poznan, Poland, and master's degree in mathematics in 1982 from A. Mickiewicz University in Poznan. At Princeton University, he earned another master's and Ph.D. degrees in civil engineering and operations research in 1985 and 1988, respectively. Next, Dr. Kabala held one-year postdoctoral appointments at the MIT in the Ralph M. Parsons Laboratory and at the UC-Berkeley in the Department of Soil Science. He was then appointed an assistant professor of hydrology in the Department of Soils and Environmental Sciences at the UC-Riverside. He joined the Duke faculty in the summer of 1994."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 24,
+    "fields": {
+      "date_time": "2016-11-15 00:00:00",
+      "professor_id": "0316163",
+      "topic": "Women and the City",
+      "description": "Dr. Sarah Deutsch is a Professor in the History Department with a secondary appointment in the Women\ufffds Studies Program at Duke University. She was previously the Dean of Social Sciences at Duke University. She holds a PhD in American History from Yale University, an MLitt in British Imperial History from the University of Oxford, and a BA in History from Yale University. Her work engages issues of difference, particularly racial, gender, class, and spatial formations. Her current book project is \ufffdMaking a Modern U.S. West, 1898-1942.\ufffd She has written three other books, Women and the City: Gender, Space and Power in Boston, 1870-1940 (2000); From Ballots to Breadlines: American Women, 1920-1940 (1994); and No Separate Refuge: Culture, Class, and Gender on an Anglo-Hispanic Frontier in the American Southwest, 1880-1940 (1987)."
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 25,
+    "fields": {
+      "date_time": "2016-11-16 00:00:00",
+      "professor_id": "0116008",
+      "topic": "Meta-Analysis in Medicine",
+      "description": "Dr. Dalene Stangl is Associate Chair and Director of Undergraduate Studies in the Department of Statistical Science at Duke University where she has been on the faculty since 1992 after graduating with a PhD in statistics from Carnegie Mellon University. She has held editorships for Journal of the American Statistical Association, The American Statistician, Bayesian Analysis, and Chance. She also co-edited two books, Bayesian Biostatistics and Meta-Analysis in Medicine and Health Policy. She has won numerous awards including ASA\ufffds Youden Award for her research paper \ufffdPrediction and Decision Making Using Bayesian Hierarchical Models,\ufffd ASA Fellow for leadership in statistical education, outstanding contributions to research in health-related areas, and service to the profession, and Duke\ufffds Trinity College Distinguished Teaching Award. "
+    }
+  },
+  {
+    "model": "app.dinner",
+    "pk": 26,
+    "fields": {
+      "date_time": "2016-11-17 00:00:00",
+      "professor_id": "0117196",
+      "topic": "Globalization",
+      "description": "Leo Ching is Associate Professor and Chair of Asian & Middle Eastern Studies at Duke. His research interests include colonial discourse studies, postcolonial theory, Japanese mass culture, and theories of globalization and regionalism. He is the author of Becoming Japanese: the Politics of Identity Formation in Colonial Taiwan (UC Press, 2001). He has published in boundary 2, positions, Public Culture and Cultural Studies. His works have been translated into Chinese, Japanese, Korean, and Spanish."
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 1,
+    "fields": {
+      "username": "aa83",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 12:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 2,
+    "fields": {
+      "username": "aa83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 12:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 3,
+    "fields": {
+      "username": "adp27",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:11:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 4,
+    "fields": {
+      "username": "adp27",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 5,
+    "fields": {
+      "username": "ah83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 23:34:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 6,
+    "fields": {
+      "username": "ajk50",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-02 17:30:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 7,
+    "fields": {
+      "username": "ajk50",
+      "dinner_id": 4,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 19:36:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 8,
+    "fields": {
+      "username": "ajk50",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 19:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 9,
+    "fields": {
+      "username": "ajk50",
+      "dinner_id": 8,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 12:14:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 10,
+    "fields": {
+      "username": "ajk50",
+      "dinner_id": 16,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-31 11:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 11,
+    "fields": {
+      "username": "al83",
+      "dinner_id": 1,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:10:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 12,
+    "fields": {
+      "username": "al83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 13,
+    "fields": {
+      "username": "anm29",
+      "dinner_id": 3,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 20:51:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 14,
+    "fields": {
+      "username": "asv83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 05:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 15,
+    "fields": {
+      "username": "bap19",
+      "dinner_id": 2,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 21:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 16,
+    "fields": {
+      "username": "bga8",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-02 11:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 17,
+    "fields": {
+      "username": "bwh19",
+      "dinner_id": 2,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-01 00:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 18,
+    "fields": {
+      "username": "bwh19",
+      "dinner_id": 13,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-10 15:50:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 19,
+    "fields": {
+      "username": "cd83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 20,
+    "fields": {
+      "username": "cld36",
+      "dinner_id": 3,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 20:57:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 21,
+    "fields": {
+      "username": "cm83",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 11:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 22,
+    "fields": {
+      "username": "cm83",
+      "dinner_id": 17,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-23 15:56:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 23,
+    "fields": {
+      "username": "crm54",
+      "dinner_id": 13,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-08 20:49:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 24,
+    "fields": {
+      "username": "cv53",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-09 15:25:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 25,
+    "fields": {
+      "username": "cxw2",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 26,
+    "fields": {
+      "username": "dah41",
+      "dinner_id": 16,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-23 15:34:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 27,
+    "fields": {
+      "username": "dih6",
+      "dinner_id": 20,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-30 20:41:00",
+      "interest": "How should we coordinate law internationally around questions of bioethics, specifically relating to genetic alteration?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 28,
+    "fields": {
+      "username": "dle11",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 29,
+    "fields": {
+      "username": "dle11",
+      "dinner_id": 18,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:04:00",
+      "interest": "do you think managers should invest in unethical companies to generate higher returns?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 30,
+    "fields": {
+      "username": "dp83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:03:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 31,
+    "fields": {
+      "username": "dp83",
+      "dinner_id": 3,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 19:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 32,
+    "fields": {
+      "username": "dp83",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 19:06:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 33,
+    "fields": {
+      "username": "dys4",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-03 17:36:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 34,
+    "fields": {
+      "username": "ec159",
+      "dinner_id": 15,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-23 16:06:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 35,
+    "fields": {
+      "username": "ec159",
+      "dinner_id": 17,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-23 16:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 36,
+    "fields": {
+      "username": "edm23",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-05 00:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 37,
+    "fields": {
+      "username": "emm57",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 21:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 38,
+    "fields": {
+      "username": "emm57",
+      "dinner_id": 13,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-09 15:53:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 39,
+    "fields": {
+      "username": "esd10",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 40,
+    "fields": {
+      "username": "eyq",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 41,
+    "fields": {
+      "username": "fc83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 16:40:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 42,
+    "fields": {
+      "username": "gkh8",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:17:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 43,
+    "fields": {
+      "username": "hk145",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 13:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 44,
+    "fields": {
+      "username": "hl166",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 08:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 45,
+    "fields": {
+      "username": "hrf6",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:02:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 46,
+    "fields": {
+      "username": "hrf6",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 47,
+    "fields": {
+      "username": "ht83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:39:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 48,
+    "fields": {
+      "username": "ht83",
+      "dinner_id": 3,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-10 11:00:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 49,
+    "fields": {
+      "username": "hy83",
+      "dinner_id": 11,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-01 13:55:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 50,
+    "fields": {
+      "username": "hy83",
+      "dinner_id": 15,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-24 11:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 51,
+    "fields": {
+      "username": "hy83",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 52,
+    "fields": {
+      "username": "ia35",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 02:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 53,
+    "fields": {
+      "username": "ia35",
+      "dinner_id": 7,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-19 00:54:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 54,
+    "fields": {
+      "username": "ia35",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-19 00:48:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 55,
+    "fields": {
+      "username": "ia35",
+      "dinner_id": 9,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-24 14:47:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 56,
+    "fields": {
+      "username": "ia35",
+      "dinner_id": 13,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-08 16:56:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 57,
+    "fields": {
+      "username": "ia35",
+      "dinner_id": 14,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-15 15:19:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 58,
+    "fields": {
+      "username": "ia40",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:52:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 59,
+    "fields": {
+      "username": "jcp36",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 10:02:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 60,
+    "fields": {
+      "username": "jcp36",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 14:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 61,
+    "fields": {
+      "username": "jcp36",
+      "dinner_id": 20,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 20:22:00",
+      "interest": "What ethical restrictions do we need to consider for embryo selection/is it ethical to select for a more intelligent child?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 62,
+    "fields": {
+      "username": "jdf37",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 13:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 63,
+    "fields": {
+      "username": "jdf37",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 13:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 64,
+    "fields": {
+      "username": "jdf37",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 13:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 65,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 15:09:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 66,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 20:54:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 67,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 20:55:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 68,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 12:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 69,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 9,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-24 15:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 70,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 16,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-24 19:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 71,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 18,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:16:00",
+      "interest": "Should trash collectors be paid more than bankers?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 72,
+    "fields": {
+      "username": "jeg55",
+      "dinner_id": 20,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:20:00",
+      "interest": "How does modern neuroscience affect our idea of moral culpability?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 73,
+    "fields": {
+      "username": "jhl39",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 74,
+    "fields": {
+      "username": "jjl33",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 20:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 75,
+    "fields": {
+      "username": "jkj12",
+      "dinner_id": 3,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-10 11:19:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 76,
+    "fields": {
+      "username": "jkj12",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 11:50:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 77,
+    "fields": {
+      "username": "jkj12",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:36:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 78,
+    "fields": {
+      "username": "jl512",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 10:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 79,
+    "fields": {
+      "username": "jl512",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 80,
+    "fields": {
+      "username": "jl512",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 13:47:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 81,
+    "fields": {
+      "username": "jmk70",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:49:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 82,
+    "fields": {
+      "username": "js83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:03:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 83,
+    "fields": {
+      "username": "js83",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:31:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 84,
+    "fields": {
+      "username": "jtc35",
+      "dinner_id": 1,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:12:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 85,
+    "fields": {
+      "username": "jvg3",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:50:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 86,
+    "fields": {
+      "username": "jw397",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 13:17:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 87,
+    "fields": {
+      "username": "jw397",
+      "dinner_id": 3,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-10 13:02:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 88,
+    "fields": {
+      "username": "jw397",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 89,
+    "fields": {
+      "username": "jw397",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 10:37:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 90,
+    "fields": {
+      "username": "jz124",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-10 14:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 91,
+    "fields": {
+      "username": "kag54",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-02 22:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 92,
+    "fields": {
+      "username": "kdm34",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 93,
+    "fields": {
+      "username": "kds33",
+      "dinner_id": 8,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 94,
+    "fields": {
+      "username": "kds33",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 15:28:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 95,
+    "fields": {
+      "username": "kiw2",
+      "dinner_id": 23,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-07 11:50:00",
+      "interest": "How much do environmental issues affect your political decisions?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 96,
+    "fields": {
+      "username": "kiw2",
+      "dinner_id": 24,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-13 16:05:00",
+      "interest": "Re the election, what advice do u have for female student interested in public service or statistics"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 97,
+    "fields": {
+      "username": "kse9",
+      "dinner_id": 6,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-20 01:18:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 98,
+    "fields": {
+      "username": "kt142",
+      "dinner_id": 1,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:00:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 99,
+    "fields": {
+      "username": "kt142",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 100,
+    "fields": {
+      "username": "laa31",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:46:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 101,
+    "fields": {
+      "username": "laa31",
+      "dinner_id": 18,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:44:00",
+      "interest": "The Presidential candidates have discussed bringing Glass-Steagal back. What are the pros and cons?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 102,
+    "fields": {
+      "username": "laa31",
+      "dinner_id": 20,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:48:00",
+      "interest": "What is the future of mental health from a biological perspective?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 103,
+    "fields": {
+      "username": "laz9",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 12:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 104,
+    "fields": {
+      "username": "lbe4",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:39:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 105,
+    "fields": {
+      "username": "lbe4",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-11 14:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 106,
+    "fields": {
+      "username": "lca15",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 14:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 107,
+    "fields": {
+      "username": "lph10",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-03 13:03:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 108,
+    "fields": {
+      "username": "lph10",
+      "dinner_id": 16,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-23 21:49:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 109,
+    "fields": {
+      "username": "lr83",
+      "dinner_id": 20,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 19:38:00",
+      "interest": "With regard to bioethics, what is an instance where government's interest in social welfare rightfully overpowers individual freedom or privacy?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 110,
+    "fields": {
+      "username": "lr83",
+      "dinner_id": 24,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-11-13 16:18:00",
+      "interest": "As Hispanic Americans become less immigrant-focused, how will their political allegiances change?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 111,
+    "fields": {
+      "username": "lr83",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 16:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 112,
+    "fields": {
+      "username": "lr83",
+      "dinner_id": 15,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-23 16:33:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 113,
+    "fields": {
+      "username": "ls240",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:26:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 114,
+    "fields": {
+      "username": "ls240",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:23:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 115,
+    "fields": {
+      "username": "ls240",
+      "dinner_id": 26,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-13 19:34:00",
+      "interest": "What do you think about identify formation and polarization in the US?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 116,
+    "fields": {
+      "username": "mah94",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:28:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 117,
+    "fields": {
+      "username": "mbw26",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:22:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 118,
+    "fields": {
+      "username": "mbw26",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 10:40:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 119,
+    "fields": {
+      "username": "mbw26",
+      "dinner_id": 8,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-16 11:22:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 120,
+    "fields": {
+      "username": "mbw26",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 16:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 121,
+    "fields": {
+      "username": "met23",
+      "dinner_id": 8,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:31:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 122,
+    "fields": {
+      "username": "met23",
+      "dinner_id": 24,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-13 15:47:00",
+      "interest": "What advice would you give to younger women starting their careers?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 123,
+    "fields": {
+      "username": "mkp17",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 15:20:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 124,
+    "fields": {
+      "username": "mkp17",
+      "dinner_id": 6,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 14:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 125,
+    "fields": {
+      "username": "msd34",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 23:55:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 126,
+    "fields": {
+      "username": "mte3",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 12:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 127,
+    "fields": {
+      "username": "my70",
+      "dinner_id": 7,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 12:13:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 128,
+    "fields": {
+      "username": "nm183",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:10:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 129,
+    "fields": {
+      "username": "nm183",
+      "dinner_id": 3,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-11 22:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 130,
+    "fields": {
+      "username": "nm183",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-11 22:45:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 131,
+    "fields": {
+      "username": "nrs14",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 01:34:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 132,
+    "fields": {
+      "username": "nv23",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-10 12:37:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 133,
+    "fields": {
+      "username": "nz16",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 134,
+    "fields": {
+      "username": "pac29",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 15:26:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 135,
+    "fields": {
+      "username": "pj46",
+      "dinner_id": 18,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 20:59:00",
+      "interest": "Do you think companies' efforts to cut costs have affected their adherence to compliance rules?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 136,
+    "fields": {
+      "username": "prv4",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 00:24:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 137,
+    "fields": {
+      "username": "rin",
+      "dinner_id": 1,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:00:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 138,
+    "fields": {
+      "username": "rin",
+      "dinner_id": 2,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 21:58:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 139,
+    "fields": {
+      "username": "rin",
+      "dinner_id": 13,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-08 16:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 140,
+    "fields": {
+      "username": "rs285",
+      "dinner_id": 2,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-01 21:19:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 141,
+    "fields": {
+      "username": "rs285",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 142,
+    "fields": {
+      "username": "rsk17",
+      "dinner_id": 23,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-07 11:50:00",
+      "interest": "What kind of problems do you think about when dealing with contaminant transport?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 143,
+    "fields": {
+      "username": "rts16",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-05 10:12:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 144,
+    "fields": {
+      "username": "sas104",
+      "dinner_id": 2,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:05:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 145,
+    "fields": {
+      "username": "scz4",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-02 12:54:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 146,
+    "fields": {
+      "username": "scz4",
+      "dinner_id": 14,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-15 12:30:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 147,
+    "fields": {
+      "username": "sj150",
+      "dinner_id": 3,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-09 19:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 148,
+    "fields": {
+      "username": "sj150",
+      "dinner_id": 1,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 00:27:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 149,
+    "fields": {
+      "username": "sj150",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 14:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 150,
+    "fields": {
+      "username": "sj150",
+      "dinner_id": 24,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-13 15:43:00",
+      "interest": "\"Who gets to define what is \"\"American\"\" and what is \"\"un-American?\"\"\""
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 151,
+    "fields": {
+      "username": "sj154",
+      "dinner_id": 15,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-23 15:42:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 152,
+    "fields": {
+      "username": "sk471",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 153,
+    "fields": {
+      "username": "skg19",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 23:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 154,
+    "fields": {
+      "username": "sms95",
+      "dinner_id": 1,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:15:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 155,
+    "fields": {
+      "username": "so86",
+      "dinner_id": 1,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 21:59:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 156,
+    "fields": {
+      "username": "so86",
+      "dinner_id": 2,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-08-31 22:01:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 157,
+    "fields": {
+      "username": "so86",
+      "dinner_id": 7,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:29:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 158,
+    "fields": {
+      "username": "sw237",
+      "dinner_id": 14,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-15 12:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 159,
+    "fields": {
+      "username": "tg83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:01:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 160,
+    "fields": {
+      "username": "tkm18",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:21:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 161,
+    "fields": {
+      "username": "tkm18",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 23:07:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 162,
+    "fields": {
+      "username": "tl83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:22:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 163,
+    "fields": {
+      "username": "tl83",
+      "dinner_id": 8,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-16 10:31:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 164,
+    "fields": {
+      "username": "tl83",
+      "dinner_id": 13,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-08 15:38:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 165,
+    "fields": {
+      "username": "tw185",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:18:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 166,
+    "fields": {
+      "username": "vc83",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 00:20:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 167,
+    "fields": {
+      "username": "vc83",
+      "dinner_id": 5,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-09 20:17:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 168,
+    "fields": {
+      "username": "vhd2",
+      "dinner_id": 5,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 19:04:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 169,
+    "fields": {
+      "username": "vjl3",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:08:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 170,
+    "fields": {
+      "username": "vjr3",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 08:44:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 171,
+    "fields": {
+      "username": "vxz",
+      "dinner_id": 18,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:51:00",
+      "interest": "Do you think mentorship has impacted your experience at GS?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 172,
+    "fields": {
+      "username": "ws101",
+      "dinner_id": 15,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-10-23 15:32:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 173,
+    "fields": {
+      "username": "yc163",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-05 17:25:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 174,
+    "fields": {
+      "username": "yc163",
+      "dinner_id": 26,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-11-14 16:16:00",
+      "interest": "What are some ways that you think we can make the American society more culturally integrated?"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 175,
+    "fields": {
+      "username": "yc171",
+      "dinner_id": 3,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-09-09 19:18:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 176,
+    "fields": {
+      "username": "ys114",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-08-31 22:53:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 177,
+    "fields": {
+      "username": "ys120",
+      "dinner_id": 2,
+      "selected": false,
+      "attendance": false,
+      "date_time": "2016-09-01 08:35:00",
+      "interest": "NA"
+    }
+  },
+  {
+    "model": "app.application",
+    "pk": 178,
+    "fields": {
+      "username": "zsg2",
+      "dinner_id": 18,
+      "selected": true,
+      "attendance": true,
+      "date_time": "2016-10-30 16:51:00",
+      "interest": "By what ethical standards should financial institutions be held by regulations?"
+    }
+  }
+]
