@@ -31,7 +31,7 @@ dinnerID,studentID,datetime,interest,selected,missed
 6,grdnr13,9/16/2016 12:29,NA,1,0
 9,grdnr13,9/24/2016 15:42,NA,1,0
 16,grdnr13,10/24/2016 19:04,NA,1,0
-18,grdnr13,30/10/2016 16:16:56,Should trash collectors be paid more than bankers?,1,0
+18,grdnr13,10/30/2016 16:16,Should trash collectors be paid more than bankers?,1,0
 20,grdnr13,10/30/2016 16:20,How does modern neuroscience affect our idea of moral culpability?,1,0
 1,emm57,9/1/2016 21:05,NA,0,0
 13,emm57,10/9/2016 15:53,NA,0,0
@@ -149,9 +149,9 @@ dinnerID,studentID,datetime,interest,selected,missed
 13,hy83,10/8/2016 14:32,NA,1,0
 13,eyq,10/8/2016 14:42,NA,1,0
 13,dle11,10/8/2016 14:42,NA,1,0
-18,dle11,30/10/2016 16:04:30,do you think managers should invest in unethical companies to generate higher returns?,1,0
+18,dle11,10/30/2016 16:04,do you think managers should invest in unethical companies to generate higher returns?,1,0
 13,laa31,10/8/2016 14:46,NA,1,0
-18,laa31,30/10/2016 16:44:53,The Presidential candidates have discussed bringing Glass-Steagal back. What are the pros and cons?,1,0
+18,laa31,10/30/2016 16:44,The Presidential candidates have discussed bringing Glass-Steagal back. What are the pros and cons?,1,0
 20,laa31,10/30/2016 16:48,What is the future of mental health from a biological perspective?,1,0
 13,jvg3,10/8/2016 14:50,NA,1,0
 13,ia40,10/8/2016 14:52,NA,1,0
@@ -168,9 +168,9 @@ dinnerID,studentID,datetime,interest,selected,missed
 15,ec159,10/23/2016 16:06,NA,0,0
 17,ec159,10/23/2016 16:05,NA,0,0
 16,dah41,10/23/2016 15:34,NA,0,0
-18,vxz,30/10/2016 16:51:27,Do you think mentorship has impacted your experience at GS?,1,0
-18,zsg2,30/10/2016 16:51:58,By what ethical standards should financial institutions be held by regulations?,1,0
-18,pj46,30/10/2016 20:59:07,Do you think companies<U+0092> efforts to cut costs have affected their adherence to compliance rules?,1,0
+18,vxz,10/30/2016 16:51,Do you think mentorship has impacted your experience at GS?,1,0
+18,zsg2,10/30/2016 16:51,By what ethical standards should financial institutions be held by regulations?,1,0
+18,pj46,10/30/2016 20:59,Do you think companies' efforts to cut costs have affected their adherence to compliance rules?,1,0
 20,dih6,10/30/2016 20:41,"How should we coordinate law internationally around questions of bioethics, specifically relating to genetic alteration?",0,0
 23,rsk17,11/7/2016 11:50,What kind of problems do you think about when dealing with contaminant transport?,0,0
 23,kiw2,11/7/2016 11:50,How much do environmental issues affect your political decisions?,0,0
