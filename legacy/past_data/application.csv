@@ -18,7 +18,6 @@ dinnerID,studentID,datetime,interest,selected,missed
 2,bwh19,9/1/16 0:32,NA,1,0
 13,bwh19,10/10/16 15:50,NA,0,0
 2,cd83,8/31/16 22:04,NA,0,0
-2,cd83,8/31/16 22:04,NA,0,0
 3,cld36,9/9/16 20:57,NA,1,0
 6,cm83,9/16/16 11:23,NA,1,0
 17,cm83,10/23/16 15:56,NA,0,0
@@ -72,7 +71,6 @@ dinnerID,studentID,datetime,interest,selected,missed
 16,jeg55,10/24/16 19:04,NA,1,0
 18,jeg55,10/30/16 16:16,Should trash collectors be paid more than bankers?,1,0
 20,jeg55,10/30/16 16:20,How does modern neuroscience affect our idea of moral culpability?,1,0
-6,jeg55,9/16/16 10:33,NA,1,0
 2,jhl39,8/31/16 22:05,NA,0,0
 5,jjl33,9/9/16 20:23,NA,1,0
 3,jkj12,9/10/16 11:19,NA,0,0
@@ -149,8 +147,8 @@ dinnerID,studentID,datetime,interest,selected,missed
 14,scz4,10/15/16 12:30,NA,1,0
 3,sj150,9/9/16 19:42,NA,0,0
 1,sj150,9/1/16 0:27,NA,0,0
-13,sj151,10/8/16 14:29,NA,1,0
-24,sj152,11/13/16 15:43,"""Who gets to define what is """"American"""" and what is """"un-American?""""""",0,0
+13,sj150,10/8/16 14:29,NA,1,0
+24,sj150,11/13/16 15:43,"""Who gets to define what is """"American"""" and what is """"un-American?""""""",0,0
 15,sj154,10/23/16 15:42,NA,1,0
 2,sk471,8/31/16 21:59,NA,0,0
 2,skg19,8/31/16 23:21,NA,0,0
@@ -168,8 +166,7 @@ dinnerID,studentID,datetime,interest,selected,missed
 2,tw185,8/31/16 22:18,NA,0,0
 2,vc83,9/1/16 0:20,NA,0,0
 5,vc83,9/9/16 20:17,NA,0,0
-5,vhd2,9/9/16 19:04,NA,0,0
-5,vhd2,9/9/16 21:16,NA,1,0
+5,vhd2,9/9/16 19:04,NA,1,0
 2,vjl3,8/31/16 22:08,NA,0,0
 2,vjr3,9/1/16 8:44,NA,0,0
 18,vxz,10/30/16 16:51,Do you think mentorship has impacted your experience at GS?,1,0
