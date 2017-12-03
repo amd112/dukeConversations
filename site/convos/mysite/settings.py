@@ -139,3 +139,5 @@ EMAIL_HOST_PASSWORD = 'compsci316'
 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+ADMIN_SITE_HEADER = "Duke Conversations Admin"
