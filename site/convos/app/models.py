@@ -151,15 +151,23 @@ class Review(models.Model):
 	def available_reviews(self, user):
 		return Application.objects.filter(username=Student.StudentForUsername(user)).filter(selected=True).filter(attendance=True).values('dinner_id')
 
+class AttendanceManager(models.Manager):
+	def get_queryset(self):
+		return super(AttendanceManager, self).get_queryset().filter(selected=True)
 
-# Moved attendance as an attribute of Application
-
-"""
-class Attendance(models.Model):
-	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING, null = True)
-	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING, null = True)
+class Attendance(Application):
+	objects = AttendanceManager()
 	class Meta:
-		unique_together = (("username", "dinner_id"),)
-	def __str__(self):
-		return str(self.username) + " attended " + str(self.dinner_id)
-"""
+		proxy=True
+		verbose_name='Attendance'
+		verbose_name_plural='Attendance'
+
+class Selection(Application):
+	class Meta:
+		proxy=True
+		verbose_name='Selection'
+		verbose_name_plural='Selection'
+
+
+	
+
