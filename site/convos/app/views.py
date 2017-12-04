@@ -23,7 +23,7 @@ from django.views.decorators.csrf import csrf_protect, csrf_exempt
 import os
 from datetime import timedelta
 import datetime
-from .models import Application, Student, Dinner, Review
+from .models import Application, Student, Dinner, Review, Professor
 from .forms import loginForm, accountInfo, registerDinner
 
 from django.contrib import messages
@@ -98,16 +98,22 @@ def signup(request):
 def loginhome(request):
 	#getting dinners in near future
 	today = datetime.date.today()
-	future_dins = Dinner.objects.filter(date_time__range=[today, today + timedelta(days = 20)])
+	future_dins = Dinner.objects.filter(date_time__range=[today + timedelta(days = 7), today + timedelta(days = 27)])
 	future_dins = future_dins.order_by('date_time')
-	d_id = future_dins.values('id')
 	
-	#getting applications from dinners in near future
+	#get the relevent professor objects
+	profs = Professor.objects.filter(unique_id__in = future_dins.values('professor_id_id'))
+	
+	#get the dinners relevant to applications
+	upcoming = Dinner.objects.filter(date_time__range=[today + timedelta(days = -1), today + timedelta(days = 27)])
+	d_id = upcoming.values('id')
+	
+	#getting applications from dinner list
 	apps = Application.objects.filter(username = request.user.get_username())
 	apps = apps.filter(dinner_id__in = d_id)
-	apps = apps.order_by('-date_time')
+	apps = apps.order_by('date_time')
 	
-	context = {"dinners": future_dins, "applications":apps}
+	context = {"dinners": future_dins, "applications":apps, "profs":profs}
 	return(render(request, 'html_work/loginhome.html', context))
 
 @login_required(login_url = '/login')
