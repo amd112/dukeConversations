@@ -1,17 +1,128 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 
+ <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Review a Dinner</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href={% static "../../static/vendor/bootstrap/css/bootstrap.min.css" %}>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href={% static "../../static/css/full.css" %}>
+    <!-- <link rel="stylesheet" href="sandstonebootstrap.css"> -->
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" type="text/css" href={% static "../../static/vendor/font-awesome/css/font-awesome.min.css" %}>
+  </head>
+
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Duke Conversations</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register">Sign Up for a Dinner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="reviewIndex">Review Dinner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="edit">Edit Profile</a>
+            </li>
+            <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="logout">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+<div class="container jumbotron">
+    <h1 class="text-center">Review a Dinner</h1>
+    <hr>
+  <div class="row">
+      <!-- left column -->
+      <div class="col-md-2">
+        <div class="text-center">
+        </div>
+      </div>
+    
+      
+      <!-- edit form column -->
+      <div class="text-center col-md-8 personal-info">
+
   {% if available_reviews %}
-  <p>Please review the dinners below.</p>
+  <p class="text-center">Please review the dinners below.</p>
   <ul>
     {% for review in available_reviews %}
-    <li><a href="{% url 'review' review %}">{{ review.text }}</a></li>
+    <li class="text-center"><a href="{% url 'review' review %}">{{ review.text }}</a></li>
     {% endfor %}
   </ul>
   {% else %}
-  <p>No reviews needed.</p>
+  <p class='text-center'>No reviews needed.</p>
   {% endif %}
+
+
+  <div class="col-md-2">
+        <div class="text-center"> 
+        </div>
+      </div>
+
+</div>
+
+      
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            
+          </div>
+        
+      </div>
+  </div>
+
+<hr>
+
+<!--Logoutmodal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="/">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
 </body>
 
 </html>
