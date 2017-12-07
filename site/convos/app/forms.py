@@ -2,7 +2,7 @@ import datetime
 
 from django import forms
 from django.contrib.auth.models import User
-from .models import Student, Dinner, Professor, Application
+from .models import Student, Dinner, Professor, Application, Review
 
 class loginForm(forms.Form):
 	username = forms.CharField(max_length = 70, widget=forms.TextInput(attrs={'class' : 'form-control'}))
@@ -77,3 +77,24 @@ class registerDinner(forms.Form):
 
 	dinner = forms.ChoiceField()
 	interest = forms.CharField(widget=forms.Textarea)
+
+	
+class reviewDinner(forms.Form):
+	def __init__(self,*args,**kwargs):
+		self.user = kwargs.pop('user',None)
+		super(reviewDinner, self).__init__(*args,**kwargs)
+
+		attended_dinners = Application.objects.filter(username = self.user.username).values_list("dinner_id", flat=True)
+		#needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
+		#might want to sort at this point
+		reviewed_dinners = Review.objects.filter(username = self.user.username).values_list("dinner_id", flat=True)
+		available_reviews = [(x, Dinner.objects.get(pk = x)) for x in attended_dinners if x not in reviewed_dinners]
+		
+		#defining field types
+		self.fields['dinner'].choices = available_reviews
+		self.fields['dinner'].widget.attrs.update({'class' : 'form-control'})
+		self.fields['rating'].widget.attrs.update({'class' : 'form-control'})
+
+	dinner = forms.ChoiceField()
+	rating = forms.CharField(widget=forms.Textarea)
+	

@@ -31,7 +31,7 @@ urlpatterns = [
     #index for available reviews
     url(r'^reviewIndex$', views.review_index, name = 'reviewIndex'),
 	#reviewing dinner /review
-	url(r'^review/(?P<review_id>[0-9]+)/$', views.review, name = 'review'),
+	url(r'^review$', views.review, name = 'review'),
 	#registering for dinner /confirm
 	url(r'^confirm$', views.confirm, name = 'confirmation'),
 	url(r'^confirmr$', views.confirm_review, name = 'confirmation'),
