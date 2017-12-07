@@ -24,7 +24,7 @@ import os
 from datetime import timedelta
 import datetime
 from .models import Application, Student, Dinner, Review, Professor
-from .forms import loginForm, accountInfo, registerDinner
+from .forms import loginForm, accountInfo, registerDinner, reviewDinner
 
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
@@ -128,16 +128,38 @@ def confirm_review(request):
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review_index(request):
-	available_reviews = [item['dinner_id'] for item in list(Review.available_reviews(request.user))]
+	attended_dinners = Application.objects.filter(username = request.user.get_username()).values('dinner_id') 
+	# needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
+	reviewed_dinners = Review.objects.filter(username = request.user.get_username()). values('dinner_id')
+	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners]
 	context = {'available_reviews':available_reviews}
-	return render(request, 'html_work/review_index.html', context)
+	return render(request, 'html_work/reviewDinner.html', context)
 
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review(request):
+	#get user object
+	user = request.user.username
+	user = Student.objects.get(username = user)
 
-	return render(request, 'html_work/reviewDinner.html')
+	#if they filled out form
+	if request.POST:
+		form = reviewDinner(request.POST, user=user)
+		if form.is_valid():
+			data = form.cleaned_data
+			#fill out automatic data
+			din = data['dinner']
+			din = Dinner.objects.get(pk = din)
+			rate = data['rating']
+			#save their review
+			r = Review.objects.create(username = user, dinner_id = din, food_grade = 5, convo_grade = 5, food_comments = "NA", convo_comments = rate)
+			r.save()
+			return redirect('/emailpage')
+	else:
+		#show form
+		form = reviewDinner(user=user)
+	return render(request, 'html_work/reviewDinner.html', {"form": form})
 
 @login_required(login_url = '/login')
 #check if they already have a student object
@@ -216,16 +238,7 @@ def send_email(request):
 	user = User.objects.get(username = user)
 	email = user.email
 	subject = "Your Duke Conversations signup has been submitted!"
-
-	#file_path = os.path.join(settings.STATIC_ROOT, 'confirmationemail.html')
-
-	#with open(file_path, 'r') as file:
-	#	message = file.read().replace('\n', ' ')
-	#message.replace("{{ professor }}", prof)
-	#message.replace("{{ topic }}", topic)
-	#message.replace("{{ date }}", topic)
-
-
+	
 	html_content = render_to_string('html_work/confirmationemail.html', {'professor':prof, 'topic':topic, 'date':date})
 	text_content = strip_tags(html_content) # this strips the html, so people will have the text as well.
 
@@ -234,8 +247,6 @@ def send_email(request):
 	msg.attach_alternative(html_content, "text/html")
 	msg.send()
 
-	#send the email and redirect
-	#res=send_mail("Your Duke Conversations signup has been submitted!", message, "noreply@Kimberly3.com", [email])
 	return redirect('/confirm')
 
 
