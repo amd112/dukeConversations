@@ -12,13 +12,15 @@ class ApplicationAdmin(admin.ModelAdmin):
 	list_filter = ('dinner_id',)
 
 class SelectionAdmin(admin.ModelAdmin):
-	list_display = ('username', 'interest', 'selected')
+	list_display = ('username', 'dinner_id', 'interest', 'application_count', 'percent_selected', 'percent_attended', 'selected')
+	search_fields = ('dinner_id__professor_id__name', 'dinner_id__date_time')
 	list_filter = ('dinner_id',)
 	list_editable = ('selected',)
 	list_per_page = 15
 
 class AttendanceAdmin(admin.ModelAdmin):
-	list_display = ('username','attendance')
+	list_display = ('username', 'dinner_id', 'attendance')
+	search_fields = ('dinner_id__professor_id__name', 'dinner_id__date_time')
 	list_filter = ('dinner_id',)
 	list_editable = ('attendance',)
 	list_per_page = 15

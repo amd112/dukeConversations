@@ -163,10 +163,39 @@ class Attendance(Application):
 		verbose_name_plural='Attendance'
 
 class Selection(Application):
+	def _get_applied(self):
+		return Application.objects.filter(username=self.username).count()
+
+	def _get_selected_percentage(self):
+		times_selected = Application.objects.filter(username=self.username, selected=True).count()
+		times_applied = self._get_applied()
+		if times_applied != 0:
+			percent = (times_selected/times_applied) 
+			fpercent = "{:.1%}".format(percent)
+		else: 
+			fpercent = "N/A"
+		return fpercent
+
+	def _get_attendance_percentage(self):
+		times_attended = Application.objects.filter(username=self.username, attendance=True).count()
+		times_selected = Application.objects.filter(username=self.username, selected=True).count()
+		if times_selected != 0:
+			percent = (times_attended/times_selected)
+			fpercent = "{:.1%}".format(percent)
+		else: 
+			fpercent = "N/A"
+		return fpercent
+
+	application_count=property(_get_applied)
+	percent_selected=property(_get_selected_percentage)
+	percent_attended=property(_get_attendance_percentage)
+
 	class Meta:
 		proxy=True
 		verbose_name='Selection'
 		verbose_name_plural='Selection'
+
+
 
 
 	
