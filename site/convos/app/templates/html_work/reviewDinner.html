@@ -73,6 +73,7 @@
       <!-- left column -->
       <div class="col-md-12">
         <div class="text-center">
+		{% if dinners %}
 		<form class="form-group" action="" method='POST'> {% csrf_token %}
 		  
            {{ form.as_p }}
@@ -83,6 +84,15 @@
               <button class="btn btn-default" href="home"> Cancel</button>
             </div>
         </form>
+		{% else %}
+		<div class="row">
+		<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
+		<div class="card-block center-block">
+			<h3 class="card-title text-center" style="padding: 15px 15px 0 15px"> No dinners left to review! </h3>
+		</div>
+		</div>
+		</div>	
+		{% endif %}
         </div>
       </div>
 

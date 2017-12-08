@@ -135,10 +135,10 @@ class Application(models.Model):
 class Review(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
 	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING)
-	food_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
-	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)], null = True)
-	food_comments = models.TextField(max_length = 1000, null = True)
-	convo_comments = models.TextField(max_length = 1000, null = True)
+	food_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)])
+	convo_grade = models.IntegerField(validators = [MinValueValidator(0), MaxValueValidator(5)])
+	food_comments = models.TextField(max_length = 1000, null = True, blank = True)
+	convo_comments = models.TextField(max_length = 1000, null = True, blank = True)
 	date_time = models.DateTimeField(auto_now_add=True)
 
 

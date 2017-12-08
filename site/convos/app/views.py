@@ -124,24 +124,16 @@ def confirm(request):
 def confirm_review(request):
 	return render(request, 'html_work/confirmreview.html')
 
-
-@login_required(login_url = '/login')
-@user_passes_test(check_complete_user, login_url='/edit')
-def review_index(request):
-	attended_dinners = Application.objects.filter(username = request.user.get_username()).values('dinner_id') 
-	# needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
-	reviewed_dinners = Review.objects.filter(username = request.user.get_username()). values('dinner_id')
-	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners]
-	context = {'available_reviews':available_reviews}
-	return render(request, 'html_work/reviewDinner.html', context)
-
-
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review(request):
 	#get user object
-	user = request.user.username
-	user = Student.objects.get(username = user)
+	username = request.user.username
+	user = Student.objects.get(username = username)
+	attended_dinners = Application.objects.filter(username = username).values_list("dinner_id", flat=True)
+	#needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
+	reviewed_dinners = Review.objects.filter(username = username).values_list("dinner_id", flat=True)
+	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners]
 
 	#if they filled out form
 	if request.POST:
@@ -151,15 +143,18 @@ def review(request):
 			#fill out automatic data
 			din = data['dinner']
 			din = Dinner.objects.get(pk = din)
-			rate = data['rating']
+			food_grade = data['food_grade']
+			convo_grade = data['convo_grade']
+			food_comments = data['food_comments']
+			convo_comments = data['convo_comments']
 			#save their review
-			r = Review.objects.create(username = user, dinner_id = din, food_grade = 5, convo_grade = 5, food_comments = "NA", convo_comments = rate)
+			r = Review.objects.create(username = user, dinner_id = din, food_grade = food_grade, convo_grade = convo_grade, food_comments = food_comments, convo_comments = convo_comments)
 			r.save()
-			return redirect('/emailpage')
+			return redirect('/confirmr')
 	else:
 		#show form
 		form = reviewDinner(user=user)
-	return render(request, 'html_work/reviewDinner.html', {"form": form})
+	return render(request, 'html_work/reviewDinner.html', {"form": form, "dinners": available_reviews})
 
 @login_required(login_url = '/login')
 #check if they already have a student object
@@ -199,12 +194,18 @@ def edit(request):
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
-#check they have reviewed all dinners before registering again
-#doesn't pass the data to confirm correctly yet
 def register(request):
 	#get user object
-	user = request.user.username
-	user = Student.objects.get(username = user)
+	username = request.user.username
+	user = Student.objects.get(username = username)
+	startdate = datetime.date.today()
+	enddate = startdate + datetime.timedelta(days=20)
+	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate]).values_list("id", flat=True)
+	#selecting all the applications already submitted by person
+	applied = Application.objects.filter(username = username)
+	applied = applied.values_list("dinner_id", flat=True)
+	
+	applicable = [x for x in future_dins if x not in applied]
 
 	#if they filled out form
 	if request.POST:
@@ -225,7 +226,7 @@ def register(request):
 	else:
 		#show form
 		form = registerDinner(user=user)
-	return render(request, 'html_work/signupdin.html', {"form": form})
+	return render(request, 'html_work/signupdin.html', {"form": form, "applicable": applicable})
 
 def send_email(request):
 	#get the signup information

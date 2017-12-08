@@ -28,11 +28,9 @@ urlpatterns = [
 	url(r'^$', views.index, name = 'index'),
 	#registering for dinner /register
 	url(r'^register$', views.register, name = 'registration'),
-    #index for available reviews
-    url(r'^reviewIndex$', views.review_index, name = 'reviewIndex'),
 	#reviewing dinner /review
 	url(r'^review$', views.review, name = 'review'),
-	#registering for dinner /confirm
+	#confirming registration or review /confirm
 	url(r'^confirm$', views.confirm, name = 'confirmation'),
 	url(r'^confirmr$', views.confirm_review, name = 'confirmation'),
 	#registering for website /signup
