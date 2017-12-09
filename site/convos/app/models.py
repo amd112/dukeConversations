@@ -108,7 +108,7 @@ class Dinner(models.Model):
 	date_time = models.DateTimeField(null = True)
 	professor_id = models.ForeignKey(Professor, on_delete = models.DO_NOTHING)
 	topic = models.CharField(max_length = 100)
-	description = models.TextField(max_length = 1000)
+	description = models.TextField(max_length = 2000)
 
 	class Meta:
 		unique_together  = (("date_time", "professor_id"))
