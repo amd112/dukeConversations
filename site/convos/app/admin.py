@@ -1,9 +1,6 @@
 from django.contrib import admin
 from .models import Student, Application, Professor, Review, Dinner, Selection, Attendance
 
-# Register your models here.
-
-
 class ApplicationAdmin(admin.ModelAdmin):
 	fields=('username','_name', '_year', '_major', 'dinner_id', 'interest', 'selected', 'attendance')
 	list_display = ('_name', '_year', '_major', 'dinner_id', 'interest', 'selected', 'attendance')
@@ -22,7 +19,7 @@ class ApplicationAdmin(admin.ModelAdmin):
 		writer = csv.writer(file)
 		writer.writerow(['Name', 'Year', 'Major', 'Professor', 'Date', 'Interest', 'Selected', 'Attended'])
 		for r in queryset:
-			writer.writerow([r.username.name, r.username.year, r.username.major, r.dinner_id.professor_id.name, r.dinner_id.date_time, r.interest, r.selected, r.attendance])
+			writer.writerow([r.username.name, r.username.get_year_display(), r.username.get_major_display(), r.dinner_id.professor_id.name, r.dinner_id.date_time, r.interest, r.selected, r.attendance])
 
 		file.seek(0)
 		response = HttpResponse(file, content_type='text/csv')
@@ -49,7 +46,7 @@ class SelectionAdmin(admin.ModelAdmin):
 		writer = csv.writer(file)
 		writer.writerow(['Name', 'Year', 'Major', 'Professor', 'Date', 'Interest', 'Application Count', 'Selection Percentage', 'Attendance Percentage', 'Selected'])
 		for r in queryset:
-			writer.writerow([r.username.name, r.username.year, r.username.major, r.dinner_id.professor_id.name, r.dinner_id.date_time, r.interest, r.application_count, r.percent_selected, r.percent_attended, r.selected])
+			writer.writerow([r.username.name, r.username.get_year_display(), r.username.get_major_display(), r.dinner_id.professor_id.name, r.dinner_id.date_time, r.interest, r.application_count, r.percent_selected, r.percent_attended, r.selected])
 
 		file.seek(0)
 		response = HttpResponse(file, content_type='text/csv')
@@ -76,7 +73,7 @@ class AttendanceAdmin(admin.ModelAdmin):
 		writer = csv.writer(file)
 		writer.writerow(['Name', 'Pronouns', 'Food Restrictions', 'Phone Number', 'Professor', 'Date', 'Attended'])
 		for r in queryset:
-			writer.writerow([r.username.name, r.username.pronoun, r.username.food_restrictions, r.username.phone_number, r.dinner_id.professor_id.name, r.dinner_id.date_time, r.attendance])
+			writer.writerow([r.username.name, r.username.get_pronoun_display(), r.username.food_restrictions, r.username.phone_number, r.dinner_id.professor_id.name, r.dinner_id.date_time, r.attendance])
 
 		file.seek(0)
 		response = HttpResponse(file, content_type='text/csv')
