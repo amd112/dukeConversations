@@ -100,6 +100,7 @@ class Professor(models.Model):
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	gender = models.CharField(max_length = 5, choices = genders)
+
 	def __str__(self):
 		return self.name
 
@@ -131,6 +132,24 @@ class Application(models.Model):
 	def __str__(self):
 		return str(self.username) + " for " + str(self.dinner_id)
 
+	def _name(self):
+		return self.username.name
+
+	def _food_restrictions(self):
+		return self.username.food_restrictions
+
+	def _phone_number(self):
+		return self.username.phone_number
+
+	def _pronouns(self):
+		return self.username.get_pronoun_display()
+
+	def _year(self):
+		return self.username.get_year_display()
+
+	def _major(self):
+		return self.username.get_major_display()
+
 #username is not actually username, it is a student instance, so we may want to correct these
 class Review(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
@@ -141,6 +160,8 @@ class Review(models.Model):
 	convo_comments = models.TextField(max_length = 1000, null = True)
 	date_time = models.DateTimeField(auto_now_add=True)
 
+	def _name(self):
+		return self.username.name
 
 	class Meta:
 		unique_together = (("username", "dinner_id"),)
