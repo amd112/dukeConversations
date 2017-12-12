@@ -40,7 +40,7 @@
               <a class="nav-link" href="register">Sign Up for a Dinner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="review_index">Review Dinner</a>
+              <a class="nav-link" href="review">Review Dinner</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="edit">Edit Profile</a>
@@ -78,7 +78,6 @@
 	</div>
 	</div>
 
-
 	<hr>
 
 	<h1 class="text-center" style="padding: 35px 0 15px 0">Upcoming Dinners</h1>
@@ -87,7 +86,11 @@
 	<div class="card w-75 card-outline-secondary mb-3 center-block mx-auto">
 		<div class="card-block center-block">
 			<h3 class="card-title" style="padding: 15px 15px 0 15px">{{ dinner.topic }}</h3>
-			<h6 class="card-text" style="padding: 0 15px 0 15px">Professor: {{ dinner.professor_id_id }}</h6>
+			{% for prof in profs %}
+				{% if dinner.professor_id_id == prof.unique_id %}
+				<h6 class="card-text" style="padding: 0 15px 0 15px">Professor: {{ prof.name }}</h6>
+				{% endif %}
+			{% endfor %}
 			<h6 class="card-text" style="padding: 0 15px 0 15px">Date: {{ dinner.date_time }}</h6>
 			<p class="card-text" style="padding: 0 15px 15px 15px">{{ dinner.description }}</p>
 		</div>

@@ -23,8 +23,8 @@ from django.views.decorators.csrf import csrf_protect, csrf_exempt
 import os
 from datetime import timedelta
 import datetime
-from .models import Application, Student, Dinner, Review
-from .forms import loginForm, accountInfo, registerDinner
+from .models import Application, Student, Dinner, Review, Professor
+from .forms import loginForm, accountInfo, registerDinner, reviewDinner
 
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
@@ -98,16 +98,22 @@ def signup(request):
 def loginhome(request):
 	#getting dinners in near future
 	today = datetime.date.today()
-	future_dins = Dinner.objects.filter(date_time__range=[today, today + timedelta(days = 20)])
+	future_dins = Dinner.objects.filter(date_time__range=[today + timedelta(days = 7), today + timedelta(days = 27)])
 	future_dins = future_dins.order_by('date_time')
-	d_id = future_dins.values('id')
 	
-	#getting applications from dinners in near future
+	#get the relevent professor objects
+	profs = Professor.objects.filter(unique_id__in = future_dins.values('professor_id_id'))
+	
+	#get the dinners relevant to applications
+	upcoming = Dinner.objects.filter(date_time__range=[today + timedelta(days = -1), today + timedelta(days = 27)])
+	d_id = upcoming.values('id')
+	
+	#getting applications from dinner list
 	apps = Application.objects.filter(username = request.user.get_username())
 	apps = apps.filter(dinner_id__in = d_id)
-	apps = apps.order_by('-date_time')
+	apps = apps.order_by('date_time')
 	
-	context = {"dinners": future_dins, "applications":apps}
+	context = {"dinners": future_dins, "applications":apps, "profs":profs}
 	return(render(request, 'html_work/loginhome.html', context))
 
 @login_required(login_url = '/login')
@@ -118,20 +124,39 @@ def confirm(request):
 def confirm_review(request):
 	return render(request, 'html_work/confirmreview.html')
 
-
-@login_required(login_url = '/login')
-@user_passes_test(check_complete_user, login_url='/edit')
-def review_index(request):
-	available_reviews = [item['dinner_id'] for item in list(Review.available_reviews(request.user))]
-	context = {'available_reviews':available_reviews}
-	return render(request, 'html_work/review_index.html', context)
-
-
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
 def review(request):
+	#get user object
+	today = datetime.date.today()
+	username = request.user.username
+	user = Student.objects.get(username = username)
+	attended_dinners = Application.objects.filter(username = username).values_list("dinner_id", flat=True)
+	upcoming = Dinner.objects.filter(date_time__gt=today).values_list("id", flat=True)
+	#needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
+	reviewed_dinners = Review.objects.filter(username = username).values_list("dinner_id", flat=True)
+	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners and x not in upcoming]
 
-	return render(request, 'html_work/reviewDinner.html')
+	#if they filled out form
+	if request.POST:
+		form = reviewDinner(request.POST, user=user)
+		if form.is_valid():
+			data = form.cleaned_data
+			#fill out automatic data
+			din = data['dinner']
+			din = Dinner.objects.get(pk = din)
+			food_grade = data['food_grade']
+			convo_grade = data['convo_grade']
+			food_comments = data['food_comments']
+			convo_comments = data['convo_comments']
+			#save their review
+			r = Review.objects.create(username = user, dinner_id = din, food_grade = food_grade, convo_grade = convo_grade, food_comments = food_comments, convo_comments = convo_comments)
+			r.save()
+			return redirect('/confirmr')
+	else:
+		#show form
+		form = reviewDinner(user=user)
+	return render(request, 'html_work/reviewDinner.html', {"form": form, "dinners": available_reviews})
 
 @login_required(login_url = '/login')
 #check if they already have a student object
@@ -171,12 +196,18 @@ def edit(request):
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
-#check they have reviewed all dinners before registering again
-#doesn't pass the data to confirm correctly yet
 def register(request):
 	#get user object
-	user = request.user.username
-	user = Student.objects.get(username = user)
+	username = request.user.username
+	user = Student.objects.get(username = username)
+	startdate = datetime.date.today()
+	enddate = startdate + datetime.timedelta(days=20)
+	future_dins = Dinner.objects.filter(date_time__range=[startdate, enddate]).values_list("id", flat=True)
+	#selecting all the applications already submitted by person
+	applied = Application.objects.filter(username = username)
+	applied = applied.values_list("dinner_id", flat=True)
+	
+	applicable = [x for x in future_dins if x not in applied]
 
 	#if they filled out form
 	if request.POST:
@@ -197,7 +228,7 @@ def register(request):
 	else:
 		#show form
 		form = registerDinner(user=user)
-	return render(request, 'html_work/signupdin.html', {"form": form})
+	return render(request, 'html_work/signupdin.html', {"form": form, "applicable": applicable})
 
 def send_email(request):
 	#get the signup information
@@ -210,16 +241,7 @@ def send_email(request):
 	user = User.objects.get(username = user)
 	email = user.email
 	subject = "Your Duke Conversations signup has been submitted!"
-
-	#file_path = os.path.join(settings.STATIC_ROOT, 'confirmationemail.html')
-
-	#with open(file_path, 'r') as file:
-	#	message = file.read().replace('\n', ' ')
-	#message.replace("{{ professor }}", prof)
-	#message.replace("{{ topic }}", topic)
-	#message.replace("{{ date }}", topic)
-
-
+	
 	html_content = render_to_string('html_work/confirmationemail.html', {'professor':prof, 'topic':topic, 'date':date})
 	text_content = strip_tags(html_content) # this strips the html, so people will have the text as well.
 
@@ -228,8 +250,6 @@ def send_email(request):
 	msg.attach_alternative(html_content, "text/html")
 	msg.send()
 
-	#send the email and redirect
-	#res=send_mail("Your Duke Conversations signup has been submitted!", message, "noreply@Kimberly3.com", [email])
 	return redirect('/confirm')
 
 

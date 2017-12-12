@@ -40,7 +40,7 @@
               <a class="nav-link" href="register">Sign Up for Dinner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reviewIndex">Review Dinner</a>
+              <a class="nav-link" href="review">Review Dinner</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="edit">Edit Profile</a>
@@ -72,9 +72,44 @@
 
         <h4 class="text-center" style="padding: 0 0 15px 0">Profile must be complete to submit any forms. </h4>
           <form class="form-group" action="" method='POST'> {% csrf_token %}
-           {{ form.as_p }}
+         
 
-      <div class="text-center col-md-12">
+    <form class="form-horizontal text-center" method="post">{% csrf_token %}
+    <fieldset>
+        <legend>{{ title }}</legend>
+
+          {% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li class="{{ message.tags }} form-control">{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+        {% for field in form %}
+            {% if field.errors %}
+                <div class="control-group error form-control-danger">
+                    <label class="control-label">{{ field.label }}</label> 
+                    <div class="controls">{{ field }}
+                        <span class="help-inline form-control alert-danger form-control-danger">
+                            {% for error in  field.errors %}{{ error }}{% endfor %}
+                        </span>
+                    </div>
+                </div>
+            {% else %}
+                <div class="control-group">
+                    <label class="control-label">{{ field.label }}</label> 
+                    <div class="controls">{{ field }}
+                        {% if field.help_text %}
+                            <p class="help-text"><small>{{ field.help_text }}</small></p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </fieldset>
+
+      <div style="padding:25px" class="text-center col-md-12">
               <button type="submit" class="btn btn-primary"  href="confirm">Save Changes</button>
               <span></span>
               <a class="btn btn-secondary" href="password"> Change Password</a>
