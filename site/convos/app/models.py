@@ -100,6 +100,7 @@ class Professor(models.Model):
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	gender = models.CharField(max_length = 5, choices = genders)
+
 	def __str__(self):
 		return self.name
 
@@ -131,6 +132,24 @@ class Application(models.Model):
 	def __str__(self):
 		return str(self.username) + " for " + str(self.dinner_id)
 
+	def _name(self):
+		return self.username.name
+
+	def _food_restrictions(self):
+		return self.username.food_restrictions
+
+	def _phone_number(self):
+		return self.username.phone_number
+
+	def _pronouns(self):
+		return self.username.get_pronoun_display()
+
+	def _year(self):
+		return self.username.get_year_display()
+
+	def _major(self):
+		return self.username.get_major_display()
+
 #username is not actually username, it is a student instance, so we may want to correct these
 class Review(models.Model):
 	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING)
@@ -141,6 +160,8 @@ class Review(models.Model):
 	convo_comments = models.TextField(max_length = 1000, null = True, blank = True)
 	date_time = models.DateTimeField(auto_now_add=True)
 
+	def _name(self):
+		return self.username.name
 
 	class Meta:
 		unique_together = (("username", "dinner_id"),)
@@ -151,15 +172,52 @@ class Review(models.Model):
 	def available_reviews(self, user):
 		return Application.objects.filter(username=Student.StudentForUsername(user)).filter(selected=True).filter(attendance=True).values('dinner_id')
 
+class AttendanceManager(models.Manager):
+	def get_queryset(self):
+		return super(AttendanceManager, self).get_queryset().filter(selected=True)
 
-# Moved attendance as an attribute of Application
-
-"""
-class Attendance(models.Model):
-	username = models.ForeignKey(Student, on_delete = models.DO_NOTHING, null = True)
-	dinner_id = models.ForeignKey(Dinner, on_delete = models.DO_NOTHING, null = True)
+class Attendance(Application):
+	objects = AttendanceManager()
 	class Meta:
-		unique_together = (("username", "dinner_id"),)
-	def __str__(self):
-		return str(self.username) + " attended " + str(self.dinner_id)
-"""
+		proxy=True
+		verbose_name='Attendance'
+		verbose_name_plural='Attendance'
+
+class Selection(Application):
+	def _get_applied(self):
+		return Application.objects.filter(username=self.username).count()
+
+	def _get_selected_percentage(self):
+		times_selected = Application.objects.filter(username=self.username, selected=True).count()
+		times_applied = self._get_applied()
+		if times_applied != 0:
+			percent = (times_selected/times_applied) 
+			fpercent = "{:.1%}".format(percent)
+		else: 
+			fpercent = "N/A"
+		return fpercent
+
+	def _get_attendance_percentage(self):
+		times_attended = Application.objects.filter(username=self.username, attendance=True).count()
+		times_selected = Application.objects.filter(username=self.username, selected=True).count()
+		if times_selected != 0:
+			percent = (times_attended/times_selected)
+			fpercent = "{:.1%}".format(percent)
+		else: 
+			fpercent = "N/A"
+		return fpercent
+
+	application_count=property(_get_applied)
+	percent_selected=property(_get_selected_percentage)
+	percent_attended=property(_get_attendance_percentage)
+
+	class Meta:
+		proxy=True
+		verbose_name='Selection'
+		verbose_name_plural='Selection'
+
+
+
+
+	
+

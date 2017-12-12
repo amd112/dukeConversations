@@ -67,9 +67,8 @@ class registerDinner(forms.Form):
 
 		#creating tuples for the options to show, for future dinners, excluding already applied to
 
-		for din in future_dins:
-			options = [(x['id'], Professor.objects.get(pk = x['professor_id_id']).name + ", " + x['topic'] + ", " + str(x['date_time'].date())) for x in future_dins if x['id'] not in applied]
-			options = sorted(options, key=lambda tup: tup[1].split(",")[2]) #sorting by soonest date
+		options = [(x['id'], Professor.objects.get(pk = x['professor_id_id']).name + ", " + x['topic'] + ", " + str(x['date_time'].date())) for x in future_dins if x['id'] not in applied]
+		options = sorted(options, key=lambda tup: tup[1].split(",")[2]) #sorting by soonest date
 
 		#defining field types
 		self.fields['dinner'].choices = options
