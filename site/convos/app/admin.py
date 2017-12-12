@@ -65,7 +65,7 @@ class SelectionAdmin(admin.ModelAdmin):
 		datalist = []
 
 		for r in queryset:
-			datalist.append(('Duke Conversations Dinner Selection', 'Congratulations! You have been selected to attend a dinner with ' + r.dinner_id.professor_id.name + ' scheduled for ' + r.dinner_id.date_time.strftime("%d/%m/%y") + '.', 'noreply@DukeConversation.com', [r.username.netid + '@duke.edu']))
+			datalist.append(('Duke Conversations Dinner Selection', 'Congratulations! You have been selected to attend a dinner with ' + r.dinner_id.professor_id.name + ' scheduled for ' + r.dinner_id.date_time.strftime("%m/%d/%y") + '.', 'noreply@DukeConversation.com', [r.username.netid + '@duke.edu']))
 
 		datatuple = tuple(datalist)
 
@@ -76,7 +76,7 @@ class SelectionAdmin(admin.ModelAdmin):
 		rejected_list = []
 
 		for r in rejected:
-			rejected_list.append(('Duke Conversations Dinner Notification', 'Thank you for participating in the Duke Conversations program.\n Unfortunately, you have not been selected for the dinner with ' + r.dinner_id.professor_id.name + ' scheduled for ' + r.dinner_id.date_time.strftime("%d/%m/%y") + '.\n Check back with us soon for more faculty dinner opportunities!', 'noreply@DukeConversation.com', [r.username.netid + '@duke.edu']))
+			rejected_list.append(('Duke Conversations Dinner Notification', 'Thank you for participating in the Duke Conversations program.\n Unfortunately, you have not been selected for the dinner with ' + r.dinner_id.professor_id.name + ' scheduled for ' + r.dinner_id.date_time.strftime("%m/%d/%y") + '.\n Check back with us soon for more faculty dinner opportunities!', 'noreply@DukeConversation.com', [r.username.netid + '@duke.edu']))
 
 		datatuple = tuple(datalist)
 		rejectiontuple = tuple(rejected_list)

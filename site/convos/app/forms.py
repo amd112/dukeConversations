@@ -2,7 +2,7 @@ import datetime
 
 from django import forms
 from django.contrib.auth.models import User
-from .models import Student, Dinner, Professor, Application, Review
+from .models import Student, Dinner, Professor, Application, Review, Attendance
 	
 	
 class loginForm(forms.Form):
@@ -85,8 +85,7 @@ class reviewDinner(forms.Form):
 		super(reviewDinner, self).__init__(*args,**kwargs)
 
 		today = datetime.date.today()
-		attended_dinners = Application.objects.filter(username = self.user.username).values_list("dinner_id", flat=True)
-		#needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
+		attended_dinners = Attendance.objects.filter(username = self.user.username).values_list("dinner_id", flat=True)
 		#might want to sort at this point
 		reviewed_dinners = Review.objects.filter(username = self.user.username).values_list("dinner_id", flat=True)
 		upcoming = Dinner.objects.filter(date_time__gt=today).values_list("id", flat=True)

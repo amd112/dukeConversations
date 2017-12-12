@@ -23,7 +23,7 @@ from django.views.decorators.csrf import csrf_protect, csrf_exempt
 import os
 from datetime import timedelta
 import datetime
-from .models import Application, Student, Dinner, Review, Professor
+from .models import Application, Student, Dinner, Review, Professor, Attendance
 from .forms import loginForm, accountInfo, registerDinner, reviewDinner
 
 from django.contrib import messages
@@ -131,9 +131,8 @@ def review(request):
 	today = datetime.date.today()
 	username = request.user.username
 	user = Student.objects.get(username = username)
-	attended_dinners = Application.objects.filter(username = username).values_list("dinner_id", flat=True)
+	attended_dinners = Attendance.objects.filter(username = username).values_list("dinner_id", flat=True)
 	upcoming = Dinner.objects.filter(date_time__gt=today).values_list("id", flat=True)
-	#needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
 	reviewed_dinners = Review.objects.filter(username = username).values_list("dinner_id", flat=True)
 	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners and x not in upcoming]
 
