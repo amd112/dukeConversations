@@ -31,12 +31,12 @@ class ApplicationAdmin(admin.ModelAdmin):
 class SelectionAdmin(admin.ModelAdmin):
 	fields=('username', '_year', '_major', 'dinner_id', 'interest', 'application_count', 'percent_selected', 'percent_attended', 'selected')
 	list_display = ('username', '_year', '_major', 'dinner_id', 'interest', 'application_count', 'percent_selected', 'percent_attended', 'selected')
-	readonly_fields=('username', '_year', '_major', 'dinner_id', 'interest', 'application_count', 'percent_selected', 'percent_attended')
+	readonly_fields=('username', '_year', '_major', 'dinner_id', 'interest', 'application_count', 'percent_selected', 'percent_attended', 'selected')
 	search_fields = ('dinner_id__professor_id__name', 'dinner_id__date_time')
 	list_filter = ('dinner_id',)
-	list_editable = ('selected',)
+	#list_editable=('selected',)
 	list_per_page = 15
-	actions = ['download_csv']
+	actions = ['download_csv', 'notify']
 	def download_csv(self, request, queryset):
 		import csv
 		from django.http import HttpResponse
@@ -54,6 +54,38 @@ class SelectionAdmin(admin.ModelAdmin):
 		return response
 
 	download_csv.short_description = "Download a CSV File containing the selected rows"
+
+	def notify(self, request, queryset):
+		from django.core.mail import send_mass_mail
+
+		dinner = queryset[0].dinner_id
+
+		queryset.update(selected=True)
+
+		datalist = []
+
+		for r in queryset:
+			datalist.append(('Duke Conversations Dinner Selection', 'Congratulations! You have been selected to attend a dinner with ' + r.dinner_id.professor_id.name + ' scheduled for ' + r.dinner_id.date_time.strftime("%d/%m/%y") + '.', 'noreply@DukeConversation.com', [r.username.netid + '@duke.edu']))
+
+		datatuple = tuple(datalist)
+
+		rejected = Application.objects.filter(dinner_id=dinner, selected=None)
+
+		rejected.update(selected=False) 
+
+		rejected_list = []
+
+		for r in rejected:
+			rejected_list.append(('Duke Conversations Dinner Notification', 'Thank you for participating in the Duke Conversations program.\n Unfortunately, you have not been selected for the dinner with ' + r.dinner_id.professor_id.name + ' scheduled for ' + r.dinner_id.date_time.strftime("%d/%m/%y") + '.\n Check back with us soon for more faculty dinner opportunities!', 'noreply@DukeConversation.com', [r.username.netid + '@duke.edu']))
+
+		datatuple = tuple(datalist)
+		rejectiontuple = tuple(rejected_list)
+
+		send_mass_mail(datatuple)
+		send_mass_mail(rejectiontuple)
+		return
+
+	notify.short_description = "Select students for a dinner and notify them of their selection"
 
 class AttendanceAdmin(admin.ModelAdmin):
 	fields=('_name', '_pronouns', '_food_restrictions', '_phone_number', 'dinner_id', 'attendance')
