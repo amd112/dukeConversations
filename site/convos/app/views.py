@@ -128,12 +128,14 @@ def confirm_review(request):
 @user_passes_test(check_complete_user, login_url='/edit')
 def review(request):
 	#get user object
+	today = datetime.date.today()
 	username = request.user.username
 	user = Student.objects.get(username = username)
 	attended_dinners = Application.objects.filter(username = username).values_list("dinner_id", flat=True)
+	upcoming = Dinner.objects.filter(date_time__gt=today).values_list("id", flat=True)
 	#needs to be Attended.objects.filter(username = request.user.get_username(), but attended has yet to reach master
 	reviewed_dinners = Review.objects.filter(username = username).values_list("dinner_id", flat=True)
-	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners]
+	available_reviews = [x for x in attended_dinners if x not in reviewed_dinners and x not in upcoming]
 
 	#if they filled out form
 	if request.POST:

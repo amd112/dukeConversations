@@ -99,8 +99,8 @@ class reviewDinner(forms.Form):
 
 	ranking = [(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)]
 	dinner = forms.ChoiceField()
-	food_grade = forms.ChoiceField(choices = ranking, widget = forms.RadioSelect(attrs={'class' : 'form-control inline'}), label = "How would you rate the food at this dinner?")
-	convo_grade = forms.ChoiceField(choices = ranking, widget = forms.RadioSelect(attrs={'class' : 'form-control inline'}), label = "How would you rate the conversation at this dinner?")
+	food_grade = forms.ChoiceField(choices = ranking, widget = forms.Select(attrs={'class' : 'form-control inline'}), label = "How would you rate the food at this dinner?")
+	convo_grade = forms.ChoiceField(choices = ranking, widget = forms.Select(attrs={'class' : 'form-control inline'}), label = "How would you rate the conversation at this dinner?")
 	food_comments = forms.CharField(required=False, widget=forms.TextInput(attrs={'class' : 'form-control'}), label = "Is there anything else we should know about the food at this dinner?")
 	convo_comments = forms.CharField(required=False, widget=forms.Textarea(attrs={'class' : 'form-control'}), label = "Is there anything you'd like to tell us about the atmosphere or conversation at this dinner?")
 	
