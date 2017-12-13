@@ -208,7 +208,7 @@ def edit(request):
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
-@user_passes_test(no_outstanding_reviews, login_url='/review')
+#@user_passes_test(no_outstanding_reviews, login_url='/review')
 def register(request):
 	#get user object
 	username = request.user.username
