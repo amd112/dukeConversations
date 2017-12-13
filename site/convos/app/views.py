@@ -40,6 +40,10 @@ def check_complete_user(user):
 		exists = False
 	return exists
 
+def no_outstanding_reviews(user):
+	return True
+
+
 def index(request):
 	#latest_question_list = Application.objects.order_by('-date_time')[:5]
 	#context = {'latest_question_list': latest_question_list}
@@ -100,19 +104,19 @@ def loginhome(request):
 	today = datetime.date.today()
 	future_dins = Dinner.objects.filter(date_time__range=[today + timedelta(days = 7), today + timedelta(days = 27)])
 	future_dins = future_dins.order_by('date_time')
-	
+
 	#get the relevent professor objects
 	profs = Professor.objects.filter(unique_id__in = future_dins.values('professor_id_id'))
-	
+
 	#get the dinners relevant to applications
 	upcoming = Dinner.objects.filter(date_time__range=[today + timedelta(days = -1), today + timedelta(days = 27)])
 	d_id = upcoming.values('id')
-	
+
 	#getting applications from dinner list
 	apps = Application.objects.filter(username = request.user.get_username())
 	apps = apps.filter(dinner_id__in = d_id)
 	apps = apps.order_by('date_time')
-	
+
 	context = {"dinners": future_dins, "applications":apps, "profs":profs}
 	return(render(request, 'html_work/loginhome.html', context))
 
@@ -205,7 +209,7 @@ def register(request):
 	#selecting all the applications already submitted by person
 	applied = Application.objects.filter(username = username)
 	applied = applied.values_list("dinner_id", flat=True)
-	
+
 	applicable = [x for x in future_dins if x not in applied]
 
 	#if they filled out form
@@ -240,7 +244,7 @@ def send_email(request):
 	user = User.objects.get(username = user)
 	email = user.email
 	subject = "Your Duke Conversations signup has been submitted!"
-	
+
 	html_content = render_to_string('html_work/confirmationemail.html', {'professor':prof, 'topic':topic, 'date':date})
 	text_content = strip_tags(html_content) # this strips the html, so people will have the text as well.
 
