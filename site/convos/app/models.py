@@ -14,6 +14,12 @@ def validate_unique_id(value):
 	('%(value)s is not 7 digits!'),
 	params={'value':value}
 	)
+
+def validate_required(value):
+	if len(value) == 0:
+		raise ValidationError(
+	('This field is required!')
+	)
 # Create your models here.
 class Student(models.Model):
 

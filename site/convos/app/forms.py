@@ -3,8 +3,8 @@ import datetime
 from django import forms
 from django.contrib.auth.models import User
 from .models import Student, Dinner, Professor, Application, Review, Attendance
-	
-	
+
+
 class loginForm(forms.Form):
 	username = forms.CharField(max_length = 70, widget=forms.TextInput(attrs={'class' : 'form-control'}))
 	password = forms.CharField(widget=forms.PasswordInput(attrs={'class' : 'form-control'}))
@@ -45,9 +45,10 @@ class accountInfo(forms.ModelForm):
 		}
 		labels = {
 			#give fields human readable labels
-            'netid': 'NetID',
-			'unique_id': 'Unique ID',
-			'pronoun': 'Preferred pronouns'
+            'netid': 'NetID *',
+			'unique_id': 'Unique ID *',
+			'pronoun': 'Preferred pronouns',
+			'name': 'Name *'
         }
 
 class registerDinner(forms.Form):
@@ -78,7 +79,7 @@ class registerDinner(forms.Form):
 	dinner = forms.ChoiceField()
 	interest = forms.CharField(widget=forms.Textarea)
 
-	
+
 class reviewDinner(forms.Form):
 	def __init__(self,*args,**kwargs):
 		self.user = kwargs.pop('user',None)
@@ -90,7 +91,7 @@ class reviewDinner(forms.Form):
 		reviewed_dinners = Review.objects.filter(username = self.user.username).values_list("dinner_id", flat=True)
 		upcoming = Dinner.objects.filter(date_time__gt=today).values_list("id", flat=True)
 		available_reviews = [(x, Dinner.objects.get(pk = x)) for x in attended_dinners if x not in reviewed_dinners and x not in upcoming]
-		
+
 		#defining field types
 		self.fields['dinner'].choices = available_reviews
 		self.fields['dinner'].widget.attrs.update({'class' : 'form-control'})
@@ -101,4 +102,3 @@ class reviewDinner(forms.Form):
 	convo_grade = forms.ChoiceField(choices = ranking, widget = forms.Select(attrs={'class' : 'form-control inline'}), label = "How would you rate the conversation at this dinner?")
 	food_comments = forms.CharField(required=False, widget=forms.TextInput(attrs={'class' : 'form-control'}), label = "Is there anything else we should know about the food at this dinner?")
 	convo_comments = forms.CharField(required=False, widget=forms.Textarea(attrs={'class' : 'form-control'}), label = "Is there anything you'd like to tell us about the atmosphere or conversation at this dinner?")
-	

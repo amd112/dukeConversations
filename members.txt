@@ -2,4 +2,4 @@ Noah Burrell: Worked on creating the base django website, implementing the schem
 Anne Driscoll: Worked on creating the base django website, implementing the schema defined, and collecting and munging the past data. 
 Kimberly Eddlema: Worked on the frontend creating css/html pages for the user pages and homepage
 Summer Smith:
-Sarp Uner:
+Sarp Uner: Worked on backend, setting up the remote server, fixing bugs, testing etc.
