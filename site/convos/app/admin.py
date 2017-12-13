@@ -13,9 +13,9 @@ class ApplicationAdmin(admin.ModelAdmin):
 	def download_csv(self, request, queryset):
 		import csv
 		from django.http import HttpResponse
-		from io import StringIO
+		from io import BytesIO
 
-		file = StringIO()
+		file = BytesIO()
 		writer = csv.writer(file)
 		writer.writerow(['Name', 'Year', 'Major', 'Professor', 'Date', 'Interest', 'Selected', 'Attended'])
 		for r in queryset:
@@ -71,7 +71,7 @@ class SelectionAdmin(admin.ModelAdmin):
 
 		rejected = Application.objects.filter(dinner_id=dinner, selected=None)
 
-		rejected.update(selected=False) 
+		rejected.update(selected=False)
 
 		rejected_list = []
 
@@ -224,5 +224,3 @@ admin.site.register(Attendance, AttendanceAdmin)
 admin.site.register(Review, ReviewAdmin)
 admin.site.register(Student, StudentAdmin)
 admin.site.register(Application, ApplicationAdmin)
-
-
