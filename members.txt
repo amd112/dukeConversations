@@ -1,5 +1,5 @@
 Noah Burrell: Worked on creating the base django website, implementing the schema, reformatting the past data for loading into the database, developing the admin site functionality 
-Anne Driscoll: Worked on creating the base django website, implementing the schema defined, and collecting and munging the past data. 
-Kimberly Eddleman: Worked on the frontend creating css/html pages for the user pages and homepage
-Summer Smith:
+Anne Driscoll: Worked on creating the base django website, implementing the schema defined, and collecting and munging the past data. Implemented the form pages and built the base framework for each page. 
+Kimberly Eddleman: Worked predominantly on front end features, allowing the django forms and to display with visually pleasing css formatting and integrate with the previously created bootstrap templates. Additionally, set up the email server, change password and reset password systems.
+Summer Smith: Worked predominantly on front end features, allowing the django forms and to display with visually pleasing css formatting and integrate with the previously created bootstrap templates
 Sarp Uner: Worked on backend, setting up the remote server, fixing bugs, testing etc.
