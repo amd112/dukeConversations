@@ -1,3 +1,29 @@
-The setup of our sample database is similar to the setup of the databases used in homework. The relevant files are 'setup.sh' and 'create.sql'.
-Copy these files into the same directory in the course VM and run 'setup.sh' (it may be necessary to change the permissions on this file to make it executable),
-then enter 'psql conversations' to run sample queries.
+Accessing the site:
+
+Remotely: 
+  http://vcm-2370.vm.duke.edu/ for the main site and http://vcm-2370.vm.duke.edu/admin for the admin.
+
+  You can register your own account, or access the main site and the admin site using our credentials:
+  Usernames: nhb8, amd112, kne3, sas118, su26
+  Password: testing123
+
+Locally:
+
+  To run the site locally, there are a few steps. 
+  Make sure django is installed (you can use pip).
+  First, download the source code and navigate to the "convos" directory (site/convos)
+  Run the following command with python:
+  python manage.py makemigrations
+  python manage.py migrate
+  python manage.py loaddata production_data.json
+
+  Then, open the file ./mysite/settings.py and set DEBUG=True.
+
+  Finally:
+  python manage.py runserver
+
+  Then, the site is accessible at 127.0.0.1:8000 for the main site and 127.0.0.1:8000/admin for the admin.
+
+  You can register your own account, or access the main site and the admin site using our credentials:
+  Usernames: nhb8, amd112, kne3, sas118, su26
+  Password: testing123
