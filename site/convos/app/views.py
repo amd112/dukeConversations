@@ -41,6 +41,15 @@ def check_complete_user(user):
 	return exists
 
 def no_outstanding_reviews(user):
+	try:
+		attended_dinners = Attendance.objects.filter(username = username).values_list("dinner_id", flat=True)
+		upcoming = Dinner.objects.filter(date_time__gt=today).values_list("id", flat=True)
+		reviewed_dinners = Review.objects.filter(username = username).values_list("dinner_id", flat=True)
+		available_reviews = [x for x in attended_dinners if x not in reviewed_dinners and x not in upcoming]
+		if len(available_reviews) > 0:
+			return False
+	except ObjectDoesNotExist:
+		return True
 	return True
 
 
@@ -199,6 +208,7 @@ def edit(request):
 
 @login_required(login_url = '/login')
 @user_passes_test(check_complete_user, login_url='/edit')
+@user_passes_test(no_outstanding_reviews, login_url='/review')
 def register(request):
 	#get user object
 	username = request.user.username

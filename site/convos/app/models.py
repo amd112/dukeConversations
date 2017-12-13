@@ -92,15 +92,15 @@ class Student(models.Model):
 	years = range(years - 2, years + 5)
 	years = [(str(x), str(x)) for x in years]
 
-	username = models.CharField(max_length = 30, primary_key = True)
+	username = models.CharField(max_length = 30, primary_key = True, validators=[validate_required])
 	unique_id = models.CharField(max_length = 7, unique = True, validators=[validate_unique_id])
-	name = models.CharField(max_length = 40)
+	name = models.CharField(max_length = 40, validators=[validate_required])
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
 	netid = models.CharField(max_length = 7, unique = True, validators=[RegexValidator(regex='^[a-zA-Z]+[0-9]+')])
-	phone_number = models.CharField(unique = True, max_length = 10)
-	year = models.CharField(max_length = 4, choices = years)
-	major = models.CharField(max_length = 10, choices = majors)
-	pronoun = models.CharField(max_length = 1, choices = pronouns)
+	phone_number = models.CharField(unique = True, max_length = 10, validators=[validate_required])
+	year = models.CharField(max_length = 4, choices = years, validators=[validate_required])
+	major = models.CharField(max_length = 10, choices = majors, validators=[validate_required])
+	pronoun = models.CharField(max_length = 1, choices = pronouns, validators=[validate_required])
 	def __str__(self):
 		return self.username
 
