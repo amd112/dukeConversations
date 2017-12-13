@@ -13,11 +13,11 @@ class ApplicationAdmin(admin.ModelAdmin):
 	def download_csv(self, request, queryset):
 		import csv
 		from django.http import HttpResponse
-		from io import BytesIO
+		from io import StringIO
 
-		file = BytesIO()
+		file = StringIO()
 		writer = csv.writer(file)
-		writer.writerow(['Name', 'Year', 'Major', 'Professor', 'Date', 'Interest', 'Selected', 'Attended'])
+		writer.writerow([u'Name', u'Year', u'Major', u'Professor', u'Date', u'Interest', u'Selected', u'Attended'])
 		for r in queryset:
 			writer.writerow([r.username.name, r.username.get_year_display(), r.username.get_major_display(), r.dinner_id.professor_id.name, r.dinner_id.date_time, r.interest, r.selected, r.attendance])
 
