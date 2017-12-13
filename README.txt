@@ -27,3 +27,6 @@ Locally:
   You can register your own account, or access the main site and the admin site using our credentials:
   Usernames: nhb8, amd112, kne3, sas118, su26
   Password: testing123
+
+Note of Caution:
+  The site automatically sends emails to users when they are selected for a dinner, and notifies applicants to the same dinner when they were not selected, so if you change this information for past dinners, real emails will be sent to real students. So, if you want to test out this functionality, please create a new dinner that only you applied to.
