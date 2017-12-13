@@ -4,9 +4,21 @@ from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
+from django.core.validators import RegexValidator
 
+
+def validate_unique_id(value):
+	if len(value) != 7:
+		raise ValidationError(
+	('%(value)s is not 7 digits!'),
+	params={'value':value}
+	)
 # Create your models here.
 class Student(models.Model):
+
+
+
 	majors = (
 		("1", "African and African American Studies"),
 		("2", "Art History"),
@@ -75,10 +87,10 @@ class Student(models.Model):
 	years = [(str(x), str(x)) for x in years]
 
 	username = models.CharField(max_length = 30, primary_key = True)
-	unique_id = models.CharField(max_length = 7, unique = True)
+	unique_id = models.CharField(max_length = 7, unique = True, validators=[validate_unique_id])
 	name = models.CharField(max_length = 40)
 	food_restrictions = models.CharField(max_length = 50, null = True, blank = True)
-	netid = models.CharField(max_length = 7, unique = True)
+	netid = models.CharField(max_length = 7, unique = True, validators=[RegexValidator(regex='^[a-zA-Z]+[0-9]+')])
 	phone_number = models.CharField(unique = True, max_length = 10)
 	year = models.CharField(max_length = 4, choices = years)
 	major = models.CharField(max_length = 10, choices = majors)
@@ -191,9 +203,9 @@ class Selection(Application):
 		times_selected = Application.objects.filter(username=self.username, selected=True).count()
 		times_applied = self._get_applied()
 		if times_applied != 0:
-			percent = (times_selected/times_applied) 
+			percent = (times_selected/times_applied)
 			fpercent = "{:.1%}".format(percent)
-		else: 
+		else:
 			fpercent = "N/A"
 		return fpercent
 
@@ -203,7 +215,7 @@ class Selection(Application):
 		if times_selected != 0:
 			percent = (times_attended/times_selected)
 			fpercent = "{:.1%}".format(percent)
-		else: 
+		else:
 			fpercent = "N/A"
 		return fpercent
 
@@ -215,9 +227,3 @@ class Selection(Application):
 		proxy=True
 		verbose_name='Selection'
 		verbose_name_plural='Selection'
-
-
-
-
-	
-
