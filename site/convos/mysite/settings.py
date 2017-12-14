@@ -141,6 +141,12 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': os.path.join(BASE_DIR, 'debug.log'),
 			'formatter': 'simple'
+	    },
+        'db_file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'db.log'),
+			'formatter': 'simple'
         },
     },
     'loggers': {
@@ -149,6 +155,10 @@ LOGGING = {
             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
             'propagate': True,
         },
+		'django.db': {
+		'handlers': ['db_file'],
+		'level': 'DEBUG'
+		},
     },
 }
 
