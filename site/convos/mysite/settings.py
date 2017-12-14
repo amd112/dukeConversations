@@ -155,7 +155,7 @@ LOGGING = {
             'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
             'propagate': True,
         },
-		'django.db': {
+		'django.db.backends': {
 			'handlers': ['db_file'],
 			'level': 'DEBUG',
 		},
