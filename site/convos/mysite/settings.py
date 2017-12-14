@@ -128,11 +128,19 @@ LOGIN_REDIRECT_URL = '/'
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
+
+	'formatters': {
+		'simple': {
+			'format': '%(asctime)s %(levelname)s %(message)s'
+		}
+	}
+
     'handlers': {
         'file': {
-            'level': 'DEBUG',
+            'level': 'ERROR',
             'class': 'logging.FileHandler',
             'filename': os.path.join(BASE_DIR, 'debug.log'),
+			'formatter': 'simple'
         },
     },
     'loggers': {
