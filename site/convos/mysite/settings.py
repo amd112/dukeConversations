@@ -156,8 +156,8 @@ LOGGING = {
             'propagate': True,
         },
 		'django.db': {
-		'handlers': ['db_file'],
-		'level': 'DEBUG'
+			'handlers': ['db_file'],
+			'level': 'DEBUG',
 		},
     },
 }
