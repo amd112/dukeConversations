@@ -133,7 +133,7 @@ LOGGING = {
 		'simple': {
 			'format': '%(asctime)s %(levelname)s %(message)s'
 		}
-	}
+	},
 
     'handlers': {
         'file': {
